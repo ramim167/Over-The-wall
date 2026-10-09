@@ -1,0 +1,1306 @@
+[
+  {
+    "filename": "water_wells_processed.csv",
+    "rows": 3534,
+    "grain": "One historical BGS well sample; raw sample ID unique. Measurement1998–1999.",
+    "columns": [
+      {
+        "name": "SAMPLE_ID",
+        "meaning": "Original BGS sample identifier; text, unique in processed wells."
+      },
+      {
+        "name": "SAMPLE_DATE",
+        "meaning": "Original day/month/year sampling date; never access/publication date."
+      },
+      {
+        "name": "LAT_DEG",
+        "meaning": "Original latitude in decimal degrees; no household geolocation inference."
+      },
+      {
+        "name": "LONG_DEG",
+        "meaning": "Original longitude in decimal degrees."
+      },
+      {
+        "name": "WELL_DEPTH",
+        "meaning": "Original well depth, metres; well/aquifer, not household exposure depth."
+      },
+      {
+        "name": "WELL_TYPE",
+        "meaning": "Original well-type label."
+      },
+      {
+        "name": "DIVISION",
+        "meaning": "Historical administrative division label."
+      },
+      {
+        "name": "DISTRICT",
+        "meaning": "Historical district label."
+      },
+      {
+        "name": "THANA",
+        "meaning": "Historical thana label; do not silently map to current upazila."
+      },
+      {
+        "name": "UNION",
+        "meaning": "Original historical union label."
+      },
+      {
+        "name": "Fe",
+        "meaning": "Raw iron reading in mg/L; retain censoring notation/missingness."
+      },
+      {
+        "name": "Ca",
+        "meaning": "Raw calcium reading in mg/L; retain censoring notation/missingness."
+      },
+      {
+        "name": "Mg",
+        "meaning": "Raw magnesium reading in mg/L; retain censoring notation/missingness."
+      },
+      {
+        "name": "Fe_lower_mg_L",
+        "meaning": "Lower concentration interval bound;mg/L,0forleft-censoredpositive result,blankmissing."
+      },
+      {
+        "name": "Fe_upper_mg_L",
+        "meaning": "Upper concentration bound;mg/L,exclusive for<LOD;blankmissing."
+      },
+      {
+        "name": "Fe_value_status",
+        "meaning": "exact/censored/missing; preserve status with numeric values."
+      },
+      {
+        "name": "Fe_exact_mg_L",
+        "meaning": "Exact chemical concentration only if interval bounds agree;mg/L (hardness asCaCO3). Blank means not exact/missing."
+      },
+      {
+        "name": "Ca_lower_mg_L",
+        "meaning": "Lower concentration interval bound;mg/L,0forleft-censoredpositive result,blankmissing."
+      },
+      {
+        "name": "Ca_upper_mg_L",
+        "meaning": "Upper concentration bound;mg/L,exclusive for<LOD;blankmissing."
+      },
+      {
+        "name": "Ca_value_status",
+        "meaning": "exact/censored/missing; preserve status with numeric values."
+      },
+      {
+        "name": "Ca_exact_mg_L",
+        "meaning": "Exact chemical concentration only if interval bounds agree;mg/L (hardness asCaCO3). Blank means not exact/missing."
+      },
+      {
+        "name": "Mg_lower_mg_L",
+        "meaning": "Lower concentration interval bound;mg/L,0forleft-censoredpositive result,blankmissing."
+      },
+      {
+        "name": "Mg_upper_mg_L",
+        "meaning": "Upper concentration bound;mg/L,exclusive for<LOD;blankmissing."
+      },
+      {
+        "name": "Mg_value_status",
+        "meaning": "exact/censored/missing; preserve status with numeric values."
+      },
+      {
+        "name": "Mg_exact_mg_L",
+        "meaning": "Exact chemical concentration only if interval bounds agree;mg/L (hardness asCaCO3). Blank means not exact/missing."
+      },
+      {
+        "name": "hardness_lower_mg_L",
+        "meaning": "Lower concentration interval bound;mg/L,0forleft-censoredpositive result,blankmissing."
+      },
+      {
+        "name": "hardness_upper_mg_L",
+        "meaning": "Upper concentration bound;mg/L,exclusive for<LOD;blankmissing."
+      },
+      {
+        "name": "hardness_value_status",
+        "meaning": "exact/censored/missing; preserve status with numeric values."
+      },
+      {
+        "name": "hardness_exact_mg_L",
+        "meaning": "Exact chemical concentration only if interval bounds agree;mg/L (hardness asCaCO3). Blank means not exact/missing."
+      },
+      {
+        "name": "hardness_unit",
+        "meaning": "mg/L asCaCO3; hardness is derived from pairedCa/Mg, not field titration."
+      },
+      {
+        "name": "hardness_class",
+        "meaning": "USGS descriptive band or missing/ambiguous_censored; not a hair-health verdict."
+      },
+      {
+        "name": "source_id",
+        "meaning": "Original-sourceidentifier/URL/localfile orclaimlocator;retainattribution;semicolonjoinsmultipleIDs."
+      }
+    ]
+  },
+  {
+    "filename": "water_by_district.csv",
+    "rows": 61,
+    "grain": "One historical district; descriptive unweighted well summary.",
+    "columns": [
+      {
+        "name": "district",
+        "meaning": "Historical district label."
+      },
+      {
+        "name": "n_wells",
+        "meaning": "Total original observations in group, including chemistry-missing rows."
+      },
+      {
+        "name": "Fe_n",
+        "meaning": "Valid/threshold observation count,asdefinedbyfieldprefix;notnationalpeople."
+      },
+      {
+        "name": "Fe_censored_n",
+        "meaning": "Count withleft-censoredconcentration/derivedinterval."
+      },
+      {
+        "name": "Fe_p25_lower",
+        "meaning": "Group quantile/range statistic;mg/L,hardness asCaCO3. Lower/upper interval quantiles;exactonlywhenboundsagree. min/max_exact excludescensored values."
+      },
+      {
+        "name": "Fe_p25_upper",
+        "meaning": "Group quantile/range statistic;mg/L,hardness asCaCO3. Lower/upper interval quantiles;exactonlywhenboundsagree. min/max_exact excludescensored values."
+      },
+      {
+        "name": "Fe_p25_exact",
+        "meaning": "Group quantile/range statistic;mg/L,hardness asCaCO3. Lower/upper interval quantiles;exactonlywhenboundsagree. min/max_exact excludescensored values."
+      },
+      {
+        "name": "Fe_median_lower",
+        "meaning": "Group quantile/range statistic;mg/L,hardness asCaCO3. Lower/upper interval quantiles;exactonlywhenboundsagree. min/max_exact excludescensored values."
+      },
+      {
+        "name": "Fe_median_upper",
+        "meaning": "Group quantile/range statistic;mg/L,hardness asCaCO3. Lower/upper interval quantiles;exactonlywhenboundsagree. min/max_exact excludescensored values."
+      },
+      {
+        "name": "Fe_median_exact",
+        "meaning": "Group quantile/range statistic;mg/L,hardness asCaCO3. Lower/upper interval quantiles;exactonlywhenboundsagree. min/max_exact excludescensored values."
+      },
+      {
+        "name": "Fe_p75_lower",
+        "meaning": "Group quantile/range statistic;mg/L,hardness asCaCO3. Lower/upper interval quantiles;exactonlywhenboundsagree. min/max_exact excludescensored values."
+      },
+      {
+        "name": "Fe_p75_upper",
+        "meaning": "Group quantile/range statistic;mg/L,hardness asCaCO3. Lower/upper interval quantiles;exactonlywhenboundsagree. min/max_exact excludescensored values."
+      },
+      {
+        "name": "Fe_p75_exact",
+        "meaning": "Group quantile/range statistic;mg/L,hardness asCaCO3. Lower/upper interval quantiles;exactonlywhenboundsagree. min/max_exact excludescensored values."
+      },
+      {
+        "name": "Fe_min_exact",
+        "meaning": "Group quantile/range statistic;mg/L,hardness asCaCO3. Lower/upper interval quantiles;exactonlywhenboundsagree. min/max_exact excludescensored values."
+      },
+      {
+        "name": "Fe_max_exact",
+        "meaning": "Group quantile/range statistic;mg/L,hardness asCaCO3. Lower/upper interval quantiles;exactonlywhenboundsagree. min/max_exact excludescensored values."
+      },
+      {
+        "name": "Ca_n",
+        "meaning": "Valid/threshold observation count,asdefinedbyfieldprefix;notnationalpeople."
+      },
+      {
+        "name": "Ca_censored_n",
+        "meaning": "Count withleft-censoredconcentration/derivedinterval."
+      },
+      {
+        "name": "Ca_p25_lower",
+        "meaning": "Group quantile/range statistic;mg/L,hardness asCaCO3. Lower/upper interval quantiles;exactonlywhenboundsagree. min/max_exact excludescensored values."
+      },
+      {
+        "name": "Ca_p25_upper",
+        "meaning": "Group quantile/range statistic;mg/L,hardness asCaCO3. Lower/upper interval quantiles;exactonlywhenboundsagree. min/max_exact excludescensored values."
+      },
+      {
+        "name": "Ca_p25_exact",
+        "meaning": "Group quantile/range statistic;mg/L,hardness asCaCO3. Lower/upper interval quantiles;exactonlywhenboundsagree. min/max_exact excludescensored values."
+      },
+      {
+        "name": "Ca_median_lower",
+        "meaning": "Group quantile/range statistic;mg/L,hardness asCaCO3. Lower/upper interval quantiles;exactonlywhenboundsagree. min/max_exact excludescensored values."
+      },
+      {
+        "name": "Ca_median_upper",
+        "meaning": "Group quantile/range statistic;mg/L,hardness asCaCO3. Lower/upper interval quantiles;exactonlywhenboundsagree. min/max_exact excludescensored values."
+      },
+      {
+        "name": "Ca_median_exact",
+        "meaning": "Group quantile/range statistic;mg/L,hardness asCaCO3. Lower/upper interval quantiles;exactonlywhenboundsagree. min/max_exact excludescensored values."
+      },
+      {
+        "name": "Ca_p75_lower",
+        "meaning": "Group quantile/range statistic;mg/L,hardness asCaCO3. Lower/upper interval quantiles;exactonlywhenboundsagree. min/max_exact excludescensored values."
+      },
+      {
+        "name": "Ca_p75_upper",
+        "meaning": "Group quantile/range statistic;mg/L,hardness asCaCO3. Lower/upper interval quantiles;exactonlywhenboundsagree. min/max_exact excludescensored values."
+      },
+      {
+        "name": "Ca_p75_exact",
+        "meaning": "Group quantile/range statistic;mg/L,hardness asCaCO3. Lower/upper interval quantiles;exactonlywhenboundsagree. min/max_exact excludescensored values."
+      },
+      {
+        "name": "Ca_min_exact",
+        "meaning": "Group quantile/range statistic;mg/L,hardness asCaCO3. Lower/upper interval quantiles;exactonlywhenboundsagree. min/max_exact excludescensored values."
+      },
+      {
+        "name": "Ca_max_exact",
+        "meaning": "Group quantile/range statistic;mg/L,hardness asCaCO3. Lower/upper interval quantiles;exactonlywhenboundsagree. min/max_exact excludescensored values."
+      },
+      {
+        "name": "Mg_n",
+        "meaning": "Valid/threshold observation count,asdefinedbyfieldprefix;notnationalpeople."
+      },
+      {
+        "name": "Mg_censored_n",
+        "meaning": "Count withleft-censoredconcentration/derivedinterval."
+      },
+      {
+        "name": "Mg_p25_lower",
+        "meaning": "Group quantile/range statistic;mg/L,hardness asCaCO3. Lower/upper interval quantiles;exactonlywhenboundsagree. min/max_exact excludescensored values."
+      },
+      {
+        "name": "Mg_p25_upper",
+        "meaning": "Group quantile/range statistic;mg/L,hardness asCaCO3. Lower/upper interval quantiles;exactonlywhenboundsagree. min/max_exact excludescensored values."
+      },
+      {
+        "name": "Mg_p25_exact",
+        "meaning": "Group quantile/range statistic;mg/L,hardness asCaCO3. Lower/upper interval quantiles;exactonlywhenboundsagree. min/max_exact excludescensored values."
+      },
+      {
+        "name": "Mg_median_lower",
+        "meaning": "Group quantile/range statistic;mg/L,hardness asCaCO3. Lower/upper interval quantiles;exactonlywhenboundsagree. min/max_exact excludescensored values."
+      },
+      {
+        "name": "Mg_median_upper",
+        "meaning": "Group quantile/range statistic;mg/L,hardness asCaCO3. Lower/upper interval quantiles;exactonlywhenboundsagree. min/max_exact excludescensored values."
+      },
+      {
+        "name": "Mg_median_exact",
+        "meaning": "Group quantile/range statistic;mg/L,hardness asCaCO3. Lower/upper interval quantiles;exactonlywhenboundsagree. min/max_exact excludescensored values."
+      },
+      {
+        "name": "Mg_p75_lower",
+        "meaning": "Group quantile/range statistic;mg/L,hardness asCaCO3. Lower/upper interval quantiles;exactonlywhenboundsagree. min/max_exact excludescensored values."
+      },
+      {
+        "name": "Mg_p75_upper",
+        "meaning": "Group quantile/range statistic;mg/L,hardness asCaCO3. Lower/upper interval quantiles;exactonlywhenboundsagree. min/max_exact excludescensored values."
+      },
+      {
+        "name": "Mg_p75_exact",
+        "meaning": "Group quantile/range statistic;mg/L,hardness asCaCO3. Lower/upper interval quantiles;exactonlywhenboundsagree. min/max_exact excludescensored values."
+      },
+      {
+        "name": "Mg_min_exact",
+        "meaning": "Group quantile/range statistic;mg/L,hardness asCaCO3. Lower/upper interval quantiles;exactonlywhenboundsagree. min/max_exact excludescensored values."
+      },
+      {
+        "name": "Mg_max_exact",
+        "meaning": "Group quantile/range statistic;mg/L,hardness asCaCO3. Lower/upper interval quantiles;exactonlywhenboundsagree. min/max_exact excludescensored values."
+      },
+      {
+        "name": "hardness_n",
+        "meaning": "Valid/threshold observation count,asdefinedbyfieldprefix;notnationalpeople."
+      },
+      {
+        "name": "hardness_censored_n",
+        "meaning": "Count withleft-censoredconcentration/derivedinterval."
+      },
+      {
+        "name": "hardness_p25_lower",
+        "meaning": "Group quantile/range statistic;mg/L,hardness asCaCO3. Lower/upper interval quantiles;exactonlywhenboundsagree. min/max_exact excludescensored values."
+      },
+      {
+        "name": "hardness_p25_upper",
+        "meaning": "Group quantile/range statistic;mg/L,hardness asCaCO3. Lower/upper interval quantiles;exactonlywhenboundsagree. min/max_exact excludescensored values."
+      },
+      {
+        "name": "hardness_p25_exact",
+        "meaning": "Group quantile/range statistic;mg/L,hardness asCaCO3. Lower/upper interval quantiles;exactonlywhenboundsagree. min/max_exact excludescensored values."
+      },
+      {
+        "name": "hardness_median_lower",
+        "meaning": "Group quantile/range statistic;mg/L,hardness asCaCO3. Lower/upper interval quantiles;exactonlywhenboundsagree. min/max_exact excludescensored values."
+      },
+      {
+        "name": "hardness_median_upper",
+        "meaning": "Group quantile/range statistic;mg/L,hardness asCaCO3. Lower/upper interval quantiles;exactonlywhenboundsagree. min/max_exact excludescensored values."
+      },
+      {
+        "name": "hardness_median_exact",
+        "meaning": "Group quantile/range statistic;mg/L,hardness asCaCO3. Lower/upper interval quantiles;exactonlywhenboundsagree. min/max_exact excludescensored values."
+      },
+      {
+        "name": "hardness_p75_lower",
+        "meaning": "Group quantile/range statistic;mg/L,hardness asCaCO3. Lower/upper interval quantiles;exactonlywhenboundsagree. min/max_exact excludescensored values."
+      },
+      {
+        "name": "hardness_p75_upper",
+        "meaning": "Group quantile/range statistic;mg/L,hardness asCaCO3. Lower/upper interval quantiles;exactonlywhenboundsagree. min/max_exact excludescensored values."
+      },
+      {
+        "name": "hardness_p75_exact",
+        "meaning": "Group quantile/range statistic;mg/L,hardness asCaCO3. Lower/upper interval quantiles;exactonlywhenboundsagree. min/max_exact excludescensored values."
+      },
+      {
+        "name": "hardness_min_exact",
+        "meaning": "Group quantile/range statistic;mg/L,hardness asCaCO3. Lower/upper interval quantiles;exactonlywhenboundsagree. min/max_exact excludescensored values."
+      },
+      {
+        "name": "hardness_max_exact",
+        "meaning": "Group quantile/range statistic;mg/L,hardness asCaCO3. Lower/upper interval quantiles;exactonlywhenboundsagree. min/max_exact excludescensored values."
+      },
+      {
+        "name": "iron_gt_0_3_n",
+        "meaning": "Valid/threshold observation count,asdefinedbyfieldprefix;notnationalpeople."
+      },
+      {
+        "name": "iron_gt_0_3_denominator",
+        "meaning": "Nonmissing/determinate observations for this exact threshold;do notreplacewithn_wells."
+      },
+      {
+        "name": "iron_gt_0_3_unknown",
+        "meaning": "Missing/ambiguous records for exact threshold;unknownisnotnegative."
+      },
+      {
+        "name": "iron_gt_0_3_sample_pct",
+        "meaning": "100×thresholdcount/determinate denominator; historical sampled wells,notpopulation prevalence."
+      },
+      {
+        "name": "iron_gt_1_n",
+        "meaning": "Valid/threshold observation count,asdefinedbyfieldprefix;notnationalpeople."
+      },
+      {
+        "name": "iron_gt_1_denominator",
+        "meaning": "Nonmissing/determinate observations for this exact threshold;do notreplacewithn_wells."
+      },
+      {
+        "name": "iron_gt_1_unknown",
+        "meaning": "Missing/ambiguous records for exact threshold;unknownisnotnegative."
+      },
+      {
+        "name": "iron_gt_1_sample_pct",
+        "meaning": "100×thresholdcount/determinate denominator; historical sampled wells,notpopulation prevalence."
+      },
+      {
+        "name": "iron_gt_3_n",
+        "meaning": "Valid/threshold observation count,asdefinedbyfieldprefix;notnationalpeople."
+      },
+      {
+        "name": "iron_gt_3_denominator",
+        "meaning": "Nonmissing/determinate observations for this exact threshold;do notreplacewithn_wells."
+      },
+      {
+        "name": "iron_gt_3_unknown",
+        "meaning": "Missing/ambiguous records for exact threshold;unknownisnotnegative."
+      },
+      {
+        "name": "iron_gt_3_sample_pct",
+        "meaning": "100×thresholdcount/determinate denominator; historical sampled wells,notpopulation prevalence."
+      },
+      {
+        "name": "hardness_gt_120_n",
+        "meaning": "Valid/threshold observation count,asdefinedbyfieldprefix;notnationalpeople."
+      },
+      {
+        "name": "hardness_gt_120_denominator",
+        "meaning": "Nonmissing/determinate observations for this exact threshold;do notreplacewithn_wells."
+      },
+      {
+        "name": "hardness_gt_120_unknown",
+        "meaning": "Missing/ambiguous records for exact threshold;unknownisnotnegative."
+      },
+      {
+        "name": "hardness_gt_120_sample_pct",
+        "meaning": "100×thresholdcount/determinate denominator; historical sampled wells,notpopulation prevalence."
+      },
+      {
+        "name": "hardness_gt_180_n",
+        "meaning": "Valid/threshold observation count,asdefinedbyfieldprefix;notnationalpeople."
+      },
+      {
+        "name": "hardness_gt_180_denominator",
+        "meaning": "Nonmissing/determinate observations for this exact threshold;do notreplacewithn_wells."
+      },
+      {
+        "name": "hardness_gt_180_unknown",
+        "meaning": "Missing/ambiguous records for exact threshold;unknownisnotnegative."
+      },
+      {
+        "name": "hardness_gt_180_sample_pct",
+        "meaning": "100×thresholdcount/determinate denominator; historical sampled wells,notpopulation prevalence."
+      },
+      {
+        "name": "iron_gt_0_3_OR_hardness_gt_120_n",
+        "meaning": "Valid/threshold observation count,asdefinedbyfieldprefix;notnationalpeople."
+      },
+      {
+        "name": "iron_gt_0_3_OR_hardness_gt_120_denominator",
+        "meaning": "Nonmissing/determinate observations for this exact threshold;do notreplacewithn_wells."
+      },
+      {
+        "name": "iron_gt_0_3_OR_hardness_gt_120_sample_pct",
+        "meaning": "100×thresholdcount/determinate denominator; historical sampled wells,notpopulation prevalence."
+      },
+      {
+        "name": "iron_gt_1_AND_hardness_le_120_n",
+        "meaning": "Valid/threshold observation count,asdefinedbyfieldprefix;notnationalpeople."
+      },
+      {
+        "name": "iron_gt_1_AND_hardness_le_120_denominator",
+        "meaning": "Nonmissing/determinate observations for this exact threshold;do notreplacewithn_wells."
+      },
+      {
+        "name": "iron_gt_1_AND_hardness_le_120_sample_pct",
+        "meaning": "100×thresholdcount/determinate denominator; historical sampled wells,notpopulation prevalence."
+      },
+      {
+        "name": "soft",
+        "meaning": "Count at hardness≤60mg/L asCaCO3."
+      },
+      {
+        "name": "moderately_hard",
+        "meaning": "Count at60<hardness≤120mg/L asCaCO3."
+      },
+      {
+        "name": "hard",
+        "meaning": "Count at120<hardness≤180mg/L asCaCO3."
+      },
+      {
+        "name": "very_hard",
+        "meaning": "Count at hardness>180mg/L asCaCO3."
+      },
+      {
+        "name": "missing",
+        "meaning": "Count lacking sufficient paired chemistry."
+      },
+      {
+        "name": "ambiguous_censored",
+        "meaning": "Count whose interval straddles a classification boundary."
+      }
+    ]
+  },
+  {
+    "filename": "water_by_historical_thana.csv",
+    "rows": 433,
+    "grain": "One historical district/thana pair; not current administrative boundaries.",
+    "columns": [
+      {
+        "name": "district",
+        "meaning": "Historical district label."
+      },
+      {
+        "name": "thana",
+        "meaning": "Historical thana label; grouping key is district+thana."
+      },
+      {
+        "name": "n_wells",
+        "meaning": "Total original observations in group, including chemistry-missing rows."
+      },
+      {
+        "name": "Fe_n",
+        "meaning": "Valid/threshold observation count,asdefinedbyfieldprefix;notnationalpeople."
+      },
+      {
+        "name": "Fe_censored_n",
+        "meaning": "Count withleft-censoredconcentration/derivedinterval."
+      },
+      {
+        "name": "Fe_p25_lower",
+        "meaning": "Group quantile/range statistic;mg/L,hardness asCaCO3. Lower/upper interval quantiles;exactonlywhenboundsagree. min/max_exact excludescensored values."
+      },
+      {
+        "name": "Fe_p25_upper",
+        "meaning": "Group quantile/range statistic;mg/L,hardness asCaCO3. Lower/upper interval quantiles;exactonlywhenboundsagree. min/max_exact excludescensored values."
+      },
+      {
+        "name": "Fe_p25_exact",
+        "meaning": "Group quantile/range statistic;mg/L,hardness asCaCO3. Lower/upper interval quantiles;exactonlywhenboundsagree. min/max_exact excludescensored values."
+      },
+      {
+        "name": "Fe_median_lower",
+        "meaning": "Group quantile/range statistic;mg/L,hardness asCaCO3. Lower/upper interval quantiles;exactonlywhenboundsagree. min/max_exact excludescensored values."
+      },
+      {
+        "name": "Fe_median_upper",
+        "meaning": "Group quantile/range statistic;mg/L,hardness asCaCO3. Lower/upper interval quantiles;exactonlywhenboundsagree. min/max_exact excludescensored values."
+      },
+      {
+        "name": "Fe_median_exact",
+        "meaning": "Group quantile/range statistic;mg/L,hardness asCaCO3. Lower/upper interval quantiles;exactonlywhenboundsagree. min/max_exact excludescensored values."
+      },
+      {
+        "name": "Fe_p75_lower",
+        "meaning": "Group quantile/range statistic;mg/L,hardness asCaCO3. Lower/upper interval quantiles;exactonlywhenboundsagree. min/max_exact excludescensored values."
+      },
+      {
+        "name": "Fe_p75_upper",
+        "meaning": "Group quantile/range statistic;mg/L,hardness asCaCO3. Lower/upper interval quantiles;exactonlywhenboundsagree. min/max_exact excludescensored values."
+      },
+      {
+        "name": "Fe_p75_exact",
+        "meaning": "Group quantile/range statistic;mg/L,hardness asCaCO3. Lower/upper interval quantiles;exactonlywhenboundsagree. min/max_exact excludescensored values."
+      },
+      {
+        "name": "Fe_min_exact",
+        "meaning": "Group quantile/range statistic;mg/L,hardness asCaCO3. Lower/upper interval quantiles;exactonlywhenboundsagree. min/max_exact excludescensored values."
+      },
+      {
+        "name": "Fe_max_exact",
+        "meaning": "Group quantile/range statistic;mg/L,hardness asCaCO3. Lower/upper interval quantiles;exactonlywhenboundsagree. min/max_exact excludescensored values."
+      },
+      {
+        "name": "Ca_n",
+        "meaning": "Valid/threshold observation count,asdefinedbyfieldprefix;notnationalpeople."
+      },
+      {
+        "name": "Ca_censored_n",
+        "meaning": "Count withleft-censoredconcentration/derivedinterval."
+      },
+      {
+        "name": "Ca_p25_lower",
+        "meaning": "Group quantile/range statistic;mg/L,hardness asCaCO3. Lower/upper interval quantiles;exactonlywhenboundsagree. min/max_exact excludescensored values."
+      },
+      {
+        "name": "Ca_p25_upper",
+        "meaning": "Group quantile/range statistic;mg/L,hardness asCaCO3. Lower/upper interval quantiles;exactonlywhenboundsagree. min/max_exact excludescensored values."
+      },
+      {
+        "name": "Ca_p25_exact",
+        "meaning": "Group quantile/range statistic;mg/L,hardness asCaCO3. Lower/upper interval quantiles;exactonlywhenboundsagree. min/max_exact excludescensored values."
+      },
+      {
+        "name": "Ca_median_lower",
+        "meaning": "Group quantile/range statistic;mg/L,hardness asCaCO3. Lower/upper interval quantiles;exactonlywhenboundsagree. min/max_exact excludescensored values."
+      },
+      {
+        "name": "Ca_median_upper",
+        "meaning": "Group quantile/range statistic;mg/L,hardness asCaCO3. Lower/upper interval quantiles;exactonlywhenboundsagree. min/max_exact excludescensored values."
+      },
+      {
+        "name": "Ca_median_exact",
+        "meaning": "Group quantile/range statistic;mg/L,hardness asCaCO3. Lower/upper interval quantiles;exactonlywhenboundsagree. min/max_exact excludescensored values."
+      },
+      {
+        "name": "Ca_p75_lower",
+        "meaning": "Group quantile/range statistic;mg/L,hardness asCaCO3. Lower/upper interval quantiles;exactonlywhenboundsagree. min/max_exact excludescensored values."
+      },
+      {
+        "name": "Ca_p75_upper",
+        "meaning": "Group quantile/range statistic;mg/L,hardness asCaCO3. Lower/upper interval quantiles;exactonlywhenboundsagree. min/max_exact excludescensored values."
+      },
+      {
+        "name": "Ca_p75_exact",
+        "meaning": "Group quantile/range statistic;mg/L,hardness asCaCO3. Lower/upper interval quantiles;exactonlywhenboundsagree. min/max_exact excludescensored values."
+      },
+      {
+        "name": "Ca_min_exact",
+        "meaning": "Group quantile/range statistic;mg/L,hardness asCaCO3. Lower/upper interval quantiles;exactonlywhenboundsagree. min/max_exact excludescensored values."
+      },
+      {
+        "name": "Ca_max_exact",
+        "meaning": "Group quantile/range statistic;mg/L,hardness asCaCO3. Lower/upper interval quantiles;exactonlywhenboundsagree. min/max_exact excludescensored values."
+      },
+      {
+        "name": "Mg_n",
+        "meaning": "Valid/threshold observation count,asdefinedbyfieldprefix;notnationalpeople."
+      },
+      {
+        "name": "Mg_censored_n",
+        "meaning": "Count withleft-censoredconcentration/derivedinterval."
+      },
+      {
+        "name": "Mg_p25_lower",
+        "meaning": "Group quantile/range statistic;mg/L,hardness asCaCO3. Lower/upper interval quantiles;exactonlywhenboundsagree. min/max_exact excludescensored values."
+      },
+      {
+        "name": "Mg_p25_upper",
+        "meaning": "Group quantile/range statistic;mg/L,hardness asCaCO3. Lower/upper interval quantiles;exactonlywhenboundsagree. min/max_exact excludescensored values."
+      },
+      {
+        "name": "Mg_p25_exact",
+        "meaning": "Group quantile/range statistic;mg/L,hardness asCaCO3. Lower/upper interval quantiles;exactonlywhenboundsagree. min/max_exact excludescensored values."
+      },
+      {
+        "name": "Mg_median_lower",
+        "meaning": "Group quantile/range statistic;mg/L,hardness asCaCO3. Lower/upper interval quantiles;exactonlywhenboundsagree. min/max_exact excludescensored values."
+      },
+      {
+        "name": "Mg_median_upper",
+        "meaning": "Group quantile/range statistic;mg/L,hardness asCaCO3. Lower/upper interval quantiles;exactonlywhenboundsagree. min/max_exact excludescensored values."
+      },
+      {
+        "name": "Mg_median_exact",
+        "meaning": "Group quantile/range statistic;mg/L,hardness asCaCO3. Lower/upper interval quantiles;exactonlywhenboundsagree. min/max_exact excludescensored values."
+      },
+      {
+        "name": "Mg_p75_lower",
+        "meaning": "Group quantile/range statistic;mg/L,hardness asCaCO3. Lower/upper interval quantiles;exactonlywhenboundsagree. min/max_exact excludescensored values."
+      },
+      {
+        "name": "Mg_p75_upper",
+        "meaning": "Group quantile/range statistic;mg/L,hardness asCaCO3. Lower/upper interval quantiles;exactonlywhenboundsagree. min/max_exact excludescensored values."
+      },
+      {
+        "name": "Mg_p75_exact",
+        "meaning": "Group quantile/range statistic;mg/L,hardness asCaCO3. Lower/upper interval quantiles;exactonlywhenboundsagree. min/max_exact excludescensored values."
+      },
+      {
+        "name": "Mg_min_exact",
+        "meaning": "Group quantile/range statistic;mg/L,hardness asCaCO3. Lower/upper interval quantiles;exactonlywhenboundsagree. min/max_exact excludescensored values."
+      },
+      {
+        "name": "Mg_max_exact",
+        "meaning": "Group quantile/range statistic;mg/L,hardness asCaCO3. Lower/upper interval quantiles;exactonlywhenboundsagree. min/max_exact excludescensored values."
+      },
+      {
+        "name": "hardness_n",
+        "meaning": "Valid/threshold observation count,asdefinedbyfieldprefix;notnationalpeople."
+      },
+      {
+        "name": "hardness_censored_n",
+        "meaning": "Count withleft-censoredconcentration/derivedinterval."
+      },
+      {
+        "name": "hardness_p25_lower",
+        "meaning": "Group quantile/range statistic;mg/L,hardness asCaCO3. Lower/upper interval quantiles;exactonlywhenboundsagree. min/max_exact excludescensored values."
+      },
+      {
+        "name": "hardness_p25_upper",
+        "meaning": "Group quantile/range statistic;mg/L,hardness asCaCO3. Lower/upper interval quantiles;exactonlywhenboundsagree. min/max_exact excludescensored values."
+      },
+      {
+        "name": "hardness_p25_exact",
+        "meaning": "Group quantile/range statistic;mg/L,hardness asCaCO3. Lower/upper interval quantiles;exactonlywhenboundsagree. min/max_exact excludescensored values."
+      },
+      {
+        "name": "hardness_median_lower",
+        "meaning": "Group quantile/range statistic;mg/L,hardness asCaCO3. Lower/upper interval quantiles;exactonlywhenboundsagree. min/max_exact excludescensored values."
+      },
+      {
+        "name": "hardness_median_upper",
+        "meaning": "Group quantile/range statistic;mg/L,hardness asCaCO3. Lower/upper interval quantiles;exactonlywhenboundsagree. min/max_exact excludescensored values."
+      },
+      {
+        "name": "hardness_median_exact",
+        "meaning": "Group quantile/range statistic;mg/L,hardness asCaCO3. Lower/upper interval quantiles;exactonlywhenboundsagree. min/max_exact excludescensored values."
+      },
+      {
+        "name": "hardness_p75_lower",
+        "meaning": "Group quantile/range statistic;mg/L,hardness asCaCO3. Lower/upper interval quantiles;exactonlywhenboundsagree. min/max_exact excludescensored values."
+      },
+      {
+        "name": "hardness_p75_upper",
+        "meaning": "Group quantile/range statistic;mg/L,hardness asCaCO3. Lower/upper interval quantiles;exactonlywhenboundsagree. min/max_exact excludescensored values."
+      },
+      {
+        "name": "hardness_p75_exact",
+        "meaning": "Group quantile/range statistic;mg/L,hardness asCaCO3. Lower/upper interval quantiles;exactonlywhenboundsagree. min/max_exact excludescensored values."
+      },
+      {
+        "name": "hardness_min_exact",
+        "meaning": "Group quantile/range statistic;mg/L,hardness asCaCO3. Lower/upper interval quantiles;exactonlywhenboundsagree. min/max_exact excludescensored values."
+      },
+      {
+        "name": "hardness_max_exact",
+        "meaning": "Group quantile/range statistic;mg/L,hardness asCaCO3. Lower/upper interval quantiles;exactonlywhenboundsagree. min/max_exact excludescensored values."
+      },
+      {
+        "name": "iron_gt_0_3_n",
+        "meaning": "Valid/threshold observation count,asdefinedbyfieldprefix;notnationalpeople."
+      },
+      {
+        "name": "iron_gt_0_3_denominator",
+        "meaning": "Nonmissing/determinate observations for this exact threshold;do notreplacewithn_wells."
+      },
+      {
+        "name": "iron_gt_0_3_unknown",
+        "meaning": "Missing/ambiguous records for exact threshold;unknownisnotnegative."
+      },
+      {
+        "name": "iron_gt_0_3_sample_pct",
+        "meaning": "100×thresholdcount/determinate denominator; historical sampled wells,notpopulation prevalence."
+      },
+      {
+        "name": "iron_gt_1_n",
+        "meaning": "Valid/threshold observation count,asdefinedbyfieldprefix;notnationalpeople."
+      },
+      {
+        "name": "iron_gt_1_denominator",
+        "meaning": "Nonmissing/determinate observations for this exact threshold;do notreplacewithn_wells."
+      },
+      {
+        "name": "iron_gt_1_unknown",
+        "meaning": "Missing/ambiguous records for exact threshold;unknownisnotnegative."
+      },
+      {
+        "name": "iron_gt_1_sample_pct",
+        "meaning": "100×thresholdcount/determinate denominator; historical sampled wells,notpopulation prevalence."
+      },
+      {
+        "name": "iron_gt_3_n",
+        "meaning": "Valid/threshold observation count,asdefinedbyfieldprefix;notnationalpeople."
+      },
+      {
+        "name": "iron_gt_3_denominator",
+        "meaning": "Nonmissing/determinate observations for this exact threshold;do notreplacewithn_wells."
+      },
+      {
+        "name": "iron_gt_3_unknown",
+        "meaning": "Missing/ambiguous records for exact threshold;unknownisnotnegative."
+      },
+      {
+        "name": "iron_gt_3_sample_pct",
+        "meaning": "100×thresholdcount/determinate denominator; historical sampled wells,notpopulation prevalence."
+      },
+      {
+        "name": "hardness_gt_120_n",
+        "meaning": "Valid/threshold observation count,asdefinedbyfieldprefix;notnationalpeople."
+      },
+      {
+        "name": "hardness_gt_120_denominator",
+        "meaning": "Nonmissing/determinate observations for this exact threshold;do notreplacewithn_wells."
+      },
+      {
+        "name": "hardness_gt_120_unknown",
+        "meaning": "Missing/ambiguous records for exact threshold;unknownisnotnegative."
+      },
+      {
+        "name": "hardness_gt_120_sample_pct",
+        "meaning": "100×thresholdcount/determinate denominator; historical sampled wells,notpopulation prevalence."
+      },
+      {
+        "name": "hardness_gt_180_n",
+        "meaning": "Valid/threshold observation count,asdefinedbyfieldprefix;notnationalpeople."
+      },
+      {
+        "name": "hardness_gt_180_denominator",
+        "meaning": "Nonmissing/determinate observations for this exact threshold;do notreplacewithn_wells."
+      },
+      {
+        "name": "hardness_gt_180_unknown",
+        "meaning": "Missing/ambiguous records for exact threshold;unknownisnotnegative."
+      },
+      {
+        "name": "hardness_gt_180_sample_pct",
+        "meaning": "100×thresholdcount/determinate denominator; historical sampled wells,notpopulation prevalence."
+      },
+      {
+        "name": "iron_gt_0_3_OR_hardness_gt_120_n",
+        "meaning": "Valid/threshold observation count,asdefinedbyfieldprefix;notnationalpeople."
+      },
+      {
+        "name": "iron_gt_0_3_OR_hardness_gt_120_denominator",
+        "meaning": "Nonmissing/determinate observations for this exact threshold;do notreplacewithn_wells."
+      },
+      {
+        "name": "iron_gt_0_3_OR_hardness_gt_120_sample_pct",
+        "meaning": "100×thresholdcount/determinate denominator; historical sampled wells,notpopulation prevalence."
+      },
+      {
+        "name": "iron_gt_1_AND_hardness_le_120_n",
+        "meaning": "Valid/threshold observation count,asdefinedbyfieldprefix;notnationalpeople."
+      },
+      {
+        "name": "iron_gt_1_AND_hardness_le_120_denominator",
+        "meaning": "Nonmissing/determinate observations for this exact threshold;do notreplacewithn_wells."
+      },
+      {
+        "name": "iron_gt_1_AND_hardness_le_120_sample_pct",
+        "meaning": "100×thresholdcount/determinate denominator; historical sampled wells,notpopulation prevalence."
+      },
+      {
+        "name": "soft",
+        "meaning": "Count at hardness≤60mg/L asCaCO3."
+      },
+      {
+        "name": "moderately_hard",
+        "meaning": "Count at60<hardness≤120mg/L asCaCO3."
+      },
+      {
+        "name": "hard",
+        "meaning": "Count at120<hardness≤180mg/L asCaCO3."
+      },
+      {
+        "name": "very_hard",
+        "meaning": "Count at hardness>180mg/L asCaCO3."
+      },
+      {
+        "name": "missing",
+        "meaning": "Count lacking sufficient paired chemistry."
+      },
+      {
+        "name": "ambiguous_censored",
+        "meaning": "Count whose interval straddles a classification boundary."
+      }
+    ]
+  },
+  {
+    "filename": "dhaka_2025_published_location_values.csv",
+    "rows": 13,
+    "grain": "One selected tap location as reported in a2025 conference paper; collection date unspecified.",
+    "columns": [
+      {
+        "name": "location",
+        "meaning": "Text/provenance descriptor exactly as archived/transcribed; do not infer additional measurements."
+      },
+      {
+        "name": "reported_hardness_mg_L_CaCO3",
+        "meaning": "Reported chemistry concentration,mg/L;hardness asCaCO3;blanknotreported."
+      },
+      {
+        "name": "reported_chloride_mg_L",
+        "meaning": "Reported chemistry concentration,mg/L;hardness asCaCO3;blanknotreported."
+      },
+      {
+        "name": "source_id",
+        "meaning": "Original-sourceidentifier/URL/localfile orclaimlocator;retainattribution;semicolonjoinsmultipleIDs."
+      },
+      {
+        "name": "measurement_date",
+        "meaning": "Text/provenance descriptor exactly as archived/transcribed; do not infer additional measurements."
+      },
+      {
+        "name": "publication",
+        "meaning": "Text/provenance descriptor exactly as archived/transcribed; do not infer additional measurements."
+      },
+      {
+        "name": "source_pdf_page",
+        "meaning": "1-based PDF page/table locator; HTML locators are labelled."
+      },
+      {
+        "name": "analysis_note",
+        "meaning": "Limitations/qualitynotes orspecificunmetverificationrequest;notanobservedresult."
+      }
+    ]
+  },
+  {
+    "filename": "published_survey_aggregates.csv",
+    "rows": 35,
+    "grain": "One original study variable/category aggregate; not a respondent.",
+    "columns": [
+      {
+        "name": "source_id",
+        "meaning": "Original-sourceidentifier/URL/localfile orclaimlocator;retainattribution;semicolonjoinsmultipleIDs."
+      },
+      {
+        "name": "variable",
+        "meaning": "Original-study construct or extracted aggregate variable."
+      },
+      {
+        "name": "category",
+        "meaning": "Original response category/choice factor, kept separate per variable."
+      },
+      {
+        "name": "reported_count",
+        "meaning": "Published category count; blank for mean-only aggregate, never invented."
+      },
+      {
+        "name": "denominator",
+        "meaning": "Original study/answered denominator; not automatic national population."
+      },
+      {
+        "name": "reported_mean",
+        "meaning": "Original reported mean on the stated scale; not a percentage."
+      },
+      {
+        "name": "reported_sd",
+        "meaning": "Original reported standard deviation; not standard error."
+      },
+      {
+        "name": "source_pdf_page",
+        "meaning": "1-based PDF page/table locator; HTML locators are labelled."
+      },
+      {
+        "name": "scale",
+        "meaning": "Original response units/scale and prompting context."
+      },
+      {
+        "name": "evidence_type",
+        "meaning": "Evidence/statusclassification; distinguishobserved,reported,proposed,conditionalandunresolved."
+      }
+    ]
+  },
+  {
+    "filename": "retail_price_observations.csv",
+    "rows": 24,
+    "grain": "One retailer/product/declared-volume listing observed9Oct2026; not a sale.",
+    "columns": [
+      {
+        "name": "retailer",
+        "meaning": "Text/provenance descriptor exactly as archived/transcribed; do not infer additional measurements."
+      },
+      {
+        "name": "product",
+        "meaning": "Text/provenance descriptor exactly as archived/transcribed; do not infer additional measurements."
+      },
+      {
+        "name": "declared_size",
+        "meaning": "Text/provenance descriptor exactly as archived/transcribed; do not infer additional measurements."
+      },
+      {
+        "name": "volume_ml",
+        "meaning": "Declared comparable listing volume,ml;12×5.25=63; not measured density/mass."
+      },
+      {
+        "name": "observed_sale_price_BDT",
+        "meaning": "Displayed online offer inBDT; delivery/checkout/landed quote unverified."
+      },
+      {
+        "name": "price_per_100ml_BDT",
+        "meaning": "Observed offer÷declaredvolume×100, BDT/100ml."
+      },
+      {
+        "name": "source_url",
+        "meaning": "Original-sourceidentifier/URL/localfile orclaimlocator;retainattribution;semicolonjoinsmultipleIDs."
+      },
+      {
+        "name": "source_file",
+        "meaning": "Original-sourceidentifier/URL/localfile orclaimlocator;retainattribution;semicolonjoinsmultipleIDs."
+      },
+      {
+        "name": "source_id",
+        "meaning": "Original-sourceidentifier/URL/localfile orclaimlocator;retainattribution;semicolonjoinsmultipleIDs."
+      },
+      {
+        "name": "accessed_date",
+        "meaning": "Localaccessdate9Oct2026;notdateofmeasurement/publication."
+      },
+      {
+        "name": "availability",
+        "meaning": "Text/provenance descriptor exactly as archived/transcribed; do not infer additional measurements."
+      },
+      {
+        "name": "observation_method",
+        "meaning": "Text/provenance descriptor exactly as archived/transcribed; do not infer additional measurements."
+      },
+      {
+        "name": "notes",
+        "meaning": "Limitations/qualitynotes orspecificunmetverificationrequest;notanobservedresult."
+      }
+    ]
+  },
+  {
+    "filename": "user_supplied_opinions.csv",
+    "rows": 5,
+    "grain": "One user-supplied real-adult summary; date/consent/order pending; no finished-product trial.",
+    "columns": [
+      {
+        "name": "record_id",
+        "meaning": "Text/provenance descriptor exactly as archived/transcribed; do not infer additional measurements."
+      },
+      {
+        "name": "age",
+        "meaning": "Text/provenance descriptor exactly as archived/transcribed; do not infer additional measurements."
+      },
+      {
+        "name": "gender",
+        "meaning": "Text/provenance descriptor exactly as archived/transcribed; do not infer additional measurements."
+      },
+      {
+        "name": "city",
+        "meaning": "Text/provenance descriptor exactly as archived/transcribed; do not infer additional measurements."
+      },
+      {
+        "name": "current_product_selfreported",
+        "meaning": "Supplied opinion value,notindependentlymeasured/retailverified;BDTforprice,mlforvolume."
+      },
+      {
+        "name": "current_ml_selfreported",
+        "meaning": "Supplied opinion value,notindependentlymeasured/retailverified;BDTforprice,mlforvolume."
+      },
+      {
+        "name": "current_price_BDT_selfreported",
+        "meaning": "Supplied opinion value,notindependentlymeasured/retailverified;BDTforprice,mlforvolume."
+      },
+      {
+        "name": "current_price_per_100ml_BDT",
+        "meaning": "Derivedfromsuppliedrecalledpackprice/volume;BDT/100ml,notcurrentretailobservation."
+      },
+      {
+        "name": "context_selfreported",
+        "meaning": "Supplied opinion value,notindependentlymeasured/retailverified;BDTforprice,mlforvolume."
+      },
+      {
+        "name": "experience_selfreported",
+        "meaning": "Supplied opinion value,notindependentlymeasured/retailverified;BDTforprice,mlforvolume."
+      },
+      {
+        "name": "strip_preference",
+        "meaning": "Text/provenance descriptor exactly as archived/transcribed; do not infer additional measurements."
+      },
+      {
+        "name": "maximum_price_BDT_selfreported",
+        "meaning": "Supplied opinion value,notindependentlymeasured/retailverified;BDTforprice,mlforvolume."
+      },
+      {
+        "name": "actual_water_test",
+        "meaning": "False for all supplied opinion notes; none has objective water testing."
+      },
+      {
+        "name": "actual_product_trial",
+        "meaning": "False for all supplied opinions; WaterSmart not tested."
+      },
+      {
+        "name": "source_id",
+        "meaning": "Original-sourceidentifier/URL/localfile orclaimlocator;retainattribution;semicolonjoinsmultipleIDs."
+      },
+      {
+        "name": "authenticity",
+        "meaning": "User-confirmed real means the user attests to authenticity; not independent verification."
+      },
+      {
+        "name": "collection_date",
+        "meaning": "Actual opinion collection date; blank pending, never substituted by access date."
+      },
+      {
+        "name": "research_consent",
+        "meaning": "Anonymous research-use consent; blank pending; no names/contacts collected."
+      },
+      {
+        "name": "price_order",
+        "meaning": "Whether price330was presented before open maximum price; blank pending."
+      },
+      {
+        "name": "primary_analysis_eligible",
+        "meaning": "False while required research metadata are pending; no automatic import into logger."
+      },
+      {
+        "name": "metadata_status",
+        "meaning": "Explicit completeness state, not consent inferred from provision of a summary."
+      },
+      {
+        "name": "notes",
+        "meaning": "Limitations/qualitynotes orspecificunmetverificationrequest;notanobservedresult."
+      }
+    ]
+  },
+  {
+    "filename": "marico_public_financial_benchmarks.csv",
+    "rows": 15,
+    "grain": "One reported company-wide financial metric, FY26/balance31March2026; not an SKU cost.",
+    "columns": [
+      {
+        "name": "metric",
+        "meaning": "Text/provenance descriptor exactly as archived/transcribed; do not infer additional measurements."
+      },
+      {
+        "name": "value_BDT",
+        "meaning": "Reported company metric inBDT; divide10,000,000forTkcrore."
+      },
+      {
+        "name": "period",
+        "meaning": "Text/provenance descriptor exactly as archived/transcribed; do not infer additional measurements."
+      },
+      {
+        "name": "source_id",
+        "meaning": "Original-sourceidentifier/URL/localfile orclaimlocator;retainattribution;semicolonjoinsmultipleIDs."
+      },
+      {
+        "name": "source_pdf_page",
+        "meaning": "1-based PDF page/table locator; HTML locators are labelled."
+      },
+      {
+        "name": "type",
+        "meaning": "Evidence/statusclassification; distinguishobserved,reported,proposed,conditionalandunresolved."
+      }
+    ]
+  },
+  {
+    "filename": "finance_overlay_monthly_Tk_cr.csv",
+    "rows": 730,
+    "grain": "One conditional scenario × NWC policy × project month, M0–M72; no observed sales.",
+    "columns": [
+      {
+        "name": "scenario",
+        "meaning": "Named frozen-model fiscal/cost sensitivity; not an observed outcome."
+      },
+      {
+        "name": "release",
+        "meaning": "with/without final NWC-release policy. Here text, not a monetary amount."
+      },
+      {
+        "name": "m",
+        "meaning": "Project month integer:0CAPEX,1–12prelaunch,13–72national years. This field is not divided by10."
+      },
+      {
+        "name": "label",
+        "meaning": "Human-readable project period; a label, not a measurement."
+      },
+      {
+        "name": "rev",
+        "meaning": "Net revenue, Tk crore, conditional monthly model."
+      },
+      {
+        "name": "ebitda",
+        "meaning": "Incremental EBITDA before fund, Tk crore."
+      },
+      {
+        "name": "wppf",
+        "meaning": "Illustrative participation-fund cash/accrual allocation, Tk crore; actual dates/base pending."
+      },
+      {
+        "name": "tax",
+        "meaning": "Illustrative positive-EBIT monthly tax cash, Tk crore; no loss relief."
+      },
+      {
+        "name": "dnwc",
+        "meaning": "Month-to-month change in working capital, Tk crore; negative means release."
+      },
+      {
+        "name": "nwc",
+        "meaning": "Exit operating NWC balance, Tk crore,12%annualizedmonthlyNR planning policy."
+      },
+      {
+        "name": "pilot",
+        "meaning": "Precommercial cash allowance, Tk crore; no sales credited."
+      },
+      {
+        "name": "release_cash",
+        "meaning": "Final NWC cash release, Tk crore; full release implies wind-down."
+      },
+      {
+        "name": "cash",
+        "meaning": "Total project monthly cash flow, Tk crore including CAPEX/pilot/tax/fund/NWC."
+      },
+      {
+        "name": "cumulative",
+        "meaning": "Cumulative project cash from M0, Tk crore; minimum gives peak funding."
+      }
+    ]
+  },
+  {
+    "filename": "all_model_inputs_evidence_register.csv",
+    "rows": 104,
+    "grain": "One frozen-model scalar, label/policy or added evidence gap; not one independent estimate.",
+    "columns": [
+      {
+        "name": "input_id",
+        "meaning": "Nested original parameter path, or explicit missing/design gap."
+      },
+      {
+        "name": "old_value",
+        "meaning": "Frozen planning value in original model units. Rates are fractions; internal cash values Tk million unless SKU Tk/unit or explicit quantity."
+      },
+      {
+        "name": "status",
+        "meaning": "Evidence/statusclassification; distinguishobserved,reported,proposed,conditionalandunresolved."
+      },
+      {
+        "name": "source_id",
+        "meaning": "Original-sourceidentifier/URL/localfile orclaimlocator;retainattribution;semicolonjoinsmultipleIDs."
+      },
+      {
+        "name": "needed_evidence",
+        "meaning": "Limitations/qualitynotes orspecificunmetverificationrequest;notanobservedresult."
+      },
+      {
+        "name": "owner",
+        "meaning": "Proposedverificationowner/priority;noappointment/commitmentimplied."
+      },
+      {
+        "name": "priority",
+        "meaning": "Proposedverificationowner/priority;noappointment/commitmentimplied."
+      },
+      {
+        "name": "usable_as_verified_fact",
+        "meaning": "Evidence eligibility, not an assertion that the original forecast value is observed."
+      }
+    ]
+  },
+  {
+    "filename": "evidence_ledger.csv",
+    "rows": 56,
+    "grain": "One curated claim/status/locator/limitation.",
+    "columns": [
+      {
+        "name": "claim_id",
+        "meaning": "Text/provenance descriptor exactly as archived/transcribed; do not infer additional measurements."
+      },
+      {
+        "name": "domain",
+        "meaning": "Text/provenance descriptor exactly as archived/transcribed; do not infer additional measurements."
+      },
+      {
+        "name": "finding",
+        "meaning": "Text/provenance descriptor exactly as archived/transcribed; do not infer additional measurements."
+      },
+      {
+        "name": "status",
+        "meaning": "Evidence/statusclassification; distinguishobserved,reported,proposed,conditionalandunresolved."
+      },
+      {
+        "name": "source_ids",
+        "meaning": "Original-sourceidentifier/URL/localfile orclaimlocator;retainattribution;semicolonjoinsmultipleIDs."
+      },
+      {
+        "name": "locator",
+        "meaning": "Original-sourceidentifier/URL/localfile orclaimlocator;retainattribution;semicolonjoinsmultipleIDs."
+      },
+      {
+        "name": "measurement_or_publication_date",
+        "meaning": "Explicit date type; uncertain collection date remains uncertain."
+      },
+      {
+        "name": "limits",
+        "meaning": "Limitations/qualitynotes orspecificunmetverificationrequest;notanobservedresult."
+      },
+      {
+        "name": "accessed_local_date",
+        "meaning": "Localaccessdate9Oct2026;notdateofmeasurement/publication."
+      }
+    ]
+  },
+  {
+    "filename": "source_index.csv",
+    "rows": 61,
+    "grain": "One distinct retrieval-attempt ID; latest attempt, with history preserved in download manifest.",
+    "columns": [
+      {
+        "name": "source_id",
+        "meaning": "Original-sourceidentifier/URL/localfile orclaimlocator;retainattribution;semicolonjoinsmultipleIDs."
+      },
+      {
+        "name": "description",
+        "meaning": "Text/provenance descriptor exactly as archived/transcribed; do not infer additional measurements."
+      },
+      {
+        "name": "url",
+        "meaning": "Original-sourceidentifier/URL/localfile orclaimlocator;retainattribution;semicolonjoinsmultipleIDs."
+      },
+      {
+        "name": "local_file",
+        "meaning": "Relative retained raw response; absence forfailed downloads is explicit."
+      },
+      {
+        "name": "retrieval_status",
+        "meaning": "downloaded/reused/failed/invalid_PDF_response_HTML. A failed ID may also have web-capture evidence."
+      },
+      {
+        "name": "bytes",
+        "meaning": "Retained response byte size, not respondent/sample count."
+      },
+      {
+        "name": "sha256",
+        "meaning": "SHA-256 of retained raw bytes; empty if nofile; not independent source authenticity."
+      },
+      {
+        "name": "last_accessed_utc",
+        "meaning": "UTC retrieval timestamp; distinct from sample/publication date."
+      },
+      {
+        "name": "attempts",
+        "meaning": "Number of download attempts forID; never number of independent sources."
+      },
+      {
+        "name": "notes",
+        "meaning": "Limitations/qualitynotes orspecificunmetverificationrequest;notanobservedresult."
+      }
+    ]
+  }
+]

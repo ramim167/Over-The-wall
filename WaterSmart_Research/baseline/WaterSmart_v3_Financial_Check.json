@@ -1,0 +1,767 @@
+{
+  "scope": "Current HTML model executed without its DOM renderer; v3 overlays ONLY Tk 0.5 crore Y0 cash cost. It does not validate the proposed monthly model or operating assumptions.",
+  "v2": {
+    "volume_only": {
+      "npv_with_release_cr": 1.61944128,
+      "npv_without_release_cr": -1.03393017,
+      "irr_with_release_pct": 20.9640356,
+      "irr_without_release_pct": 10.41568161,
+      "payback_years": 4.13485223,
+      "annual_peak_funding_cr": 8.5579982,
+      "cash_flows_with_release_cr": [
+        -3,
+        -5.50172405,
+        -0.05627415,
+        2.73149726,
+        4.44008855,
+        10.28097516
+      ],
+      "cash_flows_without_release_cr": [
+        -3,
+        -5.50172405,
+        -0.05627415,
+        2.73149726,
+        4.44008855,
+        4.94409741
+      ],
+      "y3_revenue_cr": 36.75535638,
+      "y3_incremental_ebitda_cr": 5.27626805,
+      "y3_units": {
+        "sachet": 44858880,
+        "b180": 1120416,
+        "b340": 638880
+      },
+      "pnl": [
+        {
+          "year": 1,
+          "net_revenue_cr": 7.17263875,
+          "incremental_ebitda_cr": -4.6410074,
+          "tax_cr": 0,
+          "change_nwc_cr": 0.86071665,
+          "fcf_cr": -5.50172405
+        },
+        {
+          "year": 2,
+          "net_revenue_cr": 25.29115826,
+          "incremental_ebitda_cr": 2.62393092,
+          "tax_cr": 0.50598273,
+          "change_nwc_cr": 2.17422234,
+          "fcf_cr": -0.05627415
+        },
+        {
+          "year": 3,
+          "net_revenue_cr": 36.75535638,
+          "incremental_ebitda_cr": 5.27626805,
+          "tax_cr": 1.16906701,
+          "change_nwc_cr": 1.37570377,
+          "fcf_cr": 2.73149726
+        },
+        {
+          "year": 4,
+          "net_revenue_cr": 40.43089202,
+          "incremental_ebitda_cr": 6.30820377,
+          "tax_cr": 1.42705094,
+          "change_nwc_cr": 0.44106428,
+          "fcf_cr": 4.44008855
+        },
+        {
+          "year": 5,
+          "net_revenue_cr": 44.47398122,
+          "incremental_ebitda_cr": 7.03902415,
+          "tax_cr": 1.60975604,
+          "change_nwc_cr": 0.4851707,
+          "fcf_cr": 4.94409741
+        }
+      ]
+    },
+    "combined_worst": {
+      "npv_with_release_cr": -3.99510358,
+      "npv_without_release_cr": -6.51580646,
+      "irr_with_release_pct": -0.17198735,
+      "irr_without_release_pct": -16.9404897,
+      "payback_years": null,
+      "annual_peak_funding_cr": 10.87548679,
+      "cash_flows_with_release_cr": [
+        -3,
+        -6.34394883,
+        -1.53153797,
+        0.84748782,
+        2.29890609,
+        7.65883056
+      ],
+      "cash_flows_without_release_cr": [
+        -3,
+        -6.34394883,
+        -1.53153797,
+        0.84748782,
+        2.29890609,
+        2.5887967
+      ],
+      "y3_revenue_cr": 34.91758856,
+      "y3_incremental_ebitda_cr": 2.67254188,
+      "y3_units": {
+        "sachet": 44858880,
+        "b180": 1120416,
+        "b340": 638880
+      },
+      "pnl": [
+        {
+          "year": 1,
+          "net_revenue_cr": 4.54267121,
+          "incremental_ebitda_cr": -5.79882828,
+          "tax_cr": 0,
+          "change_nwc_cr": 0.54512054,
+          "fcf_cr": -6.34394883
+        },
+        {
+          "year": 2,
+          "net_revenue_cr": 24.02660035,
+          "incremental_ebitda_cr": 0.87537804,
+          "tax_cr": 0.06884451,
+          "change_nwc_cr": 2.3380715,
+          "fcf_cr": -1.53153797
+        },
+        {
+          "year": 3,
+          "net_revenue_cr": 34.91758856,
+          "incremental_ebitda_cr": 2.67254188,
+          "tax_cr": 0.51813547,
+          "change_nwc_cr": 1.30691859,
+          "fcf_cr": 0.84748782
+        },
+        {
+          "year": 4,
+          "net_revenue_cr": 38.40934742,
+          "incremental_ebitda_cr": 3.42388954,
+          "tax_cr": 0.70597239,
+          "change_nwc_cr": 0.41901106,
+          "fcf_cr": 2.29890609
+        },
+        {
+          "year": 5,
+          "net_revenue_cr": 42.25028216,
+          "incremental_ebitda_cr": 3.86627849,
+          "tax_cr": 0.81656962,
+          "change_nwc_cr": 0.46091217,
+          "fcf_cr": 2.5887967
+        }
+      ]
+    },
+    "base": {
+      "npv_with_release_cr": 4.66842921,
+      "npv_without_release_cr": 1.35171489,
+      "irr_with_release_pct": 31.12130346,
+      "irr_without_release_pct": 20.65454098,
+      "payback_years": 3.78649809,
+      "annual_peak_funding_cr": 8.12715506,
+      "cash_flows_with_release_cr": [
+        -3,
+        -5.12715506,
+        0.07965731,
+        3.56437158,
+        5.70011069,
+        13.00121894
+      ],
+      "cash_flows_without_release_cr": [
+        -3,
+        -5.12715506,
+        0.07965731,
+        3.56437158,
+        5.70011069,
+        6.33012176
+      ],
+      "y3_revenue_cr": 45.94419548,
+      "y3_incremental_ebitda_cr": 6.84533506,
+      "y3_units": {
+        "sachet": 56073600,
+        "b180": 1400520,
+        "b340": 798600
+      },
+      "pnl": [
+        {
+          "year": 1,
+          "net_revenue_cr": 8.96579843,
+          "incremental_ebitda_cr": -4.05125925,
+          "tax_cr": 0,
+          "change_nwc_cr": 1.07589581,
+          "fcf_cr": -5.12715506
+        },
+        {
+          "year": 2,
+          "net_revenue_cr": 31.61394783,
+          "incremental_ebitda_cr": 3.52991365,
+          "tax_cr": 0.73247841,
+          "change_nwc_cr": 2.71777793,
+          "fcf_cr": 0.07965731
+        },
+        {
+          "year": 3,
+          "net_revenue_cr": 45.94419548,
+          "incremental_ebitda_cr": 6.84533506,
+          "tax_cr": 1.56133377,
+          "change_nwc_cr": 1.71962972,
+          "fcf_cr": 3.56437158
+        },
+        {
+          "year": 4,
+          "net_revenue_cr": 50.53861503,
+          "incremental_ebitda_cr": 8.13525472,
+          "tax_cr": 1.88381368,
+          "change_nwc_cr": 0.55133035,
+          "fcf_cr": 5.70011069
+        },
+        {
+          "year": 5,
+          "net_revenue_cr": 55.59247653,
+          "incremental_ebitda_cr": 9.04878019,
+          "tax_cr": 2.11219505,
+          "change_nwc_cr": 0.60646338,
+          "fcf_cr": 6.33012176
+        }
+      ]
+    },
+    "best": {
+      "npv_with_release_cr": 9.80120034,
+      "npv_without_release_cr": 5.91069444,
+      "irr_with_release_pct": 47.13598233,
+      "irr_without_release_pct": 38.17325694,
+      "payback_years": 3.18874965,
+      "annual_peak_funding_cr": 7.56027876,
+      "cash_flows_with_release_cr": [
+        -3,
+        -4.56027876,
+        0.84716343,
+        5.23435102,
+        7.83452731,
+        16.50317704
+      ],
+      "cash_flows_without_release_cr": [
+        -3,
+        -4.56027876,
+        0.84716343,
+        5.23435102,
+        7.83452731,
+        8.67798004
+      ],
+      "y3_revenue_cr": 53.8925413,
+      "y3_incremental_ebitda_cr": 9.46863557,
+      "y3_units": {
+        "sachet": 64484640,
+        "b180": 1610598,
+        "b340": 918390
+      },
+      "pnl": [
+        {
+          "year": 1,
+          "net_revenue_cr": 10.51688156,
+          "incremental_ebitda_cr": -3.29825297,
+          "tax_cr": 0,
+          "change_nwc_cr": 1.26202579,
+          "fcf_cr": -4.56027876
+        },
+        {
+          "year": 2,
+          "net_revenue_cr": 37.0831608,
+          "incremental_ebitda_cr": 5.18015592,
+          "tax_cr": 1.14503898,
+          "change_nwc_cr": 3.18795351,
+          "fcf_cr": 0.84716343
+        },
+        {
+          "year": 3,
+          "net_revenue_cr": 53.8925413,
+          "incremental_ebitda_cr": 9.46863557,
+          "tax_cr": 2.21715889,
+          "change_nwc_cr": 2.01712566,
+          "fcf_cr": 5.23435102
+        },
+        {
+          "year": 4,
+          "net_revenue_cr": 59.28179543,
+          "incremental_ebitda_cr": 11.10831708,
+          "tax_cr": 2.62707927,
+          "change_nwc_cr": 0.6467105,
+          "fcf_cr": 7.83452731
+        },
+        {
+          "year": 5,
+          "net_revenue_cr": 65.20997497,
+          "incremental_ebitda_cr": 12.31914879,
+          "tax_cr": 2.9297872,
+          "change_nwc_cr": 0.71138155,
+          "fcf_cr": 8.67798004
+        }
+      ]
+    }
+  },
+  "v3_pilot_overlay": {
+    "volume_only": {
+      "npv_with_release_cr": 1.11944128,
+      "npv_without_release_cr": -1.53393017,
+      "irr_with_release_pct": 18.92322498,
+      "irr_without_release_pct": 8.54236931,
+      "payback_years": 4.18348575,
+      "annual_peak_funding_cr": 9.0579982,
+      "cash_flows_with_release_cr": [
+        -3.5,
+        -5.50172405,
+        -0.05627415,
+        2.73149726,
+        4.44008855,
+        10.28097516
+      ],
+      "cash_flows_without_release_cr": [
+        -3.5,
+        -5.50172405,
+        -0.05627415,
+        2.73149726,
+        4.44008855,
+        4.94409741
+      ],
+      "y3_revenue_cr": 36.75535638,
+      "y3_incremental_ebitda_cr": 5.27626805,
+      "y3_units": {
+        "sachet": 44858880,
+        "b180": 1120416,
+        "b340": 638880
+      },
+      "pnl": [
+        {
+          "year": 1,
+          "net_revenue_cr": 7.17263875,
+          "incremental_ebitda_cr": -4.6410074,
+          "tax_cr": 0,
+          "change_nwc_cr": 0.86071665,
+          "fcf_cr": -5.50172405
+        },
+        {
+          "year": 2,
+          "net_revenue_cr": 25.29115826,
+          "incremental_ebitda_cr": 2.62393092,
+          "tax_cr": 0.50598273,
+          "change_nwc_cr": 2.17422234,
+          "fcf_cr": -0.05627415
+        },
+        {
+          "year": 3,
+          "net_revenue_cr": 36.75535638,
+          "incremental_ebitda_cr": 5.27626805,
+          "tax_cr": 1.16906701,
+          "change_nwc_cr": 1.37570377,
+          "fcf_cr": 2.73149726
+        },
+        {
+          "year": 4,
+          "net_revenue_cr": 40.43089202,
+          "incremental_ebitda_cr": 6.30820377,
+          "tax_cr": 1.42705094,
+          "change_nwc_cr": 0.44106428,
+          "fcf_cr": 4.44008855
+        },
+        {
+          "year": 5,
+          "net_revenue_cr": 44.47398122,
+          "incremental_ebitda_cr": 7.03902415,
+          "tax_cr": 1.60975604,
+          "change_nwc_cr": 0.4851707,
+          "fcf_cr": 4.94409741
+        }
+      ]
+    },
+    "combined_worst": {
+      "npv_with_release_cr": -4.49510358,
+      "npv_without_release_cr": -7.01580646,
+      "irr_with_release_pct": -1.34318662,
+      "irr_without_release_pct": -17.84338614,
+      "payback_years": null,
+      "annual_peak_funding_cr": 11.37548679,
+      "cash_flows_with_release_cr": [
+        -3.5,
+        -6.34394883,
+        -1.53153797,
+        0.84748782,
+        2.29890609,
+        7.65883056
+      ],
+      "cash_flows_without_release_cr": [
+        -3.5,
+        -6.34394883,
+        -1.53153797,
+        0.84748782,
+        2.29890609,
+        2.5887967
+      ],
+      "y3_revenue_cr": 34.91758856,
+      "y3_incremental_ebitda_cr": 2.67254188,
+      "y3_units": {
+        "sachet": 44858880,
+        "b180": 1120416,
+        "b340": 638880
+      },
+      "pnl": [
+        {
+          "year": 1,
+          "net_revenue_cr": 4.54267121,
+          "incremental_ebitda_cr": -5.79882828,
+          "tax_cr": 0,
+          "change_nwc_cr": 0.54512054,
+          "fcf_cr": -6.34394883
+        },
+        {
+          "year": 2,
+          "net_revenue_cr": 24.02660035,
+          "incremental_ebitda_cr": 0.87537804,
+          "tax_cr": 0.06884451,
+          "change_nwc_cr": 2.3380715,
+          "fcf_cr": -1.53153797
+        },
+        {
+          "year": 3,
+          "net_revenue_cr": 34.91758856,
+          "incremental_ebitda_cr": 2.67254188,
+          "tax_cr": 0.51813547,
+          "change_nwc_cr": 1.30691859,
+          "fcf_cr": 0.84748782
+        },
+        {
+          "year": 4,
+          "net_revenue_cr": 38.40934742,
+          "incremental_ebitda_cr": 3.42388954,
+          "tax_cr": 0.70597239,
+          "change_nwc_cr": 0.41901106,
+          "fcf_cr": 2.29890609
+        },
+        {
+          "year": 5,
+          "net_revenue_cr": 42.25028216,
+          "incremental_ebitda_cr": 3.86627849,
+          "tax_cr": 0.81656962,
+          "change_nwc_cr": 0.46091217,
+          "fcf_cr": 2.5887967
+        }
+      ]
+    },
+    "base": {
+      "npv_with_release_cr": 4.16842921,
+      "npv_without_release_cr": 0.85171489,
+      "irr_with_release_pct": 28.68165633,
+      "irr_without_release_pct": 18.37835767,
+      "payback_years": 3.87421569,
+      "annual_peak_funding_cr": 8.62715506,
+      "cash_flows_with_release_cr": [
+        -3.5,
+        -5.12715506,
+        0.07965731,
+        3.56437158,
+        5.70011069,
+        13.00121894
+      ],
+      "cash_flows_without_release_cr": [
+        -3.5,
+        -5.12715506,
+        0.07965731,
+        3.56437158,
+        5.70011069,
+        6.33012176
+      ],
+      "y3_revenue_cr": 45.94419548,
+      "y3_incremental_ebitda_cr": 6.84533506,
+      "y3_units": {
+        "sachet": 56073600,
+        "b180": 1400520,
+        "b340": 798600
+      },
+      "pnl": [
+        {
+          "year": 1,
+          "net_revenue_cr": 8.96579843,
+          "incremental_ebitda_cr": -4.05125925,
+          "tax_cr": 0,
+          "change_nwc_cr": 1.07589581,
+          "fcf_cr": -5.12715506
+        },
+        {
+          "year": 2,
+          "net_revenue_cr": 31.61394783,
+          "incremental_ebitda_cr": 3.52991365,
+          "tax_cr": 0.73247841,
+          "change_nwc_cr": 2.71777793,
+          "fcf_cr": 0.07965731
+        },
+        {
+          "year": 3,
+          "net_revenue_cr": 45.94419548,
+          "incremental_ebitda_cr": 6.84533506,
+          "tax_cr": 1.56133377,
+          "change_nwc_cr": 1.71962972,
+          "fcf_cr": 3.56437158
+        },
+        {
+          "year": 4,
+          "net_revenue_cr": 50.53861503,
+          "incremental_ebitda_cr": 8.13525472,
+          "tax_cr": 1.88381368,
+          "change_nwc_cr": 0.55133035,
+          "fcf_cr": 5.70011069
+        },
+        {
+          "year": 5,
+          "net_revenue_cr": 55.59247653,
+          "incremental_ebitda_cr": 9.04878019,
+          "tax_cr": 2.11219505,
+          "change_nwc_cr": 0.60646338,
+          "fcf_cr": 6.33012176
+        }
+      ]
+    },
+    "best": {
+      "npv_with_release_cr": 9.30120034,
+      "npv_without_release_cr": 5.41069444,
+      "irr_with_release_pct": 43.89051969,
+      "irr_without_release_pct": 35.04894099,
+      "payback_years": 3.25256971,
+      "annual_peak_funding_cr": 8.06027876,
+      "cash_flows_with_release_cr": [
+        -3.5,
+        -4.56027876,
+        0.84716343,
+        5.23435102,
+        7.83452731,
+        16.50317704
+      ],
+      "cash_flows_without_release_cr": [
+        -3.5,
+        -4.56027876,
+        0.84716343,
+        5.23435102,
+        7.83452731,
+        8.67798004
+      ],
+      "y3_revenue_cr": 53.8925413,
+      "y3_incremental_ebitda_cr": 9.46863557,
+      "y3_units": {
+        "sachet": 64484640,
+        "b180": 1610598,
+        "b340": 918390
+      },
+      "pnl": [
+        {
+          "year": 1,
+          "net_revenue_cr": 10.51688156,
+          "incremental_ebitda_cr": -3.29825297,
+          "tax_cr": 0,
+          "change_nwc_cr": 1.26202579,
+          "fcf_cr": -4.56027876
+        },
+        {
+          "year": 2,
+          "net_revenue_cr": 37.0831608,
+          "incremental_ebitda_cr": 5.18015592,
+          "tax_cr": 1.14503898,
+          "change_nwc_cr": 3.18795351,
+          "fcf_cr": 0.84716343
+        },
+        {
+          "year": 3,
+          "net_revenue_cr": 53.8925413,
+          "incremental_ebitda_cr": 9.46863557,
+          "tax_cr": 2.21715889,
+          "change_nwc_cr": 2.01712566,
+          "fcf_cr": 5.23435102
+        },
+        {
+          "year": 4,
+          "net_revenue_cr": 59.28179543,
+          "incremental_ebitda_cr": 11.10831708,
+          "tax_cr": 2.62707927,
+          "change_nwc_cr": 0.6467105,
+          "fcf_cr": 7.83452731
+        },
+        {
+          "year": 5,
+          "net_revenue_cr": 65.20997497,
+          "incremental_ebitda_cr": 12.31914879,
+          "tax_cr": 2.9297872,
+          "change_nwc_cr": 0.71138155,
+          "fcf_cr": 8.67798004
+        }
+      ]
+    }
+  },
+  "monthly_reconciliation": {
+    "quoted_y1_totals": {
+      "nr": 8.97,
+      "ebitda": -4.06,
+      "dnwc": 2.02,
+      "cash": -6.08
+    },
+    "quoted_y2_totals": {
+      "nr": 31.62,
+      "ebitda": 3.53,
+      "dnwc": 3.28,
+      "cash": -0.5
+    },
+    "annual_y1_fcf_cr": -5.12715506,
+    "annual_y2_fcf_cr": 0.07965731,
+    "exact_y1_from_stated_rollout": [
+      {
+        "month": 1,
+        "net_revenue_cr": 0,
+        "ebitda_cr": -0.08333333,
+        "change_nwc_cr": 0,
+        "cash_cr": -0.08333333,
+        "cumulative_cr": -3.58333333
+      },
+      {
+        "month": 2,
+        "net_revenue_cr": 0,
+        "ebitda_cr": -0.08333333,
+        "change_nwc_cr": 0,
+        "cash_cr": -0.08333333,
+        "cumulative_cr": -3.66666667
+      },
+      {
+        "month": 3,
+        "net_revenue_cr": 0,
+        "ebitda_cr": -0.68333333,
+        "change_nwc_cr": 0,
+        "cash_cr": -0.68333333,
+        "cumulative_cr": -4.35
+      },
+      {
+        "month": 4,
+        "net_revenue_cr": 0.56925704,
+        "ebitda_cr": -0.7961117,
+        "change_nwc_cr": 0.81973014,
+        "cash_cr": -1.61584184,
+        "cumulative_cr": -5.96584184
+      },
+      {
+        "month": 5,
+        "net_revenue_cr": 0.67599274,
+        "ebitda_cr": -0.76100764,
+        "change_nwc_cr": 0.1536994,
+        "cash_cr": -0.91470704,
+        "cumulative_cr": -6.88054888
+      },
+      {
+        "month": 6,
+        "net_revenue_cr": 0.78272843,
+        "ebitda_cr": -0.72590359,
+        "change_nwc_cr": 0.1536994,
+        "cash_cr": -0.87960299,
+        "cumulative_cr": -7.76015187
+      },
+      {
+        "month": 7,
+        "net_revenue_cr": 0.88946413,
+        "ebitda_cr": -0.24079953,
+        "change_nwc_cr": 0.1536994,
+        "cash_cr": -0.39449893,
+        "cumulative_cr": -8.1546508
+      },
+      {
+        "month": 8,
+        "net_revenue_cr": 0.99619983,
+        "ebitda_cr": -0.20569547,
+        "change_nwc_cr": 0.1536994,
+        "cash_cr": -0.35939487,
+        "cumulative_cr": -8.51404568
+      },
+      {
+        "month": 9,
+        "net_revenue_cr": 1.10293552,
+        "ebitda_cr": -0.17059142,
+        "change_nwc_cr": 0.1536994,
+        "cash_cr": -0.32429082,
+        "cumulative_cr": -8.83833649
+      },
+      {
+        "month": 10,
+        "net_revenue_cr": 1.20967122,
+        "ebitda_cr": -0.13548736,
+        "change_nwc_cr": 0.1536994,
+        "cash_cr": -0.28918676,
+        "cumulative_cr": -9.12752326
+      },
+      {
+        "month": 11,
+        "net_revenue_cr": 1.31640691,
+        "ebitda_cr": -0.1003833,
+        "change_nwc_cr": 0.1536994,
+        "cash_cr": -0.2540827,
+        "cumulative_cr": -9.38160596
+      },
+      {
+        "month": 12,
+        "net_revenue_cr": 1.42314261,
+        "ebitda_cr": -0.06527925,
+        "change_nwc_cr": 0.1536994,
+        "cash_cr": -0.21897865,
+        "cumulative_cr": -9.60058461
+      }
+    ],
+    "exact_y1_exit_nwc_cr": 2.04932536,
+    "annual_y1_exit_nwc_cr": 1.07589581,
+    "quoted_monthly_y2_exit_nwc_cr": 5.33,
+    "annual_y2_exit_nwc_cr": 3.79367374,
+    "note": "Y2 monthly revenue shape, cash-tax allocation and later years were not supplied. Month-20 peak cannot be independently confirmed from a Y1 monthly + Y2 quarterly table."
+  },
+  "strip_sensitivity": {
+    "fixed_assumptions": "v3 pilot overlay, current prices/mix/volumes, fixed non-strip COGS Tk92; only 340ml strip+sleeve unit cost changes; NO new fulfilment or regulatory costs.",
+    "cases": [
+      {
+        "strip_and_sleeve_tk": 3,
+        "bottle_gm_pct": 57.55633256,
+        "blended_y3_gm_pct": 52.07579158,
+        "npv_with_release_cr": 4.16842921,
+        "npv_without_release_cr": 0.85171489
+      },
+      {
+        "strip_and_sleeve_tk": 5,
+        "bottle_gm_pct": 56.66278166,
+        "blended_y3_gm_pct": 51.72815245,
+        "npv_with_release_cr": 3.84731685,
+        "npv_without_release_cr": 0.53060254
+      },
+      {
+        "strip_and_sleeve_tk": 24.38956522,
+        "bottle_gm_pct": 48,
+        "blended_y3_gm_pct": 48.35786669,
+        "npv_with_release_cr": 0.73420234,
+        "npv_without_release_cr": -2.58251197
+      },
+      {
+        "strip_and_sleeve_tk": 58.438,
+        "bottle_gm_pct": 32.78799534,
+        "blended_y3_gm_pct": 42.43958262,
+        "npv_with_release_cr": -4.77546938,
+        "npv_without_release_cr": -8.0921837
+      }
+    ],
+    "max_strip_plus_sleeve_for_zero_npv_with_release_tk": 28.96243405,
+    "max_strip_plus_sleeve_for_zero_npv_without_release_tk": 8.30477807
+  },
+  "cost_and_impact": {
+    "net_realisation_340": 223.82608696,
+    "max_cogs_at_48pct_gm": 116.38956522,
+    "non_strip_cogs": 92,
+    "max_strip_plus_sleeve_at_48pct_gm": 24.38956522,
+    "catalogue_strip_tk_if_479_usd_per_1000_at_assumed_fx122": 58.438,
+    "gm_if_that_price_excludes_other_landed_costs_pct": 32.78799534,
+    "units_y3": {
+      "sachet": 56073600,
+      "b180": 1400520,
+      "b340": 798600
+    },
+    "strip_y3_cost_cr": 4.66685868,
+    "plastic_y3_tonnes": 90.0108,
+    "bottle_340_g_per_7ml_wash": 0.65882353,
+    "bottle_180_g_per_7ml_wash": 0.85555556,
+    "sachet_6_g_per_7ml_equivalent_wash": 0.7,
+    "refill_300_g_per_7ml_wash": 0.21,
+    "refill_plastic_reduction_equal_volume_pct": 68.125,
+    "plastic_saved_per_300ml_refill_equal_volume_g": 19.23529412,
+    "note": "Catalogue USD price and Fx122 are assumptions in this calculation, not a verified landed supplier quote."
+  }
+}

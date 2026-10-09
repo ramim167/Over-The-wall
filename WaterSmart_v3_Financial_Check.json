@@ -1,4 +1,9 @@
 {
+  "research_revision_status": {
+    "date": "2026-10-09",
+    "status": "Historical prior overlay; not current appraisal; domestic SD omitted",
+    "current_conditional_analysis": "WaterSmart_Research/analysis/finance_evidence_overlays.json"
+  },
   "scope": "Current HTML model executed without its DOM renderer; v3 overlays ONLY Tk 0.5 crore Y0 cash cost. It does not validate the proposed monthly model or operating assumptions.",
   "v2": {
     "volume_only": {

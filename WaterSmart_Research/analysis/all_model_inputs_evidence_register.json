@@ -162,11 +162,11 @@
   {
     "input_id": "inputs.ch[0][0]",
     "old_value": "Rural Grocer (RG)",
-    "status": "UNVERIFIED_FORECAST_INPUT",
+    "status": "MODEL_LABEL",
     "source_id": "",
-    "needed_evidence": "SKU active outlet list; primary/secondary/tertiary sales per period; deduplicated WS reach",
+    "needed_evidence": "Channel name only; not a quantitative uncertainty",
     "owner": "Sales",
-    "priority": "critical",
+    "priority": "low",
     "usable_as_verified_fact": false
   },
   {
@@ -232,11 +232,11 @@
   {
     "input_id": "inputs.ch[1][0]",
     "old_value": "Urban Neighbourhood Grocer (UNG)",
-    "status": "UNVERIFIED_FORECAST_INPUT",
+    "status": "MODEL_LABEL",
     "source_id": "",
-    "needed_evidence": "SKU active outlet list; primary/secondary/tertiary sales per period; deduplicated WS reach",
+    "needed_evidence": "Channel name only; not a quantitative uncertainty",
     "owner": "Sales",
-    "priority": "critical",
+    "priority": "low",
     "usable_as_verified_fact": false
   },
   {
@@ -302,11 +302,11 @@
   {
     "input_id": "inputs.ch[2][0]",
     "old_value": "Urban Cosmetics Store (UCS)",
-    "status": "UNVERIFIED_FORECAST_INPUT",
+    "status": "MODEL_LABEL",
     "source_id": "",
-    "needed_evidence": "SKU active outlet list; primary/secondary/tertiary sales per period; deduplicated WS reach",
+    "needed_evidence": "Channel name only; not a quantitative uncertainty",
     "owner": "Sales",
-    "priority": "critical",
+    "priority": "low",
     "usable_as_verified_fact": false
   },
   {
@@ -372,11 +372,11 @@
   {
     "input_id": "inputs.ch[3][0]",
     "old_value": "Rural Cosmetics Store (RCS)",
-    "status": "UNVERIFIED_FORECAST_INPUT",
+    "status": "MODEL_LABEL",
     "source_id": "",
-    "needed_evidence": "SKU active outlet list; primary/secondary/tertiary sales per period; deduplicated WS reach",
+    "needed_evidence": "Channel name only; not a quantitative uncertainty",
     "owner": "Sales",
-    "priority": "critical",
+    "priority": "low",
     "usable_as_verified_fact": false
   },
   {
@@ -442,11 +442,11 @@
   {
     "input_id": "inputs.ch[4][0]",
     "old_value": "Wholesale (WS)",
-    "status": "UNVERIFIED_FORECAST_INPUT",
+    "status": "MODEL_LABEL",
     "source_id": "",
-    "needed_evidence": "SKU active outlet list; primary/secondary/tertiary sales per period; deduplicated WS reach",
+    "needed_evidence": "Channel name only; not a quantitative uncertainty",
     "owner": "Sales",
-    "priority": "critical",
+    "priority": "low",
     "usable_as_verified_fact": false
   },
   {
@@ -512,11 +512,11 @@
   {
     "input_id": "inputs.ch[5][0]",
     "old_value": "Modern Trade (MT)",
-    "status": "UNVERIFIED_FORECAST_INPUT",
+    "status": "MODEL_LABEL",
     "source_id": "",
-    "needed_evidence": "SKU active outlet list; primary/secondary/tertiary sales per period; deduplicated WS reach",
+    "needed_evidence": "Channel name only; not a quantitative uncertainty",
     "owner": "Sales",
-    "priority": "critical",
+    "priority": "low",
     "usable_as_verified_fact": false
   },
   {
@@ -582,11 +582,11 @@
   {
     "input_id": "inputs.ch[6][0]",
     "old_value": "E-commerce",
-    "status": "UNVERIFIED_FORECAST_INPUT",
+    "status": "MODEL_LABEL",
     "source_id": "",
-    "needed_evidence": "SKU active outlet list; primary/secondary/tertiary sales per period; deduplicated WS reach",
+    "needed_evidence": "Channel name only; not a quantitative uncertainty",
     "owner": "Sales",
-    "priority": "critical",
+    "priority": "low",
     "usable_as_verified_fact": false
   },
   {
@@ -962,11 +962,11 @@
   {
     "input_id": "controls.release",
     "old_value": true,
-    "status": "UNVERIFIED_FORECAST_INPUT",
+    "status": "MODEL_TERMINAL_POLICY_CHOICE",
     "source_id": "",
-    "needed_evidence": "Direct operational observation, approved driver or supplier quote",
-    "owner": "Marico Finance / relevant function",
-    "priority": "high",
+    "needed_evidence": "Full release describes a wind-down; do not claim it while continuing operations",
+    "owner": "Finance",
+    "priority": "critical",
     "usable_as_verified_fact": false
   },
   {

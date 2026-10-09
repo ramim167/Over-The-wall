@@ -1,5 +1,9 @@
 # WaterSmart v3 response and updated-files review
 
+<!-- RESEARCH_SUPERSESSION_20261009 -->
+> **Later research revision, 9 Oct 2026:** Preserve this earlier audit as historical context. The original v3 financial model omitted domestic shampoo SD15%; old positive NPV/strip-return ceilings are withdrawn as current investment conclusions. See the [attributed research report](WaterSmart_Research/WaterSmart_Research_Report.md), [conditional fiscal overlay](WaterSmart_Research/analysis/finance_evidence_overlays.json) and [current master Section17](OTW_S5_Master_Research.md). The original EPR gazette has now been obtained; five supplied opinions are user-confirmed real with date/consent/price-order pending. No WaterSmart product trial or team water test is claimed.
+
+
 > Historical review before v3 implementation. The current model now includes the 12-month prelaunch period and a consistent monthly NWC policy. Use `OTW_S5_Master_Research.md` Section 11.6 and `WaterSmart_v3_Model_Output.json` for current forecasts; the pilot-only overlay numbers below are historical.
 
 Reviewed: 9 October 2026, Asia/Dhaka.

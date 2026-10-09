@@ -1,0 +1,1121 @@
+{
+  "created_utc": "2026-10-09T12:44:03.546817+00:00",
+  "status": "secondary_research_complete_empirical_verification_pending",
+  "files": [
+    {
+      "path": "audit_on_fact_check.md",
+      "bytes": 26987,
+      "sha256": "93648dbe940c533c3431f7e95bd49d8f3e27c1b0b3be7990a47178b14c3697be"
+    },
+    {
+      "path": "audit_on_fact_check_review.md",
+      "bytes": 12751,
+      "sha256": "78d1634787cb5a8626b0df6bbd3e6c010ce7b290f4297ac97708072194aae0b2"
+    },
+    {
+      "path": "Naturale_WaterSmart_Idea.html",
+      "bytes": 89376,
+      "sha256": "1e978fe5d9fdeb31133fefcda99c6dd3a115bc126b75d4da6aa70263778f0355"
+    },
+    {
+      "path": "OTW_S5_Fact_Check.md",
+      "bytes": 35132,
+      "sha256": "ef042116a8335cf804532fb42c73f23db5ad688de8a001fed0e72944b2fae0fc"
+    },
+    {
+      "path": "OTW_S5_Master_Research.md",
+      "bytes": 98213,
+      "sha256": "734fbe511ea6ffa13acfd10676c0461e25719c96c47f324822f8c87b00d4d33c"
+    },
+    {
+      "path": "WaterSmart_Field_Data_Plan.html",
+      "bytes": 69902,
+      "sha256": "554340dfba907d3f500ac8838249e6df1b1648876358feb693338ede3c4a7c3c"
+    },
+    {
+      "path": "WaterSmart_Research/analysis/all_model_inputs_evidence_register.csv",
+      "bytes": 17633,
+      "sha256": "90e3bd00eeb300c4da2b702638ca70193942256ad6ed1a226f6cd620cf35b691"
+    },
+    {
+      "path": "WaterSmart_Research/analysis/all_model_inputs_evidence_register.json",
+      "bytes": 36621,
+      "sha256": "6ee4749ea3c596d9df49eb3cc99e22356cc73f6087a5b4eb6fefdc630294ab0c"
+    },
+    {
+      "path": "WaterSmart_Research/analysis/data_dictionary.json",
+      "bytes": 55422,
+      "sha256": "b35910719409d786b2a15d4cc2c566ecb6be386257c3debbeaf3a469ddbcb206"
+    },
+    {
+      "path": "WaterSmart_Research/analysis/dhaka_2025_published_location_values.csv",
+      "bytes": 4517,
+      "sha256": "57911ce1942e4daecdc5d2213de5e17ddacefd813a873a8bbd18b26a840bfe63"
+    },
+    {
+      "path": "WaterSmart_Research/analysis/evidence_ledger.csv",
+      "bytes": 14164,
+      "sha256": "d7b8af28b8c335276cf90c30b21692e5519df87c52dd8f9dcdb8b567c134c1d7"
+    },
+    {
+      "path": "WaterSmart_Research/analysis/evidence_ledger.json",
+      "bytes": 25524,
+      "sha256": "b7d08d317f106d81e6adb9c257b9beb14d4d1c29da19bb03b1a1ebcdc422bb92"
+    },
+    {
+      "path": "WaterSmart_Research/analysis/finance_evidence_overlays.json",
+      "bytes": 718687,
+      "sha256": "91fad1f46da188f9695d06809f4b4d1f48fedb2894c05ab2cdfe1d40d4ab99c2"
+    },
+    {
+      "path": "WaterSmart_Research/analysis/finance_overlay_monthly_Tk_cr.csv",
+      "bytes": 111886,
+      "sha256": "ff91d96a448670fd71885493f0c34dc2de2043f72fca67e3d13dcc6812be841a"
+    },
+    {
+      "path": "WaterSmart_Research/analysis/marico_benchmark_calculations.json",
+      "bytes": 472,
+      "sha256": "c2baa7ebc0cc0c2152f789d5386672efb86a83e34b4253ace9411b0449c87971"
+    },
+    {
+      "path": "WaterSmart_Research/analysis/marico_public_financial_benchmarks.csv",
+      "bytes": 2126,
+      "sha256": "2f0184cb445bf9c28763e110e8c3aca1d06eb59e99a201c943e57e69f8a81579"
+    },
+    {
+      "path": "WaterSmart_Research/analysis/published_survey_aggregates.csv",
+      "bytes": 3703,
+      "sha256": "87a7e164f94dcd3c303f6d054c26c3b03b5f62c63e8c09fc2e36e64403997363"
+    },
+    {
+      "path": "WaterSmart_Research/analysis/published_surveys_metadata.json",
+      "bytes": 2506,
+      "sha256": "0edde04777bfe2bfd89854668db7e64775b63241e066f8f5ea9bf9f3a4173c18"
+    },
+    {
+      "path": "WaterSmart_Research/analysis/qa_dom_results.json",
+      "bytes": 288,
+      "sha256": "3e4c4f4a6f5f830d16cdae32a8439e9f62aec855b58ab5b714b45b6a354bad36"
+    },
+    {
+      "path": "WaterSmart_Research/analysis/qa_results.json",
+      "bytes": 307,
+      "sha256": "4111869c571e558cabf2021c41040378a5b469c1d19afeb55ccf58d80991fc52"
+    },
+    {
+      "path": "WaterSmart_Research/analysis/regulatory_images/epr_page_01.png",
+      "bytes": 139993,
+      "sha256": "5ffa414518a3463d2973594aec3702e8cc637665c6047a8ddfa1aaa6c89ead46"
+    },
+    {
+      "path": "WaterSmart_Research/analysis/regulatory_images/epr_page_02.png",
+      "bytes": 196096,
+      "sha256": "99b0757738f721f9fb47d4f92d0da9e7a6b893dc9e7011dbee5334d9a5bad4ab"
+    },
+    {
+      "path": "WaterSmart_Research/analysis/regulatory_images/epr_page_03.png",
+      "bytes": 193599,
+      "sha256": "e07ef5e6b173203c4732bd976f1e3b5adfef9eda45a28fce41fdacfaed4ec40e"
+    },
+    {
+      "path": "WaterSmart_Research/analysis/regulatory_images/epr_page_04.png",
+      "bytes": 199410,
+      "sha256": "496a069473f822cb6ca034d576ccdce6e57a8ba98522aa9a5ad0bc99faae60d4"
+    },
+    {
+      "path": "WaterSmart_Research/analysis/regulatory_images/epr_page_05.png",
+      "bytes": 188630,
+      "sha256": "f070de2b46b2838de675e3a39ab50a63254e59f461517f51dba6db9a0cd02411"
+    },
+    {
+      "path": "WaterSmart_Research/analysis/regulatory_images/epr_page_06.png",
+      "bytes": 185053,
+      "sha256": "2aee5e19f8975eea99086afd4ddaf0941ab5163f6643791dd2b94b20a5d3a6cf"
+    },
+    {
+      "path": "WaterSmart_Research/analysis/regulatory_images/epr_page_07.png",
+      "bytes": 181499,
+      "sha256": "4247accd369447ba78453be969ad75f9f4cdda80df106fb6ab74ae6394d362dc"
+    },
+    {
+      "path": "WaterSmart_Research/analysis/regulatory_images/epr_page_08.png",
+      "bytes": 191720,
+      "sha256": "e6bfe4bdfcdde541aea6db622cdf1acc3d0cffa901ebe7431d3d1c81b6e6d2fa"
+    },
+    {
+      "path": "WaterSmart_Research/analysis/regulatory_images/epr_page_09.png",
+      "bytes": 168234,
+      "sha256": "23f7b3d59cb5dfd0397eef16a10c7e8d8fa4a5c4a664a6ce5bb1b12e2f24d6d3"
+    },
+    {
+      "path": "WaterSmart_Research/analysis/regulatory_images/epr_page_10.png",
+      "bytes": 102684,
+      "sha256": "4132dc451e21280085f3b2ce35ae5cd53bcc8805d685890fc09c941c901fc1ea"
+    },
+    {
+      "path": "WaterSmart_Research/analysis/regulatory_images/epr_page_11.png",
+      "bytes": 93077,
+      "sha256": "9bb32be0b480931529174cc88d7347ce4040fa7467c05e30a3133f7401a60f47"
+    },
+    {
+      "path": "WaterSmart_Research/analysis/regulatory_images/epr_page_12.png",
+      "bytes": 54816,
+      "sha256": "3e4459504a44d34a153757efc5accd502fea80ed42275c39b94a20da291c8b07"
+    },
+    {
+      "path": "WaterSmart_Research/analysis/regulatory_images/epr_page_13.png",
+      "bytes": 72327,
+      "sha256": "90c5773247a3399214b25c0e7bb85753caa1df1e31ff48a61fc24059b90b6a4f"
+    },
+    {
+      "path": "WaterSmart_Research/analysis/regulatory_images/epr_page_14.png",
+      "bytes": 71269,
+      "sha256": "93c1c18b8bcd7f56948fb41486a7b6482033e1684d5f55fc522c90990568997f"
+    },
+    {
+      "path": "WaterSmart_Research/analysis/regulatory_images/epr_page_15.png",
+      "bytes": 77007,
+      "sha256": "03400a60767e87133894e0259fedd48273d648aac76eb3e81b16b3f0ff1f97a7"
+    },
+    {
+      "path": "WaterSmart_Research/analysis/retail_price_observations.csv",
+      "bytes": 9306,
+      "sha256": "d11c20a42a616f9e718b7b87315a71ad0aa70972c5516129bb075c975390d91e"
+    },
+    {
+      "path": "WaterSmart_Research/analysis/retail_price_summary.json",
+      "bytes": 17758,
+      "sha256": "cd0e7158b135b28c083aff280a1c7dc30884ed0df31e016232bae4eaca047a32"
+    },
+    {
+      "path": "WaterSmart_Research/analysis/science_primary_records.json",
+      "bytes": 16104,
+      "sha256": "7eb7874c3da57fa5445a881a026024f7302fa35444568d69f09d248b57a66507"
+    },
+    {
+      "path": "WaterSmart_Research/analysis/source_index.csv",
+      "bytes": 22737,
+      "sha256": "2baf9dd18f6d63e45c6e69572d57fd6a42be22b41d55f2e240b8f9f4e04e0fb0"
+    },
+    {
+      "path": "WaterSmart_Research/analysis/source_index.json",
+      "bytes": 35740,
+      "sha256": "e031a193b172c30690af82bad09480d746947517c24d632777693b09697e7782"
+    },
+    {
+      "path": "WaterSmart_Research/analysis/user_opinions_metadata.json",
+      "bytes": 584,
+      "sha256": "6b5622d9fb4afea6307495db5f716b91d8655672af1fa08cf6223d31a72cd167"
+    },
+    {
+      "path": "WaterSmart_Research/analysis/user_supplied_opinions.csv",
+      "bytes": 2038,
+      "sha256": "17acd16d243f979589c9e5f2646fb5c80dae482be82b7fe2189afe95e0628f63"
+    },
+    {
+      "path": "WaterSmart_Research/analysis/vat_sd_shampoo_supply_page.png",
+      "bytes": 123057,
+      "sha256": "c4d3668102c049bf32a462a3ed4d1d9e30971e24687d5db640ff6c4833df7db4"
+    },
+    {
+      "path": "WaterSmart_Research/analysis/water_by_district.csv",
+      "bytes": 36373,
+      "sha256": "68d8072f548e365a01a02d1c495c026b7d9c7d77277ea87d83051514086d7fa3"
+    },
+    {
+      "path": "WaterSmart_Research/analysis/water_by_historical_thana.csv",
+      "bytes": 227562,
+      "sha256": "f5960aeb4bb52474309f331442f1d18527a082e7fcccecd4776da76d9548be81"
+    },
+    {
+      "path": "WaterSmart_Research/analysis/water_summary.json",
+      "bytes": 4102,
+      "sha256": "5e7f5d9aeb388fcd35c06545d06cf09556faa1b3a44c74924a4c4474f9dfe644"
+    },
+    {
+      "path": "WaterSmart_Research/analysis/water_wells_processed.csv",
+      "bytes": 839292,
+      "sha256": "2ef35130dd6aadd37a54b030832488817aa0fdc24b9a8a3e82d1216f9187af75"
+    },
+    {
+      "path": "WaterSmart_Research/baseline/audit_on_fact_check.md",
+      "bytes": 26109,
+      "sha256": "5d47b79e6087545b7b9de67a12541cf5bb008ccb5eb32ce439fa1f60c73834e5"
+    },
+    {
+      "path": "WaterSmart_Research/baseline/audit_on_fact_check_review.md",
+      "bytes": 11945,
+      "sha256": "6de4568e8c0463c81413fff2b0576a869353e35d54f82911c342a58c64383409"
+    },
+    {
+      "path": "WaterSmart_Research/baseline/Naturale_WaterSmart_Idea.html",
+      "bytes": 85919,
+      "sha256": "28178a14e3d838f21fb05a92650432b3b9533c97072d94237882a488fdf0979a"
+    },
+    {
+      "path": "WaterSmart_Research/baseline/OTW_S5_Fact_Check.md",
+      "bytes": 34228,
+      "sha256": "a1626ffd2c8dd3c32f5cf7490f4df4288d6cee02acb7355d33097cc21821dc8a"
+    },
+    {
+      "path": "WaterSmart_Research/baseline/OTW_S5_Master_Research.md",
+      "bytes": 100053,
+      "sha256": "375d7cb12a6005e4eb61c8e533c4eaa7cc9b7799098467c0eaea9fce8d254198"
+    },
+    {
+      "path": "WaterSmart_Research/baseline/WaterSmart_Field_Data_Plan.html",
+      "bytes": 68949,
+      "sha256": "f60c3df0edaa3856c90a04bc8d4d71917b3a1c42aee75062267e8bc8cd2d4b4c"
+    },
+    {
+      "path": "WaterSmart_Research/baseline/WaterSmart_v3_Financial_Check.json",
+      "bytes": 21339,
+      "sha256": "8a43aeeb2eee7938f415847b3c47dd15f28cacd67c9ea01089f8afcd8635d15b"
+    },
+    {
+      "path": "WaterSmart_Research/baseline/WaterSmart_v3_Model_Output.json",
+      "bytes": 69959,
+      "sha256": "ae336ed2241bb02a462531b88190d13d27017b8c733143f93f2a95a3263b2f95"
+    },
+    {
+      "path": "WaterSmart_Research/baseline/WaterSmart_v3_Review.md",
+      "bytes": 19280,
+      "sha256": "2ab9be9cd751052d76a9e8bcedcb6065ae3b76d65516dc3c9f90136c1863701b"
+    },
+    {
+      "path": "WaterSmart_Research/baseline_manifest.json",
+      "bytes": 913,
+      "sha256": "9d0b6969e2300d28aeb656ee487ded9cb59de19b463c20e7e6c2db168f2af077"
+    },
+    {
+      "path": "WaterSmart_Research/CHECKPOINT.md",
+      "bytes": 7324,
+      "sha256": "b0ec4345cce168010b690cac11ed4f915c44787b32204757c75a3ff2a3dac8ff"
+    },
+    {
+      "path": "WaterSmart_Research/CHECKPOINT_history_stage5.md",
+      "bytes": 3679,
+      "sha256": "8f0365819dd9165815aae766dbc2628cebe8a78479fdc7adb847b13cc56e0603"
+    },
+    {
+      "path": "WaterSmart_Research/DATA_DICTIONARY.md",
+      "bytes": 42053,
+      "sha256": "16be23056ca304c8021a6d252be6b940bcc92bbb51d8caa1c16b81b1e42fb431"
+    },
+    {
+      "path": "WaterSmart_Research/download_manifest.jsonl",
+      "bytes": 39112,
+      "sha256": "d515e4403a35fe09b9e14b9e5030e1f8ea2a00a7e6009b736f3abd9baa6d8419"
+    },
+    {
+      "path": "WaterSmart_Research/EXPERT_AND_HUMAN_VERIFICATION.md",
+      "bytes": 14805,
+      "sha256": "e137964859aee9318068dcaca35f075ee6cb9f2df5346942c5a478a45fd22fb8"
+    },
+    {
+      "path": "WaterSmart_Research/METHODS_AND_EXCLUSIONS.md",
+      "bytes": 10863,
+      "sha256": "4cabc876072a423f2b6b04dcbdb9220aa4e7b93cfe1270508c592b83c3bd6555"
+    },
+    {
+      "path": "WaterSmart_Research/prior_reviews_manifest.json",
+      "bytes": 989,
+      "sha256": "de1149313ba56f7d3b31530d879628593905c15bef539b094b8b7a4eb354fcc6"
+    },
+    {
+      "path": "WaterSmart_Research/raw/apg_indorama_glucosurf.pdf",
+      "bytes": 511723,
+      "sha256": "a4912ef7298fca5ec15fc89581f425b42af5decdf589136c5e0db4aceff5fea3"
+    },
+    {
+      "path": "WaterSmart_Research/raw/apg_indorama_glucosurf.txt",
+      "bytes": 5796,
+      "sha256": "b005d60f0d13d7e7670f901bdb10cb1a4e1322ef015b26d6b029ce4ded6b65b1"
+    },
+    {
+      "path": "WaterSmart_Research/raw/bgs_maps.html",
+      "bytes": 96388,
+      "sha256": "0df1fa70068171d984d76129d23ff47d39661bf7c92009d127d05d2767ec9b8d"
+    },
+    {
+      "path": "WaterSmart_Research/raw/bgs_maps.txt",
+      "bytes": 9899,
+      "sha256": "86dd694d0ab5e8b3d891c8e6110ba0a00d6673fccb7ddb2cb81ccce911b506d5"
+    },
+    {
+      "path": "WaterSmart_Research/raw/bgs_national_hydrochemical_raw.csv",
+      "bytes": 818276,
+      "sha256": "53ae9ece52fa812f78c3eda3097daba12ae4131f1a1205faf2f543404b597af8"
+    },
+    {
+      "path": "WaterSmart_Research/raw/bgs_nhs_download.html",
+      "bytes": 66172,
+      "sha256": "b43b8f8410f2845ef2bf3aa4ce3891f11f9b16f0276be653317535ac10706dc2"
+    },
+    {
+      "path": "WaterSmart_Research/raw/bgs_nhs_download.txt",
+      "bytes": 1506,
+      "sha256": "4e85ca170818a625c733ff5f4ce69682a8259dfaae2f1ab8a686ead245735a6c"
+    },
+    {
+      "path": "WaterSmart_Research/raw/bgs_reports.html",
+      "bytes": 75946,
+      "sha256": "700651a22e12e5b377ea5424959a328e0d3e71b17b95080c948606d60ef402c6"
+    },
+    {
+      "path": "WaterSmart_Research/raw/bgs_reports.txt",
+      "bytes": 4281,
+      "sha256": "feeccc0e1f1f7907f9b911aa3cfa4da77bb7026f845dc7260c79037b1dfecb5c"
+    },
+    {
+      "path": "WaterSmart_Research/raw/bgs_vol2_download.html",
+      "bytes": 66800,
+      "sha256": "3b70215d1493c53256d50f5b83b0822f814fa9f2c2c36090f77bf85001424f39"
+    },
+    {
+      "path": "WaterSmart_Research/raw/bgs_vol2_download.txt",
+      "bytes": 1645,
+      "sha256": "86bf952a580b091ce675ee0d0d84e34017ec559a21ab2e8f18c6d4d72a4bce32"
+    },
+    {
+      "path": "WaterSmart_Research/raw/bgs_vol2_final_report.pdf",
+      "bytes": 31985633,
+      "sha256": "a0ad511765add547764199ecc2dd830e9a9095b9b52b492f20b1d505d10f3a30"
+    },
+    {
+      "path": "WaterSmart_Research/raw/bgs_vol2_final_report.txt",
+      "bytes": 1284118,
+      "sha256": "f40590d5422f657d9e8eff815cc38dc9fb485016c30a43c1c0c4753a6cd9169e"
+    },
+    {
+      "path": "WaterSmart_Research/raw/bgs_vol4_data_compilation.pdf",
+      "bytes": 2184364,
+      "sha256": "2c99d34eded8eb3b3a722c69055195d3169d81fe3b21ffbd8f5d5af98675bc2c"
+    },
+    {
+      "path": "WaterSmart_Research/raw/bgs_vol4_data_compilation.txt",
+      "bytes": 1367026,
+      "sha256": "8b6e55b27c5e738db220cc771a1e0a6428a7ad68aa3c8fa1e32393b6ea5a1e4d"
+    },
+    {
+      "path": "WaterSmart_Research/raw/bgs_vol4_download.html",
+      "bytes": 66749,
+      "sha256": "d77b6b9891ac6f8fea2abd0dda8ad8bd85cdac7678a99cbbf102af5339449871"
+    },
+    {
+      "path": "WaterSmart_Research/raw/bgs_vol4_download.txt",
+      "bytes": 1660,
+      "sha256": "2fec2327d825cfba4652af4459c9dd88ee220c0c3957decea44c7df061a6d4b1"
+    },
+    {
+      "path": "WaterSmart_Research/raw/bwdb_groundwater_quality_335m.pdf",
+      "bytes": 11997194,
+      "sha256": "8156f99d358a0266dc3a4afad1b284a0d3a79d74771941518dad39b8f42564ba"
+    },
+    {
+      "path": "WaterSmart_Research/raw/bwdb_groundwater_quality_335m.txt",
+      "bytes": 268492,
+      "sha256": "6d615e18772951fb990ed743c1bef00b67d8e29197b3fed37e4e8b04ec7fef65"
+    },
+    {
+      "path": "WaterSmart_Research/raw/coastal_perceptions_2025.html",
+      "bytes": 863132,
+      "sha256": "f73bd6398c3da1c2957038aaa1761bba3b7530ae8192648ea5abef2ef37afc97"
+    },
+    {
+      "path": "WaterSmart_Research/raw/coastal_perceptions_2025.txt",
+      "bytes": 61449,
+      "sha256": "346c6ff6fbbef0c62bde1b977cbfbe583c6de7ad06d8a3c33f4ab007fdb730a5"
+    },
+    {
+      "path": "WaterSmart_Research/raw/consumer_shampoo_khanam_rahman_2022.pdf",
+      "bytes": 494965,
+      "sha256": "972e68b7500364e2122b46993274e834e5bc80540556f933b3f220f5bb0915de"
+    },
+    {
+      "path": "WaterSmart_Research/raw/consumer_shampoo_khanam_rahman_2022.txt",
+      "bytes": 41604,
+      "sha256": "50d647c2b052a02d3bdb3e5028f0eee2dd0411d3e9f052d28b5021867c5722b0"
+    },
+    {
+      "path": "WaterSmart_Research/raw/cosmetics_act_2023.html",
+      "bytes": 305821,
+      "sha256": "0ce7b11b17423b6ca74658678fc5efb892787f3ac26839a40606ab21b1aeafda"
+    },
+    {
+      "path": "WaterSmart_Research/raw/cosmetics_act_2023.txt",
+      "bytes": 183943,
+      "sha256": "9a88f40cd9b841a16bdf4a5976b771b55f548a33425b952ad0aad422f5fff13d"
+    },
+    {
+      "path": "WaterSmart_Research/raw/cosmetics_rules_2026_draft.pdf",
+      "bytes": 1617609,
+      "sha256": "f76710121fc0b85f797547ea0894265770056c4e4e96081a96462c7e4987ec3c"
+    },
+    {
+      "path": "WaterSmart_Research/raw/cosmetics_rules_2026_draft.txt",
+      "bytes": 345260,
+      "sha256": "a10043111ba8ecb57ecf514669bcd4a49880aa8e934eb594c593f9daa6226a12"
+    },
+    {
+      "path": "WaterSmart_Research/raw/dhaka_water_iccei_2025.pdf",
+      "bytes": 544912,
+      "sha256": "d6d090fdd6c61976789e12b9eabed270b5db6c9cf62ec8e7e52c4300370083c6"
+    },
+    {
+      "path": "WaterSmart_Research/raw/dhaka_water_iccei_2025.txt",
+      "bytes": 23409,
+      "sha256": "d3d116f9b8009b656cc8c6a151d0eaf2bd27ae7c2ef242a3a2b28b068cf9aae3"
+    },
+    {
+      "path": "WaterSmart_Research/raw/dove_hwd_official.html",
+      "bytes": 162555,
+      "sha256": "c7faa97b1b9f713a8fbe8eba0779c1478df0a230d363a89209c131a93b34486c"
+    },
+    {
+      "path": "WaterSmart_Research/raw/dove_hwd_official.txt",
+      "bytes": 4511,
+      "sha256": "81bff699a5682cbeb1ba76199b41412a70ebe5a0809917ec5d53266c4d2acbe4"
+    },
+    {
+      "path": "WaterSmart_Research/raw/epr_gazette_landing.html",
+      "bytes": 43367,
+      "sha256": "1a02ebf32abe7d6c01a2af42c8dfc1256ead64b1cccb39fc4bbfe5223f216dc3"
+    },
+    {
+      "path": "WaterSmart_Research/raw/epr_gazette_landing.txt",
+      "bytes": 1769,
+      "sha256": "e61e2e74f8113bfdda8c3c208a6c21fd22187d04f288af5095335624a53de5a8"
+    },
+    {
+      "path": "WaterSmart_Research/raw/epr_guidelines_2026_sro293.pdf",
+      "bytes": 432548,
+      "sha256": "3d776093d3171d06bf247a5939e00e7f326114d4349e1dfab09b1ea20c58276c"
+    },
+    {
+      "path": "WaterSmart_Research/raw/epr_guidelines_2026_sro293.txt",
+      "bytes": 39599,
+      "sha256": "a0c2c4ef542fe0d5f08bdd1da1701bc8528ddaacaee2c9777d5dbf3f64eb5f56"
+    },
+    {
+      "path": "WaterSmart_Research/raw/glda_makingcosmetics_factsheet.pdf",
+      "bytes": 84518,
+      "sha256": "bacee401a3c3f9158c1259b28661ba0c937206a1c8e8f5618c04b2e1c039413a"
+    },
+    {
+      "path": "WaterSmart_Research/raw/glda_makingcosmetics_factsheet.txt",
+      "bytes": 2831,
+      "sha256": "380da19ecb6c7ec64058a3c4349e8f79a966df344c8ddecc360cf1b1fddec14c"
+    },
+    {
+      "path": "WaterSmart_Research/raw/glda_nouryon_pds.pdf",
+      "bytes": 158048,
+      "sha256": "47e96cb86ee4d2e16013ebf91e1bb860f62063d28444f833cd8513ddb2e8561d"
+    },
+    {
+      "path": "WaterSmart_Research/raw/hair_water_pubmed_records.xml",
+      "bytes": 70057,
+      "sha256": "8f2b7f3024738ee18b232db8de422bc6c2c5c6805c03617e7efffbd20731d227"
+    },
+    {
+      "path": "WaterSmart_Research/raw/hsd_cosmetics_draft_notice.html",
+      "bytes": 81220,
+      "sha256": "a9ae89ab1539846401d7b0fe27238c71baabdb609bed39acbee937b5ac2003f9"
+    },
+    {
+      "path": "WaterSmart_Research/raw/hsd_cosmetics_draft_notice.txt",
+      "bytes": 8907,
+      "sha256": "46ff5e59b76b343f27e33d8db530dddeccd4426f81fe4669931f9153381cd075"
+    },
+    {
+      "path": "WaterSmart_Research/raw/malibu_official_shampoo.html",
+      "bytes": 360312,
+      "sha256": "836e155c3be27bff74e32782e8f0168172105d191bcf8f9b53557c7b9e81952c"
+    },
+    {
+      "path": "WaterSmart_Research/raw/malibu_official_shampoo.txt",
+      "bytes": 5650,
+      "sha256": "9b49793ec59f3821ecc95695f17ca075201af81d1805a6d196534f126b68f58d"
+    },
+    {
+      "path": "WaterSmart_Research/raw/marico_bd_about_20261009.html",
+      "bytes": 97942,
+      "sha256": "a28fc0b46d7863f319c8923fc31ae649d7a99008f56b0b66e89a813a83747751"
+    },
+    {
+      "path": "WaterSmart_Research/raw/marico_bd_about_20261009.txt",
+      "bytes": 4026,
+      "sha256": "52717cacecfdbfb6ea24dfe077dfbc0b6ba35eb972f6ed8571318eeaa5a43fbd"
+    },
+    {
+      "path": "WaterSmart_Research/raw/marico_bd_annual_2025.pdf",
+      "bytes": 57652190,
+      "sha256": "0c5138bc47f61127515600e4951330a3502e5aec78879feb3901d22b1d25a63b"
+    },
+    {
+      "path": "WaterSmart_Research/raw/marico_bd_annual_2025.txt",
+      "bytes": 524110,
+      "sha256": "4c681ee7a44f5faa6f6e89d905e435ecd3507a09b1e15ee30da55c3a87266d70"
+    },
+    {
+      "path": "WaterSmart_Research/raw/marico_bd_annual_fy26.pdf",
+      "bytes": 55590322,
+      "sha256": "8e402d9013c9642c1bdbd0eb8cfa54fc42c94581c8df18e071cf93f1bcf1370e"
+    },
+    {
+      "path": "WaterSmart_Research/raw/marico_bd_annual_fy26.txt",
+      "bytes": 565623,
+      "sha256": "d008665dd4bada078ae13c4b7b4e9935fa4938cba8a1044039051432dfa089ef"
+    },
+    {
+      "path": "WaterSmart_Research/raw/marico_bd_q3_fy26.pdf",
+      "bytes": 7687300,
+      "sha256": "45b20f60c34657888380dcd1c7efc2bc67f784b1f76c2ae907dcb63f07779fb9"
+    },
+    {
+      "path": "WaterSmart_Research/raw/marico_bd_q3_fy26.txt",
+      "bytes": 962,
+      "sha256": "2847e0b01f93349c79c1110e28ab24f5293d3410748b974fe4f763bc0cd4b6f0"
+    },
+    {
+      "path": "WaterSmart_Research/raw/market_euromonitor_haircare.html",
+      "bytes": 215602,
+      "sha256": "1c7fc0632930f6e557cd9cf659a7b75ee16cc60e1ae6c1273b58989b60545060"
+    },
+    {
+      "path": "WaterSmart_Research/raw/market_euromonitor_haircare.txt",
+      "bytes": 17150,
+      "sha256": "65e3e0cb15ce0ddb6ba516221d4f38e9556f1fbbb8f4dcd979d2b7d0395cb06d"
+    },
+    {
+      "path": "WaterSmart_Research/raw/market_mordor_20261009.html",
+      "bytes": 225408,
+      "sha256": "5b870804ec7235dc2f40f8138b7e1f7f89fe1587b7556055415622ca1904d719"
+    },
+    {
+      "path": "WaterSmart_Research/raw/market_mordor_20261009.txt",
+      "bytes": 42249,
+      "sha256": "acc671987404e03df92c76f44864647d43a6b77d86ef503de2c7f76aad5403f2"
+    },
+    {
+      "path": "WaterSmart_Research/raw/market_vmr_20261009.html",
+      "bytes": 355623,
+      "sha256": "18c53ef3f7d50ac1d8861156c0408a11793380b7b28e7486d4cd45bc35a8b0fc"
+    },
+    {
+      "path": "WaterSmart_Research/raw/market_vmr_20261009.txt",
+      "bytes": 74780,
+      "sha256": "cbca2e196c3f9a8b809b91bf4d4600136ca4646b0ec6488139650d32a6847f86"
+    },
+    {
+      "path": "WaterSmart_Research/raw/nbr_vat_exemption_sro127_2026.pdf",
+      "bytes": 764925,
+      "sha256": "d9efa518e634183976913c66bcb9bc0264797ddbfeb46a30e960c0262d36359d"
+    },
+    {
+      "path": "WaterSmart_Research/raw/nbr_vat_exemption_sro127_2026.txt",
+      "bytes": 84940,
+      "sha256": "8e613edf0dc2e78d667443655a1b9a8e02affe8ea5a6cfc7376e9a3bef3bcf68"
+    },
+    {
+      "path": "WaterSmart_Research/raw/nbr_vat_faq.html",
+      "bytes": 584943,
+      "sha256": "5b34ad267f7fb803ebe8b99adff14e41fe3613e84889a4ca16d7e2f47b7ed6ca"
+    },
+    {
+      "path": "WaterSmart_Research/raw/nbr_vat_faq.txt",
+      "bytes": 276592,
+      "sha256": "0618fdc2953df1a4b39c474b4fdeb713fe82d4fb64a93a7a8a75c1ffac76690a"
+    },
+    {
+      "path": "WaterSmart_Research/raw/nbr_vat_rules_sro125_2026.pdf",
+      "bytes": 1048549,
+      "sha256": "1d8619d25a630a9cd1b99ee4eefe93262edeea6a81d9df040b63823ae903a459"
+    },
+    {
+      "path": "WaterSmart_Research/raw/nbr_vat_rules_sro125_2026.txt",
+      "bytes": 59101,
+      "sha256": "dc541b80f4075600466032d91c545e0476d29a9c032a16c784feb1245a4cbda8"
+    },
+    {
+      "path": "WaterSmart_Research/raw/nbr_vat_sro_directory.html",
+      "bytes": 259205,
+      "sha256": "f12abe60c5279531cf3e9fd6f958bbcb255b952868c0129596a117c27f1c7bd5"
+    },
+    {
+      "path": "WaterSmart_Research/raw/nbr_vat_sro_directory.txt",
+      "bytes": 33686,
+      "sha256": "fe7374196e485c339da9aeb99c278f2711e90867ad6a537f33b2b140114455c1"
+    },
+    {
+      "path": "WaterSmart_Research/raw/nouryon_dissolvine_product_guide.pdf",
+      "bytes": 11726177,
+      "sha256": "eaca1245d412d196596c68c37c6c5d10a77c9e310ca4c52ebb43e8d5b9195281"
+    },
+    {
+      "path": "WaterSmart_Research/raw/nouryon_dissolvine_product_guide.txt",
+      "bytes": 34175,
+      "sha256": "4153e180d32c4dcc7de5a44b5c290d6efb6ea24e276620eb978328dffdca49c5"
+    },
+    {
+      "path": "WaterSmart_Research/raw/retail_arogga_marico.html",
+      "bytes": 565381,
+      "sha256": "5d2e83ce65506eb11d0c3c1b64f3e19db1a4be3f4faa2c2b95b3d5d79b01d77b"
+    },
+    {
+      "path": "WaterSmart_Research/raw/retail_arogga_marico.txt",
+      "bytes": 19901,
+      "sha256": "cc18c84edf93a5f1300fcaceb07a4ee1e3b698958a544ac349c2ecd65b6268ee"
+    },
+    {
+      "path": "WaterSmart_Research/raw/retail_arogga_marico_json_0.json",
+      "bytes": 535,
+      "sha256": "3fb323b255b5462c7e22d43327e2796b5bbe9116c1991a7d2bf912dfc4f87e58"
+    },
+    {
+      "path": "WaterSmart_Research/raw/retail_arogga_marico_json_1.json",
+      "bytes": 32287,
+      "sha256": "f7b1d310deb1c51eabcf934947943e60350db7b7ff2c0eb9cd255478b593628f"
+    },
+    {
+      "path": "WaterSmart_Research/raw/retail_arogga_marico_json_2.json",
+      "bytes": 1973,
+      "sha256": "a98cb392041335d1a1ad8f62d1b3c25ffc4cedf4eb7ef838c2322be7db5bbd67"
+    },
+    {
+      "path": "WaterSmart_Research/raw/retail_arogga_marico_json_3.json",
+      "bytes": 686,
+      "sha256": "fefe8a0de3b4b511398f8dea8ad01ce862d1ee17d7782f6b3555e85f112bfc17"
+    },
+    {
+      "path": "WaterSmart_Research/raw/retail_chaldal_cp2.html",
+      "bytes": 2078495,
+      "sha256": "7efb2a5a7f0664bae2062a6ea1cfeb54a334005821d4e9b6c93c7cddda0997fc"
+    },
+    {
+      "path": "WaterSmart_Research/raw/retail_chaldal_cp2.txt",
+      "bytes": 3603,
+      "sha256": "b90cf0337cde7db73dfeb6beec85c75e886c35ba8dc3ac0959c79e4dff3d05d0"
+    },
+    {
+      "path": "WaterSmart_Research/raw/retail_chaldal_marico.html",
+      "bytes": 2063710,
+      "sha256": "ca727a694d8de04dbe26fc178c3b2627089ed219acda70dab00a51a792bcaae5"
+    },
+    {
+      "path": "WaterSmart_Research/raw/retail_chaldal_marico.txt",
+      "bytes": 3892,
+      "sha256": "23166df9f8051eed3dfd30d5ecc2385e837e8bc24d46800a37ba2f3720749706"
+    },
+    {
+      "path": "WaterSmart_Research/raw/retail_cutprice_pantene_hardwater.html",
+      "bytes": 323912,
+      "sha256": "a28fee992559079a22369ee73742189d48ca723f3850bf601f6d34b49ddf8796"
+    },
+    {
+      "path": "WaterSmart_Research/raw/retail_cutprice_pantene_hardwater.txt",
+      "bytes": 23859,
+      "sha256": "2a7ce314f9fd9335be66ba4cba5e0cac82c316fa08b879390727c0f220aa2d1e"
+    },
+    {
+      "path": "WaterSmart_Research/raw/retailer_naturale_inci_lead.html",
+      "bytes": 406021,
+      "sha256": "1a06843f7cc96de103c0d9e49eb2cfd7280f5fa5bfdaac88e05575cdc78482fe"
+    },
+    {
+      "path": "WaterSmart_Research/raw/retailer_naturale_inci_lead.txt",
+      "bytes": 15563,
+      "sha256": "4b11c3aeebabde136a9db0b9a1470d5b074e0c4dddcc5d2b49f8e8b246782822"
+    },
+    {
+      "path": "WaterSmart_Research/raw/strip_bartovation_oem.html",
+      "bytes": 249603,
+      "sha256": "27d45c776e5b4690ebb260445f607ca2e28b1d5ba0d2ebcb69e3601d5f39029d"
+    },
+    {
+      "path": "WaterSmart_Research/raw/strip_bartovation_oem.txt",
+      "bytes": 8107,
+      "sha256": "81daf19b537af0eaa85086a82ff74c7f4323dc983dbea6da7d1970ff32dead9e"
+    },
+    {
+      "path": "WaterSmart_Research/raw/strip_lamotte_foil.html",
+      "bytes": 234386,
+      "sha256": "e7603a652bcc802b5b607da6594316daecc79d17d975bed3e704bb318abce5b3"
+    },
+    {
+      "path": "WaterSmart_Research/raw/strip_lamotte_foil.txt",
+      "bytes": 6015,
+      "sha256": "62d4b0932b6730c1b852169b5a7d1c7331bf441884691b5be301414903de3f5f"
+    },
+    {
+      "path": "WaterSmart_Research/raw/strip_mn_91224.html",
+      "bytes": 580133,
+      "sha256": "058eca295f4e491fb77ca754d85c7894268e28a8280936955ce70e36cec053dc"
+    },
+    {
+      "path": "WaterSmart_Research/raw/strip_mn_91224.txt",
+      "bytes": 10764,
+      "sha256": "0014c620b1dbbd42f12c886da49f3f091626e83d563922e0045a4020b73e2edb"
+    },
+    {
+      "path": "WaterSmart_Research/raw/strip_precision_hardness.html",
+      "bytes": 2015670,
+      "sha256": "71c0e598c1f24cd7707c4de5fcb03ee928c751ffb445b13a812a2fd4595ff05d"
+    },
+    {
+      "path": "WaterSmart_Research/raw/strip_precision_hardness.txt",
+      "bytes": 3826,
+      "sha256": "c26d3b8abeff888ea52570968b07eeb4093760c5ba0957b9b728011efadee39b"
+    },
+    {
+      "path": "WaterSmart_Research/raw/user_opinions_20261009.md",
+      "bytes": 5045,
+      "sha256": "f17279fb89d5213734fac987814cae7291743be270ec489cd56f22aaaf90f93e"
+    },
+    {
+      "path": "WaterSmart_Research/raw/usgs_hardness.html",
+      "bytes": 159226,
+      "sha256": "30c16da31fb60ab392c496759047f2a5937856fea19905ad47f9fd39ba42bda0"
+    },
+    {
+      "path": "WaterSmart_Research/raw/usgs_hardness.txt",
+      "bytes": 23130,
+      "sha256": "cf28cb444943464a551d0ded04c4ae2ed6815f0c03e9c98e32e3ff6c85dc97a0"
+    },
+    {
+      "path": "WaterSmart_Research/raw/usgs_hardness_formula_2006.pdf",
+      "bytes": 6488164,
+      "sha256": "76f016290a5b130e4732d0bbeb0a6ce2b7e515e177d34d2a88cb482ccb0f7132"
+    },
+    {
+      "path": "WaterSmart_Research/raw/usgs_hardness_formula_2006.txt",
+      "bytes": 572111,
+      "sha256": "1279f0f6d14742db257c65e74b464e1b24a744e13c8153b347a9c0ec2b76dc56"
+    },
+    {
+      "path": "WaterSmart_Research/raw/vat_sd_act_2012_current.html",
+      "bytes": 1054350,
+      "sha256": "53ac2ac82af130a8590a9f39cf763d2a428024c1a65de67097a17e3d5c5edcf4"
+    },
+    {
+      "path": "WaterSmart_Research/raw/vat_sd_act_2012_current.txt",
+      "bytes": 501260,
+      "sha256": "e66cccd5d097fe9576a720098be72187823ba8e87a857d25ccbaa1f394a61d71"
+    },
+    {
+      "path": "WaterSmart_Research/raw/vat_sd_act_english_2026posted.pdf",
+      "bytes": 962412,
+      "sha256": "66246865737e8390b456e9928abc6a8b70b44ab1628335bba2d18e748e518a0c"
+    },
+    {
+      "path": "WaterSmart_Research/raw/vat_sd_act_english_2026posted.txt",
+      "bytes": 348899,
+      "sha256": "fc519f7be3f9acd88de75ee5bd92d77f60b9c547648496bfe7c43f701c02c246"
+    },
+    {
+      "path": "WaterSmart_Research/raw/vat_sd_schedules_current_20260827.pdf",
+      "bytes": 2529508,
+      "sha256": "f0844a9c74e8c93ab9ab6f2b3bac77ad75ba525a00dadaf36f5e56e3a3b88e48"
+    },
+    {
+      "path": "WaterSmart_Research/raw/vat_sd_schedules_current_20260827.txt",
+      "bytes": 247608,
+      "sha256": "32243740883a958165588fe96a8e1ffe94daf4f8b8ef91c1f468be2bd3de9ed2"
+    },
+    {
+      "path": "WaterSmart_Research/raw/web_01_water_consumer_search.json",
+      "bytes": 39060,
+      "sha256": "ca97336b9629faf08c9c58997a055beb2f67c376e8abbd523581bf32520efa00"
+    },
+    {
+      "path": "WaterSmart_Research/raw/web_02_metadata_surveys_marico.json",
+      "bytes": 31679,
+      "sha256": "eb6445a2dddbb7716ce283a3d624e50980b8e64d31325175ba9ced5fedf6734d"
+    },
+    {
+      "path": "WaterSmart_Research/raw/web_03_water_raw_reports.json",
+      "bytes": 31859,
+      "sha256": "e9da4536d00e2d44ef61503528fe01d7bce30f0dfc0f801c6ec73be15a42cdc4"
+    },
+    {
+      "path": "WaterSmart_Research/raw/web_04_primary_downloads_salinity.json",
+      "bytes": 34300,
+      "sha256": "8b9814edaacba03a9b6842fbc9468cab71934d38130e6abf5ad99d96b0544f9b"
+    },
+    {
+      "path": "WaterSmart_Research/raw/web_05_market_competitor_regulatory.json",
+      "bytes": 33519,
+      "sha256": "5eb74f40e2aeeac07f1d72bed7ed831d980c8b20c82b24ad0b5bd87c6811110f"
+    },
+    {
+      "path": "WaterSmart_Research/raw/web_06_official_regulatory_tax_search.json",
+      "bytes": 30865,
+      "sha256": "d91be56cfc162dd099ac929e712b1847d581a99c51996f11cf2028ab344bb893"
+    },
+    {
+      "path": "WaterSmart_Research/raw/web_07_hair_science_retail.json",
+      "bytes": 32528,
+      "sha256": "4be2f99d58c21e974392a4eadbabd9f4e64b132e46aa3aa88710daa4c3f05635"
+    },
+    {
+      "path": "WaterSmart_Research/raw/web_08_technical_supply_consumer.json",
+      "bytes": 33095,
+      "sha256": "17a13c9b9f302557e2fbcf68348b39ec6976045e6abdde0501bee9991fc0e6e2"
+    },
+    {
+      "path": "WaterSmart_Research/raw/web_09_tax_cosmetics_epr_status.json",
+      "bytes": 39595,
+      "sha256": "4dc96c2629e8a9a6ad5bbf3656105779fbadfc2cbfcaf410fa25448983484987"
+    },
+    {
+      "path": "WaterSmart_Research/raw/web_10_primary_tax_strip_retail.json",
+      "bytes": 37905,
+      "sha256": "a8c795139258f7c474e64e59a38e6c7697a9054fbcac4ac8307bbd5181199ac6"
+    },
+    {
+      "path": "WaterSmart_Research/raw/web_11_vat_act_identification.json",
+      "bytes": 48113,
+      "sha256": "d9e0fed8bc59e9d8b2a91fbf1a73734dc4c37282b54a66022919d2790a7e57da"
+    },
+    {
+      "path": "WaterSmart_Research/raw/web_12_vat_schedule_supply_retail.json",
+      "bytes": 32198,
+      "sha256": "8087e2960b47beaf97a555336a7c45525f7e58103ee6ec990b0f92a3a8714602"
+    },
+    {
+      "path": "WaterSmart_Research/raw/web_13_population_current_water_affordability.json",
+      "bytes": 34058,
+      "sha256": "928279257effec9a4d0d4f1a8e45f6bc4640d58a553db43a53f64b55d5a822a1"
+    },
+    {
+      "path": "WaterSmart_Research/raw/web_14_supplier_specifications.json",
+      "bytes": 28508,
+      "sha256": "fb2e234a08a39d9f8e26545ff50b2fafad55428cae7a5cd2b8b98d0bb0e343fc"
+    },
+    {
+      "path": "WaterSmart_Research/raw/web_15_tax_schedules_competitor_prices.json",
+      "bytes": 34372,
+      "sha256": "ec49d83e1d5886c4b4ac5fe7650625536f520d14d7b2833f45a64a349fb44717"
+    },
+    {
+      "path": "WaterSmart_Research/raw/web_16_vat_schedule_census_metadata.json",
+      "bytes": 29311,
+      "sha256": "e6bbd022fb65993b7627eb4c7a520bfd3545517d5258918320c2851f393c017b"
+    },
+    {
+      "path": "WaterSmart_Research/raw/web_17_sd_schedule_search.json",
+      "bytes": 21785,
+      "sha256": "85a6966d725eeec0eaa83033896248ad5d6f58842aebbbba1913560beda863a7"
+    },
+    {
+      "path": "WaterSmart_Research/raw/web_18_sd_verified_schedule_exemptions.json",
+      "bytes": 41004,
+      "sha256": "7a6852ac105e8dbfd6068819a3b6ecf1f3b68b733c3ced7e503469602d743f09"
+    },
+    {
+      "path": "WaterSmart_Research/raw/web_19_remaining_regulatory_survey_search.json",
+      "bytes": 41945,
+      "sha256": "5a17c3de9607de9704ab6fb0ac3bbcf919e814649d6996d07960fbafaef21500"
+    },
+    {
+      "path": "WaterSmart_Research/raw/web_20_epr_gazette_imported_listing.json",
+      "bytes": 33258,
+      "sha256": "bbf9fb71eaf2885ee6bd7e0b56706053450ed21037cda3ca5818da0fdc0cdecc"
+    },
+    {
+      "path": "WaterSmart_Research/raw/web_21_epr_original_competitor_conflicts.json",
+      "bytes": 29164,
+      "sha256": "98ba83de9cd116fdaa5a6b53dff4908f5c0676351f2909c91ab0dbe67329aeb1"
+    },
+    {
+      "path": "WaterSmart_Research/raw/web_22_bsti_cosmetics_current_inci.json",
+      "bytes": 29740,
+      "sha256": "b03220db463aa865b92d38be3ef81a4a1e0023b26920d79fbcfdb54c2e887c4e"
+    },
+    {
+      "path": "WaterSmart_Research/raw/web_23_shampoo_standard_final_rules_search.json",
+      "bytes": 26201,
+      "sha256": "865b6bd3f083b2d40b68844e8022bb6ab63b3412c07b15e2d5030506886524fd"
+    },
+    {
+      "path": "WaterSmart_Research/raw/web_24_recent_water_salinity_relevance.json",
+      "bytes": 38408,
+      "sha256": "679fa1199aacc0a78ad71e6bd50a9f38d0f7164fc660b7d3d5c6fac6eb4f30b5"
+    },
+    {
+      "path": "WaterSmart_Research/raw/web_25_local_water_counterevidence.json",
+      "bytes": 26180,
+      "sha256": "6ce65af0c1d544fcc96c6abf77b61c90827356a803483ba2bf98ba5947e28af0"
+    },
+    {
+      "path": "WaterSmart_Research/README.md",
+      "bytes": 4411,
+      "sha256": "3bcc25acd3b113ab46e6f9faef2c31e7a3d971a9d2eed788a25ff98602134cdf"
+    },
+    {
+      "path": "WaterSmart_Research/scripts/analyse_water.py",
+      "bytes": 8033,
+      "sha256": "8d46c6b0140485bc99236d21b88c6a9e6a4b62338ee14d044b4d4d82c6780458"
+    },
+    {
+      "path": "WaterSmart_Research/scripts/annotate_prior_reviews.py",
+      "bytes": 2194,
+      "sha256": "ccc9a4b6fb59364646479bb51edebe1353a3f45138197ba8d7a8d8c53e4b5348"
+    },
+    {
+      "path": "WaterSmart_Research/scripts/build_dictionary.py",
+      "bytes": 12585,
+      "sha256": "1c02f01ec9c1a9fd45b1dbadd9f3d543376697378ca00c82e9cc59417933a877"
+    },
+    {
+      "path": "WaterSmart_Research/scripts/build_registers.py",
+      "bytes": 10865,
+      "sha256": "70adfa96ac2ba9d398be371ba33c57ea48c2f8871416f6d49be55ec3e0ab274b"
+    },
+    {
+      "path": "WaterSmart_Research/scripts/build_study_data.py",
+      "bytes": 9657,
+      "sha256": "61e1dffb0f3ee1232dc6fd342c052693ccaec48369fa8da189b90239e6122071"
+    },
+    {
+      "path": "WaterSmart_Research/scripts/build_viewer.py",
+      "bytes": 1323,
+      "sha256": "a91cd87b3da8233df1ed2a701bb95e1b3c16a9cf458fb033883cd0bf707054a8"
+    },
+    {
+      "path": "WaterSmart_Research/scripts/collect_sources.py",
+      "bytes": 3605,
+      "sha256": "0306691990d40811735d0eded77331dfbde6239a319e7841907a77f91c59ca54"
+    },
+    {
+      "path": "WaterSmart_Research/scripts/finalize_research.py",
+      "bytes": 12395,
+      "sha256": "8bcfdc3a0d01199362c50a107df38f5226f966de635d6cf885825e7403fcfe9a"
+    },
+    {
+      "path": "WaterSmart_Research/scripts/finance_overlays.cjs",
+      "bytes": 5427,
+      "sha256": "ee5eb380c869e59d47ab70caefb8bcf8443a8968c98cedf2ffa5cb863f700013"
+    },
+    {
+      "path": "WaterSmart_Research/scripts/harvest_retail.py",
+      "bytes": 5748,
+      "sha256": "c568c4735b0f41320cdac52ab02f297387915527a9c065c4a3c04711b6119f28"
+    },
+    {
+      "path": "WaterSmart_Research/scripts/integrate_research.py",
+      "bytes": 25142,
+      "sha256": "ad8457d735dfc49a95aed5518258d3884f33e3d1aeb7eb873f2d58408ba35f37"
+    },
+    {
+      "path": "WaterSmart_Research/scripts/polish_research.py",
+      "bytes": 23321,
+      "sha256": "142b81f280aa82fe71cd8823e10bdaa1502a0512465cf88ec9e9276a832ef6d1"
+    },
+    {
+      "path": "WaterSmart_Research/scripts/qa_dom.cjs",
+      "bytes": 4867,
+      "sha256": "c09f1694bc66a58dd397256ca364d760aef59084cc677c44a75179a3333ae841"
+    },
+    {
+      "path": "WaterSmart_Research/scripts/qa_research.py",
+      "bytes": 7514,
+      "sha256": "9e3023c3013bcf1925b78c5d8ee804ac53c435c544dd6add7edd7f07f6836ecc"
+    },
+    {
+      "path": "WaterSmart_Research/scripts/viewer_template.html",
+      "bytes": 27978,
+      "sha256": "65942b47f1e3bd3ca4873d81d5e5998fdeac164572b1741e7edcf0312317bae7"
+    },
+    {
+      "path": "WaterSmart_Research/sources_to_download_01.json",
+      "bytes": 2208,
+      "sha256": "864a83ded907e773ebcde0813d7aa773f63ebef29c40ba0a362a26cbeb313294"
+    },
+    {
+      "path": "WaterSmart_Research/sources_to_download_02.json",
+      "bytes": 492,
+      "sha256": "386c4bb67e8f7912f1dea8ffe6ee6364b8b4853c9def1316baa61cb9ac342771"
+    },
+    {
+      "path": "WaterSmart_Research/sources_to_download_03.json",
+      "bytes": 976,
+      "sha256": "9a424ee927e6f378dabf52da7258887d9d750eefd14df56e75bae30d57217457"
+    },
+    {
+      "path": "WaterSmart_Research/sources_to_download_04.json",
+      "bytes": 3634,
+      "sha256": "d689f7662db2538f7490fad4053d24e94adac273eb36d1edeacded7ee96404aa"
+    },
+    {
+      "path": "WaterSmart_Research/sources_to_download_05.json",
+      "bytes": 2175,
+      "sha256": "86970a5b8ab292c3c8da8c567a2c93dc6f044e8e57bbd8fbcddda301bc61e5fa"
+    },
+    {
+      "path": "WaterSmart_Research/sources_to_download_06.json",
+      "bytes": 1758,
+      "sha256": "d7d19e9ac610e0249963e6852af960309a861e6cacba5cec3acc9ce26d8bb7d9"
+    },
+    {
+      "path": "WaterSmart_Research/sources_to_download_07.json",
+      "bytes": 442,
+      "sha256": "f05513d6c000ad9cbb34142ddffcdf22958cd57f876390dca0d811ea3249e3d8"
+    },
+    {
+      "path": "WaterSmart_Research/sources_to_download_08.json",
+      "bytes": 952,
+      "sha256": "5401a5c5b28542bf77d427de377a9635297988bf2b588dab4e7f6f11cef854e5"
+    },
+    {
+      "path": "WaterSmart_Research/sources_to_download_09.json",
+      "bytes": 517,
+      "sha256": "ba0fa36a79e3998750a9695dedf6811a60ee69deab869114678b982ad5f8f888"
+    },
+    {
+      "path": "WaterSmart_Research/sources_to_download_10.json",
+      "bytes": 1400,
+      "sha256": "5f4b1c906824a9b53738c6a356acc67b33abdd51238c1212f5a5104f630aa477"
+    },
+    {
+      "path": "WaterSmart_Research/sources_to_download_11.json",
+      "bytes": 739,
+      "sha256": "5a0211171f311e7ecb4cf1e8a171f31527fa836b9784a2d4828b235c48a6c674"
+    },
+    {
+      "path": "WaterSmart_Research/sources_to_download_12.json",
+      "bytes": 1426,
+      "sha256": "f6955c29264b472819a32eff60b4806e80ce6deef437ff5e8a6448f6f33f643d"
+    },
+    {
+      "path": "WaterSmart_Research/state.json",
+      "bytes": 3816,
+      "sha256": "0573e9f3ca92805ac5fdbad025f1b62f082a199f6cdcc7cc65856d6addf7ab95"
+    },
+    {
+      "path": "WaterSmart_Research/WaterSmart_Research_Report.md",
+      "bytes": 41038,
+      "sha256": "8c2aa71bb440d5ec743a28536a37f33f7f4a8afed09f1b829eb24eac2cfbbd55"
+    },
+    {
+      "path": "WaterSmart_Research/WaterSmart_Research_Viewer.html",
+      "bytes": 1675847,
+      "sha256": "2ec99d5534007f0fc44841d1b3489383b4cc2da119e56de543f9ed5eb5b689c7"
+    },
+    {
+      "path": "WaterSmart_v3_Financial_Check.json",
+      "bytes": 22356,
+      "sha256": "c373b1f31b9402c43c1f0b2ff3e88d5005221bd6e25e4346a6f2999d179cf2e6"
+    },
+    {
+      "path": "WaterSmart_v3_Model_Output.json",
+      "bytes": 73111,
+      "sha256": "4db5c2d25dd6e0c59e2c20da0da53cea62d571140618c3ee4f343dd20fb98641"
+    },
+    {
+      "path": "WaterSmart_v3_Review.md",
+      "bytes": 20003,
+      "sha256": "cb9d06fbaa0ab11710ba19b3718fcfeca703e5b0b5ff9807ee6d2919664047cf"
+    }
+  ]
+}

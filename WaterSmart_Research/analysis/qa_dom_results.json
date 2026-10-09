@@ -1,0 +1,6 @@
+{
+  "date": "2026-10-09",
+  "status": "passed",
+  "assertions": 263,
+  "scope": "DOM/scripts,61districtfilters,historicalthana,prices/evidencefilters,5financialscenarios×2releaseviews,keyboardtabs,locallinks,originalHTMLruntime. jsdom only; no browser screenshot or physical/lab test."
+}

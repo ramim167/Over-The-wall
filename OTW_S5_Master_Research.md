@@ -2,7 +2,10 @@
 
 > **Confidentiality:** Sections 3–5 summarise Marico materials marked "Marico Information classification: Official" (case brief, template, masterclass slides). Under the competition T&C §14 these are for use **only** within the competition: do not publish or share outside the team.
 >
-> **Version 3 — last updated:** 9 October 2026 (coherent monthly cash, costed pilot, neutral research and preserved logger data; see **Section 16.4**). **Round 2 deadline: 10 October 2026, 6:00 PM BST.**
+> **Version 3 — last updated:** 9 October 2026 (secondary research and fiscal omission corrected; see **Section 17**; legacy v3 calculation remains archived). **Round 2 deadline: 10 October 2026, 6:00 PM BST.**
+
+<!-- RESEARCH_INTEGRATION_20261009 -->
+> **Research revision, 9 Oct 2026:** Public secondary research is saved in [WaterSmart_Research/WaterSmart_Research_Report.md](WaterSmart_Research/WaterSmart_Research_Report.md). The earlier v3 investment conclusion is withdrawn: it omitted domestic shampoo SD15%. With original operating inputs held fixed, SD15/tax20/fund5 illustration gives NPV **−3.82 / −6.32 Cr**, peak funding **12.20 Cr at M37**. Actual invoice/tax/fund application remains pending. No product trial or team field test has been completed/provided. Five user-confirmed real opinion summaries have consent/date/price-order pending. See **Section 17**, the [viewer](WaterSmart_Research/WaterSmart_Research_Viewer.html) and the full evidence register.
 
 ## 0. How to use this file
 
@@ -638,8 +641,8 @@ The v2 scores are lower because "first in Bangladesh" was removed and the scienc
 1. **Avoids the crowd, keeps a nearby worry.** Most teams will pitch hair-fall oils, serums or applicators. WaterSmart asks whether rough, weak or breaking hair is partly a **water** problem: "দোষ কি চুলের, নাকি পানির?" It does **not** claim water causes hair fall.
 2. **Exact case wording.** Hair Cleansing: "emerging consumer needs and **usage occasions**" (moving to a hostel or new city, migrant life, coastal living). Product **and** packaging innovation.
 3. **Lab-testable claims.** Mineral build-up removal and lather in hard or saline water can be measured. They are **proposed** claims until Marico R&D tests a formula; the breakage claim needs a further study.
-4. **Proven abroad, under-served here.** Dove Hard Water Defense (Gulf); US search trend. In Bangladesh, imported hard-water shampoos appear on cross-border and e-commerce listings at premium prices; our desk search found **no affordable local option** `[VALIDATE: shelf audit]`.
-5. **Marico can make it.** Naturale brand + coconut milk protein + existing shampoo lines (Modify) + sachet GT reach. Export only after each market's registration.
+4. **Existing category abroad; local value remains a question.** Dove and Malibu disclose chelators. Bangladesh import listings show options, not proven demand. Affordable local alternatives, actual stock and novelty require pack/shelf checks.
+5. **Marico has a relevant platform.** Naturale, existing shampoo lines and GT/sachet infrastructure fit. FY26 documents batch/filling improvements; WaterSmart formula, cap/insertion and reserved capacity still need qualification. Export requires each market's registration.
 6. **Three pivots + impact.** Innovation, Diversification, Scaling Up; coastal salinity climate adaptation.
 7. **Memorable demo.** TDS meter, hardness strip and iron strip on hall water; a strip changing colour; a same-shampoo foam test ("same shampoo, different water"); "we tested ▢ water sources".
 
@@ -661,7 +664,7 @@ The v2 scores are lower because "first in Bangladesh" was removed and the scienc
    - Luqman 2016 (PMID 27654734): hard water weakened hair; not a hair-loss finding.
    - Srinivasan 2013 (PMID 24574692): no significant difference between hard and deionized water.
    - All are ex vivo fibre studies; breakage ≠ hair fall.
-3. **Bangladesh water:** BGS/DPHE National Hydrochemical Survey (3,534 boreholes, 61 districts, 1998–1999 sampling; 2001 report); Naser 2018 (654 wells, median iron 0.91 mg/L, IQR 0.36–2.01); coastal salinity (~29% coastal population; UNDP: 73% in 5 upazilas drink saline water; Mongla women's verbatim).
+3. **Bangladesh water:** independently analysed historical BGS/DPHE observations: 3,534 wells, valid chemistry3,530, Fe median1.1mg/L and derived hardness median153.87205mg/L asCaCO3. Later BWDB monitoring and selected Dhaka taps add context, not household prevalence. Ramgati salinity perceptions are a separate published convenience sample. See Section17/report for dates and denominators.
 
 #### Launch focus: Movers [HYPOTHESIS]
 
@@ -679,7 +682,7 @@ Show P (classified water signal), D (dissatisfied), I (top-2 intent at Tk 330) a
 | LonaJol (Saline) variant | Proposed saline-water blend; full separate qualification gate; no extra Phase 2 revenue credited in the base | MODIFY |
 | **PaniCheck cap** | One **hardness** screening strip (mainly Ca/Mg; iron and copper can interfere) in a moisture-sealed pouch in each proposed 340ml launch cap, subject to sourcing. Does **not** detect iron or salinity | BUY strip + MODIFY cap |
 | **Iron + salinity testing** | Separate iron strips and a conductivity/TDS meter at campus and haat activations; leaflet points to the iron cue (orange stains) | Activation kit |
-| **Pani Map** | QR (on bottles **and** sachets) or WhatsApp lookup by upazila: **regional historical** groundwater profile (DPHE/BGS 1998–1999 sampling; 2001 report; wells, not taps; dated, with uncertainty), then "test your water", then a variant suggestion | Digital; team prototype |
+| **Pani Map** | QR (on bottles **and** sachets) or WhatsApp lookup by upazila: **regional historical** groundwater profile (DPHE/BGS 1998–1999 sampling; 2001 report; wells, not taps; dated, with uncertainty), then "test your own current source"; no automatic variant or household diagnosis | Digital; team prototype |
 
 **Claim ladder (proposed):**
 - **Proposed launch claims**, only after Marico R&D testing and regulatory review: "helps remove iron and hard-water mineral build-up" (deposit test on tresses), "lathers in hard water" after defined tests; a saline claim requires LonaJol's own qualification, "with coconut milk protein".
@@ -694,17 +697,17 @@ Show P (classified water signal), D (dissatisfied), I (top-2 intent at Tk 330) a
 | --- | --- |
 | Pack strip | Total-hardness screen as CaCO3; target 0–425 mg/L with supplier colour blocks; individually moisture-sealed with its own chart |
 | Use and interference | Follow the purchased strip's dip/read instructions; request Fe/Cu interference data, CoA, humidity stability and a supported shelf-life claim |
-| Target storage | 18-month life at relevant humid-market storage is a target, not established by three accelerated months |
+| Target storage | 18-month life remains a target. MN91224 specifies only one year at 4–30°C; that grade does not meet this target as specified. Accelerated screening alone does not establish life |
 | Pack wording | Hardness screening only. Does not measure iron or salt, household water safety or a medical condition |
 | Iron / salinity | Separate iron test; report EC/TDS, temperature and conversion/calibration. EC/TDS alone does not identify NaCl |
 | Quote | MOQ, landed unit cost including sleeve/foil, lead time and insertion yield. No OEM quote received in the supplied files |
-| Cost decision | Target strip+sleeve Tk 3–4 [ASSUMPTION]; judge bottle GM and project NPV separately. Tk 24.39 is not a project break-even limit |
+| Cost decision | Target strip+sleeve Tk 3–4 is unquoted. Under the conditional SD15/tax20/fund5 case, no nonnegative strip-cost ceiling alone repairs project NPV; prior Tk 4.78 return gate is withdrawn |
 
-Hach confirms individually wrapped 0–425 mg/L hardness strips and 0–5 mg/L iron screening strips. Quoted USD 160/250 and USD 479/1,000 prices remain unverified; Hach's current 1,000-test page requests a quote. At assumed Tk 122/USD, the latter would be Tk 58.438 before any missing landed costs. [Hach hardness](https://www.hach.com/p-total-water-hardness-test-strips-0-425-mgl-1000-tests-individually-wrapped-1000-tests/2793828), [Hach iron](https://sea.hach.com/p-iron-test-strips-total-dissolved-iron-0-5-mgl/2745325)
+Hach confirms individually wrapped 0–425mg/L hardness strips; separate iron strips also exist. Catalogue dollar prices remain unverified and price-on-request is not a quotation. Bartovation offers custom foil packs; MN91224 has one-year life at4–30°C. No Bangladesh landed OEM quote has been received. [Hach](https://www.hach.com/p-total-water-hardness-test-strips-0-425-mgl-1000-tests-individually-wrapped-1000-tests/2793828), [Bartovation](https://bartovation.com/product/water-quality/custom-branded-water-hardness-test-strips/), [MN91224](https://www.mn-net.com/us/aquadur-4-21-for-water-hardness-individually-sealed-1000-strips-91224?c=7674)
 
 The Cove water-softener dishwasher includes a protected hardness strip with a sleeve chart. This supports supplied-strip feasibility; it does not prove shampoo-cap novelty, economics or compatibility. [Cove instructions](https://www.subzero-wolf.com/assistance/answers/cove/dishwasher/cove-dishwasher-water-hardness-test-strip)
 
-**Pani Map result card — fill only from a supplied source:** Upazila/district ▢; groundwater iron median/range ▢; n ▢ wells; sampled **1998–1999**, report **2001**; hardness ▢ or "not in dataset"; dated salinity source ▢; nearby team test ▢, date/source/kit ▢. Historical regional information does not establish a current household result. Separate source coverage, recency and household relevance; no automatic High/Medium confidence label from sample count alone. Ask users to test their own source before a current variant suggestion. [BGS sampling phases](https://www.bgs.ac.uk/groundwater/quality/groundwater-and-health/arsenic-contamination-of-groundwater/bangladesh-maps/)
+**Pani Map is now populated from attributed historical data:** [read-only lookup](WaterSmart_Research/WaterSmart_Research_Viewer.html) covers 61 districts and 433 historical district/thana pairs from 3,534 wells sampled 1998–1999. It shows Fe and paired Ca/Mg-derived hardness, n, missing/censored coverage and IQR. No current household diagnosis, salinity inference or automatic variant suggestion. A current home test remains separate; no team test is fabricated.
 
 **Demo:** a real purchased strip, its original chart and correct read time, with actual location/date readings. Generic colour bands in the pack sketch are illustrative. If the sample is soft or low iron, show that result. A foam demo with an existing shampoo shows that experiment's lather differences, not WaterSmart efficacy.
 
@@ -750,7 +753,7 @@ GLDA can complex relevant ions; effectiveness depends on pH, dose and the actual
 |---|---|---|
 | Mechanism | Marketed as "Mineral Shield"; ingredient list includes Disodium EDTA (a chelator) | Chelator + coconut milk protein. Both may chelate: **no superiority claim without comparative tests** |
 | Saline water | Not positioned for it on its product page | LonaJol, conditional Phase 2 |
-| Hardness screening / regional information | None on pack | PaniCheck hardness strip + Pani Map |
+| Hardness screening / regional information | Not shown on retrieved product page; current pack check pending | PaniCheck hardness strip + Pani Map |
 | Hero ingredient | Vitamin E | Coconut milk protein |
 | Price and reach | Premium, Gulf MT | Tk 3 sachet to Tk 330, GT |
 
@@ -782,7 +785,7 @@ Differentiation at launch is the proposed local-water formula, hardness screenin
   | Lens | Status | Note |
   |---|---|---|
   | Feasibility | ✓ provisional | Shampoo variant on the existing line; R&D to confirm chelator–surfactant compatibility |
-  | Affordability | ⚠ quote + returns gate | Blended GM ~52% at baseline; obtain landed strip quote and test project NPV too |
+  | Affordability | ⚠ quote + returns gate | Conditional SD15/tax20/fund5 Y3 blended GM44.887%, below proposed48% gate; quoted economics and corrected project NPV must pass |
   | Capability | ✓ provisional | Make + Modify in-house; Buy strips |
   | Time | ⚠ | ~4–6 months stability, mildness and foam testing; licence/BSTI in parallel `[ASSUMPTION]` |
   | Operation | ✓ provisional | Y3 ≈ 0.86 million litres; actual line utilisation/capacity to confirm |
@@ -801,154 +804,31 @@ Differentiation at launch is the proposed local-water formula, hardness screenin
 
 - **Sustainability:** coconut-derived surfactants; strip in a small sealed pouch; 300ml refill pouch (phase 2); recyclable PET; EPR collection targets costed; existing lines; coastal climate-adaptation impact.
 
-### 11.6 Financial model v3 — one monthly schedule
+### 11.6 Research-corrected financial appraisal — conditional, not an approved forecast
 
-**All inputs are ASSUMPTIONS.** The HTML model is authoritative for calculations; `WaterSmart_v3_Model_Output.json` is its default snapshot. The prior v2 4.67/1.35 NPV and the first v3 pilot-only overlay 4.17/0.85 are superseded as active forecasts. The latter did not include the prelaunch time and reconciled monthly NWC policy below.
+**Withdraw old investment conclusions.** Original v3 omitted local-supply shampoo SD 15%; its NPV 3.15/0.26 Cr and Tk 4.78 strip ceiling are historical, fiscally incomplete calculations. The legacy HTML calculator and `WaterSmart_v3_Model_Output.json` are preserved with that warning. Current conditional calculations are in the [research viewer](WaterSmart_Research/WaterSmart_Research_Viewer.html) and [report](WaterSmart_Research/WaterSmart_Research_Report.md).
 
-**Time and cash basis:** CAPEX Tk 3 crore at project M0. Baseline R&D/qualification M1–6, commercial pilot M7–12; precommercial cash allowance Tk 0.5 crore spread over those last six months, with no pilot sales credited. National Y1 is project M13–24: pipeline M13–15, sales M16–24. Five national years end at M72. Prelaunch duration/cost, strip cost and the other assumptions are editable. Funding and payback start at first CAPEX, not after the pilot.
+**Public rate/policy:** local shampoo HS 3305.10.00 SD 15%, standard VAT 15%; FY26 company tax provision 20% and participation fund 5% before fund. **Project application pending:** actual invoice/trade base, exemptions, future marginal tax, fund allocation/deductibility and cash payment dates. [Official act/schedules](https://bdlaws.minlaw.gov.bd/act-1106.html), [NBR waterfall](https://nbr.gov.bd/faq/vat-faq/ban), [FY26 pp226–227](https://marico.com/investorspdf/Annual_Report_2025-26.pdf).
 
-**Appraisal:** discount each monthly cash flow at `(1.15)^(project_month/12)`; IRR is annual equivalent of the monthly schedule. There is no continuing terminal value. The recovery case releases the entire exit NWC balance in the last month and therefore assumes a wind-down. Show the no-recovery case too.
+**Conditional method:** `NR = MRP / (1+VAT) × (1−old trade share) / (1+SD)`, assuming the VAT-exclusive, trade-net invoice includes SD. Fund 5% of positive monthly incremental EBIT before fund; tax 20% after fund. Accrual-as-cash and no loss relief are illustrative. All operating inputs remain frozen and unverified. [Full driver register](WaterSmart_Research/analysis/all_model_inputs_evidence_register.csv).
 
-**Operating profile:** Y1 selling-month outlet factors 0.4 → 1.0, average 0.7 across nine base selling months. A three-month downside delay reduces this to six selling months. Y2–Y5 are flat within each commercial year at their assumed outlet/throughput level; no undocumented Y2 ramp is inserted. Replace these profiles with actual pilot/channel evidence. A&P Y1: 10% in the month before first national sale, 45% in its first three selling months, 45% in the remaining selling months. With only three selling months, the remaining 90% is spent across those months.
+| Case | NPV with final NWC release, Cr | Without release, Cr | Peak funding, Cr | Project month |
+|---|---:|---:|---:|---:|
+| Frozen v3: SD omitted; historical illustration | 3.148 | 0.264 | 11.112 | M25 |
+| SD15%, otherwise frozen v3 | -3.867 | -6.375 | 12.204 | M37 |
+| SD15% + latest disclosed company tax20% | -3.613 | -6.121 | 12.176 | M37 |
+| SD15% + tax20% + positive incremental EBIT fund5% | -3.816 | -6.324 | 12.198 | M37 |
+| Same fiscal overlay; bulk-formula cost stress -25% | 1.548 | -0.960 | 11.038 | M25 |
 
-**NWC:** 12% of the current month's annualised net-revenue run-rate. Cash uses the actual month-to-month change. Each annual P&L/cash row is the sum of those same months; NWC exit balances are shown separately. Tax is 25% of positive monthly incremental EBIT, without loss relief; confirm actual tax/payment rules. Depreciation is spread over 60 national months. S&D 10% NR + Tk 1 crore/year, EPR reserve 1% NR, cannibalisation 20% of sales × 45% Naturale contribution remain assumptions.
+**SD15/tax20/fund5 illustration:** Y3 NR 39.951 Cr, incremental EBITDA before fund 2.950 Cr, blended GM 44.887%; IRR 2.356% with release / −12.959% without, below the unconfirmed 15% hurdle. No strip-cost reduction alone repairs NPV. Bulk-formula −25% is an unquoted sensitivity. Uniform 14.103845% MRP uplift gives mathematical zero no-release NPV at unchanged volume; it is not WTP, elasticity or a price recommendation.
 
-**Scope:** every base unit is Phase 1 Iron & Hard Water. LonaJol is conditional Phase 2; its incremental revenue/costs are not claimed in this forecast.
+**Timing:** M0 CAPEX 3 Cr; 12 prelaunch months, with a 0.5 Cr unquoted allowance over the last six; national Y1 M13–24, first sales M16, five national years end M72. No pilot or LonaJol revenue credited. NWC is 12% of annualized monthly NR. Full final release describes a wind-down; no continuing terminal value. Internal field `sd` means selling/distribution, not supplementary duty.
 
-| SKU | MRP Tk | Net realisation Tk | Base COGS Tk | GM |
-| --- | --- | --- | --- | --- |
-| 6ml sachet | 3 | 1.96 | 1.20 | 38.7% |
-| 180ml | 180 | 122.09 | 55 | 55.0% |
-| 340ml + strip | 330 | 223.83 | 95 | 57.6% |
+**Cost assumptions retained for scrutiny:** MRP/pack Tk 3/6ml, 180/180ml, 330/340ml; COGS Tk 1.20/55/95; 340ml non-strip 92 + strip 3; bulk Tk 135/kg, density 1kg/L; trade 25% sachet/22% bottle; Y1 A&P 6 Cr; S&D 10% NR + 1 Cr/year; EPR 1% NR; cannibalization 20% × 45% displaced contribution. These are not supplier/Marico confirmations. Complete BOM, landed costs, incremental overheads and precommercial scope remain pending.
 
-**Coverage / monthly units per outlet** (Y1 exit target; Y2/Y3 full-year planning coverage):
+**Reproducibility:** [five cases/full monthly JSON](WaterSmart_Research/analysis/finance_evidence_overlays.json), [730 scenario-month CSV rows](WaterSmart_Research/analysis/finance_overlay_monthly_Tk_cr.csv); 847 assertions independently reconcile NPV, cash, peak, unit NR and annual/monthly sums. Quoted economics and qualified product/demand evidence precede a national investment recommendation.
 
-| Channel | Y1 | Y2 | Y3 | 6ml | 180ml | 340ml |
-| --- | --- | --- | --- | --- | --- | --- |
-| RG | 15000 | 30000 | 45000 | 48 | 0.5 | 0 |
-| UNG | 12000 | 25000 | 35000 | 36 | 1 | 0.5 |
-| UCS | 6000 | 9000 | 12000 | 0 | 2 | 2 |
-| RCS | 3000 | 6000 | 9000 | 12 | 1 | 1 |
-| WS | 1000 | 2000 | 3000 | 240 | 3 | 1 |
-| MT | 300 | 340 | 360 | 0 | 15 | 15 |
-| E-com | 30 | 40 | 40 | 0 | 30 | 40 |
-
-Throughput ×1.05 in Y2 and ×1.10 in Y3; Y4–Y5 volume +10% each year. Wholesale must reach outlets outside the other counted GT coverage, otherwise reduce it to avoid double counting. All coverage/productivity values await outlet evidence.
-
-**Base national P&L and cash, Tk crore:**
-
-| Line | Y1 | Y2 | Y3 | Y4 | Y5 |
-| --- | --- | --- | --- | --- | --- |
-| Sachets (million) | 9.00 | 36.44 | 56.07 | 61.68 | 67.85 |
-| Bottles (lakh) | 4.45 | 15.31 | 21.99 | 24.19 | 26.61 |
-| Gross sales at MRP | 13.32 | 47.03 | 68.39 | 75.22 | 82.75 |
-| Net revenue | 8.97 | 31.61 | 45.94 | 50.54 | 55.59 |
-| COGS | 4.22 | 15.07 | 22.02 | 24.22 | 26.64 |
-| Gross profit | 4.74 | 16.54 | 23.93 | 26.32 | 28.95 |
-| A&P | 6.00 | 5.69 | 6.89 | 7.08 | 7.78 |
-| S&D/overhead | 1.90 | 4.16 | 5.59 | 6.05 | 6.56 |
-| EPR reserve | 0.09 | 0.32 | 0.46 | 0.51 | 0.56 |
-| Standalone EBITDA | -3.24 | 6.38 | 10.98 | 12.68 | 14.05 |
-| Cannibalisation | 0.81 | 2.85 | 4.13 | 4.55 | 5.00 |
-| Incremental EBITDA | -4.05 | 3.53 | 6.85 | 8.14 | 9.05 |
-| Monthly cash-tax total | 0.00 | 0.73 | 1.56 | 1.88 | 2.11 |
-| Change in NWC | 2.05 | 1.74 | 1.72 | 0.55 | 0.61 |
-| Exit NWC before recovery | 2.05 | 3.79 | 5.51 | 6.06 | 6.67 |
-| FCF before terminal recovery | -6.10 | 1.05 | 3.56 | 5.70 | 6.33 |
-
-**Default project results:** NPV **Tk 3.15 crore with recovery / 0.26 without**; annual-equivalent IRR **24.4% / 16.0%**; payback **4.89 years from first CAPEX**. Monthly peak funding **Tk 11.11 crore at project M25**, national Y2 M1; period-end balances alone show only **Tk 9.60 crore**. The no-recovery margin of value is thin; it is not a strong investment result merely because positive.
-
-**Period cash used for reconciliation, Tk crore:** CAPEX -3.00; prelaunch -0.50; national Y1–Y5 -6.10, 1.05, 3.56, 5.70, 13.00 with final recovery. Without recovery, final cash is 6.33. Primary NPV uses month-level timing, not discounting these period totals as if all paid at year-end.
-
-**Selected monthly cash rows (Tk crore); full schedule in HTML / JSON:**
-
-| Project M | Phase | NR | Incremental EBITDA | ΔNWC | NWC balance | Cash | Cumulative |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| 0 | Initial CAPEX | 0.00 | 0.00 | 0.00 | 0.00 | -3.00 | -3.00 |
-| 6 | Prelaunch R&D | 0.00 | 0.00 | 0.00 | 0.00 | 0.00 | -3.00 |
-| 7 | Prelaunch pilot | 0.00 | 0.00 | 0.00 | 0.00 | -0.08 | -3.08 |
-| 12 | Prelaunch pilot | 0.00 | 0.00 | 0.00 | 0.00 | -0.08 | -3.50 |
-| 13 | Y1 M1 | 0.00 | -0.08 | 0.00 | 0.00 | -0.08 | -3.58 |
-| 15 | Y1 M3 | 0.00 | -0.68 | 0.00 | 0.00 | -0.68 | -4.35 |
-| 16 | Y1 M4 | 0.57 | -0.80 | 0.82 | 0.82 | -1.62 | -5.97 |
-| 24 | Y1 M12 | 1.42 | -0.07 | 0.15 | 2.05 | -0.22 | -9.60 |
-| 25 | Y2 M1 | 2.63 | 0.29 | 1.74 | 3.79 | -1.51 | -11.11 |
-| 36 | Y2 M12 | 2.63 | 0.29 | 0.00 | 3.79 | 0.23 | -8.55 |
-| 37 | Y3 M1 | 3.83 | 0.57 | 1.72 | 5.51 | -1.28 | -9.83 |
-| 48 | Y3 M12 | 3.83 | 0.57 | 0.00 | 5.51 | 0.44 | -4.98 |
-| 60 | Y4 M12 | 4.21 | 0.68 | 0.00 | 6.06 | 0.52 | 0.72 |
-| 72 | Y5 M12 | 4.63 | 0.75 | 0.00 | 6.67 | 7.25 | 13.72 |
-
-**Whole-horizon reference scenarios:**
-
-| Metric | Volume −20% | Combined worst | Base | Best |
-| --- | --- | --- | --- | --- |
-| Y3 NR (Cr) | 36.76 | 34.92 | 45.94 | 53.89 |
-| Y3 incremental EBITDA (Cr) | 5.28 | 2.67 | 6.85 | 9.47 |
-| Monthly funding (Cr; project M) | 11.00; M25 | 12.50; M37 | 11.11; M25 | 10.91; M25 |
-| NPV with recovery (Cr) | 0.43 | -4.62 | 3.15 | 7.81 |
-| NPV without recovery (Cr) | -1.88 | -6.81 | 0.26 | 4.43 |
-| Annual equivalent IRR with / without | 16.4% / 7.6% | -1.2% / -16.5% | 24.4% / 16.0% | 36.6% / 29.7% |
-| Payback from CAPEX | 5.44 years | >6 years | 4.89 years | 4.31 years |
-
-Combined: volume −20%, price −5%, COGS +8%, three extra national delay months. Best: volume +15%, price +2%, COGS −3%. In the combined case, the full model finds peak need at M37 rather than stopping at M24.
-
-### COGS and precommercial cash allowance [ASSUMPTION]
-
-| Tk per unit | 340ml | 180ml | 6ml |
-| --- | ---: | ---: | ---: |
-| Bulk formula | 46.00 | 24.50 | 0.81 |
-| Bottle / laminate | 14.00 | 9.00 | 0.18 |
-| Cap | 6.00 | 3.50 | 0 |
-| Strip + sleeve | 3.00 | 0 | 0 |
-| Label / leaflet | 2.50 | 1.50 | 0 |
-| Shipper allocation | 1.50 | 1.00 | 0.03 |
-| Strip insertion | 1.00 | 0 | 0 |
-| Conversion / QC | 13.00 | 9.00 | 0.12 |
-| Wastage | 2.50 | 1.50 | 0.05 |
-| Inbound freight / duty | 5.50 | 5.00 | 0.01 |
-| Total at baseline | **95.00** | **55.00** | **1.20** |
-
-Formula costing assumes ~Tk 135/kg and approximate density 1 kg/L; validate composition, density and quotations. The 340ml model holds non-strip COGS at Tk 92 and changes strip+sleeve separately. Reconcile landed freight/duty allocation to avoid counting it twice. The sachet has lower unit GM; commercial gating uses actual blended GM. Bottle GM and project NPV are different tests.
-
-| Precommercial allowance | Tk lakh |
-| --- | ---: |
-| Activation / sampling | 18 |
-| Trade offer / visibility | 10 |
-| Consented tracking / outlet panel | 8 |
-| R&D/QC / small-batch changeover reserve | 9 |
-| Activation strips / kits | 5 |
-| Total cash allowance, no sales credited | **50** |
-
-These are budget allocations, not evidence that all R&D, certification, pilot inventory or claim-testing costs fit. Confirm scope and payment timing; add omitted costs and pilot tax/NWC explicitly when evidence is available. National Y1 A&P is separate.
-
-**Bulk-formula-only ±25% sensitivity** (other default assumptions fixed):
-
-| Bulk-price change | Assumed Tk/kg | 340ml COGS Tk | Y3 blended GM | NPV with recovery Cr | Without recovery Cr |
-| --- | --- | --- | --- | --- | --- |
-| -25% | 101.25 | 83.50 | 58.4% | 8.45 | 5.56 |
-| 0% | 135.00 | 95.00 | 52.1% | 3.15 | 0.26 |
-| 25% | 168.75 | 106.50 | 45.7% | -2.15 | -5.04 |
-
-**Different strip ceilings at default assumptions:**
-
-| Measure | Tk per strip+sleeve |
-| --- | --- |
-| 48% bottle-GM ceiling | 24.39 |
-| Zero project NPV without recovery | 4.78 |
-| Zero project NPV with recovery | 24.19 |
-
-| Strip+sleeve Tk | Bottle GM | Y3 blended GM | NPV with recovery Cr | Without recovery Cr |
-| --- | --- | --- | --- | --- |
-| 3.00 | 57.6% | 52.1% | 3.15 | 0.26 |
-| 4.00 | 57.1% | 51.9% | 3.00 | 0.12 |
-| 5.00 | 56.7% | 51.7% | 2.85 | -0.03 |
-| 24.39 | 48.0% | 48.4% | -0.03 | -2.91 |
-| 58.44 | 32.8% | 42.4% | -5.13 | -8.01 |
-
-The earlier Tk 8.30 no-recovery ceiling applied only to the preliminary 0.5-crore overlay. It is superseded by this model, which includes prelaunch time and consistent monthly NWC. Cost ceilings are not supplier quotes; changing assumptions changes them. Target Tk 3–4 and rerun all returns on a reconciled landed cost.
-
-**TAM/SAM/SOM:** dated TAM USD 164.49M for 2025; Y3 MRP value Tk 68.39 crore is about 3.4% of that dated baseline at assumed Tk 122/USD. Calendar launch year is not committed; do not present a 2029 share without a dated launch mapping. Build SAM from eligible consumers, water evidence and shampoo penetration, not old well percentages directly extrapolated to households. SOM is the channel build and remains ambitious.
+**TAM/SAM:** publisher estimates retain date/uncertainty. Unweighted historical well shares cannot produce household SAM; company-wide footprint does not establish WaterSmart active coverage. Volume/channel ramps remain hypotheses.
 
 ### Six-month commercial pilot and scale decision [ASSUMPTION]
 
@@ -991,12 +871,12 @@ Collection, recycling, PRO/admin and logistics have separate costs. The 1% NR EP
 - **Dove/imported competition?** Chemistry alone is not the moat. Proposed local-water formula, hardness screen/regional information and affordable GT format; LonaJol is Phase 2. Listings show supply options, not measured demand. Comparative claims need tests.
 - **Water damages hair?** Mixed ex vivo evidence; no hair-loss cure. Product build-up/lather claims require our own formula tests.
 - **Can the cap assess my water?** Hardness screen only. Iron needs its own test; EC/TDS is not NaCl-specific. Old regional data is not a household result.
-- **Volume 20% lower?** NPV 0.43 / -1.88 crore with/without recovery. Combined downside -4.62 / -6.81; hold/rework the pilot.
-- **Working-capital dependence?** Default NPV 3.15 / 0.26; IRR 24.4% / 16.0%. Full recovery assumes a wind-down; no continuing terminal value. No-recovery headroom is thin.
-- **Funding and payback?** Tk 11.11 crore at M25, not just the 9.60 period-end need. 4.89 years from first CAPEX; 12-month prelaunch period is included.
-- **Strip cost?** Tk 24.39 protects 48% bottle GM, not project returns. No-recovery NPV ceiling ~Tk 4.78 at default assumptions; target Tk 3–4 with landed quote. Redesigning strip availability requires a revised pack promise and fulfilment model.
+- **Sales lower?** Corrected conditional base is already negative; old omission-based downside figures are withdrawn. Rework quoted costs, tax and channel drivers before scale.
+- **Working-capital dependence?** SD15/tax20/fund5 illustration NPV −3.82/−6.32 Cr, IRR 2.36%/−12.96%. Full release is a wind-down, not operating terminal value.
+- **Funding?** Conditional fiscal case peak 12.20 Cr at M37; monthly schedule includes prelaunch. Old 11.11/M25 is historical.
+- **Strip cost?** Target Tk 3–4 is unquoted. The fiscal case is negative even at zero strip cost; cost-only strip redesign does not repair the project. Requote/reappraise the whole proposition.
 - **Pilot/real repeat?** Six months, two cells, ~1,500 outlets; paid repurchase in mature SKU cohorts, receipt verification, recontact loss reported. Outlet reorder and incentives are separate. All mandatory gates must pass.
-- **Cannibalisation?** Y3 standalone EBITDA 10.98, incremental 6.85 after the assumed lost Naturale contribution.
+- **Cannibalisation?** Old 20% transfer / 45% lost contribution are assumptions; no observed switching. Corrected Y3 incremental EBITDA 2.95 Cr before fund, conditional on all frozen drivers.
 - **Only 25?** Planned n=25 directional interviews; report real eligible/answered n. Triangulate rather than extrapolate to the country. Existing Google survey and interviewer instrument are not identical.
 - **Plastic?** Equal-dose refill −68.125%; 19.24g per 300ml at assumed weights. Record complete pack plastic. EPR reserve is not proof of complete cost coverage.
 - **Regulator?** Applicable DGDA rules/orders, BSTI BDS 1269:2022 and EPR obligations; final status/category/timing confirmed by Marico Regulatory before release.
@@ -1031,7 +911,7 @@ Collection, recycling, PRO/admin and logistics have separate costs. The 1% NR EP
 | 0:40–1:25 | Real strip + original chart/time; dated regional map; same-shampoo foam experiment; LonaJol labelled Phase 2 |
 | 1:25–1:45 | Balanced documented comparison choice/why counts, if a card was shown |
 | 1:45–2:05 | Naturale brand/line fit, distribution; capacity to validate |
-| 2:05–2:35 | Base assumptions: Y3 NR 45.94 Cr, incremental EBITDA 6.85 Cr; project NPV 3.15 / 0.26 Cr with/without recovery; funding 11.11 Cr. Horizon includes 12 prelaunch months |
+| 2:05–2:35 | Corrected conditional fiscal case: Y3 NR 39.95 Cr, incremental EBITDA 2.95 Cr; NPV −3.82/−6.32 Cr; funding 12.20 Cr at M37. State pending invoice/quotes and rework gate |
 | 2:35–2:52 | Six-month pilot; mature SKU paid repeat/RoS/GM plus mandatory product/quality/regulatory gates |
 | 2:52–3:00 | দোষ কি চুলের, নাকি পানির? আগে পানি চেক করুন। |
 
@@ -1086,7 +966,7 @@ Planned: 25 adult interviews (10 hostel/mess, including young workers; 8 local; 
 - [ ] Every non-field number is labelled Assumption, with a reason; every external fact has a dated citation.
 - [ ] No "first in Bangladesh", "water causes hair fall" or day-1 claim wording anywhere.
 - [ ] Adult survey consent/eligibility and separate filming consent recorded; no names/contacts needed. Older records reviewed from original evidence.
-- [ ] Deck, video and model use the same v3 settings: base NPV 3.15 / 0.26 Cr, peak 11.11 Cr M25; prelaunch time and NWC-recovery assumption stated.
+- [ ] Deck/video use the same conditional fiscal overlay: NPV −3.82/−6.32 Cr, peak 12.20 Cr at M37; assumptions and wind-down release stated; old v3 investment conclusion withdrawn.
 - [ ] Deck: 15 content slides + cover + appendix ≤ 20; PDF copy too.
 - [ ] Screenshot of the 8 Oct email (deck-length clarification) kept in the team folder.
 - [ ] Landed strip quote and cost/return sensitivity; chemist approach note; real strip demo and measured complete pack weights.
@@ -1105,7 +985,7 @@ Planned: 25 adult interviews (10 hostel/mess, including young workers; 8 local; 
 | `WaterSmart_Field_Data_Plan.html` (v3) | Phone-friendly logger: neutral interview order, 3 tests per water sample, foam repeats, shelf check, review caveats; CSV/JSON export and team merge |
 | `Red_King_RootShield_v3.html` | Historical fallback reference; file not available in the current workspace |
 | `OTW_S5_Master_Research.md` (v3) | This file |
-| `WaterSmart_v3_Model_Output.json` | Current default monthly model snapshot; inputs, all monthly rows, scenarios and strip sensitivity |
+| `WaterSmart_v3_Model_Output.json` | Historical v3 snapshot: SD omitted; not the current investment case. See fiscal overlay/report |
 | `WaterSmart_v3_Review.md`, `WaterSmart_v3_Financial_Check.json` | Historical pre-implementation audit / pilot-only overlay; not current v3 forecasts |
 | `OTW_S5_Fact_Check.md`, `audit_on_fact_check_review.md` | Earlier fact check and review; adjudicated in Section 16 |
 
@@ -1251,7 +1131,7 @@ Three documents were compared:
 | 17 | Plastic circular dates | — | "July, recirculated August" | Narrower wording needed | **RV right** | "2024 list; dates reported variously" |
 | 18 | "No local brand" | — | No local brand sells it | Search ≠ absence | **RV right** | "None found in our desk search" |
 | 19 | Financial model | Hidden NWC release; downside answer mixed volume-only and combined; cannibalisation mixed with EBITDA | Didn't examine | Findings still relevant | **FC right** | Model v2 (Section 11.6) |
-| 20 | Emails / deck length | Couldn't verify emails | — | — | **FC limitation, not an error in v1** | We read the 8 Oct email (15 content slides; ≤20 total). Keep a screenshot |
+| 20 | Emails / deck length | Couldn't verify emails | — | — | **Current recheck unresolved** | Earlier master records 8 Oct clarification: 15 content slides / ≤20 total; actual email/screenshot not supplied in this research run. Preserve it before relying on the exception |
 | 21 | RootShield file | "Missing" | — | — | **Unresolved outside current workspace** | v3 check: no such file supplied here; historical existence elsewhere is unverified |
 | 22 | Naturale shampoo list | "Amla Hair Fall Control" missing | — | — | **FC partly wrong; v1 also wrong** | Case image shows **Anti Hair Fall (henna & coconut milk)**; Amla is a hair oil. v1 double-counted aloe/nourishing. Corrected in 3.3 |
 | 23 | Score | — | — | — | — | 82 → 94 became **80 → 93** |
@@ -1269,16 +1149,40 @@ Three documents were compared:
 - Strip supplier, unit cost, shelf life in humid storage.
 - Shelf MRP and pack size of Naturale (case images show 340ml; Arogga lists 320ml).
 - Effective tax rate and S&D cost structure (Marico finance).
-- SAM calculation from DPHE/BGS area shares × census × shampoo penetration.
+- Household-linked current exposure and consumer/usage evidence for SAM; do not multiply unweighted well shares by census.
 
 ### 16.4 v3 changes — 9 October 2026
 
 - Monthly cash is the single model basis. Twelve prelaunch months are included; pilot allowance is not a hidden cost or treated as a verified net result after sales.
-- Current base NPV 3.15 / 0.26 Cr, annual equivalent IRR 24.4% / 16.0%, payback 4.89 years; monthly funding 11.11 Cr at M25. Old 4.17/0.85 pilot-only and 10.27/M20 estimates are superseded.
+- Historical v3 at this stage produced NPV 3.15/0.26 Cr and funding 11.11 Cr at M25. Section 17 subsequently identified the SD omission and withdraws these as investment results.
 - NWC uses annualised monthly run-rate consistently, with period sums and whole-horizon downside funding; full recovery is an explicit wind-down case.
-- Bottle-GM strip ceiling 24.39 differs from current no-recovery NPV ceiling 4.78; target Tk 3–4 pending landed quote.
+- Historical omission-based strip ceiling 4.78 is withdrawn by Section 17; no strip-only cost ceiling repairs the corrected conditional case.
 - Movers is a working launch hypothesis; base sales are Iron & Hard Water only, with LonaJol behind separate Phase 2 gates.
 - Technical brief, RFQ, actual-strip demo, dated regional map and qualified pilot/paid-repeat design added.
 - Logger preserves existing key/data, adds move/workaround/spend/price/comparison fields, eligible denominators, separate water-test eligibility, pack weights and review-level deduplication. Legacy aggregates and revisions remain visible/exportable.
 - National NHS sampling corrected to 1998–1999; 2001 is report year. Screening replaced active diagnosis wording. Refill saving corrected to 19.24g at equal volume; sachet to 0.700g per 7ml equivalent wash.
 - Internal 80 desk baseline / 93 target is retained as a historical planning rubric, not a post-update rerating or a guarantee of selection. Actual field counts and supplier/regulatory/product approvals remain to be supplied.
+
+
+## 17. Detailed evidence research revision — 9 October 2026
+
+**Current source hierarchy:** the attributed research report, ledger and fiscal overlay supersede earlier investment/coverage conclusions. Historical scores and old model outputs are not post-research readiness assessments.
+
+| Deliverable | Location / status |
+|---|---|
+| Full synthesis | [Research report](WaterSmart_Research/WaterSmart_Research_Report.md) |
+| Historical Pani Map, surveys, prices, finance, ledger | [Read-only viewer](WaterSmart_Research/WaterSmart_Research_Viewer.html) |
+| Original evidence | [Source index](WaterSmart_Research/analysis/source_index.csv): 61 attempt IDs, 49 usable raw responses, 11 failed, one HTML response at a PDF URL; 25 web captures |
+| Historical water | 3,534 well rows, 61 districts, 433 historical district/thana pairs; measured 1998–1999, valid Fe 3,530; hardness derived per paired Ca/Mg |
+| Later water context | BWDB published Dec2022: 901 monitoring wells mostly2019–2021; Dhaka2025 paper: 13 selected taps, 12 explicit hardness numbers/one missing. Neither pooled into old microdata |
+| Published consumer context | Two distinct samples, n390/n391; 35 aggregate rows. Original authors credited; no reconstructed respondent data |
+| Primary data status | No team water/product tests, retailer visits, pack weights or quotes supplied/completed; five user-confirmed real adult notes have consent/date/order pending, zero method-complete primary records |
+| Model evidence | [104 scalar entries/gaps](WaterSmart_Research/analysis/all_model_inputs_evidence_register.csv), including labels/policy choices; not 104 independent uncertainties |
+| Required verification | [Human/expert/RFQ questions](WaterSmart_Research/EXPERT_AND_HUMAN_VERIFICATION.md). No outside messages sent |
+| Resume | [Checkpoint](WaterSmart_Research/CHECKPOINT.md), [machine state](WaterSmart_Research/state.json) |
+
+**Key corrections:** hardness strips cannot identify iron, salt or safety. 649 historical wells had Fe>1mg/L with hardness≤120. Local absence/novelty is unproven. Malibu Tk2,182 belongs to selected9fl oz, shipping/customs excluded; Pantene Tk1,450vs850 conflicts. Sealed/custom strip offerings exist, but the identified MN grade's one-year life at4–30°C does not meet the18-month target. Marico's FY26 batch/filling improvements establish platform fit, not spare capacity, cap qualification or quoted cost. Original EPR SRO293 was obtained: category-specific tonnage obligations; 1%NR is not compliance. BDS numerical limits and final DGDA transition remain unresolved.
+
+**Financial correction:** SD15% was omitted. Frozen operating inputs with SD15/tax20/fund5 illustration give NPV−3.816/−6.324Cr, funding12.198CrM37 and Y3GM44.887%. Actual invoice/tax/fund application is pending. Formula−25% and price+14.104% are sensitivities, not quoted savings or proven WTP.
+
+Published sources retain original collection credit; team credit is for analysis. No synthetic respondents. Completing secondary research does not prove the product, current household exposure, costs, paid repeat or future profit. Human metadata and physical/corporate gates remain open.

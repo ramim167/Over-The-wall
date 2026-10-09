@@ -1,5 +1,9 @@
 # Fact-Check: Auditor Claims on the Parachute Naturale WaterSmart Research File (Marico Bangladesh "Over The Wall" Season 5)
 
+<!-- RESEARCH_SUPERSESSION_20261009 -->
+> **Later research revision, 9 Oct 2026:** Preserve this earlier audit as historical context. The original v3 financial model omitted domestic shampoo SD15%; old positive NPV/strip-return ceilings are withdrawn as current investment conclusions. See the [attributed research report](WaterSmart_Research/WaterSmart_Research_Report.md), [conditional fiscal overlay](WaterSmart_Research/analysis/finance_evidence_overlays.json) and [current master Section17](OTW_S5_Master_Research.md). The original EPR gazette has now been obtained; five supplied opinions are user-confirmed real with date/consent/price-order pending. No WaterSmart product trial or team water test is claimed.
+
+
 Most of the auditor's claims check out, but several need correcting before the file is submitted: the Malibu C product shows up on Ubuy Bangladesh only as a shampoo-and-conditioner duo, the DGDA cosmetics rules exist only as a June 2026 draft, and nobody has reported that the December 2025 "Global Grand Finale" took place.
 
 ## TL;DR

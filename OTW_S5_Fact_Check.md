@@ -1,5 +1,9 @@
 # Fact check of OTW_S5_Master_Research.md
 
+<!-- RESEARCH_SUPERSESSION_20261009 -->
+> **Later research revision, 9 Oct 2026:** Preserve this earlier audit as historical context. The original v3 financial model omitted domestic shampoo SD15%; old positive NPV/strip-return ceilings are withdrawn as current investment conclusions. See the [attributed research report](WaterSmart_Research/WaterSmart_Research_Report.md), [conditional fiscal overlay](WaterSmart_Research/analysis/finance_evidence_overlays.json) and [current master Section17](OTW_S5_Master_Research.md). The original EPR gazette has now been obtained; five supplied opinions are user-confirmed real with date/consent/price-order pending. No WaterSmart product trial or team water test is claimed.
+
+
 Reviewed: 9 October 2026, Bangladesh time (UTC+06:00).
 
 Revised on the same date after checking `audit_on_fact_check.md`: added official evidence for the approximate 1.1-million distribution footprint, the June cosmetics draft, Season 2 team affiliations and 2026 EPR; clarified the scientific-literature and proposed-launch wording. The separate review is in `audit_on_fact_check_review.md`.

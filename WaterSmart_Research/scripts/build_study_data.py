@@ -2,7 +2,7 @@
 Never reconstruct or fabricate respondent microdata from aggregates.
 """
 from pathlib import Path
-import csv,json,statistics,xml.etree.ElementTree as ET
+import csv,json,re,statistics,xml.etree.ElementTree as ET
 ROOT=Path(__file__).resolve().parents[1];OUT=ROOT/'analysis'
 rows=[]
 def add(study,variable,category,n,denominator,mean='',sd='',page='',scale='',status='published_aggregate'):
@@ -20,6 +20,16 @@ assert sum(n for _,n in counts)==391
 for category,n in [('Mobile phone user',276),('Internet user',155)]:add('CONSUMER_SALINITY_2025','digital_access',category,n,391,page='HTML Table1')
 with (OUT/'published_survey_aggregates.csv').open('w',encoding='utf-8-sig',newline='') as f:w=csv.DictWriter(f,fieldnames=list(rows[0]));w.writeheader();w.writerows(rows)
 studies=[dict(id='CONSUMER_2022',authors='Ummay Salma Khanam; Md. Bazlur Rahman',year=2022,title='Preference of Global Shampoo Brands: A Study on Women Consumers',url='https://doi.org/10.4236/jss.2022.1012016',population='390 women global-shampoo users in Dhaka and Chittagong',method='Convenience sample, anonymous online questionnaire; 500 invited,390 returned',license='CC BY4.0 stated in PDF',measurement_date='Not specifically stated in retrieved methods; publication11Nov2022',limitations=['Historical nonprobability sample, women only, urban/global-brand restriction','Methods age18–60 conflicts with six reported respondents61+; under20 band does not state individual age','No WaterSmart concept, price330, moving-water test, paid repeat or mineral measurements','Raw respondent microdata not supplied; no national sampling weights'],appropriate_use='Directional factor-ranking context; original authors credited; not national brand market share'),dict(id='CONSUMER_SALINITY_2025',authors='See archived Frontiers original article author list',year=2025,title='Perceptions of coastal dwellers about the effects of extreme temperature and saline water on human health: evidence from Bangladesh',url='https://doi.org/10.3389/fpubh.2025.1451933',population='391 consenting adults in Ramgati, Lakshmipur;286 men105 women',method='Cross-sectional convenience questionnaire;400 invited391completed',license='Open access; retain original article authors and publisher attribution',measurement_date='Not recovered from retrieved methods; publication2025 is not automatically survey date',limitations=['One locality, predominantly men, convenience sample','Perceived causal attribution, not objective measured salinity or clinical diagnosis','Question names water as cause; cannot support unprompted Movers attribution','Raw data available from authors on request, not acquired in this run','Sample-size paragraph says3%margin while givingd=.05; flag reporting inconsistency'],appropriate_use='Evidence that water-related hair concerns are reported in this sampled coastal community; not a WaterSmart efficacy claim')]
+# Use the original publisher's structured author/date metadata, not a placeholder.
+publisher_html=(ROOT/'raw/coastal_perceptions_2025.html').read_text(encoding='utf-8')
+for block in re.findall(r'<script type="application/ld\+json">(.*?)</script>',publisher_html,re.S):
+    item=json.loads(block)
+    if isinstance(item,dict) and item.get('@type')=='ScholarlyArticle':
+        studies[1]['authors']='; '.join(a['name'] for a in item['author'])
+        studies[1]['publication_date']=item['datePublished']
+        studies[1]['measurement_date']='Not recovered from retrieved methods; publication date 1 August 2025 is not automatically survey date'
+        break
+assert studies[1]['authors'].startswith('Muhammad Zakaria;')
 (OUT/'published_surveys_metadata.json').write_text(json.dumps(studies,ensure_ascii=False,indent=2),encoding='utf-8')
 articles=[]
 for entry in ET.parse(ROOT/'raw/hair_water_pubmed_records.xml').getroot().findall('PubmedArticle'):
@@ -34,8 +44,18 @@ print('Saved',len(rows),'aggregate rows;',len(articles),'NLM study records; no n
 # Five summaries are user-confirmed real, with research consent/date/order pending.
 opinions=[('U01','Male',28,'Dhaka','Clear Men Anti-Dandruff',320,520,'move Sylhet→Dhaka','roughness; low lather; reported hair fall','with',380),('U02','Female',34,'Chattogram',"L’Oreal Paris Total Repair5",650,1050,'visits elsewhere in city','stiff/dry feel; low lather','without',350),('U03','Female',23,'Dhaka','OGX Argan Oil of Morocco',385,1250,'apartment move Mirpur→Dhanmondi','loss of shine; reported double dose','with',450),('U04','Male',40,'Narayanganj','Head & Shoulders Cool Menthol',180,290,'seasonal source change believed','itchy scalp; low lather','without',330),('U05','Female',29,'Khulna','Tresemme Keratin Smooth',580,850,'regional travel','feels softer elsewhere; less shampoo reported','with',380)]
 user_rows=[]
+# Future user-supplied metadata belongs in a separate raw input, so reruns cannot
+# erase documented consent/date/order. Never infer consent from a summary.
+metadata_path=ROOT/'raw/user_opinion_metadata_updates.json'
+metadata={r['record_id']:r for r in json.loads(metadata_path.read_text(encoding='utf-8'))} if metadata_path.exists() else {}
 for ident,gender,age,city,brand,ml,price,change,complaint,pref,wtp in opinions:
     user_rows.append(dict(record_id=ident,age=age,gender=gender,city=city,current_product_selfreported=brand,current_ml_selfreported=ml,current_price_BDT_selfreported=price,current_price_per_100ml_BDT=price/ml*100,context_selfreported=change,experience_selfreported=complaint,strip_preference=pref,maximum_price_BDT_selfreported=wtp,actual_water_test=False,actual_product_trial=False,source_id='USER_MESSAGE_20261009',authenticity='user_confirmed_real',collection_date='',research_consent='',price_order='',primary_analysis_eligible=False,metadata_status='pending_date_consent_price_order',notes='Paraphrased summaries; conditional concept price, not paid demand; no causal inference'))
+    update=metadata.get(ident,{})
+    for field in ('collection_date','research_consent','price_order'):
+        if field in update:user_rows[-1][field]=update[field]
+    complete=bool(user_rows[-1]['collection_date'] and user_rows[-1]['price_order'] and str(user_rows[-1]['research_consent']).lower() in ('yes','true'))
+    user_rows[-1]['primary_analysis_eligible']=complete
+    if complete:user_rows[-1]['metadata_status']='user_documented_date_consent_order; descriptive opinion only'
 with (OUT/'user_supplied_opinions.csv').open('w',encoding='utf-8-sig',newline='') as f:w=csv.DictWriter(f,fieldnames=list(user_rows[0]));w.writeheader();w.writerows(user_rows)
-summary=dict(user_confirmed_summary_records=5,eligible_primary_records=0,metadata_status='pending_date_consent_price_order',with_strip_notes=3,without_strip_notes=2,maximum_prices_as_supplied=[x[-1] for x in opinions],median_as_supplied=statistics.median(x[-1] for x in opinions),note='Descriptive summary of supplied notes only; not a representative survey estimate or price conversion rate. All five proposed maximum prices≥330; do not change true supplied values to avoid a100%statistic. No synthetic records created.')
+summary=dict(user_confirmed_summary_records=5,eligible_primary_records=sum(r['primary_analysis_eligible'] for r in user_rows),metadata_status='See individual records; missing metadata remain pending',with_strip_notes=3,without_strip_notes=2,maximum_prices_as_supplied=[x[-1] for x in opinions],median_as_supplied=statistics.median(x[-1] for x in opinions),note='Descriptive summary of supplied notes only; not a representative survey estimate or price conversion rate. All five proposed maximum prices≥330; do not change true supplied values to avoid a100%statistic. No synthetic records created.')
 (OUT/'user_opinions_metadata.json').write_text(json.dumps(summary,ensure_ascii=False,indent=2),encoding='utf-8')

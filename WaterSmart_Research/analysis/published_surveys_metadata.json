@@ -19,14 +19,14 @@
   },
   {
     "id": "CONSUMER_SALINITY_2025",
-    "authors": "See archived Frontiers original article author list",
+    "authors": "Muhammad Zakaria; Rezaul Karim; Didar Islam; Md. Sarwar Ahmad; Mostak Ahammad; Feng Cheng; Junfang Xu",
     "year": 2025,
     "title": "Perceptions of coastal dwellers about the effects of extreme temperature and saline water on human health: evidence from Bangladesh",
     "url": "https://doi.org/10.3389/fpubh.2025.1451933",
     "population": "391 consenting adults in Ramgati, Lakshmipur;286 men105 women",
     "method": "Cross-sectional convenience questionnaire;400 invited391completed",
     "license": "Open access; retain original article authors and publisher attribution",
-    "measurement_date": "Not recovered from retrieved methods; publication2025 is not automatically survey date",
+    "measurement_date": "Not recovered from retrieved methods; publication date 1 August 2025 is not automatically survey date",
     "limitations": [
       "One locality, predominantly men, convenience sample",
       "Perceived causal attribution, not objective measured salinity or clinical diagnosis",
@@ -34,6 +34,7 @@
       "Raw data available from authors on request, not acquired in this run",
       "Sample-size paragraph says3%margin while givingd=.05; flag reporting inconsistency"
     ],
-    "appropriate_use": "Evidence that water-related hair concerns are reported in this sampled coastal community; not a WaterSmart efficacy claim"
+    "appropriate_use": "Evidence that water-related hair concerns are reported in this sampled coastal community; not a WaterSmart efficacy claim",
+    "publication_date": "2025-08-01"
   }
 ]

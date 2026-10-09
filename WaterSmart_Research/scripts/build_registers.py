@@ -29,7 +29,9 @@ def flatten(obj,prefix):
         for i,value in enumerate(obj):flatten(value,prefix+'['+str(i)+']')
     else:
         status='UNVERIFIED_FORECAST_INPUT';source='';needed='Direct operational observation, approved driver or supplier quote';owner='Marico Finance / relevant function';priority='high'
-        if prefix.endswith('.vat'):status='PUBLIC_STANDARD_RATE_PROJECT_TREATMENT_PENDING';source='VAT_ACT';needed='Confirm invoice, taxable base and exemptions; v3 omits SD';owner='Marico Tax';priority='critical'
+        if isinstance(obj,str):status='MODEL_LABEL';needed='Channel name only; not a quantitative uncertainty';owner='Sales';priority='low'
+        elif prefix.endswith('.release'):status='MODEL_TERMINAL_POLICY_CHOICE';needed='Full release describes a wind-down; do not claim it while continuing operations';owner='Finance';priority='critical'
+        elif prefix.endswith('.vat'):status='PUBLIC_STANDARD_RATE_PROJECT_TREATMENT_PENDING';source='VAT_ACT';needed='Confirm invoice, taxable base and exemptions; v3 omits SD';owner='Marico Tax';priority='critical'
         elif prefix.endswith('.tax'):status='SUPERSEDED_BY_NEW_PUBLIC_BENCHMARK';source='MARICO_BD_FY26';needed='FY26 policy20%; v3 uses25%; future marginal cash tax/route remains to confirm';owner='Marico Tax';priority='critical'
         elif '.sku.' in prefix and (prefix.endswith('.mrp') or prefix.endswith('.ml')):status='PROPOSED_DESIGN_DECISION';source='Frozen team proposal';needed='WTP, pack specification and supply quote; choice is not validated demand';owner='Brand / Procurement'
         elif prefix.endswith('.commercialMonths') or prefix.endswith('.life'):status='MODEL_HORIZON_POLICY_CHOICE';needed='Approved appraisal life and accounting depreciation policy';owner='Finance'
@@ -54,7 +56,8 @@ save('all_model_inputs_evidence_register.csv',inputs)
 (OUT/'all_model_inputs_evidence_register.json').write_text(json.dumps(inputs,ensure_ascii=False,indent=2),encoding='utf-8')
 
 figures={'Revenue':20711685779,'Cost_of_sales':10476751351,'Gross_profit':10234934428,'Marketing_selling_distribution':1079602461,'General_administration':1537123565,'WPPF':400048101,'Profit_before_tax':7600961447,'Income_tax_expense':1109173768,'Net_profit':6491787679,'Inventories':3531302998,'Trade_receivables':137481736,'Trade_payables':1144599505,'Customer_advances':152490101,'Royalty':197525631,'Technical_assistance_fees':103051709}
-financial=[dict(metric=k,value_BDT=v,period='FY2025-26 / balance31March2026',source_id='MARICO_BD_FY26',source_pdf_page='218profit/loss;232inventory;235payables;237costnotes',type='Reported company total, not WaterSmart/SKU allocation') for k,v in figures.items()]
+pages={'Revenue':'218;236','Cost_of_sales':'218;236','Gross_profit':'218','Marketing_selling_distribution':'218;237','General_administration':'218;237','WPPF':'218;235;238','Profit_before_tax':'218;239','Income_tax_expense':'218;238;241','Net_profit':'218;219','Inventories':'217;231','Trade_receivables':'230;244;245','Trade_payables':'234','Customer_advances':'235','Royalty':'237;240','Technical_assistance_fees':'237;240'}
+financial=[dict(metric=k,value_BDT=v,period='FY2025-26 / balance31March2026',source_id='MARICO_BD_FY26',source_pdf_page=pages[k],type='Reported company total, not WaterSmart/SKU allocation') for k,v in figures.items()]
 save('marico_public_financial_benchmarks.csv',financial)
 metrics={'company_gross_margin':figures['Gross_profit']/figures['Revenue'],'company_MSD_pct_NR':figures['Marketing_selling_distribution']/figures['Revenue'],'reported_effective_tax':figures['Income_tax_expense']/figures['Profit_before_tax'],'simple_core_NWC_BDT':figures['Inventories']+figures['Trade_receivables']-figures['Trade_payables']-figures['Customer_advances']}
 metrics['simple_core_NWC_pct_annual_NR']=metrics['simple_core_NWC_BDT']/figures['Revenue']

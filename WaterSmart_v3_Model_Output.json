@@ -1,4 +1,11 @@
 {
+  "research_revision_status": {
+    "date": "2026-10-09",
+    "status": "Historical v3 snapshot; domestic shampoo SD omitted; investment conclusion withdrawn",
+    "current_conditional_analysis": "WaterSmart_Research/analysis/finance_evidence_overlays.json",
+    "report": "WaterSmart_Research/WaterSmart_Research_Report.md",
+    "warning": "Original numerical outputs preserved, not approved current appraisal; tax/fund/invoice and operating inputs remain pending."
+  },
   "version": 3,
   "model_sha256": "4c673059afb8e4979489354b354b18845b495428a5935d777703661559870ded",
   "method": "Monthly DCF at 15% annual effective hurdle; 12 precommercial months + 60 national months; no continuing terminal value.",

@@ -1,0 +1,27 @@
+[
+  {
+    "filename": "OTW_S5_Fact_Check.md",
+    "prior_file": "baseline/OTW_S5_Fact_Check.md",
+    "sha256": "a1626ffd2c8dd3c32f5cf7490f4df4288d6cee02acb7355d33097cc21821dc8a"
+  },
+  {
+    "filename": "audit_on_fact_check.md",
+    "prior_file": "baseline/audit_on_fact_check.md",
+    "sha256": "5d47b79e6087545b7b9de67a12541cf5bb008ccb5eb32ce439fa1f60c73834e5"
+  },
+  {
+    "filename": "audit_on_fact_check_review.md",
+    "prior_file": "baseline/audit_on_fact_check_review.md",
+    "sha256": "6de4568e8c0463c81413fff2b0576a869353e35d54f82911c342a58c64383409"
+  },
+  {
+    "filename": "WaterSmart_v3_Review.md",
+    "prior_file": "baseline/WaterSmart_v3_Review.md",
+    "sha256": "2ab9be9cd751052d76a9e8bcedcb6065ae3b76d65516dc3c9f90136c1863701b"
+  },
+  {
+    "filename": "WaterSmart_v3_Financial_Check.json",
+    "prior_file": "baseline/WaterSmart_v3_Financial_Check.json",
+    "sha256": "8a43aeeb2eee7938f415847b3c47dd15f28cacd67c9ea01089f8afcd8635d15b"
+  }
+]
