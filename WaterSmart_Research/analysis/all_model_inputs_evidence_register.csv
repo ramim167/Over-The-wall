@@ -1,0 +1,105 @@
+﻿input_id,old_value,status,source_id,needed_evidence,owner,priority,usable_as_verified_fact
+inputs.vat,0.15,PUBLIC_STANDARD_RATE_PROJECT_TREATMENT_PENDING,VAT_ACT,"Confirm invoice, taxable base and exemptions; v3 omits SD",Marico Tax,critical,False
+inputs.tradeBottle,0.22,UNVERIFIED_FORECAST_INPUT,,"Direct operational observation, approved driver or supplier quote",Marico Finance / relevant function,high,False
+inputs.tradeSachet,0.25,UNVERIFIED_FORECAST_INPUT,,"Direct operational observation, approved driver or supplier quote",Marico Finance / relevant function,high,False
+inputs.sku.sachet.mrp,3,PROPOSED_DESIGN_DECISION,Frozen team proposal,"WTP, pack specification and supply quote; choice is not validated demand",Brand / Procurement,high,False
+inputs.sku.sachet.cogs,1.2,UNVERIFIED_FORECAST_INPUT,,"Complete BOM, supplier assay/density/landed quotes, conversion/yield and QC allocations",Procurement / Manufacturing,critical,False
+inputs.sku.sachet.formulaCost,0.81,UNVERIFIED_FORECAST_INPUT,,"Complete BOM, supplier assay/density/landed quotes, conversion/yield and QC allocations",Procurement / Manufacturing,critical,False
+inputs.sku.sachet.ml,6,PROPOSED_DESIGN_DECISION,Frozen team proposal,"WTP, pack specification and supply quote; choice is not validated demand",Brand / Procurement,high,False
+inputs.sku.b180.mrp,180,PROPOSED_DESIGN_DECISION,Frozen team proposal,"WTP, pack specification and supply quote; choice is not validated demand",Brand / Procurement,high,False
+inputs.sku.b180.cogs,55,UNVERIFIED_FORECAST_INPUT,,"Complete BOM, supplier assay/density/landed quotes, conversion/yield and QC allocations",Procurement / Manufacturing,critical,False
+inputs.sku.b180.formulaCost,24.5,UNVERIFIED_FORECAST_INPUT,,"Complete BOM, supplier assay/density/landed quotes, conversion/yield and QC allocations",Procurement / Manufacturing,critical,False
+inputs.sku.b180.ml,180,PROPOSED_DESIGN_DECISION,Frozen team proposal,"WTP, pack specification and supply quote; choice is not validated demand",Brand / Procurement,high,False
+inputs.sku.b340.mrp,330,PROPOSED_DESIGN_DECISION,Frozen team proposal,"WTP, pack specification and supply quote; choice is not validated demand",Brand / Procurement,high,False
+inputs.sku.b340.cogs,95,UNVERIFIED_FORECAST_INPUT,,"Complete BOM, supplier assay/density/landed quotes, conversion/yield and QC allocations",Procurement / Manufacturing,critical,False
+inputs.sku.b340.otherCogs,92,UNVERIFIED_FORECAST_INPUT,,"Complete BOM, supplier assay/density/landed quotes, conversion/yield and QC allocations",Procurement / Manufacturing,critical,False
+inputs.sku.b340.formulaCost,46,UNVERIFIED_FORECAST_INPUT,,"Complete BOM, supplier assay/density/landed quotes, conversion/yield and QC allocations",Procurement / Manufacturing,critical,False
+inputs.sku.b340.ml,340,PROPOSED_DESIGN_DECISION,Frozen team proposal,"WTP, pack specification and supply quote; choice is not validated demand",Brand / Procurement,high,False
+inputs.ch[0][0],Rural Grocer (RG),UNVERIFIED_FORECAST_INPUT,,SKU active outlet list; primary/secondary/tertiary sales per period; deduplicated WS reach,Sales,critical,False
+inputs.ch[0][1][0],15000,UNVERIFIED_FORECAST_INPUT,,SKU active outlet list; primary/secondary/tertiary sales per period; deduplicated WS reach,Sales,critical,False
+inputs.ch[0][1][1],30000,UNVERIFIED_FORECAST_INPUT,,SKU active outlet list; primary/secondary/tertiary sales per period; deduplicated WS reach,Sales,critical,False
+inputs.ch[0][1][2],45000,UNVERIFIED_FORECAST_INPUT,,SKU active outlet list; primary/secondary/tertiary sales per period; deduplicated WS reach,Sales,critical,False
+inputs.ch[0][2][0],48,UNVERIFIED_FORECAST_INPUT,,SKU active outlet list; primary/secondary/tertiary sales per period; deduplicated WS reach,Sales,critical,False
+inputs.ch[0][2][1],0.5,UNVERIFIED_FORECAST_INPUT,,SKU active outlet list; primary/secondary/tertiary sales per period; deduplicated WS reach,Sales,critical,False
+inputs.ch[0][2][2],0,UNVERIFIED_FORECAST_INPUT,,SKU active outlet list; primary/secondary/tertiary sales per period; deduplicated WS reach,Sales,critical,False
+inputs.ch[1][0],Urban Neighbourhood Grocer (UNG),UNVERIFIED_FORECAST_INPUT,,SKU active outlet list; primary/secondary/tertiary sales per period; deduplicated WS reach,Sales,critical,False
+inputs.ch[1][1][0],12000,UNVERIFIED_FORECAST_INPUT,,SKU active outlet list; primary/secondary/tertiary sales per period; deduplicated WS reach,Sales,critical,False
+inputs.ch[1][1][1],25000,UNVERIFIED_FORECAST_INPUT,,SKU active outlet list; primary/secondary/tertiary sales per period; deduplicated WS reach,Sales,critical,False
+inputs.ch[1][1][2],35000,UNVERIFIED_FORECAST_INPUT,,SKU active outlet list; primary/secondary/tertiary sales per period; deduplicated WS reach,Sales,critical,False
+inputs.ch[1][2][0],36,UNVERIFIED_FORECAST_INPUT,,SKU active outlet list; primary/secondary/tertiary sales per period; deduplicated WS reach,Sales,critical,False
+inputs.ch[1][2][1],1,UNVERIFIED_FORECAST_INPUT,,SKU active outlet list; primary/secondary/tertiary sales per period; deduplicated WS reach,Sales,critical,False
+inputs.ch[1][2][2],0.5,UNVERIFIED_FORECAST_INPUT,,SKU active outlet list; primary/secondary/tertiary sales per period; deduplicated WS reach,Sales,critical,False
+inputs.ch[2][0],Urban Cosmetics Store (UCS),UNVERIFIED_FORECAST_INPUT,,SKU active outlet list; primary/secondary/tertiary sales per period; deduplicated WS reach,Sales,critical,False
+inputs.ch[2][1][0],6000,UNVERIFIED_FORECAST_INPUT,,SKU active outlet list; primary/secondary/tertiary sales per period; deduplicated WS reach,Sales,critical,False
+inputs.ch[2][1][1],9000,UNVERIFIED_FORECAST_INPUT,,SKU active outlet list; primary/secondary/tertiary sales per period; deduplicated WS reach,Sales,critical,False
+inputs.ch[2][1][2],12000,UNVERIFIED_FORECAST_INPUT,,SKU active outlet list; primary/secondary/tertiary sales per period; deduplicated WS reach,Sales,critical,False
+inputs.ch[2][2][0],0,UNVERIFIED_FORECAST_INPUT,,SKU active outlet list; primary/secondary/tertiary sales per period; deduplicated WS reach,Sales,critical,False
+inputs.ch[2][2][1],2,UNVERIFIED_FORECAST_INPUT,,SKU active outlet list; primary/secondary/tertiary sales per period; deduplicated WS reach,Sales,critical,False
+inputs.ch[2][2][2],2,UNVERIFIED_FORECAST_INPUT,,SKU active outlet list; primary/secondary/tertiary sales per period; deduplicated WS reach,Sales,critical,False
+inputs.ch[3][0],Rural Cosmetics Store (RCS),UNVERIFIED_FORECAST_INPUT,,SKU active outlet list; primary/secondary/tertiary sales per period; deduplicated WS reach,Sales,critical,False
+inputs.ch[3][1][0],3000,UNVERIFIED_FORECAST_INPUT,,SKU active outlet list; primary/secondary/tertiary sales per period; deduplicated WS reach,Sales,critical,False
+inputs.ch[3][1][1],6000,UNVERIFIED_FORECAST_INPUT,,SKU active outlet list; primary/secondary/tertiary sales per period; deduplicated WS reach,Sales,critical,False
+inputs.ch[3][1][2],9000,UNVERIFIED_FORECAST_INPUT,,SKU active outlet list; primary/secondary/tertiary sales per period; deduplicated WS reach,Sales,critical,False
+inputs.ch[3][2][0],12,UNVERIFIED_FORECAST_INPUT,,SKU active outlet list; primary/secondary/tertiary sales per period; deduplicated WS reach,Sales,critical,False
+inputs.ch[3][2][1],1,UNVERIFIED_FORECAST_INPUT,,SKU active outlet list; primary/secondary/tertiary sales per period; deduplicated WS reach,Sales,critical,False
+inputs.ch[3][2][2],1,UNVERIFIED_FORECAST_INPUT,,SKU active outlet list; primary/secondary/tertiary sales per period; deduplicated WS reach,Sales,critical,False
+inputs.ch[4][0],Wholesale (WS),UNVERIFIED_FORECAST_INPUT,,SKU active outlet list; primary/secondary/tertiary sales per period; deduplicated WS reach,Sales,critical,False
+inputs.ch[4][1][0],1000,UNVERIFIED_FORECAST_INPUT,,SKU active outlet list; primary/secondary/tertiary sales per period; deduplicated WS reach,Sales,critical,False
+inputs.ch[4][1][1],2000,UNVERIFIED_FORECAST_INPUT,,SKU active outlet list; primary/secondary/tertiary sales per period; deduplicated WS reach,Sales,critical,False
+inputs.ch[4][1][2],3000,UNVERIFIED_FORECAST_INPUT,,SKU active outlet list; primary/secondary/tertiary sales per period; deduplicated WS reach,Sales,critical,False
+inputs.ch[4][2][0],240,UNVERIFIED_FORECAST_INPUT,,SKU active outlet list; primary/secondary/tertiary sales per period; deduplicated WS reach,Sales,critical,False
+inputs.ch[4][2][1],3,UNVERIFIED_FORECAST_INPUT,,SKU active outlet list; primary/secondary/tertiary sales per period; deduplicated WS reach,Sales,critical,False
+inputs.ch[4][2][2],1,UNVERIFIED_FORECAST_INPUT,,SKU active outlet list; primary/secondary/tertiary sales per period; deduplicated WS reach,Sales,critical,False
+inputs.ch[5][0],Modern Trade (MT),UNVERIFIED_FORECAST_INPUT,,SKU active outlet list; primary/secondary/tertiary sales per period; deduplicated WS reach,Sales,critical,False
+inputs.ch[5][1][0],300,UNVERIFIED_FORECAST_INPUT,,SKU active outlet list; primary/secondary/tertiary sales per period; deduplicated WS reach,Sales,critical,False
+inputs.ch[5][1][1],340,UNVERIFIED_FORECAST_INPUT,,SKU active outlet list; primary/secondary/tertiary sales per period; deduplicated WS reach,Sales,critical,False
+inputs.ch[5][1][2],360,UNVERIFIED_FORECAST_INPUT,,SKU active outlet list; primary/secondary/tertiary sales per period; deduplicated WS reach,Sales,critical,False
+inputs.ch[5][2][0],0,UNVERIFIED_FORECAST_INPUT,,SKU active outlet list; primary/secondary/tertiary sales per period; deduplicated WS reach,Sales,critical,False
+inputs.ch[5][2][1],15,UNVERIFIED_FORECAST_INPUT,,SKU active outlet list; primary/secondary/tertiary sales per period; deduplicated WS reach,Sales,critical,False
+inputs.ch[5][2][2],15,UNVERIFIED_FORECAST_INPUT,,SKU active outlet list; primary/secondary/tertiary sales per period; deduplicated WS reach,Sales,critical,False
+inputs.ch[6][0],E-commerce,UNVERIFIED_FORECAST_INPUT,,SKU active outlet list; primary/secondary/tertiary sales per period; deduplicated WS reach,Sales,critical,False
+inputs.ch[6][1][0],30,UNVERIFIED_FORECAST_INPUT,,SKU active outlet list; primary/secondary/tertiary sales per period; deduplicated WS reach,Sales,critical,False
+inputs.ch[6][1][1],40,UNVERIFIED_FORECAST_INPUT,,SKU active outlet list; primary/secondary/tertiary sales per period; deduplicated WS reach,Sales,critical,False
+inputs.ch[6][1][2],40,UNVERIFIED_FORECAST_INPUT,,SKU active outlet list; primary/secondary/tertiary sales per period; deduplicated WS reach,Sales,critical,False
+inputs.ch[6][2][0],0,UNVERIFIED_FORECAST_INPUT,,SKU active outlet list; primary/secondary/tertiary sales per period; deduplicated WS reach,Sales,critical,False
+inputs.ch[6][2][1],30,UNVERIFIED_FORECAST_INPUT,,SKU active outlet list; primary/secondary/tertiary sales per period; deduplicated WS reach,Sales,critical,False
+inputs.ch[6][2][2],40,UNVERIFIED_FORECAST_INPUT,,SKU active outlet list; primary/secondary/tertiary sales per period; deduplicated WS reach,Sales,critical,False
+inputs.growth[0],1,UNVERIFIED_FORECAST_INPUT,,"Direct operational observation, approved driver or supplier quote",Marico Finance / relevant function,high,False
+inputs.growth[1],1.05,UNVERIFIED_FORECAST_INPUT,,"Direct operational observation, approved driver or supplier quote",Marico Finance / relevant function,high,False
+inputs.growth[2],1.1,UNVERIFIED_FORECAST_INPUT,,"Direct operational observation, approved driver or supplier quote",Marico Finance / relevant function,high,False
+inputs.outerGrowth,0.1,UNVERIFIED_FORECAST_INPUT,,"Direct operational observation, approved driver or supplier quote",Marico Finance / relevant function,high,False
+inputs.apPct[0],0,UNVERIFIED_FORECAST_INPUT,,"Direct operational observation, approved driver or supplier quote",Marico Finance / relevant function,high,False
+inputs.apPct[1],0.18,UNVERIFIED_FORECAST_INPUT,,"Direct operational observation, approved driver or supplier quote",Marico Finance / relevant function,high,False
+inputs.apPct[2],0.15,UNVERIFIED_FORECAST_INPUT,,"Direct operational observation, approved driver or supplier quote",Marico Finance / relevant function,high,False
+inputs.apPct[3],0.14,UNVERIFIED_FORECAST_INPUT,,"Direct operational observation, approved driver or supplier quote",Marico Finance / relevant function,high,False
+inputs.apPct[4],0.14,UNVERIFIED_FORECAST_INPUT,,"Direct operational observation, approved driver or supplier quote",Marico Finance / relevant function,high,False
+inputs.sdPct,0.1,UNVERIFIED_FORECAST_INPUT,,"Direct operational observation, approved driver or supplier quote",Marico Finance / relevant function,high,False
+inputs.sdFix,10,UNVERIFIED_FORECAST_INPUT,,"Direct operational observation, approved driver or supplier quote",Marico Finance / relevant function,high,False
+inputs.eprPct,0.01,UNVERIFIED_FORECAST_INPUT,,Measured full plastic BOM by category and approved recycler/PRO/admin quotation;1%NRis not legaltargetbase,ESG / Finance,critical,False
+inputs.naturaleCM,0.45,UNVERIFIED_FORECAST_INPUT,,"Direct operational observation, approved driver or supplier quote",Marico Finance / relevant function,high,False
+inputs.capex,30,UNVERIFIED_FORECAST_INPUT,,"Line/pack engineering quotation, R&D/certification scope and project timeline",Manufacturing / Insights / Finance,critical,False
+inputs.pilot,5,UNVERIFIED_FORECAST_INPUT,,"Line/pack engineering quotation, R&D/certification scope and project timeline",Manufacturing / Insights / Finance,critical,False
+inputs.preMonths,12,UNVERIFIED_FORECAST_INPUT,,"Line/pack engineering quotation, R&D/certification scope and project timeline",Manufacturing / Insights / Finance,critical,False
+inputs.life,5,MODEL_HORIZON_POLICY_CHOICE,,Approved appraisal life and accounting depreciation policy,Finance,high,False
+inputs.tax,0.25,SUPERSEDED_BY_NEW_PUBLIC_BENCHMARK,MARICO_BD_FY26,FY26 policy20%; v3 uses25%; future marginal cash tax/route remains to confirm,Marico Tax,critical,False
+inputs.nwc,0.12,UNVERIFIED_FORECAST_INPUT,,"SKU inventory days, receivable terms, payable terms and launch cash timing; company balance benchmark is not SKU proof",Finance / Supply Chain,high,False
+inputs.hurdle,0.15,UNCONFIRMED_COMPANY_INVESTMENT_POLICY,,Marico hurdle/WACC confirmation; public report does not disclose a15%new-SKUhurdle,Finance,critical,False
+inputs.commercialMonths,60,MODEL_HORIZON_POLICY_CHOICE,,Approved appraisal life and accounting depreciation policy,Finance,high,False
+controls.vol,0,UNVERIFIED_FORECAST_INPUT,,"Direct operational observation, approved driver or supplier quote",Marico Finance / relevant function,high,False
+controls.price,0,UNVERIFIED_FORECAST_INPUT,,"Direct operational observation, approved driver or supplier quote",Marico Finance / relevant function,high,False
+controls.cogs,0,UNVERIFIED_FORECAST_INPUT,,"Complete BOM, supplier assay/density/landed quotes, conversion/yield and QC allocations",Procurement / Manufacturing,critical,False
+controls.formula,0,UNVERIFIED_FORECAST_INPUT,,"Direct operational observation, approved driver or supplier quote",Marico Finance / relevant function,high,False
+controls.delay,0,UNVERIFIED_FORECAST_INPUT,,"Direct operational observation, approved driver or supplier quote",Marico Finance / relevant function,high,False
+controls.ap,60,UNVERIFIED_FORECAST_INPUT,,"Direct operational observation, approved driver or supplier quote",Marico Finance / relevant function,high,False
+controls.cann,0.2,UNVERIFIED_FORECAST_INPUT,,"Direct operational observation, approved driver or supplier quote",Marico Finance / relevant function,high,False
+controls.strip,3,UNVERIFIED_FORECAST_INPUT,,"Direct operational observation, approved driver or supplier quote",Marico Finance / relevant function,high,False
+controls.pilot,5,UNVERIFIED_FORECAST_INPUT,,"Line/pack engineering quotation, R&D/certification scope and project timeline",Manufacturing / Insights / Finance,critical,False
+controls.pre,12,UNVERIFIED_FORECAST_INPUT,,"Direct operational observation, approved driver or supplier quote",Marico Finance / relevant function,high,False
+controls.release,True,UNVERIFIED_FORECAST_INPUT,,"Direct operational observation, approved driver or supplier quote",Marico Finance / relevant function,high,False
+missing.domestic_SD,omitted,PUBLIC_RATE_VERIFIED_MODEL_OMISSION,VAT_SCHEDULES;VAT_ACT;NBR_VAT_FAQ,15%local-supply shampoo SD in official schedule; confirm actual invoice basis and any specific exemption,Tax / Finance,critical,Rate yes; project cash model conditional
+missing.WPPF,omitted,PUBLIC_COMPANY_POLICY_VERIFIED_ALLOCATION_PENDING,MARICO_BD_FY26,"Company reports5%profit-before-fundpolicy; confirm incremental allocation, tax deductibility and payment timing",Finance,critical,Policy yes; project cash timing no
+demand.WaterSmart_repeat,pilot gate25%,PROPOSED_GATE_NOT_OBSERVED,Frozen team proposal,Mature consenting buyer cohorts; paid transactions and attrition; imported reviews and intent are not paidrepeat,Insights / Sales,critical,False
+pack.strip_life,18months target,UNVALIDATED_SPECIFICATION,STRIP_MN_91224,Supplier MN product has12month shelf life at4–30C; source an18month qualified alternative or revisepacklife/storage,Procurement / QA,critical,False
+pack.weights_dose,32g/22g/0.6g/9g;7ml,UNMEASURED_BOM_AND_USAGE,Frozen team proposal,Weigh actual complete clean/dry pack components; measure dose; separate plastic vs total foil/paper mass,Packaging / ESG,high,False
+market.SAM,unfilled,NOT_IDENTIFIABLE_FROM_CURRENT_EVIDENCE,BGS_NHS_CSV;BWDB_GROUNDWATER,Current household/source exposure × eligible consumers × shampoo usage × relevant preference; no multiplication of well share by census without weights/linkage,Insights / Finance,critical,False
+product.performance,"mineral30%,foam80%,preference60% proposedgates",UNMADE_PRODUCT_UNTESTED,SCIENCE_PUBMED_XML;GLDA_MC;APG_INDORAMA,Formula-specific deposit/lather/mildness/preservation/stability tests with protocol/comparator; literature cannot fill outcomes,R&D / Regulatory,critical,False

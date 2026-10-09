@@ -1,0 +1,1042 @@
+[
+  {
+    "input_id": "inputs.vat",
+    "old_value": 0.15,
+    "status": "PUBLIC_STANDARD_RATE_PROJECT_TREATMENT_PENDING",
+    "source_id": "VAT_ACT",
+    "needed_evidence": "Confirm invoice, taxable base and exemptions; v3 omits SD",
+    "owner": "Marico Tax",
+    "priority": "critical",
+    "usable_as_verified_fact": false
+  },
+  {
+    "input_id": "inputs.tradeBottle",
+    "old_value": 0.22,
+    "status": "UNVERIFIED_FORECAST_INPUT",
+    "source_id": "",
+    "needed_evidence": "Direct operational observation, approved driver or supplier quote",
+    "owner": "Marico Finance / relevant function",
+    "priority": "high",
+    "usable_as_verified_fact": false
+  },
+  {
+    "input_id": "inputs.tradeSachet",
+    "old_value": 0.25,
+    "status": "UNVERIFIED_FORECAST_INPUT",
+    "source_id": "",
+    "needed_evidence": "Direct operational observation, approved driver or supplier quote",
+    "owner": "Marico Finance / relevant function",
+    "priority": "high",
+    "usable_as_verified_fact": false
+  },
+  {
+    "input_id": "inputs.sku.sachet.mrp",
+    "old_value": 3,
+    "status": "PROPOSED_DESIGN_DECISION",
+    "source_id": "Frozen team proposal",
+    "needed_evidence": "WTP, pack specification and supply quote; choice is not validated demand",
+    "owner": "Brand / Procurement",
+    "priority": "high",
+    "usable_as_verified_fact": false
+  },
+  {
+    "input_id": "inputs.sku.sachet.cogs",
+    "old_value": 1.2,
+    "status": "UNVERIFIED_FORECAST_INPUT",
+    "source_id": "",
+    "needed_evidence": "Complete BOM, supplier assay/density/landed quotes, conversion/yield and QC allocations",
+    "owner": "Procurement / Manufacturing",
+    "priority": "critical",
+    "usable_as_verified_fact": false
+  },
+  {
+    "input_id": "inputs.sku.sachet.formulaCost",
+    "old_value": 0.81,
+    "status": "UNVERIFIED_FORECAST_INPUT",
+    "source_id": "",
+    "needed_evidence": "Complete BOM, supplier assay/density/landed quotes, conversion/yield and QC allocations",
+    "owner": "Procurement / Manufacturing",
+    "priority": "critical",
+    "usable_as_verified_fact": false
+  },
+  {
+    "input_id": "inputs.sku.sachet.ml",
+    "old_value": 6,
+    "status": "PROPOSED_DESIGN_DECISION",
+    "source_id": "Frozen team proposal",
+    "needed_evidence": "WTP, pack specification and supply quote; choice is not validated demand",
+    "owner": "Brand / Procurement",
+    "priority": "high",
+    "usable_as_verified_fact": false
+  },
+  {
+    "input_id": "inputs.sku.b180.mrp",
+    "old_value": 180,
+    "status": "PROPOSED_DESIGN_DECISION",
+    "source_id": "Frozen team proposal",
+    "needed_evidence": "WTP, pack specification and supply quote; choice is not validated demand",
+    "owner": "Brand / Procurement",
+    "priority": "high",
+    "usable_as_verified_fact": false
+  },
+  {
+    "input_id": "inputs.sku.b180.cogs",
+    "old_value": 55,
+    "status": "UNVERIFIED_FORECAST_INPUT",
+    "source_id": "",
+    "needed_evidence": "Complete BOM, supplier assay/density/landed quotes, conversion/yield and QC allocations",
+    "owner": "Procurement / Manufacturing",
+    "priority": "critical",
+    "usable_as_verified_fact": false
+  },
+  {
+    "input_id": "inputs.sku.b180.formulaCost",
+    "old_value": 24.5,
+    "status": "UNVERIFIED_FORECAST_INPUT",
+    "source_id": "",
+    "needed_evidence": "Complete BOM, supplier assay/density/landed quotes, conversion/yield and QC allocations",
+    "owner": "Procurement / Manufacturing",
+    "priority": "critical",
+    "usable_as_verified_fact": false
+  },
+  {
+    "input_id": "inputs.sku.b180.ml",
+    "old_value": 180,
+    "status": "PROPOSED_DESIGN_DECISION",
+    "source_id": "Frozen team proposal",
+    "needed_evidence": "WTP, pack specification and supply quote; choice is not validated demand",
+    "owner": "Brand / Procurement",
+    "priority": "high",
+    "usable_as_verified_fact": false
+  },
+  {
+    "input_id": "inputs.sku.b340.mrp",
+    "old_value": 330,
+    "status": "PROPOSED_DESIGN_DECISION",
+    "source_id": "Frozen team proposal",
+    "needed_evidence": "WTP, pack specification and supply quote; choice is not validated demand",
+    "owner": "Brand / Procurement",
+    "priority": "high",
+    "usable_as_verified_fact": false
+  },
+  {
+    "input_id": "inputs.sku.b340.cogs",
+    "old_value": 95,
+    "status": "UNVERIFIED_FORECAST_INPUT",
+    "source_id": "",
+    "needed_evidence": "Complete BOM, supplier assay/density/landed quotes, conversion/yield and QC allocations",
+    "owner": "Procurement / Manufacturing",
+    "priority": "critical",
+    "usable_as_verified_fact": false
+  },
+  {
+    "input_id": "inputs.sku.b340.otherCogs",
+    "old_value": 92,
+    "status": "UNVERIFIED_FORECAST_INPUT",
+    "source_id": "",
+    "needed_evidence": "Complete BOM, supplier assay/density/landed quotes, conversion/yield and QC allocations",
+    "owner": "Procurement / Manufacturing",
+    "priority": "critical",
+    "usable_as_verified_fact": false
+  },
+  {
+    "input_id": "inputs.sku.b340.formulaCost",
+    "old_value": 46,
+    "status": "UNVERIFIED_FORECAST_INPUT",
+    "source_id": "",
+    "needed_evidence": "Complete BOM, supplier assay/density/landed quotes, conversion/yield and QC allocations",
+    "owner": "Procurement / Manufacturing",
+    "priority": "critical",
+    "usable_as_verified_fact": false
+  },
+  {
+    "input_id": "inputs.sku.b340.ml",
+    "old_value": 340,
+    "status": "PROPOSED_DESIGN_DECISION",
+    "source_id": "Frozen team proposal",
+    "needed_evidence": "WTP, pack specification and supply quote; choice is not validated demand",
+    "owner": "Brand / Procurement",
+    "priority": "high",
+    "usable_as_verified_fact": false
+  },
+  {
+    "input_id": "inputs.ch[0][0]",
+    "old_value": "Rural Grocer (RG)",
+    "status": "UNVERIFIED_FORECAST_INPUT",
+    "source_id": "",
+    "needed_evidence": "SKU active outlet list; primary/secondary/tertiary sales per period; deduplicated WS reach",
+    "owner": "Sales",
+    "priority": "critical",
+    "usable_as_verified_fact": false
+  },
+  {
+    "input_id": "inputs.ch[0][1][0]",
+    "old_value": 15000,
+    "status": "UNVERIFIED_FORECAST_INPUT",
+    "source_id": "",
+    "needed_evidence": "SKU active outlet list; primary/secondary/tertiary sales per period; deduplicated WS reach",
+    "owner": "Sales",
+    "priority": "critical",
+    "usable_as_verified_fact": false
+  },
+  {
+    "input_id": "inputs.ch[0][1][1]",
+    "old_value": 30000,
+    "status": "UNVERIFIED_FORECAST_INPUT",
+    "source_id": "",
+    "needed_evidence": "SKU active outlet list; primary/secondary/tertiary sales per period; deduplicated WS reach",
+    "owner": "Sales",
+    "priority": "critical",
+    "usable_as_verified_fact": false
+  },
+  {
+    "input_id": "inputs.ch[0][1][2]",
+    "old_value": 45000,
+    "status": "UNVERIFIED_FORECAST_INPUT",
+    "source_id": "",
+    "needed_evidence": "SKU active outlet list; primary/secondary/tertiary sales per period; deduplicated WS reach",
+    "owner": "Sales",
+    "priority": "critical",
+    "usable_as_verified_fact": false
+  },
+  {
+    "input_id": "inputs.ch[0][2][0]",
+    "old_value": 48,
+    "status": "UNVERIFIED_FORECAST_INPUT",
+    "source_id": "",
+    "needed_evidence": "SKU active outlet list; primary/secondary/tertiary sales per period; deduplicated WS reach",
+    "owner": "Sales",
+    "priority": "critical",
+    "usable_as_verified_fact": false
+  },
+  {
+    "input_id": "inputs.ch[0][2][1]",
+    "old_value": 0.5,
+    "status": "UNVERIFIED_FORECAST_INPUT",
+    "source_id": "",
+    "needed_evidence": "SKU active outlet list; primary/secondary/tertiary sales per period; deduplicated WS reach",
+    "owner": "Sales",
+    "priority": "critical",
+    "usable_as_verified_fact": false
+  },
+  {
+    "input_id": "inputs.ch[0][2][2]",
+    "old_value": 0,
+    "status": "UNVERIFIED_FORECAST_INPUT",
+    "source_id": "",
+    "needed_evidence": "SKU active outlet list; primary/secondary/tertiary sales per period; deduplicated WS reach",
+    "owner": "Sales",
+    "priority": "critical",
+    "usable_as_verified_fact": false
+  },
+  {
+    "input_id": "inputs.ch[1][0]",
+    "old_value": "Urban Neighbourhood Grocer (UNG)",
+    "status": "UNVERIFIED_FORECAST_INPUT",
+    "source_id": "",
+    "needed_evidence": "SKU active outlet list; primary/secondary/tertiary sales per period; deduplicated WS reach",
+    "owner": "Sales",
+    "priority": "critical",
+    "usable_as_verified_fact": false
+  },
+  {
+    "input_id": "inputs.ch[1][1][0]",
+    "old_value": 12000,
+    "status": "UNVERIFIED_FORECAST_INPUT",
+    "source_id": "",
+    "needed_evidence": "SKU active outlet list; primary/secondary/tertiary sales per period; deduplicated WS reach",
+    "owner": "Sales",
+    "priority": "critical",
+    "usable_as_verified_fact": false
+  },
+  {
+    "input_id": "inputs.ch[1][1][1]",
+    "old_value": 25000,
+    "status": "UNVERIFIED_FORECAST_INPUT",
+    "source_id": "",
+    "needed_evidence": "SKU active outlet list; primary/secondary/tertiary sales per period; deduplicated WS reach",
+    "owner": "Sales",
+    "priority": "critical",
+    "usable_as_verified_fact": false
+  },
+  {
+    "input_id": "inputs.ch[1][1][2]",
+    "old_value": 35000,
+    "status": "UNVERIFIED_FORECAST_INPUT",
+    "source_id": "",
+    "needed_evidence": "SKU active outlet list; primary/secondary/tertiary sales per period; deduplicated WS reach",
+    "owner": "Sales",
+    "priority": "critical",
+    "usable_as_verified_fact": false
+  },
+  {
+    "input_id": "inputs.ch[1][2][0]",
+    "old_value": 36,
+    "status": "UNVERIFIED_FORECAST_INPUT",
+    "source_id": "",
+    "needed_evidence": "SKU active outlet list; primary/secondary/tertiary sales per period; deduplicated WS reach",
+    "owner": "Sales",
+    "priority": "critical",
+    "usable_as_verified_fact": false
+  },
+  {
+    "input_id": "inputs.ch[1][2][1]",
+    "old_value": 1,
+    "status": "UNVERIFIED_FORECAST_INPUT",
+    "source_id": "",
+    "needed_evidence": "SKU active outlet list; primary/secondary/tertiary sales per period; deduplicated WS reach",
+    "owner": "Sales",
+    "priority": "critical",
+    "usable_as_verified_fact": false
+  },
+  {
+    "input_id": "inputs.ch[1][2][2]",
+    "old_value": 0.5,
+    "status": "UNVERIFIED_FORECAST_INPUT",
+    "source_id": "",
+    "needed_evidence": "SKU active outlet list; primary/secondary/tertiary sales per period; deduplicated WS reach",
+    "owner": "Sales",
+    "priority": "critical",
+    "usable_as_verified_fact": false
+  },
+  {
+    "input_id": "inputs.ch[2][0]",
+    "old_value": "Urban Cosmetics Store (UCS)",
+    "status": "UNVERIFIED_FORECAST_INPUT",
+    "source_id": "",
+    "needed_evidence": "SKU active outlet list; primary/secondary/tertiary sales per period; deduplicated WS reach",
+    "owner": "Sales",
+    "priority": "critical",
+    "usable_as_verified_fact": false
+  },
+  {
+    "input_id": "inputs.ch[2][1][0]",
+    "old_value": 6000,
+    "status": "UNVERIFIED_FORECAST_INPUT",
+    "source_id": "",
+    "needed_evidence": "SKU active outlet list; primary/secondary/tertiary sales per period; deduplicated WS reach",
+    "owner": "Sales",
+    "priority": "critical",
+    "usable_as_verified_fact": false
+  },
+  {
+    "input_id": "inputs.ch[2][1][1]",
+    "old_value": 9000,
+    "status": "UNVERIFIED_FORECAST_INPUT",
+    "source_id": "",
+    "needed_evidence": "SKU active outlet list; primary/secondary/tertiary sales per period; deduplicated WS reach",
+    "owner": "Sales",
+    "priority": "critical",
+    "usable_as_verified_fact": false
+  },
+  {
+    "input_id": "inputs.ch[2][1][2]",
+    "old_value": 12000,
+    "status": "UNVERIFIED_FORECAST_INPUT",
+    "source_id": "",
+    "needed_evidence": "SKU active outlet list; primary/secondary/tertiary sales per period; deduplicated WS reach",
+    "owner": "Sales",
+    "priority": "critical",
+    "usable_as_verified_fact": false
+  },
+  {
+    "input_id": "inputs.ch[2][2][0]",
+    "old_value": 0,
+    "status": "UNVERIFIED_FORECAST_INPUT",
+    "source_id": "",
+    "needed_evidence": "SKU active outlet list; primary/secondary/tertiary sales per period; deduplicated WS reach",
+    "owner": "Sales",
+    "priority": "critical",
+    "usable_as_verified_fact": false
+  },
+  {
+    "input_id": "inputs.ch[2][2][1]",
+    "old_value": 2,
+    "status": "UNVERIFIED_FORECAST_INPUT",
+    "source_id": "",
+    "needed_evidence": "SKU active outlet list; primary/secondary/tertiary sales per period; deduplicated WS reach",
+    "owner": "Sales",
+    "priority": "critical",
+    "usable_as_verified_fact": false
+  },
+  {
+    "input_id": "inputs.ch[2][2][2]",
+    "old_value": 2,
+    "status": "UNVERIFIED_FORECAST_INPUT",
+    "source_id": "",
+    "needed_evidence": "SKU active outlet list; primary/secondary/tertiary sales per period; deduplicated WS reach",
+    "owner": "Sales",
+    "priority": "critical",
+    "usable_as_verified_fact": false
+  },
+  {
+    "input_id": "inputs.ch[3][0]",
+    "old_value": "Rural Cosmetics Store (RCS)",
+    "status": "UNVERIFIED_FORECAST_INPUT",
+    "source_id": "",
+    "needed_evidence": "SKU active outlet list; primary/secondary/tertiary sales per period; deduplicated WS reach",
+    "owner": "Sales",
+    "priority": "critical",
+    "usable_as_verified_fact": false
+  },
+  {
+    "input_id": "inputs.ch[3][1][0]",
+    "old_value": 3000,
+    "status": "UNVERIFIED_FORECAST_INPUT",
+    "source_id": "",
+    "needed_evidence": "SKU active outlet list; primary/secondary/tertiary sales per period; deduplicated WS reach",
+    "owner": "Sales",
+    "priority": "critical",
+    "usable_as_verified_fact": false
+  },
+  {
+    "input_id": "inputs.ch[3][1][1]",
+    "old_value": 6000,
+    "status": "UNVERIFIED_FORECAST_INPUT",
+    "source_id": "",
+    "needed_evidence": "SKU active outlet list; primary/secondary/tertiary sales per period; deduplicated WS reach",
+    "owner": "Sales",
+    "priority": "critical",
+    "usable_as_verified_fact": false
+  },
+  {
+    "input_id": "inputs.ch[3][1][2]",
+    "old_value": 9000,
+    "status": "UNVERIFIED_FORECAST_INPUT",
+    "source_id": "",
+    "needed_evidence": "SKU active outlet list; primary/secondary/tertiary sales per period; deduplicated WS reach",
+    "owner": "Sales",
+    "priority": "critical",
+    "usable_as_verified_fact": false
+  },
+  {
+    "input_id": "inputs.ch[3][2][0]",
+    "old_value": 12,
+    "status": "UNVERIFIED_FORECAST_INPUT",
+    "source_id": "",
+    "needed_evidence": "SKU active outlet list; primary/secondary/tertiary sales per period; deduplicated WS reach",
+    "owner": "Sales",
+    "priority": "critical",
+    "usable_as_verified_fact": false
+  },
+  {
+    "input_id": "inputs.ch[3][2][1]",
+    "old_value": 1,
+    "status": "UNVERIFIED_FORECAST_INPUT",
+    "source_id": "",
+    "needed_evidence": "SKU active outlet list; primary/secondary/tertiary sales per period; deduplicated WS reach",
+    "owner": "Sales",
+    "priority": "critical",
+    "usable_as_verified_fact": false
+  },
+  {
+    "input_id": "inputs.ch[3][2][2]",
+    "old_value": 1,
+    "status": "UNVERIFIED_FORECAST_INPUT",
+    "source_id": "",
+    "needed_evidence": "SKU active outlet list; primary/secondary/tertiary sales per period; deduplicated WS reach",
+    "owner": "Sales",
+    "priority": "critical",
+    "usable_as_verified_fact": false
+  },
+  {
+    "input_id": "inputs.ch[4][0]",
+    "old_value": "Wholesale (WS)",
+    "status": "UNVERIFIED_FORECAST_INPUT",
+    "source_id": "",
+    "needed_evidence": "SKU active outlet list; primary/secondary/tertiary sales per period; deduplicated WS reach",
+    "owner": "Sales",
+    "priority": "critical",
+    "usable_as_verified_fact": false
+  },
+  {
+    "input_id": "inputs.ch[4][1][0]",
+    "old_value": 1000,
+    "status": "UNVERIFIED_FORECAST_INPUT",
+    "source_id": "",
+    "needed_evidence": "SKU active outlet list; primary/secondary/tertiary sales per period; deduplicated WS reach",
+    "owner": "Sales",
+    "priority": "critical",
+    "usable_as_verified_fact": false
+  },
+  {
+    "input_id": "inputs.ch[4][1][1]",
+    "old_value": 2000,
+    "status": "UNVERIFIED_FORECAST_INPUT",
+    "source_id": "",
+    "needed_evidence": "SKU active outlet list; primary/secondary/tertiary sales per period; deduplicated WS reach",
+    "owner": "Sales",
+    "priority": "critical",
+    "usable_as_verified_fact": false
+  },
+  {
+    "input_id": "inputs.ch[4][1][2]",
+    "old_value": 3000,
+    "status": "UNVERIFIED_FORECAST_INPUT",
+    "source_id": "",
+    "needed_evidence": "SKU active outlet list; primary/secondary/tertiary sales per period; deduplicated WS reach",
+    "owner": "Sales",
+    "priority": "critical",
+    "usable_as_verified_fact": false
+  },
+  {
+    "input_id": "inputs.ch[4][2][0]",
+    "old_value": 240,
+    "status": "UNVERIFIED_FORECAST_INPUT",
+    "source_id": "",
+    "needed_evidence": "SKU active outlet list; primary/secondary/tertiary sales per period; deduplicated WS reach",
+    "owner": "Sales",
+    "priority": "critical",
+    "usable_as_verified_fact": false
+  },
+  {
+    "input_id": "inputs.ch[4][2][1]",
+    "old_value": 3,
+    "status": "UNVERIFIED_FORECAST_INPUT",
+    "source_id": "",
+    "needed_evidence": "SKU active outlet list; primary/secondary/tertiary sales per period; deduplicated WS reach",
+    "owner": "Sales",
+    "priority": "critical",
+    "usable_as_verified_fact": false
+  },
+  {
+    "input_id": "inputs.ch[4][2][2]",
+    "old_value": 1,
+    "status": "UNVERIFIED_FORECAST_INPUT",
+    "source_id": "",
+    "needed_evidence": "SKU active outlet list; primary/secondary/tertiary sales per period; deduplicated WS reach",
+    "owner": "Sales",
+    "priority": "critical",
+    "usable_as_verified_fact": false
+  },
+  {
+    "input_id": "inputs.ch[5][0]",
+    "old_value": "Modern Trade (MT)",
+    "status": "UNVERIFIED_FORECAST_INPUT",
+    "source_id": "",
+    "needed_evidence": "SKU active outlet list; primary/secondary/tertiary sales per period; deduplicated WS reach",
+    "owner": "Sales",
+    "priority": "critical",
+    "usable_as_verified_fact": false
+  },
+  {
+    "input_id": "inputs.ch[5][1][0]",
+    "old_value": 300,
+    "status": "UNVERIFIED_FORECAST_INPUT",
+    "source_id": "",
+    "needed_evidence": "SKU active outlet list; primary/secondary/tertiary sales per period; deduplicated WS reach",
+    "owner": "Sales",
+    "priority": "critical",
+    "usable_as_verified_fact": false
+  },
+  {
+    "input_id": "inputs.ch[5][1][1]",
+    "old_value": 340,
+    "status": "UNVERIFIED_FORECAST_INPUT",
+    "source_id": "",
+    "needed_evidence": "SKU active outlet list; primary/secondary/tertiary sales per period; deduplicated WS reach",
+    "owner": "Sales",
+    "priority": "critical",
+    "usable_as_verified_fact": false
+  },
+  {
+    "input_id": "inputs.ch[5][1][2]",
+    "old_value": 360,
+    "status": "UNVERIFIED_FORECAST_INPUT",
+    "source_id": "",
+    "needed_evidence": "SKU active outlet list; primary/secondary/tertiary sales per period; deduplicated WS reach",
+    "owner": "Sales",
+    "priority": "critical",
+    "usable_as_verified_fact": false
+  },
+  {
+    "input_id": "inputs.ch[5][2][0]",
+    "old_value": 0,
+    "status": "UNVERIFIED_FORECAST_INPUT",
+    "source_id": "",
+    "needed_evidence": "SKU active outlet list; primary/secondary/tertiary sales per period; deduplicated WS reach",
+    "owner": "Sales",
+    "priority": "critical",
+    "usable_as_verified_fact": false
+  },
+  {
+    "input_id": "inputs.ch[5][2][1]",
+    "old_value": 15,
+    "status": "UNVERIFIED_FORECAST_INPUT",
+    "source_id": "",
+    "needed_evidence": "SKU active outlet list; primary/secondary/tertiary sales per period; deduplicated WS reach",
+    "owner": "Sales",
+    "priority": "critical",
+    "usable_as_verified_fact": false
+  },
+  {
+    "input_id": "inputs.ch[5][2][2]",
+    "old_value": 15,
+    "status": "UNVERIFIED_FORECAST_INPUT",
+    "source_id": "",
+    "needed_evidence": "SKU active outlet list; primary/secondary/tertiary sales per period; deduplicated WS reach",
+    "owner": "Sales",
+    "priority": "critical",
+    "usable_as_verified_fact": false
+  },
+  {
+    "input_id": "inputs.ch[6][0]",
+    "old_value": "E-commerce",
+    "status": "UNVERIFIED_FORECAST_INPUT",
+    "source_id": "",
+    "needed_evidence": "SKU active outlet list; primary/secondary/tertiary sales per period; deduplicated WS reach",
+    "owner": "Sales",
+    "priority": "critical",
+    "usable_as_verified_fact": false
+  },
+  {
+    "input_id": "inputs.ch[6][1][0]",
+    "old_value": 30,
+    "status": "UNVERIFIED_FORECAST_INPUT",
+    "source_id": "",
+    "needed_evidence": "SKU active outlet list; primary/secondary/tertiary sales per period; deduplicated WS reach",
+    "owner": "Sales",
+    "priority": "critical",
+    "usable_as_verified_fact": false
+  },
+  {
+    "input_id": "inputs.ch[6][1][1]",
+    "old_value": 40,
+    "status": "UNVERIFIED_FORECAST_INPUT",
+    "source_id": "",
+    "needed_evidence": "SKU active outlet list; primary/secondary/tertiary sales per period; deduplicated WS reach",
+    "owner": "Sales",
+    "priority": "critical",
+    "usable_as_verified_fact": false
+  },
+  {
+    "input_id": "inputs.ch[6][1][2]",
+    "old_value": 40,
+    "status": "UNVERIFIED_FORECAST_INPUT",
+    "source_id": "",
+    "needed_evidence": "SKU active outlet list; primary/secondary/tertiary sales per period; deduplicated WS reach",
+    "owner": "Sales",
+    "priority": "critical",
+    "usable_as_verified_fact": false
+  },
+  {
+    "input_id": "inputs.ch[6][2][0]",
+    "old_value": 0,
+    "status": "UNVERIFIED_FORECAST_INPUT",
+    "source_id": "",
+    "needed_evidence": "SKU active outlet list; primary/secondary/tertiary sales per period; deduplicated WS reach",
+    "owner": "Sales",
+    "priority": "critical",
+    "usable_as_verified_fact": false
+  },
+  {
+    "input_id": "inputs.ch[6][2][1]",
+    "old_value": 30,
+    "status": "UNVERIFIED_FORECAST_INPUT",
+    "source_id": "",
+    "needed_evidence": "SKU active outlet list; primary/secondary/tertiary sales per period; deduplicated WS reach",
+    "owner": "Sales",
+    "priority": "critical",
+    "usable_as_verified_fact": false
+  },
+  {
+    "input_id": "inputs.ch[6][2][2]",
+    "old_value": 40,
+    "status": "UNVERIFIED_FORECAST_INPUT",
+    "source_id": "",
+    "needed_evidence": "SKU active outlet list; primary/secondary/tertiary sales per period; deduplicated WS reach",
+    "owner": "Sales",
+    "priority": "critical",
+    "usable_as_verified_fact": false
+  },
+  {
+    "input_id": "inputs.growth[0]",
+    "old_value": 1,
+    "status": "UNVERIFIED_FORECAST_INPUT",
+    "source_id": "",
+    "needed_evidence": "Direct operational observation, approved driver or supplier quote",
+    "owner": "Marico Finance / relevant function",
+    "priority": "high",
+    "usable_as_verified_fact": false
+  },
+  {
+    "input_id": "inputs.growth[1]",
+    "old_value": 1.05,
+    "status": "UNVERIFIED_FORECAST_INPUT",
+    "source_id": "",
+    "needed_evidence": "Direct operational observation, approved driver or supplier quote",
+    "owner": "Marico Finance / relevant function",
+    "priority": "high",
+    "usable_as_verified_fact": false
+  },
+  {
+    "input_id": "inputs.growth[2]",
+    "old_value": 1.1,
+    "status": "UNVERIFIED_FORECAST_INPUT",
+    "source_id": "",
+    "needed_evidence": "Direct operational observation, approved driver or supplier quote",
+    "owner": "Marico Finance / relevant function",
+    "priority": "high",
+    "usable_as_verified_fact": false
+  },
+  {
+    "input_id": "inputs.outerGrowth",
+    "old_value": 0.1,
+    "status": "UNVERIFIED_FORECAST_INPUT",
+    "source_id": "",
+    "needed_evidence": "Direct operational observation, approved driver or supplier quote",
+    "owner": "Marico Finance / relevant function",
+    "priority": "high",
+    "usable_as_verified_fact": false
+  },
+  {
+    "input_id": "inputs.apPct[0]",
+    "old_value": 0,
+    "status": "UNVERIFIED_FORECAST_INPUT",
+    "source_id": "",
+    "needed_evidence": "Direct operational observation, approved driver or supplier quote",
+    "owner": "Marico Finance / relevant function",
+    "priority": "high",
+    "usable_as_verified_fact": false
+  },
+  {
+    "input_id": "inputs.apPct[1]",
+    "old_value": 0.18,
+    "status": "UNVERIFIED_FORECAST_INPUT",
+    "source_id": "",
+    "needed_evidence": "Direct operational observation, approved driver or supplier quote",
+    "owner": "Marico Finance / relevant function",
+    "priority": "high",
+    "usable_as_verified_fact": false
+  },
+  {
+    "input_id": "inputs.apPct[2]",
+    "old_value": 0.15,
+    "status": "UNVERIFIED_FORECAST_INPUT",
+    "source_id": "",
+    "needed_evidence": "Direct operational observation, approved driver or supplier quote",
+    "owner": "Marico Finance / relevant function",
+    "priority": "high",
+    "usable_as_verified_fact": false
+  },
+  {
+    "input_id": "inputs.apPct[3]",
+    "old_value": 0.14,
+    "status": "UNVERIFIED_FORECAST_INPUT",
+    "source_id": "",
+    "needed_evidence": "Direct operational observation, approved driver or supplier quote",
+    "owner": "Marico Finance / relevant function",
+    "priority": "high",
+    "usable_as_verified_fact": false
+  },
+  {
+    "input_id": "inputs.apPct[4]",
+    "old_value": 0.14,
+    "status": "UNVERIFIED_FORECAST_INPUT",
+    "source_id": "",
+    "needed_evidence": "Direct operational observation, approved driver or supplier quote",
+    "owner": "Marico Finance / relevant function",
+    "priority": "high",
+    "usable_as_verified_fact": false
+  },
+  {
+    "input_id": "inputs.sdPct",
+    "old_value": 0.1,
+    "status": "UNVERIFIED_FORECAST_INPUT",
+    "source_id": "",
+    "needed_evidence": "Direct operational observation, approved driver or supplier quote",
+    "owner": "Marico Finance / relevant function",
+    "priority": "high",
+    "usable_as_verified_fact": false
+  },
+  {
+    "input_id": "inputs.sdFix",
+    "old_value": 10,
+    "status": "UNVERIFIED_FORECAST_INPUT",
+    "source_id": "",
+    "needed_evidence": "Direct operational observation, approved driver or supplier quote",
+    "owner": "Marico Finance / relevant function",
+    "priority": "high",
+    "usable_as_verified_fact": false
+  },
+  {
+    "input_id": "inputs.eprPct",
+    "old_value": 0.01,
+    "status": "UNVERIFIED_FORECAST_INPUT",
+    "source_id": "",
+    "needed_evidence": "Measured full plastic BOM by category and approved recycler/PRO/admin quotation;1%NRis not legaltargetbase",
+    "owner": "ESG / Finance",
+    "priority": "critical",
+    "usable_as_verified_fact": false
+  },
+  {
+    "input_id": "inputs.naturaleCM",
+    "old_value": 0.45,
+    "status": "UNVERIFIED_FORECAST_INPUT",
+    "source_id": "",
+    "needed_evidence": "Direct operational observation, approved driver or supplier quote",
+    "owner": "Marico Finance / relevant function",
+    "priority": "high",
+    "usable_as_verified_fact": false
+  },
+  {
+    "input_id": "inputs.capex",
+    "old_value": 30,
+    "status": "UNVERIFIED_FORECAST_INPUT",
+    "source_id": "",
+    "needed_evidence": "Line/pack engineering quotation, R&D/certification scope and project timeline",
+    "owner": "Manufacturing / Insights / Finance",
+    "priority": "critical",
+    "usable_as_verified_fact": false
+  },
+  {
+    "input_id": "inputs.pilot",
+    "old_value": 5,
+    "status": "UNVERIFIED_FORECAST_INPUT",
+    "source_id": "",
+    "needed_evidence": "Line/pack engineering quotation, R&D/certification scope and project timeline",
+    "owner": "Manufacturing / Insights / Finance",
+    "priority": "critical",
+    "usable_as_verified_fact": false
+  },
+  {
+    "input_id": "inputs.preMonths",
+    "old_value": 12,
+    "status": "UNVERIFIED_FORECAST_INPUT",
+    "source_id": "",
+    "needed_evidence": "Line/pack engineering quotation, R&D/certification scope and project timeline",
+    "owner": "Manufacturing / Insights / Finance",
+    "priority": "critical",
+    "usable_as_verified_fact": false
+  },
+  {
+    "input_id": "inputs.life",
+    "old_value": 5,
+    "status": "MODEL_HORIZON_POLICY_CHOICE",
+    "source_id": "",
+    "needed_evidence": "Approved appraisal life and accounting depreciation policy",
+    "owner": "Finance",
+    "priority": "high",
+    "usable_as_verified_fact": false
+  },
+  {
+    "input_id": "inputs.tax",
+    "old_value": 0.25,
+    "status": "SUPERSEDED_BY_NEW_PUBLIC_BENCHMARK",
+    "source_id": "MARICO_BD_FY26",
+    "needed_evidence": "FY26 policy20%; v3 uses25%; future marginal cash tax/route remains to confirm",
+    "owner": "Marico Tax",
+    "priority": "critical",
+    "usable_as_verified_fact": false
+  },
+  {
+    "input_id": "inputs.nwc",
+    "old_value": 0.12,
+    "status": "UNVERIFIED_FORECAST_INPUT",
+    "source_id": "",
+    "needed_evidence": "SKU inventory days, receivable terms, payable terms and launch cash timing; company balance benchmark is not SKU proof",
+    "owner": "Finance / Supply Chain",
+    "priority": "high",
+    "usable_as_verified_fact": false
+  },
+  {
+    "input_id": "inputs.hurdle",
+    "old_value": 0.15,
+    "status": "UNCONFIRMED_COMPANY_INVESTMENT_POLICY",
+    "source_id": "",
+    "needed_evidence": "Marico hurdle/WACC confirmation; public report does not disclose a15%new-SKUhurdle",
+    "owner": "Finance",
+    "priority": "critical",
+    "usable_as_verified_fact": false
+  },
+  {
+    "input_id": "inputs.commercialMonths",
+    "old_value": 60,
+    "status": "MODEL_HORIZON_POLICY_CHOICE",
+    "source_id": "",
+    "needed_evidence": "Approved appraisal life and accounting depreciation policy",
+    "owner": "Finance",
+    "priority": "high",
+    "usable_as_verified_fact": false
+  },
+  {
+    "input_id": "controls.vol",
+    "old_value": 0,
+    "status": "UNVERIFIED_FORECAST_INPUT",
+    "source_id": "",
+    "needed_evidence": "Direct operational observation, approved driver or supplier quote",
+    "owner": "Marico Finance / relevant function",
+    "priority": "high",
+    "usable_as_verified_fact": false
+  },
+  {
+    "input_id": "controls.price",
+    "old_value": 0,
+    "status": "UNVERIFIED_FORECAST_INPUT",
+    "source_id": "",
+    "needed_evidence": "Direct operational observation, approved driver or supplier quote",
+    "owner": "Marico Finance / relevant function",
+    "priority": "high",
+    "usable_as_verified_fact": false
+  },
+  {
+    "input_id": "controls.cogs",
+    "old_value": 0,
+    "status": "UNVERIFIED_FORECAST_INPUT",
+    "source_id": "",
+    "needed_evidence": "Complete BOM, supplier assay/density/landed quotes, conversion/yield and QC allocations",
+    "owner": "Procurement / Manufacturing",
+    "priority": "critical",
+    "usable_as_verified_fact": false
+  },
+  {
+    "input_id": "controls.formula",
+    "old_value": 0,
+    "status": "UNVERIFIED_FORECAST_INPUT",
+    "source_id": "",
+    "needed_evidence": "Direct operational observation, approved driver or supplier quote",
+    "owner": "Marico Finance / relevant function",
+    "priority": "high",
+    "usable_as_verified_fact": false
+  },
+  {
+    "input_id": "controls.delay",
+    "old_value": 0,
+    "status": "UNVERIFIED_FORECAST_INPUT",
+    "source_id": "",
+    "needed_evidence": "Direct operational observation, approved driver or supplier quote",
+    "owner": "Marico Finance / relevant function",
+    "priority": "high",
+    "usable_as_verified_fact": false
+  },
+  {
+    "input_id": "controls.ap",
+    "old_value": 60,
+    "status": "UNVERIFIED_FORECAST_INPUT",
+    "source_id": "",
+    "needed_evidence": "Direct operational observation, approved driver or supplier quote",
+    "owner": "Marico Finance / relevant function",
+    "priority": "high",
+    "usable_as_verified_fact": false
+  },
+  {
+    "input_id": "controls.cann",
+    "old_value": 0.2,
+    "status": "UNVERIFIED_FORECAST_INPUT",
+    "source_id": "",
+    "needed_evidence": "Direct operational observation, approved driver or supplier quote",
+    "owner": "Marico Finance / relevant function",
+    "priority": "high",
+    "usable_as_verified_fact": false
+  },
+  {
+    "input_id": "controls.strip",
+    "old_value": 3,
+    "status": "UNVERIFIED_FORECAST_INPUT",
+    "source_id": "",
+    "needed_evidence": "Direct operational observation, approved driver or supplier quote",
+    "owner": "Marico Finance / relevant function",
+    "priority": "high",
+    "usable_as_verified_fact": false
+  },
+  {
+    "input_id": "controls.pilot",
+    "old_value": 5,
+    "status": "UNVERIFIED_FORECAST_INPUT",
+    "source_id": "",
+    "needed_evidence": "Line/pack engineering quotation, R&D/certification scope and project timeline",
+    "owner": "Manufacturing / Insights / Finance",
+    "priority": "critical",
+    "usable_as_verified_fact": false
+  },
+  {
+    "input_id": "controls.pre",
+    "old_value": 12,
+    "status": "UNVERIFIED_FORECAST_INPUT",
+    "source_id": "",
+    "needed_evidence": "Direct operational observation, approved driver or supplier quote",
+    "owner": "Marico Finance / relevant function",
+    "priority": "high",
+    "usable_as_verified_fact": false
+  },
+  {
+    "input_id": "controls.release",
+    "old_value": true,
+    "status": "UNVERIFIED_FORECAST_INPUT",
+    "source_id": "",
+    "needed_evidence": "Direct operational observation, approved driver or supplier quote",
+    "owner": "Marico Finance / relevant function",
+    "priority": "high",
+    "usable_as_verified_fact": false
+  },
+  {
+    "input_id": "missing.domestic_SD",
+    "old_value": "omitted",
+    "status": "PUBLIC_RATE_VERIFIED_MODEL_OMISSION",
+    "source_id": "VAT_SCHEDULES;VAT_ACT;NBR_VAT_FAQ",
+    "needed_evidence": "15%local-supply shampoo SD in official schedule; confirm actual invoice basis and any specific exemption",
+    "owner": "Tax / Finance",
+    "priority": "critical",
+    "usable_as_verified_fact": "Rate yes; project cash model conditional"
+  },
+  {
+    "input_id": "missing.WPPF",
+    "old_value": "omitted",
+    "status": "PUBLIC_COMPANY_POLICY_VERIFIED_ALLOCATION_PENDING",
+    "source_id": "MARICO_BD_FY26",
+    "needed_evidence": "Company reports5%profit-before-fundpolicy; confirm incremental allocation, tax deductibility and payment timing",
+    "owner": "Finance",
+    "priority": "critical",
+    "usable_as_verified_fact": "Policy yes; project cash timing no"
+  },
+  {
+    "input_id": "demand.WaterSmart_repeat",
+    "old_value": "pilot gate25%",
+    "status": "PROPOSED_GATE_NOT_OBSERVED",
+    "source_id": "Frozen team proposal",
+    "needed_evidence": "Mature consenting buyer cohorts; paid transactions and attrition; imported reviews and intent are not paidrepeat",
+    "owner": "Insights / Sales",
+    "priority": "critical",
+    "usable_as_verified_fact": false
+  },
+  {
+    "input_id": "pack.strip_life",
+    "old_value": "18months target",
+    "status": "UNVALIDATED_SPECIFICATION",
+    "source_id": "STRIP_MN_91224",
+    "needed_evidence": "Supplier MN product has12month shelf life at4–30C; source an18month qualified alternative or revisepacklife/storage",
+    "owner": "Procurement / QA",
+    "priority": "critical",
+    "usable_as_verified_fact": false
+  },
+  {
+    "input_id": "pack.weights_dose",
+    "old_value": "32g/22g/0.6g/9g;7ml",
+    "status": "UNMEASURED_BOM_AND_USAGE",
+    "source_id": "Frozen team proposal",
+    "needed_evidence": "Weigh actual complete clean/dry pack components; measure dose; separate plastic vs total foil/paper mass",
+    "owner": "Packaging / ESG",
+    "priority": "high",
+    "usable_as_verified_fact": false
+  },
+  {
+    "input_id": "market.SAM",
+    "old_value": "unfilled",
+    "status": "NOT_IDENTIFIABLE_FROM_CURRENT_EVIDENCE",
+    "source_id": "BGS_NHS_CSV;BWDB_GROUNDWATER",
+    "needed_evidence": "Current household/source exposure × eligible consumers × shampoo usage × relevant preference; no multiplication of well share by census without weights/linkage",
+    "owner": "Insights / Finance",
+    "priority": "critical",
+    "usable_as_verified_fact": false
+  },
+  {
+    "input_id": "product.performance",
+    "old_value": "mineral30%,foam80%,preference60% proposedgates",
+    "status": "UNMADE_PRODUCT_UNTESTED",
+    "source_id": "SCIENCE_PUBMED_XML;GLDA_MC;APG_INDORAMA",
+    "needed_evidence": "Formula-specific deposit/lather/mildness/preservation/stability tests with protocol/comparator; literature cannot fill outcomes",
+    "owner": "R&D / Regulatory",
+    "priority": "critical",
+    "usable_as_verified_fact": false
+  }
+]

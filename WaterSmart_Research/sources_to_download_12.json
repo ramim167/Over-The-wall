@@ -1,0 +1,32 @@
+[
+  {
+    "id": "DHAKA_WATER_2025",
+    "url": "https://icceiruet.org/wp-content/uploads/2025/12/436_Camera-Ready-Final-Paper_ICCEI-2025.pdf",
+    "filename": "dhaka_water_iccei_2025.pdf",
+    "description": "primary conference paper; sampling date/design must be checked before treating as current exposure"
+  },
+  {
+    "id": "BWDB_GROUNDWATER",
+    "url": "https://www.bwdb.gov.bd/archive/pdf/16594.pdf",
+    "filename": "bwdb_groundwater_quality_335m.pdf",
+    "description": "official groundwater report; actual sample dates and depth coverage to inspect"
+  },
+  {
+    "id": "SALINITY_2019",
+    "url": "https://www.mdpi.com/1660-4601/16/19/3746/pdf",
+    "filename": "coastal_salinity_chakraborty_2019.pdf",
+    "description": "primary survey/water source study,n157,2016–2017collection;notshampooefficacy"
+  },
+  {
+    "id": "BGS_EXTRA_AREA",
+    "url": "https://www.bgs.ac.uk/groundwater/quality/groundwater-and-health/arsenic-contamination-of-groundwater/bangladesh-maps/",
+    "filename": "bgs_maps.html",
+    "description": "reuse cached source"
+  },
+  {
+    "id": "LOCAL_INCI_LEAD",
+    "url": "https://shobepai.com.bd/product/hair-care-bundle-parachute-naturale-shampoo-egg-shine-320ml-onion-enriched-coconut-hair-growth-oil-200ml",
+    "filename": "retailer_naturale_inci_lead.html",
+    "description": "retailer ingredient disclosure lead; needs actual pack verification, not manufacturer confirmation"
+  }
+]

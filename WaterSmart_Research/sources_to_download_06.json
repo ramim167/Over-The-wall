@@ -1,0 +1,32 @@
+[
+  {
+    "id": "VAT_SCHEDULES",
+    "url": "https://bdlaws.minlaw.gov.bd/upload/act/2026-08-27-12-19-29-%E0%A6%AE%E0%A7%82%E0%A6%B2%E0%A7%8D%E0%A6%AF-%E0%A6%B8%E0%A6%82%E0%A6%AF%E0%A7%8B%E0%A6%9C%E0%A6%A8-%E0%A6%95%E0%A6%B0-%E0%A6%93-%E0%A6%B8%E0%A6%AE%E0%A7%8D%E0%A6%AA%E0%A7%82%E0%A6%B0%E0%A6%95-%E0%A6%B6%E0%A7%81%E0%A6%B2%E0%A7%8D%E0%A6%95-%E0%A6%86%E0%A6%87%E0%A6%A8,-%E0%A7%A8%E0%A7%A6%E0%A7%A7%E0%A7%A8-(1st,-2nd,-3rd-schedule).pdf",
+    "filename": "vat_sd_schedules_current_20260827.pdf",
+    "description": "current official schedules linked from VAT/SD Act; supplier-stage vs import-stage must be distinguished"
+  },
+  {
+    "id": "VAT_ENGLISH",
+    "url": "https://bdlaws.minlaw.gov.bd/upload/act/2026-01-18-15-14-21-72.-Value-Added-Tax-and-Supplementary-Duty-Act,-2012.pdf",
+    "filename": "vat_sd_act_english_2026posted.pdf",
+    "description": "authentic English text for formula/definitions; verify amendments against Bangla text"
+  },
+  {
+    "id": "BBS_HIES2022",
+    "url": "https://file.portal.gov.bd/uploads/e5e7ab98-01a1-4201-aed7-938bac247de3/659/fea/716/659fea716a8f4036787088.pdf",
+    "filename": "bbs_hies2022_final.pdf",
+    "description": "national household expenditure survey, measurement2022 not2026"
+  },
+  {
+    "id": "BBS_CENSUS2022",
+    "url": "https://file.portal.gov.bd/uploads/34bdd5b8-5c48-4624-a299-4a1b43862f9a/659/d2c/7e3/659d2c7e3f35e896330676.pdf",
+    "filename": "bbs_census2022_national.pdf",
+    "description": "official national census; demographic universe not SAM"
+  },
+  {
+    "id": "BBS_CENSUS_DIRECTORY",
+    "url": "https://bbs.gov.bd/pages/static-pages/6922e073933eb65569e27220",
+    "filename": "bbs_census_directory.html",
+    "description": "metadata and supplemental demographic reports"
+  }
+]

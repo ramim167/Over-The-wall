@@ -1,0 +1,92 @@
+[
+  {
+    "id": "SCIENCE_PUBMED_XML",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=24574692,27654734,30034190,29436334,26711619,21923661,27789967&retmode=xml",
+    "filename": "hair_water_pubmed_records.xml",
+    "description": "authoritative NLM bibliographic abstracts for seven relevant studies"
+  },
+  {
+    "id": "USGS_HARDNESS",
+    "url": "https://www.usgs.gov/water-science-school/science/hardness-water",
+    "filename": "usgs_hardness.html",
+    "description": "classification, not hair damage threshold"
+  },
+  {
+    "id": "USGS_HARDNESS_FORMULA",
+    "url": "https://pubs.usgs.gov/sir/2006/5245/pdf/sir20065245.pdf",
+    "filename": "usgs_hardness_formula_2006.pdf",
+    "description": "calculation of Ca/Mg equivalent hardness"
+  },
+  {
+    "id": "DOVE_HWD",
+    "url": "https://www.dove.com/arabia/en/p/hair-therapy-hard-water-defense-shampoo.html/06281006548497",
+    "filename": "dove_hwd_official.html",
+    "description": "manufacturer ingredients and positioning"
+  },
+  {
+    "id": "HACH_HARDNESS",
+    "url": "https://www.hach.com/p-total-water-hardness-test-strips-0-425-mgl-1000-tests-individually-wrapped-1000-tests/2793828",
+    "filename": "hach_hardness_2793828.html",
+    "description": "wrapped strip specs; quote needed"
+  },
+  {
+    "id": "HACH_IRON",
+    "url": "https://sea.hach.com/p-iron-test-strips-total-dissolved-iron-0-5-mgl/2745325",
+    "filename": "hach_iron_2745325.html",
+    "description": "separate iron kit specs"
+  },
+  {
+    "id": "GLDA_MC",
+    "url": "https://www.makingcosmetics.com/on/demandware.static/-/Sites-makingcosmetics-master/default/dwc853a61d/fact-sheets/fact-sheet-tetrasodium-glutamate-diacetate2.pdf",
+    "filename": "glda_makingcosmetics_factsheet.pdf",
+    "description": "grade and typical use range; not efficacy"
+  },
+  {
+    "id": "GLDA_NOURYON",
+    "url": "https://www.nouryon.com/globalassets/inriver/resources/pds-dissolvine-gl-premium-max-en.pdf",
+    "filename": "glda_nouryon_pds.pdf",
+    "description": "manufacturer grade properties"
+  },
+  {
+    "id": "APG_INDORAMA",
+    "url": "https://indovinya.indoramaventures.com/wp-content/uploads/2024/09/Indorama-Ventures-GLUCOSURF-ENG.pdf",
+    "filename": "apg_indorama_glucosurf.pdf",
+    "description": "manufacturer surfactant application brochure"
+  },
+  {
+    "id": "MORDOR",
+    "url": "https://www.mordorintelligence.com/industry-reports/bangladesh-shampoo-market",
+    "filename": "market_mordor_20261009.html",
+    "description": "publisher estimates, not observed audited sales"
+  },
+  {
+    "id": "VMR",
+    "url": "https://www.verifiedmarketresearch.com/product/bangladesh-shampoo-market/",
+    "filename": "market_vmr_20261009.html",
+    "description": "different publisher estimate and definition"
+  },
+  {
+    "id": "AROGGA_MARICO",
+    "url": "https://www.arogga.com/brand/101827/marico-bangladesh",
+    "filename": "retail_arogga_marico.html",
+    "description": "dated online retail listings; not shop visit"
+  },
+  {
+    "id": "CHALDAL_MARICO",
+    "url": "https://chaldal.com/marico",
+    "filename": "retail_chaldal_marico.html",
+    "description": "online listings; delivery/physical stock not tested"
+  },
+  {
+    "id": "COSMETICS_ACT",
+    "url": "https://bdlaws.minlaw.gov.bd/act-print-1447.html",
+    "filename": "cosmetics_act_2023.html",
+    "description": "official act; no legal signoff inferred"
+  },
+  {
+    "id": "BSTI_DIRECTORY",
+    "url": "https://bsti.gov.bd/site/page/741c4948-53e2-455e-bb38-f4281381f426/List-of-Mandatory-Products-",
+    "filename": "bsti_mandatory_directory.html",
+    "description": "official directory"
+  }
+]

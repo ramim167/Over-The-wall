@@ -1,0 +1,36 @@
+﻿source_id,variable,category,reported_count,denominator,reported_mean,reported_sd,source_pdf_page,scale,evidence_type
+CONSUMER_2022,shampoo_choice_factor,Functionality/Advantages,,390,4.2103,0.8645,11,1–5 Likert,published_aggregate
+CONSUMER_2022,shampoo_choice_factor,Brand Image,,390,4.1513,0.9042,11,1–5 Likert,published_aggregate
+CONSUMER_2022,shampoo_choice_factor,Quality,,390,4.1359,0.8601,11,1–5 Likert,published_aggregate
+CONSUMER_2022,shampoo_choice_factor,Price,,390,4.1282,0.9668,11,1–5 Likert,published_aggregate
+CONSUMER_2022,shampoo_choice_factor,Advertisement/References,,390,3.8949,1.1162,11,1–5 Likert,published_aggregate
+CONSUMER_2022,shampoo_choice_factor,Aroma,,390,3.7077,1.0324,11,1–5 Likert,published_aggregate
+CONSUMER_2022,shampoo_choice_factor,Availability,,390,3.6359,1.0807,11,1–5 Likert,published_aggregate
+CONSUMER_2022,shampoo_choice_factor,Packaging,,390,3.4026,0.9617,11,1–5 Likert,published_aggregate
+CONSUMER_2022,shampoo_choice_factor,Fashion and Status,,390,3.2333,0.9828,11,1–5 Likert,published_aggregate
+CONSUMER_2022,reported_use_or_preference_brand,Sunsilk,74,390,,,10,,published_aggregate
+CONSUMER_2022,reported_use_or_preference_brand,Dove,46,390,,,10,,published_aggregate
+CONSUMER_2022,reported_use_or_preference_brand,Head & Shoulders,55,390,,,10,,published_aggregate
+CONSUMER_2022,reported_use_or_preference_brand,Clinic Plus,92,390,,,10,,published_aggregate
+CONSUMER_2022,reported_use_or_preference_brand,Pantene Pro V,58,390,,,10,,published_aggregate
+CONSUMER_2022,reported_use_or_preference_brand,Clear,27,390,,,10,,published_aggregate
+CONSUMER_2022,reported_use_or_preference_brand,L’Oreal Paris,23,390,,,10,,published_aggregate
+CONSUMER_2022,reported_use_or_preference_brand,Other,15,390,,,10,,published_aggregate
+CONSUMER_2022,reported_age_band,Below20,13,390,,,9,,published_aggregate
+CONSUMER_2022,reported_age_band,21–30,145,390,,,9,,published_aggregate
+CONSUMER_2022,reported_age_band,31–40,122,390,,,9,,published_aggregate
+CONSUMER_2022,reported_age_band,41–50,73,390,,,9,,published_aggregate
+CONSUMER_2022,reported_age_band,51–60,31,390,,,9,,published_aggregate
+CONSUMER_2022,reported_age_band,61+,6,390,,,9,,published_aggregate
+CONSUMER_2022,reported_monthly_income,BelowTk20000,194,390,,,10,,published_aggregate
+CONSUMER_2022,reported_monthly_income,Tk20000–30000,18,390,,,10,,published_aggregate
+CONSUMER_2022,reported_monthly_income,Tk30000–40000,68,390,,,10,,published_aggregate
+CONSUMER_2022,reported_monthly_income,Tk40000–50000,74,390,,,10,,published_aggregate
+CONSUMER_2022,reported_monthly_income,AboveTk50000,36,390,,,10,,published_aggregate
+CONSUMER_SALINITY_2025,perceived_salinity_caused_hair_loss_frequency,Never,33,391,,,HTML Table2,1–5 frequency; causal wording was prompted,published_aggregate
+CONSUMER_SALINITY_2025,perceived_salinity_caused_hair_loss_frequency,Rarely,52,391,,,HTML Table2,1–5 frequency; causal wording was prompted,published_aggregate
+CONSUMER_SALINITY_2025,perceived_salinity_caused_hair_loss_frequency,Sometimes,124,391,,,HTML Table2,1–5 frequency; causal wording was prompted,published_aggregate
+CONSUMER_SALINITY_2025,perceived_salinity_caused_hair_loss_frequency,Frequently,147,391,,,HTML Table2,1–5 frequency; causal wording was prompted,published_aggregate
+CONSUMER_SALINITY_2025,perceived_salinity_caused_hair_loss_frequency,Very frequently,35,391,,,HTML Table2,1–5 frequency; causal wording was prompted,published_aggregate
+CONSUMER_SALINITY_2025,digital_access,Mobile phone user,276,391,,,HTML Table1,,published_aggregate
+CONSUMER_SALINITY_2025,digital_access,Internet user,155,391,,,HTML Table1,,published_aggregate

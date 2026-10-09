@@ -1,0 +1,20 @@
+[
+  {
+    "id": "BGS_NHS_CSV",
+    "url": "https://www.bgs.ac.uk/groundwater/download/dphe-bgs-national-hydrochemical-survey/?wpdmdl=4002&refresh=6ac8caf08765f1791544048",
+    "filename": "bgs_national_hydrochemical_raw.csv",
+    "description": "public Download button target from bgs_nhs_download.html"
+  },
+  {
+    "id": "BGS_VOL4",
+    "url": "https://www.bgs.ac.uk/groundwater/download/arsenic-contamination-groundwater-bangladesh-vol4-data-compilation/?wpdmdl=3992&refresh=6ac8caf083cb71791544048",
+    "filename": "bgs_vol4_data_compilation.pdf",
+    "description": "public Download button target from bgs_vol4_download.html"
+  },
+  {
+    "id": "BGS_VOL2",
+    "url": "https://www.bgs.ac.uk/groundwater/download/arsenic-contamination-groundwater-bangladesh-vol2-final-report/?wpdmdl=3989&refresh=6ac8cb5eeab441791544158",
+    "filename": "bgs_vol2_final_report.pdf",
+    "description": "public Download button target from bgs_vol2_download.html"
+  }
+]

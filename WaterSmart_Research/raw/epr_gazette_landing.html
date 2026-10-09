@@ -1,0 +1,769 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>Department of Printing and Publications - Bangladesh Government Press</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <link rel="icon" href="https://www.dpp.gov.bd/bgpress/images/favicon.ico" type="image/x-icon" />
+        <link rel="shortcut icon" href="https://www.dpp.gov.bd/bgpress/images/logo.png" type="image/x-icon" />
+        <link rel="stylesheet" type="text/css" href="/bgpress/css/style.css">
+            <link rel="stylesheet" type="text/css" href="/bgpress/css/stylesheet.css">
+                <link rel="stylesheet" type="text/css" href="/bgpress/css/styles_menu.css">
+                    <script type="text/javascript" src="/bgpress/js/tinybox.js"></script>
+                    <script type="text/javascript" src="/bgpress/js/jquery-1.4.1.js"></script>
+                    <script type="text/javascript" src="/bgpress/js/search.js"></script>
+                    <!-- for popup video and lightbox -->
+                    
+<link rel="stylesheet" type="text/css" href="https://www.dpp.gov.bd/bgpress/css/../css/datepicker/jquery.ui.all.css" />
+<script language="javascript" type="text/javascript" src="https://www.dpp.gov.bd/bgpress/js/../js/jquery-ui.js"></script>
+
+                    <!-- end popup video and lightbox -->
+
+                    <script type="text/javascript">
+                        function submitform()
+                        {
+                            document.getElementById("frmsearch").submit();
+                        }
+                    </script>
+                    <!-- for showing the beta versipon style -->
+                    <style type="text/css">
+                        #testdiv {width:600px; margin:0px auto; border:1px solid #ccc; padding:20px 25px 12px; background:#fff}
+                        .tbox {position:absolute; display:none; padding:14px 17px; z-index:900}
+                        .tinner {padding:15px; -moz-border-radius:5px; border-radius:5px; background:#fff url(images/preload.gif) no-repeat 50% 50%; border-right:1px solid #333; border-bottom:1px solid #333}
+                        .tmask {position:absolute; display:none; top:0px; left:0px; height:100%; width:100%; background:#000; z-index:800}
+                        .tclose {position:absolute; top:0px; right:0px; width:30px; height:30px; cursor:pointer; background:url(../../../images/close.png) no-repeat}
+                        .tclose:hover {background-position:0 -30px}
+
+                        #error {background:#ff6969; color:#fff; text-shadow:1px 1px #cf5454; border-right:1px solid #000; border-bottom:1px solid #000; padding:0}
+                        #error .tcontent {padding:10px 14px 11px; border:1px solid #ffb8b8; -moz-border-radius:5px; border-radius:5px}
+                        #success {font-size:16px; background:#2ea125; text-shadow:1px 1px #1b6116; border-right:1px solid #000; border-bottom:1px solid #000; padding:10; -moz-border-radius:0; border-radius:0; color:#FF0;}
+                        #bluemask {background:#4195aa}
+                        #frameless {padding:0}
+                        #frameless .tclose {left:6px}
+                    </style>
+					  <style>
+        .mojib_countdown{
+            display: flex;
+			flex-flow: row wrap;
+			width:630px
+        }
+        .mojib_countdown > a > img {
+            height: 100px;
+			margin-top:20px;
+            margin: 0px 0px 0px 0px;
+        }
+        .flip-clock {
+            text-align: center;
+            -webkit-perspective: 400px;
+            perspective: 400px;
+            margin: 60px 20px 0px 50px;
+            float: left;
+        }
+
+        .flip-clock *,
+        .flip-clock *:before,
+        .flip-clock *:after {
+            box-sizing: border-box;
+        }
+
+        .flip-clock__piece {
+            display: inline-block;
+            margin: 0 5px;
+        }
+
+        .flip-clock__slot {
+            font-size: 1.5vw;
+            display: block;
+            margin-top: 10px;
+            color: #3e006d;
+            font-weight: bold;
+        }
+
+        .card {
+            display: block;
+            position: relative;
+            padding-bottom: 0.72em;
+            font-size: 3vw;
+            line-height: 0.95;
+        }
+
+        .card__top,
+        .card__bottom,
+        .card__back::before,
+        .card__back::after {
+            display: block;
+            height: 0.72em;
+            color: #ec1e25;
+            background: #70de2d;
+            padding: 0.25em 0.25em;
+            border-radius: 0.15em 0.15em 0 0;
+            backface-visiblity: hidden;
+            -webkit-transform-style: preserve-3d;
+            transform-style: preserve-3d;
+            width: 1.8em;
+            -webkit-transform: translateZ(0);
+            transform: translateZ(0);
+        }
+
+        .card__bottom {
+            color: #ec1e25;
+            position: absolute;
+            top: 50%;
+            left: 0;
+            border-top: solid 1px #70de2d;
+            background: #70de2d;
+            border-radius: 0 0 0.15em 0.15em;
+            pointer-events: none;
+            overflow: hidden;
+        }
+
+        .card__bottom::after {
+            display: block;
+            margin-top: -0.72em;
+        }
+
+        .card__back::before,
+        .card__bottom::after {
+            content: attr(data-value);
+        }
+
+        .card__back {
+            position: absolute;
+            top: 0;
+            height: 100%;
+            left: 0%;
+            pointer-events: none;
+        }
+
+        .card__back::before {
+            position: relative;
+            z-index: -1;
+            overflow: hidden;
+        }
+
+        .flip .card__back::before {
+            -webkit-animation: flipTop 0.3s cubic-bezier(0.37, 0.01, 0.94, 0.35);
+            animation: flipTop 0.3s cubic-bezier(0.37, 0.01, 0.94, 0.35);
+            -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+            -webkit-transform-origin: center bottom;
+            transform-origin: center bottom;
+        }
+
+        .flip .card__back .card__bottom {
+            -webkit-transform-origin: center top;
+            transform-origin: center top;
+            -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+            -webkit-animation: flipBottom 0.6s cubic-bezier(0.15, 0.45, 0.28, 1);
+            animation: flipBottom 0.6s cubic-bezier(0.15, 0.45, 0.28, 1);
+        }
+
+        @-webkit-keyframes flipTop {
+            0% {
+                -webkit-transform: rotateX(0deg);
+                transform: rotateX(0deg);
+                z-index: 2;
+            }
+            0%,
+            99% {
+                opacity: 0.99;
+            }
+            100% {
+                -webkit-transform: rotateX(-90deg);
+                transform: rotateX(-90deg);
+                opacity: 0;
+            }
+        }
+
+        @keyframes flipTop {
+            0% {
+                -webkit-transform: rotateX(0deg);
+                transform: rotateX(0deg);
+                z-index: 2;
+            }
+            0%,
+            99% {
+                opacity: 0.99;
+            }
+            100% {
+                -webkit-transform: rotateX(-90deg);
+                transform: rotateX(-90deg);
+                opacity: 0;
+            }
+        }
+
+        @-webkit-keyframes flipBottom {
+            0%,
+            50% {
+                z-index: -1;
+                -webkit-transform: rotateX(90deg);
+                transform: rotateX(90deg);
+                opacity: 0;
+            }
+            51% {
+                opacity: 0.99;
+            }
+            100% {
+                opacity: 0.99;
+                -webkit-transform: rotateX(0deg);
+                transform: rotateX(0deg);
+                z-index: 5;
+            }
+        }
+
+        @keyframes flipBottom {
+            0%,
+            50% {
+                z-index: -1;
+                -webkit-transform: rotateX(90deg);
+                transform: rotateX(90deg);
+                opacity: 0;
+            }
+            51% {
+                opacity: 0.99;
+            }
+            100% {
+                opacity: 0.99;
+                -webkit-transform: rotateX(0deg);
+                transform: rotateX(0deg);
+                z-index: 5;
+            }
+        }
+
+        button, input, optgroup, select, textarea {
+            font-size: 11px !important;
+            line-height: normal !important;
+        }
+
+        .mojib_countdown > img {
+            height: 160px;
+            margin: 0px 0px 0px 0px;
+        }
+
+        .mojib_countdown > a > img {
+            height: 160px;
+            margin: 0px 0px 0px 0px;
+        }
+
+        @media (max-width: 480px) {
+            #countdown_block {
+                width: 100%;
+            }
+
+            .mojib_countdown {
+                margin-bottom: 10px;
+            }
+
+            .mojib_countdown > img {
+                height: 140px;
+            }
+
+            .mojib_countdown > a > img {
+                height: 140px;
+            }
+
+            .card {
+                font-size: 10vw;
+            }
+
+            .flip-clock__slot {
+                font-size: 6vw;
+                margin: 10px 0 15px 0;
+            }
+
+            .flip-clock {
+                position: relative;
+                left: 15px;
+                margin: 0px 0px 0px 0px;
+            }
+        }
+
+        @media (min-width: 1920px) {
+            .flip-clock {
+                position: relative;
+                left: 15px;
+                margin: 0px 0px 0px 0px;
+            }
+
+            .card {
+                font-size: 2vw;
+            }
+
+            .flip-clock__slot {
+                font-size: 1vw;
+            }
+        }
+    </style>
+                    <!-- for showing the beta versipon style -->
+                    </head>
+
+                    <body style="background:#ffffff;">
+                        <div class="maindiv">
+
+                            <div class="banner">
+                                <div class="logo"><a href="https://www.dpp.gov.bd/bgpress/"><img src="https://www.dpp.gov.bd/bgpress/images/logo.png" alt=""  style="border:0px"/></a></div>
+                                <p class="people_republic">Government of the People's Republic of Bangladesh</p>
+                            </div>
+                            <!--start topmenu-->
+
+                            <div class="topmenu">
+
+                                <div class="tomenuhome">
+                                    
+    <ul >
+        				
+            <li><a href='https://www.dpp.gov.bd/bgpress/index.php/home' title=''>HOME</a></li>
+            <li>|</li>						
+        				
+            <li><a href='https://www.dpp.gov.bd/bgpress/index.php/page/view/124' title=''>LINK</a></li>
+            <li>|</li>						
+        				
+            <li><a href='https://www.dpp.gov.bd/bgpress/index.php/page/view/123' title=''>CONTACT US</a></li>
+            <li>|</li>						
+        				
+            <li><a href='https://www.dpp.gov.bd/bgpress/index.php/page/sitemap' title=''>SITEMAP</a></li>
+            <li>|</li>						
+        				
+            <li><a href='https://www.dpp.gov.bd/bgpress/index.php/page/view/127' title=''>FAQ</a></li>
+            <li>|</li>						
+        			
+    </ul>
+    	
+                                </div>
+
+                                <div class="topmenusearch">
+                                    <form name='frmsearch' id='frmsearch' action='https://www.dpp.gov.bd/bgpress/index.php/search' method='post'>					  
+                                        <div class="topmenusearch1"><input name="q" autocomplete="off" type="text" class='topmenusearch3'  ></div>
+                                        <div class="topmenusearch2"><a href="javascript: submitform()">SEARCH</a></div>
+                                    </form>
+                                </div>
+
+                                <div class="topmenubangla">
+                                <!-- <a href="#"><img src="images/bangla.jpg" alt="" / style="border:none"></a> -->
+                                    
+<a href="https://www.dpp.gov.bd/bgpress/bangla/index.php/document/get_extraordinary/62642"> <img src='https://www.dpp.gov.bd/bgpress/images/button_bangla.jpg' border='0'> </a>
+	
+                                </div>
+
+                            </div>
+
+                            <!--end topmenu
+							
+										<div class="mojib_countdown" align="center">
+											<a href="http://mujib100.gov.bd/" target="_blank" title="">
+												<img src="https://www.dpp.gov.bd/images/mujib_logo.png" style="display: inline-block;" alt="mujib_logo">
+											</a>
+											<div id="countdown_block"></div>
+										</div>
+
+                            start leftside-->
+                            <div>
+
+                                <div class="left">
+
+                                    		<div class="mainmenutop"></div>
+        	
+		
+			<div id='cssmenu'>
+				<ul>
+				<li class=''><a href='https://www.dpp.gov.bd/bgpress/index.php/page/view/138' title=''><img src='https://www.dpp.gov.bd/bgpress/images/menu_bullet.png' alt='About Us' class='bullet'/><span>About Us</span></a></li><li class=''><a href='https://www.dpp.gov.bd/bgpress/index.php/page/view/153' title=''><img src='https://www.dpp.gov.bd/bgpress/images/menu_bullet.png' alt='Activities' class='bullet'/><span>Activities</span></a></li><li class=''><a href='https://www.dpp.gov.bd/bgpress/index.php/page/view/282' title=''><img src='https://www.dpp.gov.bd/bgpress/images/menu_bullet.png' alt='Focus & Objectives' class='bullet'/><span>Focus & Objectives</span></a></li><li class=''><a href='https://www.dpp.gov.bd/bgpress/index.php/page/view/281' title=''><img src='https://www.dpp.gov.bd/bgpress/images/menu_bullet.png' alt='Service' class='bullet'/><span>Service</span></a></li><li class=''><a href='https://www.dpp.gov.bd/bgpress/index.php/page/key_personnel/147' title=''><img src='https://www.dpp.gov.bd/bgpress/images/menu_bullet.png' class='bullet'/><span>Key Personnel</span></a></li><li class=''><a href='https://www.dpp.gov.bd/bgpress/index.php/page/view/148' title=''><img src='https://www.dpp.gov.bd/bgpress/images/menu_bullet.png' alt='Organogram' class='bullet'/><span>Organogram</span></a></li><li class=''><a href='https://www.dpp.gov.bd/bgpress/index.php/document/inventory/322' title=''><img src='https://www.dpp.gov.bd/bgpress/images/menu_bullet.png' class='bullet'/><span>inventory</span></a></li><li class=''><a href='https://www.dpp.gov.bd/bgpress/index.php/document/tenders/139' title=''><img src='https://www.dpp.gov.bd/bgpress/images/menu_bullet.png' class='bullet'/><span>Tenders</span></a></li><li class=''><a href='https://www.dpp.gov.bd/bgpress/index.php/home/survey/142' title=''><img src='https://www.dpp.gov.bd/bgpress/images/menu_bullet.png' class='bullet'/><span>Survey</span></a></li><li class='has-sub'><a href='https://www.dpp.gov.bd/bgpress/index.php/document/gazettes/140' title=''><img src='https://www.dpp.gov.bd/bgpress/images/menu_bullet.png' class='bullet'/><span>Government Gazettes</span></a><ul><li class=''><a href='https://www.dpp.gov.bd/bgpress/index.php/document/weekly_gazettes/151' title=''><span>Weekly Gazette</span></a><ul></ul></li><li class=''><a href='https://www.dpp.gov.bd/bgpress/index.php/document/extraordinary_gazettes/285' title=''><span>Extraordinary Gazette</span></a><ul></ul></li></ul></li><li class=''><a href='https://www.dpp.gov.bd/bgpress/index.php/document/notice/143' title=''><img src='https://www.dpp.gov.bd/bgpress/images/menu_bullet.png' class='bullet'/><span>Notice</span></a></li><li class=''><a href='https://www.dpp.gov.bd/bgpress/index.php/page/view/146' title=''><img src='https://www.dpp.gov.bd/bgpress/images/menu_bullet.png' alt='Statistics' class='bullet'/><span>Statistics</span></a></li><li class=''><a href='https://www.dpp.gov.bd/bgpress/index.php/media/gallery/154' title=''><img src='https://www.dpp.gov.bd/bgpress/images/menu_bullet.png' class='bullet'/><span>Photo Gallery</span></a></li><li class='has-sub'><a href='https://www.dpp.gov.bd/bgpress/index.php/media/audio/158/157' title=''><img src='https://www.dpp.gov.bd/bgpress/images/menu_bullet.png' class='bullet'/><span>Media</span></a><ul><li class=''><a href='https://www.dpp.gov.bd/bgpress/index.php/media/audio/158' title=''><span>Audio</span></a><ul></ul></li><li class=''><a href='https://www.dpp.gov.bd/bgpress/index.php/media/video/159' title=''><span>Video</span></a><ul></ul></li></ul></li><li class=''><a href='https://www.dpp.gov.bd/bgpress/index.php/home/feedback/155' title=''><img src='https://www.dpp.gov.bd/bgpress/images/menu_bullet.png' class='bullet'/><span>Feedback</span></a></li><li class=''><a href='https://www.dpp.gov.bd/bgpress/index.php/page/news' title=''><img src='https://www.dpp.gov.bd/bgpress/images/menu_bullet.png' alt='News' class='bullet'/><span>News</span></a><li class=''><a href='https://www.dpp.gov.bd/bgpress/index.php/page/citcharter' title=''><img src='https://www.dpp.gov.bd/bgpress/images/menu_bullet.png' alt='News' class='bullet'/><span>Citizen Charter</span></a><li class=''><a href='https://www.dpp.gov.bd/bgpress/index.php/page/events' title=''><img src='https://www.dpp.gov.bd/bgpress/images/menu_bullet.png' alt='News' class='bullet'/><span>Events</span></a>								  
+				</ul>
+			</div>        
+		 
+
+
+
+		<div class="unitmenutop"></div>
+        	
+		<div class="unit">            
+            <ul >
+							
+				<li><div class="menu_image"><img src="https://www.dpp.gov.bd/bgpress/images/menu_bullet1.jpg" alt="" /></div><div class="menu_link"><a href="//www.dpp.gov.bd/bgpress" title='' target="_blank">Bangladesh Government Press</a></div><div class="clear"></div></li>			
+				
+							
+				<li><div class="menu_image"><img src="https://www.dpp.gov.bd/bgpress/images/menu_bullet1.jpg" alt="" /></div><div class="menu_link"><a href="//www.dpp.gov.bd/gppress" title='' target="_blank">Government Printing Press</a></div><div class="clear"></div></li>			
+				
+							
+				<li><div class="menu_image"><img src="https://www.dpp.gov.bd/bgpress/images/menu_bullet1.jpg" alt="" /></div><div class="menu_link"><a href="//www.dpp.gov.bd/bsppress" title='' target="_blank">Bangladesh Security Printing Press</a></div><div class="clear"></div></li>			
+				
+							
+				<li><div class="menu_image"><img src="https://www.dpp.gov.bd/bgpress/images/menu_bullet1.jpg" alt="" /></div><div class="menu_link"><a href="//www.dpp.gov.bd/bfpo" title='' target="_blank">Bangladesh Forms and Publications Office</a></div><div class="clear"></div></li>			
+				
+							
+				<li><div class="menu_image"><img src="https://www.dpp.gov.bd/bgpress/images/menu_bullet1.jpg" alt="" /></div><div class="menu_link"><a href="//www.dpp.gov.bd/bso" title='' target="_blank">Bangladesh Stationery Office</a></div><div class="clear"></div></li>			
+				
+						
+			</ul>
+            <p>&nbsp;</p>
+          </div>
+		  
+
+
+
+		<div class="zonaltop"></div>
+        	
+		<div class="zonal">            
+            <ul >
+											<li><div class="menu_image"><img src="https://www.dpp.gov.bd/bgpress/images/menu_bullet1.jpg" alt="" /></div><div class="menu_link"><a href="https://www.dpp.gov.bd/bgpress/index.php/page/view/4" title=''>Dhaka</a></div><div class="clear"></div></li>
+															<li><div class="menu_image"><img src="https://www.dpp.gov.bd/bgpress/images/menu_bullet1.jpg" alt="" /></div><div class="menu_link"><a href="https://www.dpp.gov.bd/bgpress/index.php/page/view/5" title=''>Chattogram</a></div><div class="clear"></div></li>
+															<li><div class="menu_image"><img src="https://www.dpp.gov.bd/bgpress/images/menu_bullet1.jpg" alt="" /></div><div class="menu_link"><a href="https://www.dpp.gov.bd/bgpress/index.php/page/view/31" title=''>Khulna</a></div><div class="clear"></div></li>
+															<li><div class="menu_image"><img src="https://www.dpp.gov.bd/bgpress/images/menu_bullet1.jpg" alt="" /></div><div class="menu_link"><a href="https://www.dpp.gov.bd/bgpress/index.php/page/view/32" title=''>Bogura</a></div><div class="clear"></div></li>
+															<li><div class="menu_image"><img src="https://www.dpp.gov.bd/bgpress/images/menu_bullet1.jpg" alt="" /></div><div class="menu_link"><a href="https://www.dpp.gov.bd/bgpress/index.php/page/view/327" title=''>Barishal</a></div><div class="clear"></div></li>
+															<li><div class="menu_image"><img src="https://www.dpp.gov.bd/bgpress/images/menu_bullet1.jpg" alt="" /></div><div class="menu_link"><a href="https://www.dpp.gov.bd/bgpress/index.php/page/view/328" title=''>Rangpur</a></div><div class="clear"></div></li>
+															<li><div class="menu_image"><img src="https://www.dpp.gov.bd/bgpress/images/menu_bullet1.jpg" alt="" /></div><div class="menu_link"><a href="https://www.dpp.gov.bd/bgpress/index.php/page/view/329" title=''>Sylhet</a></div><div class="clear"></div></li>
+															<li><div class="menu_image"><img src="https://www.dpp.gov.bd/bgpress/images/menu_bullet1.jpg" alt="" /></div><div class="menu_link"><a href="https://www.dpp.gov.bd/bgpress/index.php/page/view/330" title=''>Mymensingh</a></div><div class="clear"></div></li>
+										
+			</ul>
+            <p>&nbsp;</p>
+          </div>
+		  
+                  
+
+
+                                    <div>
+                                        <!--  
+                                          <div class="userlogin"></div>
+                                          <div class="loginboody">
+                                                <p class="id">User Name:<p>
+                                                <p class="userp"><input name="" type="text" / class="search_user" ></p>
+                                                <p class="id">Password:<p>
+                                                <p class="userp"><input name="" type="text" / class="search_user" ></p>
+                                          <p class="userimage"><a href="#"><img src="https://www.dpp.gov.bd/bgpress/images/login.jpg" alt=""  style="border:none"/></a></p>			  
+                                          </div>
+                                        -->
+                                    </div>
+
+                                </div>      
+                                <!--end leftside-->
+                                <div class="midlebody">
+                                    <div class="url">        	
+        <div id='breadcrumb'><a href='https://www.dpp.gov.bd/bgpress/index.php/' title='Home'>Home  &nbsp;&raquo;&nbsp;</a>
+                                                                                            <span>Extraordinary Gazette</span>
+                    <?else:?>
+                    <a href='https://www.dpp.gov.bd/bgpress/index.php/#' title='Extraordinary Gazette'>Extraordinary Gazette &nbsp;&raquo;&nbsp;</a>
+                                        </div>
+</div>
+                                    <div class="clear"></div>
+
+                                    <!--start content-->
+                                    <div class="midlebody1">
+
+                                        
+<div><p class="wellcome">Extraordinary Gazette of August 2026</p></div>		
+<div class="gazette_box">
+				<table width="570"  class="content-table-all" cellpadding="2">
+			<tbody>
+								<tr>
+					<td width="10%">							
+						<b>Date</b>
+					</td>
+					<td width="30%">							
+						<b>Title</b>
+					</td>
+					<td width="45%">							
+						<b>Ministry</b>
+					</td>
+					<td width="15%">							
+						<b>Page</b>
+					</td>
+				</tr>	
+					
+				<tr>
+					<td>							
+						13-Aug-2026					</td>
+					<td>							
+						<b><a href="http://www.dpp.gov.bd/upload_file/gazettes/62642_41454.pdf" target="blank">এস.আর.ও. নং ২৯৩-আইন/২০২৬।--প্লাস্টিক বর্জ্য ব্যবস্থাপনা সংক্রান্ত উৎপাদনকারীর সম্প্রসারিত দায়িত্ব বিষয়ক নির্দেশিকা, ২০২৬।</a></b>
+					</td>
+					<td>							
+						Ministry of Environment and Forest					</td>
+					<td>							
+						22235-22270					
+					</td>
+				 </tr>
+							</tbody>
+		</table>
+					
+	</div>   				
+</div>	
+                                    </div>
+                                    <!--end content-->
+                                </div>
+
+
+
+                                <!--start rightside-->
+
+                                <div>		
+
+                                    <div class="left">          
+                                            <div class="news"></div>
+    <div class="latestnews">
+        <marquee behavior="scroll" align="center" direction="up" scrollamount="1" scrolldelay="30" truespeed="" onmouseover="this.setAttribute('scrollamount', 0, 0);" onmouseout="this.setAttribute('scrollamount', 1, 0);" height="100">
+            <ul >
+                                    <li><div class="menu_image"><img src="https://www.dpp.gov.bd/bgpress/images/menu_bullet1.jpg" alt="" /></div><div class="menu_link"><a target="_blank" href="https://www.dpp.gov.bd/bgpress/index.php/page/news/26" class="active" title='A Handbook of Government Press'>A Handbook of Government Press</a></div><div class="clear"></div></li>
+                                    <li><div class="menu_image"><img src="https://www.dpp.gov.bd/bgpress/images/menu_bullet1.jpg" alt="" /></div><div class="menu_link"><a target="_blank" href="https://www.dpp.gov.bd/bgpress/index.php/page/news/29" class="active" title='Citizen Charter of Bangladesh Government Press'>Citizen Charter of Bangladesh Government Press</a></div><div class="clear"></div></li>
+                                    <li><div class="menu_image"><img src="https://www.dpp.gov.bd/bgpress/images/menu_bullet1.jpg" alt="" /></div><div class="menu_link"><a target="_blank" href="https://www.dpp.gov.bd/bgpress/index.php/page/news/55" class="active" title='Government Calendar 2026'>Government Calendar 2026</a></div><div class="clear"></div></li>
+                                    <li><div class="menu_image"><img src="https://www.dpp.gov.bd/bgpress/images/menu_bullet1.jpg" alt="" /></div><div class="menu_link"><a target="_blank" href="https://www.dpp.gov.bd/bgpress/index.php/page/news/103" class="active" title='APA 2024-25'>APA 2024-25</a></div><div class="clear"></div></li>
+                                <!--
+                                            <li><div class="menu_image"><img src="<?/*=$base_url*/?>images/menu_bullet1.jpg" alt="" /></div><div class="menu_link"><a target="_blank" href="./../upload_file/newss/" class="active" title='<?/*=$lm['title']*/?>'><?/*=$lm['title']*/?></a></div><div class="clear"></div></li>
+                                            <li><div class="menu_image"><img src="<?/*=$base_url*/?>images/menu_bullet1.jpg" alt="" /></div><div class="menu_link"><a target="_blank" href="./../upload_file/newss/" title='<?/*=$lm['title']*/?>'><?/*=$lm['title']*/?></a></div><div class="clear"></div></li>
+                                    -->            </ul>
+        </marquee>
+                    <span class="more"><a href="https://www.dpp.gov.bd/bgpress/index.php/page/news">view all</a></span>
+                <p>&nbsp;</p>
+    </div>
+
+
+
+
+    <div class="impotantlink"></div>
+
+    <div class="zonal">
+        <ul >
+            
+                <li><div class="menu_image"><img src="https://www.dpp.gov.bd/bgpress/images/menu_bullet1.jpg" alt="" /></div><div class="menu_link"><a href="http://www.bangabhaban.gov.bd" title='' target="_blank">President's Office</a></div><div class="clear"></div></li>
+
+            
+                <li><div class="menu_image"><img src="https://www.dpp.gov.bd/bgpress/images/menu_bullet1.jpg" alt="" /></div><div class="menu_link"><a href="http://www.pmo.gov.bd/" title='' target="_blank">Prime Minister’s Office</a></div><div class="clear"></div></li>
+
+            
+                <li><div class="menu_image"><img src="https://www.dpp.gov.bd/bgpress/images/menu_bullet1.jpg" alt="" /></div><div class="menu_link"><a href="http://www.cabinet.gov.bd/" title='' target="_blank">Cabinet Division</a></div><div class="clear"></div></li>
+
+            
+                <li><div class="menu_image"><img src="https://www.dpp.gov.bd/bgpress/images/menu_bullet1.jpg" alt="" /></div><div class="menu_link"><a href="http://www.mopa.gov.bd/" title='' target="_blank">Ministry of Public Administration</a></div><div class="clear"></div></li>
+
+            
+                <li><div class="menu_image"><img src="https://www.dpp.gov.bd/bgpress/images/menu_bullet1.jpg" alt="" /></div><div class="menu_link"><a href="http://www.bangladesh.gov.bd/" title='' target="_blank">Bangladesh Govt. Website</a></div><div class="clear"></div></li>
+
+                    </ul>
+        <p>&nbsp;</p>
+    </div>
+
+
+
+    <div class="onlineservice"></div>
+
+    <div class="zonal">
+        <ul >
+                            <!--	Module link off
+				<li><div class="menu_image"><img src="https://www.dpp.gov.bd/bgpress/images/menu_bullet1.jpg" alt="" /></div><div class="menu_link"><a href="<? isset($lm['module_link']) ?  $site_url.$lm['module_link']: $site_url.'page/view/'.$id; ?>" title=''>Online Requisition</a></div><div class="clear"></div></li>			
+			-->
+                <li><div class="menu_image"><img src="https://www.dpp.gov.bd/bgpress/images/menu_bullet1.jpg" alt="" /></div><div class="menu_link"><a href="//www.dpp.gov.bd/requisition/" title='' target="_blank">Online Requisition</a></div><div class="clear"></div></li>
+
+                            <!--	Module link off
+				<li><div class="menu_image"><img src="https://www.dpp.gov.bd/bgpress/images/menu_bullet1.jpg" alt="" /></div><div class="menu_link"><a href="<? isset($lm['module_link']) ?  $site_url.$lm['module_link']: $site_url.'page/view/'.$id; ?>" title=''>Online Forms</a></div><div class="clear"></div></li>			
+			-->
+                <li><div class="menu_image"><img src="https://www.dpp.gov.bd/bgpress/images/menu_bullet1.jpg" alt="" /></div><div class="menu_link"><a href="//www.dpp.gov.bd/bfpo/index.php/document/forms/291" title='' target="_blank">Online Forms</a></div><div class="clear"></div></li>
+
+                            <!--	Module link off
+				<li><div class="menu_image"><img src="https://www.dpp.gov.bd/bgpress/images/menu_bullet1.jpg" alt="" /></div><div class="menu_link"><a href="<? isset($lm['module_link']) ?  $site_url.$lm['module_link']: $site_url.'page/view/'.$id; ?>" title=''>Online Letter Process</a></div><div class="clear"></div></li>			
+			-->
+                <li><div class="menu_image"><img src="https://www.dpp.gov.bd/bgpress/images/menu_bullet1.jpg" alt="" /></div><div class="menu_link"><a href="//www.dpp.gov.bd/admn/index.php/login" title='' target="_blank">Online Letter Process</a></div><div class="clear"></div></li>
+
+                            <!--	Module link off
+				<li><div class="menu_image"><img src="https://www.dpp.gov.bd/bgpress/images/menu_bullet1.jpg" alt="" /></div><div class="menu_link"><a href="<? isset($lm['module_link']) ?  $site_url.$lm['module_link']: $site_url.'page/view/'.$id; ?>" title=''>Inventory Management</a></div><div class="clear"></div></li>			
+			-->
+                <li><div class="menu_image"><img src="https://www.dpp.gov.bd/bgpress/images/menu_bullet1.jpg" alt="" /></div><div class="menu_link"><a href="//www.dpp.gov.bd/requisition/admin/users/login" title='' target="_blank">Inventory Management</a></div><div class="clear"></div></li>
+
+                            <!--	Module link off
+				<li><div class="menu_image"><img src="https://www.dpp.gov.bd/bgpress/images/menu_bullet1.jpg" alt="" /></div><div class="menu_link"><a href="<? isset($lm['module_link']) ?  $site_url.$lm['module_link']: $site_url.'page/view/'.$id; ?>" title=''>Online Survey</a></div><div class="clear"></div></li>			
+			-->
+                <li><div class="menu_image"><img src="https://www.dpp.gov.bd/bgpress/images/menu_bullet1.jpg" alt="" /></div><div class="menu_link"><a href="//www.dpp.gov.bd/bgpress/index.php/home/survey/142" title='' target="_blank">Online Survey</a></div><div class="clear"></div></li>
+
+                            <!--	Module link off
+				<li><div class="menu_image"><img src="https://www.dpp.gov.bd/bgpress/images/menu_bullet1.jpg" alt="" /></div><div class="menu_link"><a href="<? isset($lm['module_link']) ?  $site_url.$lm['module_link']: $site_url.'page/view/'.$id; ?>" title=''>Online Gazette Archive</a></div><div class="clear"></div></li>			
+			-->
+                <li><div class="menu_image"><img src="https://www.dpp.gov.bd/bgpress/images/menu_bullet1.jpg" alt="" /></div><div class="menu_link"><a href="//www.dpp.gov.bd/bgpress/index.php/document/gazettes/140" title='' target="_blank">Online Gazette Archive</a></div><div class="clear"></div></li>
+
+                    </ul>
+        <p>&nbsp;</p>
+    </div>
+
+
+<div class="webmail"><a href="https://mail.dpp.gov.bd" target="_blank">Web Mail</a></div>
+<div style="border: 1px solid #cbe1a9;margin-bottom: 10px;">
+    <img src="https://www.dpp.gov.bd/bgpress//images/emergency_hotline.jpg" alt="">
+    <img src="https://www.dpp.gov.bd/bgpress//images/hotline.png" style="width: 184px" >
+</div>
+
+<div class="tottho"><a href="http://www.infokosh.bangladesh.gov.bd/" target="blank"><img src="https://www.dpp.gov.bd/bgpress/images/tottho.jpg" alt="" style="border:none" /></a></div>
+                                        <!--start subscriber-->	
+                                        <div>			  
+                                            <div class="subscriber"></div>
+                                                                                        <div class="loginboody">
+                                                <form name="form"  action="https://www.dpp.gov.bd/bgpress/index.php/home" method="POST"  enctype="multipart/form-data" >
+                                                    <p class="id">E-mail :<p>
+                                                            <p class="userp"><input name="email" type="text" class="search_user" /><br/><text class="error"></text></p>
+                                                            <p class="id"><input type="image" src="https://www.dpp.gov.bd/bgpress/images/submit.jpg" alt="submit" name="submit" /></p>
+                                                            </form>	
+                                                            <p class="id"><div style="color:green;font-size:11px;">&nbsp;&nbsp;&nbsp; </div></p>
+                                                            </div>      
+                                                            </div>
+                                                            <!--end subscriber-->	
+                                                            </div>
+                                                            <!--end rightside-->    
+                                                            </div>
+
+
+
+                                                            <!--start fotter-->
+                                                            <div style="clear:both;"></br></div>  
+                                                            <div class="fotter_bg"><p class="fottertest"><a href="https://www.dpp.gov.bd/bgpress/index.php/page/view/297">Terms of Use </a>|<a href="https://www.dpp.gov.bd/bgpress/index.php/page/view/296"> Privacy Policy</a></p><br/>
+                                                                <!--<p class="fottertest1">Copyright © 2014 Bangladesh Government Press. Developed & Maintained by <a href="#" target="blank">Global Technology Advancement.</a></p>-->
+																<p class="fottertest1">Copyright © 2018 Bangladesh Government Press. Developed & Maintained by <a href="http://www.batworld.com" target="blank">Business Automation Ltd.</a></p>
+                                                                 <p class="fottertest1" style="margin-bottom: 5px;">Updated by Global Technolgoy Advancement</p>
+                                                            
+                                                            </div>
+                                                            <script>
+                                                                (function (i, s, o, g, r, a, m) {
+                                                                    i['GoogleAnalyticsObject'] = r;
+                                                                    i[r] = i[r] || function () {
+                                                                        (i[r].q = i[r].q || []).push(arguments)
+                                                                    }, i[r].l = 1 * new Date();
+                                                                    a = s.createElement(o),
+                                                                            m = s.getElementsByTagName(o)[0];
+                                                                    a.async = 1;
+                                                                    a.src = g;
+                                                                    m.parentNode.insertBefore(a, m)
+                                                                })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+                                                                ga('create', 'UA-46564576-1', 'dpp.gov.bd');
+                                                                ga('send', 'pageview');
+
+                                                            </script>
+																			<script>
+    var cur_lang = 'bn';
+
+    function CountdownTracker(label, value) {
+        var el = document.createElement('span');
+        el.className = 'flip-clock__piece';
+        el.innerHTML = '<b class="flip-clock__card card"><b class="card__top"></b><b class="card__bottom"></b><b class="card__back"><b class="card__bottom"></b></b></b>' +
+            '<span class="flip-clock__slot">' + label + '</span>';
+        this.el = el;
+        var top = el.querySelector('.card__top'),
+            bottom = el.querySelector('.card__bottom'),
+            back = el.querySelector('.card__back'),
+            backBottom = el.querySelector('.card__back .card__bottom');
+        this.update = function (val) {
+            val = ('0' + val).slice(-2);
+            if (val !== this.currentValue) {
+                if (this.currentValue >= 0) {
+                    back.setAttribute('data-value', this.currentValue);
+                    bottom.setAttribute('data-value', this.currentValue);
+                }
+                this.currentValue = val;
+                top.innerText = this.currentValue;
+                backBottom.setAttribute('data-value', this.currentValue);
+                this.el.classList.remove('flip');
+                void this.el.offsetWidth;
+                this.el.classList.add('flip');
+            }
+        };
+        this.update(value);
+    }
+
+    function convert_bangla(number) {
+        var array=number.toString().split("");
+        var result="";
+        var output=[];
+        output['1']='১';
+        output['2']='২';
+        output['3']='৩';
+        output['4']='৪';
+        output['5']='৫';
+        output['6']='৬';
+        output['7']='৭';
+        output['8']='৮';
+        output['9']='৯';
+        output['0']='০';
+        var values=['1','2','3','4','5','6','7','8','9','0'];
+        for (var i=0 ;i<array.length;i++){
+            result+=output[array[i]+""];
+        }
+        return result;
+    }
+
+    function getTimeRemaining(endtime) {
+        var t = Date.parse(endtime) - Date.parse(new Date());
+        if (cur_lang == 'bn') {
+            return {
+                'Total': t,
+                'দিন': Math.floor(t / (1000 * 60 * 60 * 24)),
+                'ঘণ্টা': Math.floor((t / (1000 * 60 * 60)) % 24),
+                'মিনিট': Math.floor((t / 1000 / 60) % 60),
+                'সেকেন্ড': Math.floor((t / 1000) % 60)
+            };
+        } else if (cur_lang == 'en') {
+            return {
+                'Total': t,
+                'Days': Math.floor(t / (1000 * 60 * 60 * 24)),
+                'Hours': Math.floor((t / (1000 * 60 * 60)) % 24),
+                'Minutes': Math.floor((t / 1000 / 60) % 60),
+                'Seconds': Math.floor((t / 1000) % 60)
+            };
+        }
+    }
+
+    function getTime() {
+        var t = new Date();
+        return {
+            'Total': t,
+            'Hours': t.getHours() % 12,
+            'Minutes': t.getMinutes(),
+            'Seconds': t.getSeconds()
+        };
+    }
+
+    function Clock(countdown, callback) {
+        countdown = countdown ? new Date(Date.parse(countdown)) : false;
+        callback = callback || function () {
+        };
+        var updateFn = countdown ? getTimeRemaining : getTime;
+        this.el = document.createElement('div');
+        this.el.className = 'flip-clock';
+        var trackers = {},
+            t = updateFn(countdown),
+            key, timeinterval;
+        for (key in t) {
+            if (key === 'Total') {
+                continue;
+            }
+            trackers[key] = new CountdownTracker(key, t[key]);
+            this.el.appendChild(trackers[key].el);
+        }
+        var i = 0;
+
+        function updateClock() {
+            timeinterval = requestAnimationFrame(updateClock);
+            // throttle so it's not constantly updating the time.
+            if (i++ % 10) {
+                return;
+            }
+            var t = updateFn(countdown);
+            if (t.Total < 0) {
+                cancelAnimationFrame(timeinterval);
+                for (key in trackers) {
+                    trackers[key].update(0);
+                }
+                callback();
+                return;
+            }
+            for (key in trackers) {
+                trackers[key].update(t[key]);
+            }
+        }
+
+        setTimeout(updateClock, 500);
+    }
+
+    var deadline = new Date("Mar 17, 2020 00:00:01");
+    var c = new Clock(deadline, function () {
+        
+    });
+    document.getElementById('countdown_block').appendChild(c.el);
+</script>
+                                                            <!--end fotter-->
+                                                            </div>
+
+                                                            </body>
+                                                            </html>

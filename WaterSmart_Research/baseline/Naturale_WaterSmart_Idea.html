@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="color-scheme" content="light dark">
+<title>Naturale WaterSmart</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;700;800&family=Public+Sans:wght@400;500;600;700&family=Hind+Siliguri:wght@500;700&display=swap">
+<style>
+:root{
+  --bg:#eef4f6;--paper:#fbfdfe;--ink:#10232c;--muted:#566d78;--rule:#c9d8de;
+  --acc:#0a5c7a;--acc2:#0b7aa1;--acc-soft:#dbeef5;
+  --gold:#a86d00;--gold-soft:#fff1cc;--red:#a33d2b;--red-soft:#fae2db;
+  --green:#207650;--green-soft:#dcf0e4;--blue-soft:#e4ecf6;
+  --shadow:0 14px 40px rgba(10,50,70,.08);--radius:16px;box-sizing:border-box;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0a161c;--paper:#10212a;--ink:#e9f3f6;--muted:#9db3bd;--rule:#28404b;--acc:#6cc6e6;--acc2:#8fd6ef;--acc-soft:#123542;--gold:#f1bd4e;--gold-soft:#3a2d0c;--red:#f09a85;--red-soft:#3b221d;--green:#73d09c;--green-soft:#153a2b;--blue-soft:#172a3d;--shadow:none}}
+:root[data-theme="dark"]{--bg:#0a161c;--paper:#10212a;--ink:#e9f3f6;--muted:#9db3bd;--rule:#28404b;--acc:#6cc6e6;--acc2:#8fd6ef;--acc-soft:#123542;--gold:#f1bd4e;--gold-soft:#3a2d0c;--red:#f09a85;--red-soft:#3b221d;--green:#73d09c;--green-soft:#153a2b;--blue-soft:#172a3d;--shadow:none}
+*{box-sizing:inherit}html{scroll-behavior:smooth;scroll-padding-top:72px}body{margin:0;background:var(--bg);color:var(--ink);font:16.5px/1.62 'Public Sans',system-ui,-apple-system,'Segoe UI',sans-serif}
+a{color:var(--acc2);overflow-wrap:anywhere}.wrap{max-width:1060px;margin:auto;padding:0 22px}.bn{font-family:'Hind Siliguri','Public Sans',sans-serif}
+h1,h2,h3{font-family:'Bricolage Grotesque','Trebuchet MS',system-ui,sans-serif;line-height:1.1;letter-spacing:-.018em;margin:0}h1{font-size:clamp(36px,7.5vw,62px);font-weight:800}h2{font-size:clamp(26px,5vw,36px);font-weight:800;margin-bottom:12px}h3{font-size:20px;font-weight:700;margin:28px 0 10px}p{margin:0 0 13px}.muted{color:var(--muted)}.small{font-size:14px}.eyebrow{text-transform:uppercase;letter-spacing:.13em;font-size:12px;font-weight:700;color:var(--acc2)}
+.hero{padding:44px 0 30px;background:radial-gradient(circle at 88% 8%,var(--acc-soft),transparent 38%)}.hero-grid{display:grid;grid-template-columns:1.35fr .9fr;gap:34px;align-items:center}.lede{font-size:19px;max-width:720px;margin-top:16px}.tagline{font:700 clamp(24px,4.4vw,36px)/1.15 'Hind Siliguri',sans-serif;color:var(--acc);margin:18px 0 4px}.hero-card{background:var(--paper);border:1px solid var(--rule);border-radius:24px;padding:22px;box-shadow:var(--shadow)}
+.scorebig{font:800 56px/1 'Bricolage Grotesque';color:var(--acc)}.scorebig small{font-size:20px;color:var(--muted)}
+.ver{display:inline-block;font-size:12px;font-weight:700;padding:2px 9px;border-radius:999px;background:var(--green-soft);color:var(--green);border:1px solid color-mix(in srgb,var(--green) 35%,transparent);margin-bottom:10px}
+nav{position:sticky;top:0;z-index:50;background:color-mix(in srgb,var(--bg) 92%,transparent);backdrop-filter:blur(12px);border-bottom:1px solid var(--rule)}nav ul{display:flex;gap:8px;list-style:none;padding:11px 22px;margin:0 auto;max-width:1100px;overflow:auto}nav a{display:block;white-space:nowrap;padding:7px 12px;border:1px solid var(--rule);border-radius:999px;background:var(--paper);color:var(--ink);text-decoration:none;font-size:13px;font-weight:600}
+section{padding:50px 0 8px;border-top:1px solid var(--rule);margin-top:40px}.first{border-top:0;margin-top:0}.grid2{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}.grid3{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}.card{background:var(--paper);border:1px solid var(--rule);border-radius:var(--radius);padding:18px;box-shadow:var(--shadow)}.card h3{margin-top:0}.card .big{font:800 25px/1.05 'Bricolage Grotesque';margin-bottom:8px}
+.callout{padding:14px 16px;border-radius:12px;margin:14px 0}.callout.ok{background:var(--green-soft);border-left:4px solid var(--green)}.callout.warn{background:var(--gold-soft);border-left:4px solid var(--gold)}.callout.risk{background:var(--red-soft);border-left:4px solid var(--red)}.callout.info{background:var(--acc-soft);border-left:4px solid var(--acc)}
+.tag{display:inline-block;font-size:11.5px;line-height:1.8;padding:0 8px;border-radius:999px;margin-left:4px;vertical-align:1px;font-weight:700;white-space:nowrap}.case{background:var(--acc-soft);color:var(--acc);border:1px solid color-mix(in srgb,var(--acc) 35%,transparent)}.assume{background:var(--gold-soft);color:var(--gold);border:1px solid color-mix(in srgb,var(--gold) 35%,transparent)}.validate{background:var(--red-soft);color:var(--red);border:1px solid color-mix(in srgb,var(--red) 35%,transparent)}.src{background:var(--blue-soft);color:var(--ink);border:1px solid var(--rule)}.make{background:var(--green-soft);color:var(--green);border:1px solid color-mix(in srgb,var(--green) 35%,transparent)}
+.fill{display:inline-block;min-width:74px;padding:0 8px;border:1.5px dashed var(--acc);border-radius:6px;color:var(--acc);font-weight:700;text-align:center}
+.scroll{overflow-x:auto;border:1px solid var(--rule);border-radius:14px;background:var(--paper);margin:13px 0 18px}table{border-collapse:collapse;width:100%;min-width:640px;font-size:14px}th,td{padding:9px 12px;border-bottom:1px solid var(--rule);text-align:left;vertical-align:top}th{background:var(--acc-soft);font-weight:700}tr:last-child td{border-bottom:0}td.num,th.num{text-align:right;white-space:nowrap;font-variant-numeric:tabular-nums}.ext{color:var(--muted)}tr.sub td{color:var(--muted);font-size:13px}
+.flow{display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin:16px 0}.flow span{padding:8px 12px;border-radius:10px;background:var(--paper);border:1px solid var(--rule);font-weight:700}.flow b{color:var(--acc);font-size:20px}
+.product-shell{background:linear-gradient(145deg,var(--paper),var(--acc-soft));border:1px solid var(--rule);border-radius:22px;padding:16px}.product-svg{width:100%;height:auto;display:block;color:var(--ink)}
+.calc{background:var(--paper);border:1px solid var(--rule);border-radius:18px;padding:18px}.ctl{margin-bottom:13px}.ctl label{display:flex;justify-content:space-between;gap:10px;font-size:14px;font-weight:600}.ctl input[type=range]{width:100%;accent-color:var(--acc)}.chk{display:flex;gap:9px;align-items:flex-start;font-size:14px;font-weight:600;margin:4px 0 14px}.chk input{width:18px;height:18px;accent-color:var(--acc);flex:none;margin-top:2px}button{font:600 14px 'Public Sans';border:1px solid var(--acc);color:var(--acc);background:transparent;border-radius:9px;padding:9px 14px;cursor:pointer}.result{font-weight:700;margin-top:12px}
+.kpis{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin:0 0 14px}.kpi{background:var(--paper);border:1px solid var(--rule);border-radius:14px;padding:12px}.kpi .v{font:800 24px/1.1 'Bricolage Grotesque';font-variant-numeric:tabular-nums}.kpi .l{font-size:12.5px;color:var(--muted)}
+.qa details{border-bottom:1px solid var(--rule)}.qa details:first-of-type{border-top:1px solid var(--rule)}.qa summary{cursor:pointer;font-weight:700;padding:12px 3px}.qa details div{padding:0 3px 14px}
+.todo{list-style:none;padding:0;margin:0}.todo li{border-bottom:1px solid var(--rule)}.todo label{display:flex;gap:11px;padding:10px 2px;cursor:pointer}.todo input{width:20px;height:20px;accent-color:var(--acc);flex:none;margin-top:3px}.todo input:checked+span{text-decoration:line-through;color:var(--muted)}
+footer{padding:34px 0 50px;margin-top:50px;border-top:1px solid var(--rule);color:var(--muted);font-size:13px}footer li{margin-bottom:4px}
+.grid2>*,.grid3>*,.hero-grid>*{min-width:0}
+@media(max-width:820px){.hero-grid,.grid2,.grid3{grid-template-columns:minmax(0,1fr)}.hero{padding-top:28px}}
+@media(max-width:520px){.wrap{padding:0 16px}body{font-size:16px}}
+@media print{nav{display:none}.hero{background:none}.card,.hero-card,.product-shell,.calc{box-shadow:none;break-inside:avoid}}
+</style>
+</head>
+<body>
+<header class="hero">
+  <div class="wrap hero-grid">
+    <div>
+      <div class="eyebrow">Team The Last BrainCell · Over The Wall Season 5 · Round 2 · Hair Cleansing</div>
+      <h1>Parachute Naturale<br>WaterSmart</h1>
+      <div class="tagline bn">দোষ কি চুলের, নাকি পানির?</div>
+      <p class="muted" style="margin:0">Is it your hair, or your water? <span class="bn">আগে পানি চেক করুন।</span></p>
+      <p class="lede">A proposed <b>chelating Naturale shampoo</b> for iron/hard-water use, initially focused on adult city movers. LonaJol for saline water is a conditional Phase 2. The system includes a <b>PaniCheck</b> hardness strip in the proposed 340ml launch cap, subject to sourcing, and a <b>Pani Map</b> that shows dated regional groundwater information where available and prompts a home test. Imported hard-water shampoos are listed online in Bangladesh at premium prices; our desk search found <b>no affordable local option</b> (to be confirmed by our shelf audit).</p>
+      <div class="flow"><span>TEST</span><b>→</b><span>KNOW</span><b>→</b><span>WASH</span><b>→</b><span>LESS BUILD-UP</span></div>
+    </div>
+    <aside class="hero-card">
+      <span class="ver">v3 · coherent monthly cash + pilot gates · 9 Oct 2026</span>
+      <div class="eyebrow">Score on our own rubric</div>
+      <div class="scorebig">80 → 93<small>/100 target</small></div>
+      <p class="small muted" style="margin-top:8px"><b>80 desk-work baseline</b> (not a new post-update rating) → <b>93 target if evidence and gates support it</b>: planned 25 interviews, 8–10 water samples, a foam test and 5 retail audits (see the Data Plan file). Down from 82/94 after removing "first in Bangladesh" and narrowing the science. This is not Marico's rubric, and no score guarantees a win.</p>
+      <p class="small muted" style="margin:0">Every <span class="tag assume">ASSUMPTION</span> is a planning input. Every <span class="fill">▢</span> is a slot for real fieldwork counts. Never inflate n=25.</p>
+    </aside>
+  </div>
+</header>
+
+<nav aria-label="Sections"><ul>
+  <li><a href="#fit">Case fit</a></li><li><a href="#insight">Insight</a></li><li><a href="#system">Product</a></li><li><a href="#technical">Technical brief</a></li><li><a href="#bench">Benchmark</a></li><li><a href="#marico">Why Marico</a></li><li><a href="#gtm">Marketing &amp; sales</a></li><li><a href="#ops">Supply &amp; manufacturing</a></li><li><a href="#reg">Regulatory</a></li><li><a href="#green">Sustainability</a></li><li><a href="#money">Financials</a></li><li><a href="#qa">Judge Q&amp;A</a></li><li><a href="#deck">Deck</a></li><li><a href="#video">Video</a></li><li><a href="#score">Scorecard</a></li><li><a href="#todo">Checklist</a></li>
+</ul></nav>
+
+<main class="wrap">
+
+<section id="fit" class="first">
+  <h2>1. Case fit</h2>
+  <div class="grid3">
+    <div class="card"><div class="big">Hair Cleansing ✓</div><p>The task's Hair Cleansing category: "Design differentiated hair cleansing solutions for <b>emerging consumer needs and usage occasions</b>." Moving to a hostel or a new city, migrant life and coastal living are all new usage occasions defined by water. <span class="tag case">CASE p.10</span></p></div>
+    <div class="card"><div class="big">Product + pack ✓</div><p>The task asks for "a groundbreaking product idea and/or a unique packaging innovation." WaterSmart is a new formula <b>and</b> the PaniCheck cap. Marico's own case examples are packaging-led: the Root Applicator and the Soft Touch Bottle. <span class="tag case">CASE p.4–7</span></p></div>
+    <div class="card"><div class="big">3 pivots ✓</div><p><b>Innovation:</b> a water-specific formula plus PaniCheck. <b>Diversification:</b> a Naturale "Water Series" and coastal sachets. <b>Scaling Up:</b> national GT and sachet roll-out after a Dhaka + measured iron/hard-water pilot; later, hard-water markets in Marico Bangladesh's export footprint (e.g. Middle East), subject to each market's registration.</p></div>
+  </div>
+  <div class="callout info"><b>Why we stand apart:</b> the case's biggest example is hair fall, so many teams will pitch oils, serums or applicators for hair fall. We keep a nearby consumer worry (rough, weak, breaking hair) and give it a fresh, testable angle: <b>water</b>. We do not claim water causes hair fall.</div>
+</section>
+
+<section id="insight">
+  <h2>2. Insight: three layers, honestly weighted</h2>
+  <div class="grid3">
+    <div class="card"><div class="eyebrow">Consumer belief</div><h3>"Ever since I moved, my hair feels different."</h3><p>A belief we expect among hall and mess students, new-city movers, Gulf migrants and coastal families. We ask about hair change <b>before</b> mentioning water, so we don't plant the answer. <span class="tag validate">VALIDATE planned n=25</span></p></div>
+    <div class="card"><div class="eyebrow">Science (mixed, limited)</div><h3>Hard water may weaken hair fibres</h3><p><b>Luqman 2018:</b> matched hair segments from 70 men; tensile strength untreated 255.49, deionized 254.84, hard water <b>234.16</b> (P=0.001). <b>Luqman 2016:</b> weakening, not hair loss. <b>Srinivasan 2013:</b> no significant difference. All ex vivo; breakage is not hair fall. <span class="tag src">PMID 30034190 · 27654734 · 24574692</span></p></div>
+    <div class="card"><div class="eyebrow">Bangladesh's water</div><h3>Iron inland, salt on the coast</h3><p>DPHE/BGS surveyed 3,534 boreholes in 61 districts (1998–1999; report 2001). A 654-well study found median iron 0.91 mg/L (IQR 0.36–2.01) <span class="tag src">Naser 2018</span>. About 29% of people live in coastal areas, where most of 19 coastal districts face salinity <span class="tag src">FES</span>; women in Mongla describe hair falling "like threads" after bathing in saline water <span class="tag src">TBS</span>.</p></div>
+  </div>
+  <div class="callout ok"><b>Proven abroad, under-served here:</b> Unilever sells Dove Hair Therapy <b>Hard Water Defense</b> in the Gulf (its ingredient list includes Disodium EDTA, a chelator). US searches for "hard water" rose 71.6% <span class="tag src">Beauty Independent</span>. In Bangladesh, imported hard-water shampoos (e.g. Malibu C, ion, OUAI, Pantene hard-water lines) appear on cross-border and e-commerce listings at premium prices; listing ≠ stock or local launch. We found no affordable local brand <span class="tag validate">CHECK SHELVES</span>.</div>
+  <h3>Fieldwork results (insert counts)</h3>
+  <div class="scroll"><table><thead><tr><th>Finding</th><th class="num">Count</th><th>Feeds slide</th></tr></thead><tbody>
+    <tr><td>Reported hair change (question timeframe); verified change after moving shown separately</td><td class="num"><span class="fill">▢ / ▢</span></td><td>Insight hook</td></tr>
+    <tr><td>Mention water as a cause, unprompted (then prompted count separately)</td><td class="num"><span class="fill">▢ / ▢</span></td><td>Insight hook, video</td></tr>
+    <tr><td>Orange or yellow stains in bucket or bathroom (iron cue)</td><td class="num"><span class="fill">▢ / ▢</span></td><td>Opportunity</td></tr>
+    <tr><td>Poor lather or rough hair after washing</td><td class="num"><span class="fill">▢ / ▢</span></td><td>Opportunity</td></tr>
+    <tr><td>Concept appeal 4–5 out of 5</td><td class="num"><span class="fill">▢ / ▢</span></td><td>Big idea</td></tr>
+    <tr><td>Would definitely or probably buy</td><td class="num"><span class="fill">▢ / ▢</span></td><td>Revenue assumptions</td></tr>
+    <tr><td>Accepts 340ml at Tk 330</td><td class="num"><span class="fill">▢ / ▢</span></td><td>Pricing</td></tr>
+    <tr><td>Would use PaniCheck or the Pani Map</td><td class="num"><span class="fill">▢ / ▢</span></td><td>Pack innovation</td></tr>
+    <tr><td>Water samples: TDS/conductivity range (ppm) · hardness strip "hard" or above · iron strip positive</td><td class="num"><span class="fill">▢–▢</span> · <span class="fill">▢/▢</span> · <span class="fill">▢/▢</span></td><td>Insight, video</td></tr>
+  </tbody></table></div>
+  <div class="callout risk"><b>Integrity rule:</b> show counts as "19 of 25 (directional, n=25 in-depth interviews)". Never present them as a larger survey. That is misrepresentation under T&amp;C §13. If a count comes out low, report it anyway and adjust the story.</div>
+<h3>Launch focus: Movers [HYPOTHESIS]</h3>
+<p>Start with adult hall/mess students and young workers who moved to a new city or changed their bathing-water source. The proposed problem is rough/sticky feel, mineral residue or disappointing lather; stains are a cue, not proof of a hair-damage cause. Select a launch area using real interviews, current source tests and outlet reach.</p>
+<p><b>Phase 1:</b> Iron &amp; Hard Water, 340ml + proposed PaniCheck, 180ml and 6ml sachet. <b>Phase 2:</b> LonaJol only after its separate formula, safety, stability, regulatory and coastal-use gates. Base financial volumes are Iron &amp; Hard Water only; no extra LonaJol sales are credited. Rural Y1 sachets are a reach hypothesis, not a claim that every rural customer has iron/hard water.</p>
+<p>Show P (classified water signal), D (dissatisfied), I (top-2 intent at Tk 330) and W (stated WTP ≥Tk 330) with each denominator. Their average is an internal prioritisation heuristic, shown only when all four are available. Missing tests are not negative results. Small convenience samples cannot establish a statistically superior segment. Keep the primary group provisional and report awkward results.</p></section>
+
+<section id="system">
+  <h2>3. The product system</h2>
+  <div class="grid2">
+    <div class="product-shell">
+      <p class="small muted">Pack sketch only; colour blocks are illustrative, not a calibrated test chart. LonaJol is Phase 2.</p><svg class="product-svg" viewBox="0 0 540 560" role="img" aria-label="Concept sketch: Naturale WaterSmart 340ml bottle with a sealed PaniCheck hardness strip in the cap, a test strip showing colour bands, and a LonaJol saline sachet">
+        <defs><linearGradient id="wb" x1="0" x2="1"><stop offset="0" stop-color="#0a4a63"/><stop offset="1" stop-color="#14a0c8"/></linearGradient></defs>
+        <rect x="120" y="150" rx="48" width="170" height="350" fill="url(#wb)"/>
+        <rect x="140" y="92" rx="14" width="130" height="66" fill="#e6f4f9" stroke="#0a5c7a" stroke-width="4"/>
+        <text x="205" y="122" text-anchor="middle" font-family="sans-serif" font-size="15" font-weight="800" fill="#0a3a4e">PANICHECK</text>
+        <text x="205" y="143" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#0a3a4e">sealed strip in cap</text>
+        <text x="205" y="270" text-anchor="middle" font-family="sans-serif" font-size="20" font-weight="700" fill="#e6f4f9">Parachute</text>
+        <text x="205" y="302" text-anchor="middle" font-family="sans-serif" font-size="26" font-weight="800" fill="#fff">naturale</text>
+        <text x="205" y="340" text-anchor="middle" font-family="sans-serif" font-size="22" font-weight="800" fill="#fff">WaterSmart</text>
+        <text x="205" y="368" text-anchor="middle" font-family="sans-serif" font-size="13" fill="#d8f0f8">IRON &amp; HARD WATER</text>
+        <text x="205" y="452" text-anchor="middle" font-family="sans-serif" font-size="13" fill="#fff">340 ml · coconut milk protein</text>
+        <rect x="350" y="120" rx="6" width="34" height="230" fill="#fff" stroke="#0a5c7a" stroke-width="2"/>
+        <rect x="355" y="140" width="24" height="34" fill="#9ad3c2"/><rect x="355" y="184" width="24" height="34" fill="#d9c56b"/><rect x="355" y="228" width="24" height="34" fill="#d98a4e"/><rect x="355" y="272" width="24" height="34" fill="#a34a5a"/>
+        <text x="398" y="162" font-family="sans-serif" font-size="13" fill="currentColor">soft</text><text x="398" y="206" font-family="sans-serif" font-size="13" fill="currentColor">moderate</text><text x="398" y="250" font-family="sans-serif" font-size="13" fill="currentColor">hard</text><text x="398" y="294" font-family="sans-serif" font-size="13" fill="currentColor">very hard</text>
+        <text x="350" y="372" font-family="sans-serif" font-size="12" fill="currentColor">hardness only</text>
+        <rect x="350" y="390" rx="8" width="130" height="90" fill="#e6f4f9" stroke="#0a5c7a" stroke-width="3" stroke-dasharray="7 5"/>
+        <text x="415" y="428" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="800" fill="#0a3a4e">LonaJol</text>
+        <text x="415" y="450" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#0a3a4e">saline sachet</text>
+      </svg>
+    </div>
+    <div>
+      <div class="scroll" style="margin-top:0"><table style="min-width:420px"><thead><tr><th>Component</th><th>What it does</th><th>Route</th></tr></thead><tbody>
+        <tr><td><b>Iron &amp; Hard Water</b> variant</td><td>A chelator binds iron, calcium and magnesium so they rinse away instead of building up. Coconut milk protein conditions.</td><td><span class="tag make">MODIFY</span></td></tr>
+        <tr><td><b>LonaJol (Saline)</b> variant</td><td>Proposed saline-water formula, separate lab/IHUT gate; sachet-led Phase 2. No LonaJol sales are credited in the base model.</td><td><span class="tag make">MODIFY</span></td></tr>
+        <tr><td><b>PaniCheck cap</b></td><td>One <b>hardness</b> screening strip (responds mainly to calcium and magnesium; iron and copper can interfere), in a moisture-sealed pouch inside each proposed 340ml launch cap, subject to a viable landed quote. It does <b>not</b> detect iron or salt: the leaflet points to the iron cue (orange stains) and our activations test iron and conductivity separately.</td><td><span class="tag make">BUY</span> strip + <span class="tag make">MODIFY</span> cap</td></tr>
+        <tr><td><b>Pani Map</b></td><td>A QR or WhatsApp lookup (QR on bottles <b>and</b> sachets): enter your upazila to see its <b>typical historical groundwater profile</b> (DPHE/BGS 1998–1999 samples; 2001 report, dated, wells not taps), with an uncertainty note and a prompt to test your own water.</td><td>Digital (team prototype)</td></tr>
+      </tbody></table></div>
+      <h3>Claim ladder (proposed, not yet substantiated)</h3>
+      <p><b>Proposed launch claims</b>, only after Marico R&amp;D testing and regulatory review: "helps remove iron and hard-water mineral build-up" (deposit test on hair tresses), "lathers in hard water" (defined hardness tests); a saline claim only after LonaJol's separate tests, "with coconut milk protein".<br><b>After our own product study:</b> "reduces breakage from hard-water build-up" (tensile or combing test).<br><b>Never:</b> "stops hair fall", "water causes hair fall", "best for every water", or any medical claim.</p>
+    </div>
+  </div>
+<h3>PaniCheck specification and Pani Map prototype</h3>
+<div class="scroll"><table><thead><tr><th>Item</th><th>Proposed specification / limit</th></tr></thead><tbody><tr><td>Pack strip</td><td>Total-hardness screen as CaCO3; target 0–425 mg/L with supplier colour blocks; individually moisture-sealed with its own chart</td></tr><tr><td>Use and interference</td><td>Follow the purchased strip&#x27;s dip/read instructions; request Fe/Cu interference data, CoA, humidity stability and a supported shelf-life claim</td></tr><tr><td>Target storage</td><td>18-month life at relevant humid-market storage is a target, not established by three accelerated months</td></tr><tr><td>Pack wording</td><td>Hardness screening only. Does not measure iron or salt, household water safety or a medical condition</td></tr><tr><td>Iron / salinity</td><td>Separate iron test; report EC/TDS, temperature and conversion/calibration. EC/TDS alone does not identify NaCl</td></tr><tr><td>Quote</td><td>MOQ, landed unit cost including sleeve/foil, lead time and insertion yield. No OEM quote received in the supplied files</td></tr><tr><td>Cost decision</td><td>Target strip+sleeve Tk 3–4 [ASSUMPTION]; judge bottle GM and project NPV separately. Tk 24.39 is not a project break-even limit</td></tr></tbody></table></div>
+<p>Hach confirms individually wrapped 0–425 mg/L hardness strips and 0–5 mg/L iron screening strips. Quoted USD 160/250 and USD 479/1,000 prices remain unverified; Hach&#x27;s current 1,000-test page requests a quote. At assumed Tk 122/USD, the latter would be Tk 58.438 before any missing landed costs. <a href="https://www.hach.com/p-total-water-hardness-test-strips-0-425-mgl-1000-tests-individually-wrapped-1000-tests/2793828" target="_blank" rel="noopener">Hach hardness</a>, <a href="https://sea.hach.com/p-iron-test-strips-total-dissolved-iron-0-5-mgl/2745325" target="_blank" rel="noopener">Hach iron</a></p>
+<p>The Cove water-softener dishwasher includes a protected hardness strip with a sleeve chart. This supports supplied-strip feasibility; it does not prove shampoo-cap novelty, economics or compatibility. <a href="https://www.subzero-wolf.com/assistance/answers/cove/dishwasher/cove-dishwasher-water-hardness-test-strip" target="_blank" rel="noopener">Cove instructions</a></p>
+<p><b>Pani Map result card — fill only from a supplied source:</b> Upazila/district ▢; groundwater iron median/range ▢; n ▢ wells; sampled <b>1998–1999</b>, report <b>2001</b>; hardness ▢ or &quot;not in dataset&quot;; dated salinity source ▢; nearby team test ▢, date/source/kit ▢. Historical regional information does not establish a current household result. Separate source coverage, recency and household relevance; no automatic High/Medium confidence label from sample count alone. Ask users to test their own source before a current variant suggestion. <a href="https://www.bgs.ac.uk/groundwater/quality/groundwater-and-health/arsenic-contamination-of-groundwater/bangladesh-maps/" target="_blank" rel="noopener">BGS sampling phases</a></p>
+<p><b>Demo:</b> a real purchased strip, its original chart and correct read time, with actual location/date readings. Generic colour bands in the pack sketch are illustrative. If the sample is soft or low iron, show that result. A foam demo with an existing shampoo shows that experiment&#x27;s lather differences, not WaterSmart efficacy.</p></section>
+
+<section id="technical"><h2>3b. Technical brief</h2><h3>Technical brief — proposed R&amp;D screening, not a validated formula</h3>
+<div class="scroll"><table><thead><tr><th>Candidate ingredient system</th><th>Starting screen / purpose</th></tr></thead><tbody><tr><td>SLES</td><td>8–12% active candidate cleanser; verify current Naturale INCI and raw-material assay</td></tr><tr><td>Cocamidopropyl betaine</td><td>2–4% active candidate co-surfactant; feedstock/mildness claims need supplier and formula evidence</td></tr><tr><td>Coco-glucoside / APG</td><td>1–3% active candidate foam system; supplier electrolyte-tolerance evidence supports screening, not saline-product efficacy</td></tr><tr><td>GLDA</td><td>Supplier product typical use 0.1–0.5%; the cited grade is 46–48% active. Confirm supplied-product versus active basis; EDTA alternatives need their own level/specification</td></tr><tr><td>Citric acid</td><td>Candidate pH 5.0–5.5; q.s. after compatibility/chelation screening</td></tr><tr><td>Conditioning system</td><td>Current coconut-milk ingredient plus candidate guar/polyquaternium, with level and compatibility set by R&amp;D</td></tr><tr><td>Water, preservation, viscosity, fragrance</td><td>Water q.s. to 100%; R&amp;D sets preservation and rheology from stability and challenge results</td></tr></tbody></table></div>
+<p>GLDA can complex relevant ions; effectiveness depends on pH, dose and the actual surfactant/deposit system. Do not generalise soap scum behaviour to every anionic shampoo. LonaJol screens an APG/betaine-rich system and suitable polymer rheology against defined NaCl and mixed-ion water. Coconut derivation alone does not establish salt tolerance or mildness. <a href="https://www.makingcosmetics.com/on/demandware.static/-/Sites-makingcosmetics-master/default/dwc853a61d/fact-sheets/fact-sheet-tetrasodium-glutamate-diacetate2.pdf" target="_blank" rel="noopener">GLDA grade and use</a>, <a href="https://www.nouryon.com/globalassets/inriver/resources/pds-dissolvine-gl-premium-max-en.pdf" target="_blank" rel="noopener">Nouryon applications</a>, <a href="https://indovinya.indoramaventures.com/wp-content/uploads/2024/09/Indorama-Ventures-GLUCOSURF-ENG.pdf" target="_blank" rel="noopener">Indorama APG</a></p>
+<div class="scroll"><table><thead><tr><th>Test</th><th>Proposed design / decision criterion</th></tr></thead><tbody><tr><td>Mineral removal</td><td>Hair-tress deposition/wash study at defined Ca/Mg hardness and iron; compare current Naturale, and Dove if available; quantify Ca/Fe. Candidate target ≥30% reduction vs Naturale; prespecify donor-level replication, endpoints, power and analysis</td></tr><tr><td>Lather</td><td>Controlled equal-dose tests at 0/150/300 mg/L hardness and NaCl 2/5 g/L plus representative mixed-ion samples; candidate target ≥80% matched low-mineral reference foam and no lower performance than Naturale</td></tr><tr><td>Comparative performance</td><td>A claim of non-inferiority needs a predefined margin and confidence interval; no significant difference alone is insufficient</td></tr><tr><td>Mildness / preservation</td><td>Qualified R&amp;D laboratory sets irritation, sensitisation and preservative challenge plan; report observed study results, not universal &quot;no sensitisation&quot;</td></tr><tr><td>Stability and strip</td><td>40°C/75% RH screening plus freeze-thaw/real-time work appropriate to the pack; validate foil integrity, humidity and colour-block agreement against standards. Accelerated screening alone does not establish shelf life</td></tr><tr><td>IHUT</td><td>Proposed n≈100 consenting adults per relevant variant, comparator and endpoints fixed before collection; ≥60% preference is a planning gate, not a guaranteed outcome</td></tr><tr><td>Later breakage claim</td><td>Separate validated combing/tensile study before any claim; fibre breakage is not follicular hair loss</td></tr></tbody></table></div>
+<p><b>Manufacturing route:</b> evaluate Modify on existing Naturale bulk/FFS lines, Buy strips and Modify cap. A pictured 340ml bottle does not establish neck/cap fit, insertion clearance or available line capacity. Pilot manual insertion and national semi-automatic insertion are assumptions within CAPEX Tk 3 crore; confirm mould, speed, rejection rate and humidity controls. QC includes pH, viscosity, microbiological/preservation specifications, incoming strip CoA and barrier integrity.</p>
+<p><b>Launch gate:</b> variant-specific performance, mildness, preservation, stability, strip shelf-life/pack qualification, BSTI and applicable DGDA requirements. <b>Chemist review slot:</b> reviewer ▢; designation ▢; date ▢; plausible approach/concerns ▢. A review of the approach is not formula validation.</p></section>
+
+<section id="bench">
+  <h2>4. Benchmark (Sales masterclass format)</h2>
+  <div class="grid3">
+    <div class="card"><div class="eyebrow">Existing product</div><h3>Naturale Anti Hair Fall</h3><p>The same brand, line and shopper. WaterSmart addresses water-related build-up and roughness, a reason a generic variant does not name.</p></div>
+    <div class="card"><div class="eyebrow">Similar channel</div><h3>Naturale range in GT, MT and e-com</h3><p>Same distributors, same shelf block, same sachet hangers.</p></div>
+    <div class="card"><div class="eyebrow">Similar price point</div><h3>Naturale 320ml (MRP Tk 265) · Ultra Zero 320ml (Tk 350)</h3><p>WaterSmart 340ml at Tk 330 sits inside Naturale's own premium corridor. <span class="tag src">Arogga</span> <span class="tag validate">CHECK SHELF MRP</span></p></div>
+  </div>
+  <div class="scroll"><table><thead><tr><th></th><th>Dove Hard Water Defense (Gulf)</th><th>Naturale WaterSmart (proposed)</th></tr></thead><tbody>
+    <tr><td>Mechanism</td><td>Marketed as a "Mineral Shield"; ingredient list includes Disodium EDTA (a chelator)</td><td>Chelator + coconut milk protein. Both may chelate: <b>no superiority claim without comparative tests</b></td></tr>
+    <tr><td>Saline water</td><td>Not positioned for saline water on its product page</td><td><b>LonaJol — conditional Phase 2</b></td></tr>
+    <tr><td>Hardness screening / regional information</td><td>None on pack</td><td><b>PaniCheck hardness strip + Pani Map</b></td></tr>
+    <tr><td>Hero ingredient</td><td>Vitamin E</td><td><b>Coconut milk protein</b> (Naturale's existing ingredient)</td></tr>
+    <tr><td>Price and reach</td><td>Premium, Gulf modern trade</td><td><b>Tk 3 sachet to Tk 330</b>, GT-led</td></tr>
+  </tbody></table></div>
+  <p class="small muted">Differentiation = saline variant + hardness screening/regional information + coconut equity + sachet price and GT reach, not chemistry alone.</p>
+<h3>Fair concept comparison and switching evidence</h3>
+<p>Use the same format for A (respondent&#x27;s current product), B (one verified imported hard-water listing) and C (proposed WaterSmart 340ml, Tk 330, proposed hardness strip). Record each brand, pack size, price, price per 100ml, date/source and stock uncertainty. Do not claim missing features without checking the product. If B cannot be documented, do not show that comparison.</p>
+<p>Rotate the A/B/C order, include &quot;none&quot;, record the card version/source and ask the reason in the respondent&#x27;s own words. Record open WTP before revealing Tk 330. Test sachet trial preference separately rather than placing a Tk 3 sachet against premium bottles. Report &quot;▢ of ▢ eligible participants chose this proposed concept on this card&quot;, not actual switching or proven superiority. Separately record current workarounds and monthly hair-care spend.</p>
+<p>Differentiation at launch is the proposed local-water formula, hardness screening/regional information and affordable distribution; LonaJol is a conditional Phase 2 extension. The imported listings show supply options, not measured Bangladesh demand.</p></section>
+
+<section id="marico">
+  <h2>5. Why Marico, why now</h2>
+  <div class="grid3">
+    <div class="card"><div class="big">Capability</div><p>Naturale shampoo is already made in Bangladesh, with coconut milk protein in its formula <span class="tag src">FE 2020</span>. Marico Bangladesh lists 3 manufacturing units, and "99.9%" of its products are manufactured in Bangladesh <span class="tag src">Marico BD</span>. WaterSmart modifies the formula and the cap.</p></div>
+    <div class="card"><div class="big">Reach</div><p>Marico Bangladesh shows an "approx. 1.1 Mn" distribution footprint in the retail universe, "90%" household reach of its brands, and "4 out of 5" Bangladeshis' lives touched; FY26 revenue Tk 2,071 Cr <span class="tag src">Marico BD, accessed 9 Oct 2026</span>. Iron &amp; Hard Water is the first launch; coastal LonaJol remains conditional Phase 2.</p></div>
+    <div class="card"><div class="big">Strategy</div><p>Bangladesh grew 35% in constant currency in Q4 FY26, led by diversification and premiumisation <span class="tag src">ICICI</span>. Marico's 4Ds: Diversification, Distribution, Digital, Diversity. WaterSmart fits the first three.</p></div>
+  </div>
+</section>
+
+<section id="gtm">
+  <h2>6. Marketing &amp; sales</h2>
+  <p><b>Penetration:</b> adult hall/mess students and young workers with verified move/source-change occasions; coastal expansion only after Phase 2 gates. <b>Consumption:</b> paid repeat is measured by SKU/consumption cycle; water-specific relevance remains a hypothesis. <b>Compelling:</b> salience from "test your water" content; relevance from "is it your water?"; differentiation from PaniCheck and LonaJol.</p>
+  <div class="scroll"><table><thead><tr><th>Touchpoint</th><th>Role</th><th>Task</th><th>KPI</th></tr></thead><tbody>
+    <tr><td><b>PaniCheck campus and hall activation</b></td><td>Unique</td><td>Free hardness, iron and conductivity tests; sachet sampling</td><td>Tests done, trial</td></tr>
+    <tr><td><b>Digital: "Test your water" creator challenge</b></td><td>Surround</td><td>UGC of strip results, Pani Map visits</td><td>Mindshare, consideration</td></tr>
+    <tr><td><b>Coastal haat — Phase 2 only</b></td><td>Unique</td><td>LonaJol demo only after qualification; EC reading is not a NaCl-specific result</td><td>Sachet trial</td></tr>
+    <tr><td><b>In-store: QPDS display + QR on shelf strip</b></td><td>Surround</td><td>Visibility, Pani Map link for sachet buyers</td><td>Rate of sale</td></tr>
+  </tbody></table></div>
+  <h3>Channel plan (EC outlets and monthly units per outlet) <span class="tag assume">ASSUMPTION</span></h3>
+  <div class="scroll"><table><thead><tr><th>Channel</th><th class="num">Y1</th><th class="num">Y2</th><th class="num">Y3</th><th class="num">Sachets</th><th class="num">180ml</th><th class="num">340ml</th></tr></thead><tbody id="chTable"></tbody></table></div>
+  <p class="small muted">Y1 has 9 selling months at a 70% average outlet ramp (outlets are added through the year). Y2–Y5 sales are flat within each commercial year at its assumed coverage/throughput; throughput +5% in Y2, +10% in Y3, then volume +10%/year. These are planning profiles to replace with measured ramps. Wholesale units are treated as reaching retailers not counted elsewhere; if wholesale feeds the same GT outlets, reduce it to avoid double counting. Boosters: TO/TLO at launch, QPDS display, sales-team incentives on coastal coverage <span class="tag src">SALES MC</span>.</p>
+</section>
+
+<section id="ops">
+  <h2>7. Supply chain &amp; manufacturing</h2>
+  <div class="flow"><span>PLAN</span><b>→</b><span>SOURCE</span><b>→</b><span>MAKE</span><b>→</b><span>MOVE</span></div>
+  <div class="scroll"><table><thead><tr><th>Part</th><th>Route</th><th>Note</th></tr></thead><tbody>
+    <tr><td>Shampoo bases (both variants)</td><td><span class="tag make">MODIFY</span></td><td>Existing Naturale line; new chelator and surfactant blend from R&amp;D</td></tr>
+    <tr><td>Chelator, surfactants</td><td><span class="tag make">BUY</span></td><td>Pooled with Naturale purchases (negotiation, strategic buying)</td></tr>
+    <tr><td>PaniCheck strip + moisture-barrier pouch</td><td><span class="tag make">BUY</span></td><td>Hardness strip from a supplier; shelf life in humid storage to test <span class="tag validate">QUOTE + TEST</span></td></tr>
+    <tr><td>Cap with strip pocket</td><td><span class="tag make">MODIFY</span></td><td>Mould change in CAPEX</td></tr>
+    <tr><td>Sachets</td><td><span class="tag make">MAKE</span></td><td>Existing sachet lines (watch the plastic phase-out list, section 8)</td></tr>
+  </tbody></table></div>
+  <div class="scroll"><table><thead><tr><th>FACTORY (provisional, from desk work)</th><th>Status</th><th>Note</th></tr></thead><tbody>
+    <tr><td>Feasibility</td><td>✓ provisional</td><td>A shampoo variant on the existing line; R&amp;D to confirm chelator–surfactant compatibility</td></tr>
+    <tr><td>Affordability</td><td>⚠ quote + returns gate</td><td>Blended gross margin ~52% at baseline assumptions; supplier quote and positive project NPV must both pass <span class="tag assume">ASSUMPTION</span></td></tr>
+    <tr><td>Capability</td><td>✓ provisional</td><td>Make + Modify in-house; Buy the strips</td></tr>
+    <tr><td>Time</td><td>⚠</td><td>Stability, mildness and foam testing ~4–6 months; licence and BSTI steps in parallel <span class="tag assume">ASSUMPTION</span></td></tr>
+    <tr><td>Operation</td><td>✓ provisional</td><td>Y3 ≈ <span id="opsLitres">0.86</span> million litres in total, subject to actual line capacity/utilisation verification</td></tr>
+    <tr><td>Risk</td><td>⚠</td><td>DGDA licence/registration, BSTI certification, EPR obligations, claim substantiation, strip shelf life</td></tr>
+    <tr><td>Yield &amp; scalability</td><td>✓ provisional</td><td>One platform, two variants; export only after each market's registration</td></tr>
+  </tbody></table></div>
+</section>
+
+<section id="reg">
+  <h2>8. Regulatory gates</h2>
+  <div class="scroll"><table><thead><tr><th>Gate</th><th>What we know (dated)</th><th>What we will confirm</th></tr></thead><tbody>
+    <tr><td><b>DGDA cosmetics</b></td><td>The Drugs and Cosmetics Act 2023 covers cosmetic licensing and registration. Draft Cosmetics (Licence and Registration) Rules 2026 were posted for comment on 24 June 2026.</td><td>Whether final rules or orders are in force, and the transition timetable. Draft provisions are not treated as operative.</td></tr>
+    <tr><td><b>BSTI</b></td><td>Shampoo is on BSTI's mandatory certification list under BDS 1269:2022 (directory now lists 328 products).</td><td>Certification steps for a new variant with Marico Regulatory.</td></tr>
+    <tr><td><b>Plastic EPR</b></td><td>EPR Guidelines 2026 gazetted 13 Aug 2026: phased listing, registration within 6 months of listing, initial collection/recycling targets 15%/7.5%, rising to 30%/15%.</td><td>Marico's listing date and category; we budget 1% of net revenue for EPR <span class="tag assume">ASSUMPTION</span>.</td></tr>
+    <tr><td><b>Sachet risk</b></td><td>A 2024 government list of 17 single-use plastic items targeted for phase-out reportedly includes sachets.</td><td>Current enforcement status. Plan B: larger units, mono-material or recyclable sachet.</td></tr>
+    <tr><td><b>Claims</b></td><td>All benefit claims above are proposed.</td><td>Lab substantiation + Marico Regulatory sign-off before any pack copy.</td></tr>
+  </tbody></table></div>
+</section>
+
+<section id="green">
+<h2>9. Sustainability</h2><h3>Packaging impact: equal-dose comparison [ASSUMPTION]</h3>
+<div class="scroll"><table><thead><tr><th>Pack</th><th>Assumed plastic g</th><th>Shampoo ml</th><th>Equivalent 7ml washes</th><th>g per equivalent wash</th></tr></thead><tbody><tr><td>340ml bottle + cap</td><td>32</td><td>340</td><td>48.57</td><td>0.659</td></tr><tr><td>180ml bottle + cap</td><td>22</td><td>180</td><td>25.71</td><td>0.856</td></tr><tr><td>6ml sachet</td><td>0.6</td><td>6</td><td>0.857</td><td><b>0.700</b></td></tr><tr><td>300ml refill</td><td>9</td><td>300</td><td>42.86</td><td>0.210</td></tr></tbody></table></div>
+<p>Equal-volume refill reduction is <b>68.125%</b>. A 300ml refill avoids <b>19.24g</b>, using 32 × 300/340 − 9; comparing a whole 340ml bottle directly to a 300ml pouch is not an equal-volume saving. Different actual doses must be disclosed.</p>
+<p>Weigh three clean, dry packs per format and record complete plastic scope, including cap, label and strip/foil where applicable. The illustrative Y3 mass excludes unmeasured accessories. Multilayer sachets are difficult to collect/recycle in the relevant system; do not assert universal non-recyclability. PET recyclability does not establish local recovery.</p>
+<p>Collection, recycling, PRO/admin and logistics have separate costs. The 1% NR EPR reserve and Tk 60/kg collection example are assumptions, not proof of a conservative all-in compliance budget.</p><p id="impactNumbers" class="callout warn"></p>
+</section>
+
+<section id="money">
+<h2>10. Financials — one monthly cash model</h2>
+<div class="callout warn"><b>All inputs are assumptions.</b> The same monthly cash rows produce the annual P&amp;L/cash reconciliation, NPV, annual-equivalent IRR, payback and peak funding. Baseline: 12 prelaunch months plus 60 national months. National Y1 begins at project M13; its first base sales are M16. Thus prelaunch time is included in returns.</div>
+<h3>Price waterfall</h3><div class="scroll"><table><thead><tr><th>Tk/unit</th><th>Sachet 6ml</th><th>180ml</th><th>340ml + strip</th></tr></thead><tbody id="wfTable"></tbody></table></div>
+<div class="grid2"><div class="calc"><h3>Planning controls</h3><div class="ctl"><label for="iVol">Volume vs plan <output id="oVol"></output></label><input id="iVol" type="range" min="-30" max="30" step="5" value="0"></div><div class="ctl"><label for="iPrice">Price vs plan <output id="oPrice"></output></label><input id="iPrice" type="range" min="-10" max="5" step="1" value="0"></div><div class="ctl"><label for="iCogs">COGS vs plan <output id="oCogs"></output></label><input id="iCogs" type="range" min="-10" max="20" step="2" value="0"></div><div class="ctl"><label for="iFormula">Bulk formula price vs assumed Tk135/kg <output id="oFormula"></output></label><input id="iFormula" type="range" min="-25" max="25" step="5" value="0"></div><div class="ctl"><label for="iDelay">Extra national launch delay <output id="oDelay"></output></label><input id="iDelay" type="range" min="0" max="6" step="1" value="0"></div><div class="ctl"><label for="iAP">National Y1 A&P (Tk million) <output id="oAP"></output></label><input id="iAP" type="range" min="40" max="90" step="5" value="60"></div><div class="ctl"><label for="iCann">Sales taken from Naturale (%) <output id="oCann"></output></label><input id="iCann" type="range" min="0" max="50" step="5" value="20"></div><div class="ctl"><label for="iStrip">Strip + sleeve unit cost (Tk) <output id="oStrip"></output></label><input id="iStrip" type="range" min="0" max="70" step="1" value="3"></div><div class="ctl"><label for="iPilot">Precommercial cash allowance (Tk million) <output id="oPilot"></output></label><input id="iPilot" type="range" min="0" max="20" step="1" value="5"></div><div class="ctl"><label for="iPre">R&D + pilot before national Y1 <output id="oPre"></output></label><input id="iPre" type="range" min="10" max="18" step="1" value="12"></div><label class="chk"><input id="iRel" type="checkbox" checked><span>Recover all NWC in the last project month (wind-down assumption)</span></label><button id="resetBtn" type="button">Reset to base</button><p id="verdict" class="result" aria-live="polite"></p></div><div><div class="kpis"><div class="kpi"><div class="v" id="kNPV"></div><div class="l">Project NPV @15% (Tk Cr), as toggled</div></div><div class="kpi"><div class="v" id="kNPV2"></div><div class="l">NPV with / without terminal NWC recovery</div></div><div class="kpi"><div class="v" id="kIRR"></div><div class="l">Annual equivalent IRR, as toggled</div></div><div class="kpi"><div class="v" id="kPB"></div><div class="l">Payback from first CAPEX</div></div><div class="kpi"><div class="v" id="kPeak"></div><div class="l">Monthly peak funding (Tk Cr; project month)</div></div><div class="kpi"><div class="v" id="kAnnualPeak"></div><div class="l">Peak at period ends (Tk Cr)</div></div><div class="kpi"><div class="v" id="kY3"></div><div class="l">Y3 EBITDA standalone / incremental (Tk Cr)</div></div></div><p class="small muted">VAT 15%; trade 25% sachet / 22% bottle; CAPEX Tk 3 Cr at project M0. Precommercial allowance Tk 0.5 Cr, no pilot sales credited, paid over the last six prelaunch months. National A&amp;P is separate. NWC = 12% × annualised current monthly revenue. Monthly cash tax = 25% of positive incremental EBIT, no loss relief. Depreciation over 60 national months; EPR reserve 1% NR; cannibalisation 20% × 45% contribution. Verify tax, supplier costs and cash/NWC drivers. No continuing terminal value. NPV discounts each monthly cash at (1.15)^(month/12).</p></div></div>
+<h3>National P&amp;L and cash (Tk crore)</h3><div class="scroll"><table><thead><tr><th>Line</th><th>Y1</th><th>Y2</th><th>Y3</th><th>Y4</th><th>Y5</th></tr></thead><tbody id="plTable"></tbody></table></div>
+<h3>Period cash reconciliation</h3><div class="scroll"><table><thead><tr><th>Period</th><th>Cash (Tk Cr)</th><th>Project months</th></tr></thead><tbody id="reconcileRows"></tbody></table></div>
+<details><summary><b>Full monthly cash schedule — all project months</b></summary><div class="scroll" style="max-height:480px"><table><thead><tr><th>Project month / phase</th><th>NR</th><th>Incremental EBITDA</th><th>Tax</th><th>ΔNWC</th><th>NWC before recovery</th><th>Prelaunch allowance</th><th>NWC recovery</th><th>Cash</th><th>Cumulative</th></tr></thead><tbody id="monthlyRows"></tbody></table></div><button id="monthlyCsv" type="button">Export monthly cash CSV (Tk crore)</button></details>
+<h3>Reference scenarios</h3><p class="small muted">Volume-only −20%; combined −20% volume, −5% price, +8% COGS and three extra national delay months; base; best +15% volume, +2% price, −3% COGS. Selected strip, prelaunch, A&amp;P, allowance and cannibalisation settings apply to every reference case. All cases run through the whole horizon.</p><div class="scroll"><table><thead><tr><th>Metric</th><th>Volume −20%</th><th>Combined worst</th><th>Base</th><th>Best</th></tr></thead><tbody id="scTable"></tbody></table></div>
+<h3>Strip cost: margin versus investment return</h3><p id="stripLimits" class="callout risk"></p><p class="small muted">Sensitivity below holds other selected inputs fixed. Tk 24.39 was the original bottle-GM limit; Tk 58.438 is an unverified catalogue-price illustration at assumed FX. Obtain a landed quote and reconcile the existing freight allocation.</p><div class="scroll"><table><thead><tr><th>Strip+sleeve</th><th>Bottle GM</th><th>Y3 blended GM</th><th>NPV with recovery (Cr)</th><th>Without recovery (Cr)</th></tr></thead><tbody id="stripSensitivity"></tbody></table></div>
+<h3>Bulk formula cost sensitivity</h3><p class="small muted">Only the bulk-formula cost allocation changes by ?25% / 0% / +25%; other selected inputs are held fixed. This is a planning stress, not a supplier quote.</p><div class="scroll"><table><thead><tr><th>Change</th><th>Assumed bulk cost</th><th>340ml COGS Tk</th><th>Y3 blended GM</th><th>NPV with recovery Cr</th><th>Without recovery Cr</th></tr></thead><tbody id="formulaSensitivity"></tbody></table></div><h3>COGS and precommercial cash allowance [ASSUMPTION]</h3>
+<div class="scroll"><table><thead><tr><th>Tk per unit</th><th>340ml</th><th>180ml</th><th>6ml</th></tr></thead><tbody><tr><td>Bulk formula</td><td>46.00</td><td>24.50</td><td>0.81</td></tr><tr><td>Bottle / laminate</td><td>14.00</td><td>9.00</td><td>0.18</td></tr><tr><td>Cap</td><td>6.00</td><td>3.50</td><td>0</td></tr><tr><td>Strip + sleeve</td><td>3.00</td><td>0</td><td>0</td></tr><tr><td>Label / leaflet</td><td>2.50</td><td>1.50</td><td>0</td></tr><tr><td>Shipper allocation</td><td>1.50</td><td>1.00</td><td>0.03</td></tr><tr><td>Strip insertion</td><td>1.00</td><td>0</td><td>0</td></tr><tr><td>Conversion / QC</td><td>13.00</td><td>9.00</td><td>0.12</td></tr><tr><td>Wastage</td><td>2.50</td><td>1.50</td><td>0.05</td></tr><tr><td>Inbound freight / duty</td><td>5.50</td><td>5.00</td><td>0.01</td></tr><tr><td>Total at baseline</td><td><b>95.00</b></td><td><b>55.00</b></td><td><b>1.20</b></td></tr></tbody></table></div>
+<p>Formula costing assumes ~Tk 135/kg and approximate density 1 kg/L; validate composition, density and quotations. The 340ml model holds non-strip COGS at Tk 92 and changes strip+sleeve separately. Reconcile landed freight/duty allocation to avoid counting it twice. The sachet has lower unit GM; commercial gating uses actual blended GM. Bottle GM and project NPV are different tests.</p>
+<div class="scroll"><table><thead><tr><th>Precommercial allowance</th><th>Tk lakh</th></tr></thead><tbody><tr><td>Activation / sampling</td><td>18</td></tr><tr><td>Trade offer / visibility</td><td>10</td></tr><tr><td>Consented tracking / outlet panel</td><td>8</td></tr><tr><td>R&amp;D/QC / small-batch changeover reserve</td><td>9</td></tr><tr><td>Activation strips / kits</td><td>5</td></tr><tr><td>Total cash allowance, no sales credited</td><td><b>50</b></td></tr></tbody></table></div>
+<p>These are budget allocations, not evidence that all R&amp;D, certification, pilot inventory or claim-testing costs fit. Confirm scope and payment timing; add omitted costs and pilot tax/NWC explicitly when evidence is available. National Y1 A&amp;P is separate.</p><div class="card"><h3>TAM → SAM → SOM cross-check</h3><p id="xcheck"></p></div><h3>Six-month commercial pilot and scale decision [ASSUMPTION]</h3>
+<div class="scroll"><table><thead><tr><th>Item</th><th>Plan</th></tr></thead><tbody><tr><td>Owner</td><td>Naturale Brand Manager owns P&amp;L; one distributor/TSO per cell; R&amp;D/QC, Consumer Insights and Regulatory own their gates. Team&#x27;s role is the proposal and research design</td></tr><tr><td>Cells</td><td>Dhaka hall/mess catchment, ~600 outlets; one measured iron/hard-water town/RG catchment, ~900 outlets. Total ~1,500; choose location after source tests and outlet mapping</td></tr><tr><td>SKU</td><td>Phase 1 Iron &amp; Hard Water 340ml + strip, 180ml and 6ml sachet. LonaJol excluded</td></tr><tr><td>Duration</td><td>Six months after product/pack qualification: month 1 sell-in and recruitment, months 2–3 trial, months 4–6 repeat/sell-out read</td></tr><tr><td>RoS</td><td>DMS secondary sales plus 60 panel-outlet tertiary audits; prespecify units/outlet/month by SKU. Reorder and trade loading are separate from consumer repeat</td></tr><tr><td>Repeat</td><td>Consented buyer cohort; receipt/transaction verification; paid repurchase only, with lost follow-up reported. QR incentive recipients are a selected cohort; free gifts do not count as repeat</td></tr><tr><td>Cohort window</td><td>Proposed sachet 60 days, 180ml 90 days, 340ml 180 days; report each SKU and eligible mature denominator. Extend the read if a bottle cohort is not mature</td></tr><tr><td>Mandatory gates</td><td>Regulatory/batch release, qualified preservation/stability, supported strip shelf life and reliability. Serious product-related safety signals trigger hold/investigation, regardless of sales</td></tr><tr><td>Commercial go</td><td>RoS ≥70% of prespecified UCS/UNG plan, paid repeat ≥25% in mature SKU cohorts, actual blended GM ≥48%, and all mandatory gates passed. All thresholds are proposed</td></tr><tr><td>Quality read</td><td>Strip defect/complaint &lt;2% with separate used-cap/user denominators; establish sampling and escalation plan before the pilot</td></tr><tr><td>Extension / stop</td><td>With mandatory gates passed, two of three commercial gates may justify a funded three-month redesign/read; one or fewer triggers stop/rework. A mandatory-gate failure is not overridden</td></tr><tr><td>LonaJol gate</td><td>Full separate performance/safety/preservation/stability/regulatory gates, defined NaCl/mixed-ion tests and proposed coastal IHUT n≈100. A Y2 launch is conditional and not credited in the base forecast</td></tr><tr><td>Timeline</td><td>Project months 1–6 R&amp;D/qualification, 7–12 pilot; national Y1 begins at project M13, pipeline M13–15, first base sales M16. Planning durations are editable</td></tr><tr><td>Cost</td><td>Tk 0.5 crore precommercial cash allowance; no pilot sales credited. Cash is spread over the final six prelaunch months. Replace with quoted R&amp;D/pilot cash, tax and NWC drivers</td></tr></tbody></table></div>
+</section>
+
+<section id="qa" class="qa">
+  <h2>11. Hostile judge Q&amp;A</h2>
+  <details><summary>"Unilever already has Dove Hard Water Defense. Why can't they just bring it here?"</summary><div><p>They can, and Dove's formula already contains a chelator, so chemistry alone is not our moat. Our lead: a saline variant they don't market, the PaniCheck and Pani Map screening and information layer, coconut equity, and GT and sachet reach at Tk 3. Imported hard-water shampoos are already listed online here at premium prices: that shows listed supply options; local demand and affordable shelf alternatives require research.</p></div></details>
+  <details><summary>"Is there real proof that water damages hair?"</summary><div><p>The evidence is mixed. Luqman 2018 found lower tensile strength in hair segments treated with hard water; Srinivasan 2013 found no significant difference. Both are lab studies on hair fibres, and neither shows hair loss. So we sell what a lab can measure (mineral build-up removal, lather in qualified test water), never a hair-fall cure. A breakage claim comes only after our own test.</p></div></details>
+  <details><summary>"Can a strip in a cap really tell me about my water?"</summary><div><p>Only hardness, and only as a screen. Iron and salinity need separate tests, which we run at activations (iron strip, conductivity meter). The pack says this plainly, and the Pani Map is labelled as a dated regional reference, not a household result.</p></div></details>
+  <details><summary>"Won't a chelating shampoo dry hair if used daily?"</summary><div><p>That's why the formula uses a gentle chelator level plus coconut milk protein. Mildness and sensory tests are a launch gate in the FACTORY check.</p></div></details>
+  <details><summary>"What if sales are 20% lower?"</summary><div><p><b>Conclusion → number → evidence → action.</b> With volume −20% alone, NPV is <b id="qaVol"></b> (base <b id="qaBase"></b>). If price −5%, COGS +8% and a 3-month delay hit at the same time, NPV is <b id="qaWorst"></b>. Action: hold at the pilot and fix price, COGS or channel mix before going national.</p></div></details>
+  <details><summary>"Does your NPV depend on getting working capital back?"</summary><div><p>Partly, so we show both. At the selected assumptions NPV is <b id="qaRel"></b> with the end-of-Y5 working-capital release and <b id="qaNoRel"></b> without it (IRR <b id="qaNoRelIRR"></b>); compare the selected result with the 15% hurdle.</p></div></details>
+  <details><summary>"Isn't this just cannibalizing Naturale?"</summary><div><p>We show it separately. Standalone EBITDA is the variant's own result; incremental EBITDA subtracts 20% of sales assumed to come from other Naturale variants at 45% contribution. The rest comes from competitors and new coastal sachet users.</p></div></details>
+  <details><summary>"Your research is only 25 people."</summary><div><p>Planned n=25 in-depth interviews: directional qualitative evidence, triangulated with our own water measurements, published studies (mixed), national water-quality surveys and a global market signal (Dove, search trends). The pilot is the quantitative gate.</p></div></details>
+  <details><summary>"Which regulator?"</summary><div><p>DGDA under the Drugs and Cosmetics Act 2023 (draft licence and registration rules posted June 2026; final status to confirm), BSTI mandatory certification for shampoo (BDS 1269:2022), and plastic EPR obligations from August 2026. Final claims will be cleared with Marico Regulatory.</p></div></details>
+<details><summary>"Why is monthly funding higher?"</summary><div><p id="qaPeak"></p><p>Full cash schedule uses exit run-rate NWC and actual monthly spend timing. Project M0 is first CAPEX; prelaunch time is included. No static funding number is used.</p></div></details><details><summary>"What if strips are expensive?"</summary><div><p>Obtain a landed quote; target Tk 3–4 under baseline assumptions. Bottle GM alone cannot pass the project. Use the return-based cost ceiling above. If strips move to activations or launch packs, update costs, redemption/delivery and the pack promise before reappraisal.</p></div></details><details><summary>"How is repeat measured?"</summary><div><p>Paid repurchase in mature, consented SKU cohorts, with receipt verification and lost follow-up reported. Distributor reorder and free incentives are separate. Mandatory product/regulatory/quality gates precede every scale decision.</p></div></details>
+</section>
+
+<section id="deck">
+  <h2>12. 15-slide storyline</h2>
+  <div class="scroll"><table><thead><tr><th>#</th><th>Slide</th><th>Template section</th></tr></thead><tbody>
+    <tr><td>1</td><td>"Ever since I came to Dhaka…": verbatim, count and bucket-stain photo</td><td>Hook</td></tr>
+    <tr><td>2</td><td>Competitive universe: shampoos, oils, home remedies, doing nothing; Dove HWD abroad; imported listings here</td><td>Competitive Landscape</td></tr>
+    <tr><td>3</td><td>The water gap: our samples (TDS, hardness, iron) + DPHE/BGS iron and salinity data (dated)</td><td>New Opportunities</td></tr>
+    <tr><td>4</td><td>Who: TG, usage occasions, fieldwork table</td><td>Consumer Understanding</td></tr>
+    <tr><td>5</td><td>WaterSmart in one frame</td><td>Big Idea</td></tr>
+    <tr><td>6</td><td>PaniCheck cap + Pani Map (prototype screenshots, with limits)</td><td>USP / packaging innovation</td></tr>
+    <tr><td>7</td><td>Naturale Water Series: brand, category, 3 pivots</td><td>Brand &amp; Category Fit</td></tr>
+    <tr><td>8</td><td>TAM → SAM → SOM + cross-check</td><td>Market Size</td></tr>
+    <tr><td>9</td><td>Value proposition vs USP + 3-way benchmark</td><td>VP + USP</td></tr>
+    <tr><td>10</td><td>Touchpoints and KPIs</td><td>Marketing</td></tr>
+    <tr><td>11</td><td>Channels, EC, drop size, boosters</td><td>Sales</td></tr>
+    <tr><td>12</td><td>Make/Buy/Modify, FACTORY, regulatory gates, sustainability</td><td>Supply Chain</td></tr>
+    <tr><td>13</td><td>Price waterfall + 3-year revenue</td><td>Revenue Model</td></tr>
+    <tr><td>14</td><td>P&amp;L (standalone vs incremental), cash, NPV/IRR/payback</td><td>P&amp;L Road Map</td></tr>
+    <tr><td>15</td><td>Pilot decision, scenarios, mandatory gates + closing line</td><td>Decision</td></tr>
+    <tr><td>App.</td><td>Method and questions, water sample table, assumption register, sources</td><td>Appendix</td></tr>
+  </tbody></table></div>
+</section>
+
+<section id="video">
+<h2>13. 3-minute video v3</h2><div class="scroll"><table><thead><tr><th>Time</th><th>Scene</th></tr></thead><tbody><tr><td>0:00–0:15</td><td>Consented mover verbatim; actual observed bucket cue</td></tr><tr><td>0:15–0:40</td><td>Real counts with answered denominators; separate change-after-moving count; mixed-science line</td></tr><tr><td>0:40–1:25</td><td>Real strip, supplier chart and timing; dated Pani Map; same-shampoo foam experiment. LonaJol labelled Phase 2 concept</td></tr><tr><td>1:25–1:45</td><td>Balanced comparison result and verbatim reason, if a documented card was shown</td></tr><tr><td>1:45–2:05</td><td>Naturale brand/line fit and distribution; capacity still to validate</td></tr><tr><td>2:05–2:35</td><td>Same model settings/numbers as deck; project horizon and NWC recovery stated</td></tr><tr><td>2:35–2:52</td><td>Six-month, two-cell pilot; mature SKU repeat, RoS, GM and mandatory gates</td></tr><tr><td>2:52–3:00</td><td>দোষ কি চুলের, নাকি পানির? আগে পানি চেক করুন।</td></tr></tbody></table></div><p id="videoFinance" class="callout info"></p>
+</section>
+
+<section id="score">
+  <h2>14. Scorecard (our rubric)</h2>
+  <div class="scroll"><table><thead><tr><th>Criterion</th><th class="num">Now</th><th class="num">Target if fieldwork supports</th><th>Why</th></tr></thead><tbody>
+    <tr><td>Consumer insight</td><td class="num">10/15</td><td class="num"><b>13/15</b></td><td>Relatable belief; science is mixed, so −2</td></tr>
+    <tr><td>Innovation / USP</td><td class="num">12/15</td><td class="num"><b>13/15</b></td><td>Saline variant + PaniCheck + affordable GT format; hard-water shampoo exists abroad and in import listings</td></tr>
+    <tr><td>Marico fit</td><td class="num">19/20</td><td class="num"><b>20/20</b></td><td>Naturale, coconut, existing line; exact case wording</td></tr>
+    <tr><td>Market &amp; profit</td><td class="num">10/15</td><td class="num"><b>13/15</b></td><td>Mass category; cannibalization, NWC dependence and Unilever response shown openly</td></tr>
+    <tr><td>Feasibility</td><td class="num">12/15</td><td class="num"><b>14/15</b></td><td>Modify formula; strip shelf life, mildness, DGDA/BSTI/EPR are gates</td></tr>
+    <tr><td>Pivot / impact</td><td class="num">9/10</td><td class="num"><b>10/10</b></td><td>3 pivots + coastal climate impact</td></tr>
+    <tr><td>Pitchability</td><td class="num">8/10</td><td class="num"><b>10/10</b></td><td>Water test and strip demo; "we tested ▢ sources"</td></tr>
+    <tr><td><b>Total</b></td><td class="num"><b>80</b></td><td class="num"><b>93</b></td><td></td></tr>
+  </tbody></table></div>
+</section>
+
+<section id="todo">
+  <h2>15. Team checklist</h2>
+  <p class="muted"><span id="todoCount">0 of 0 complete</span> · saved only in this browser</p>
+  <ul class="todo">
+    <li><label><input type="checkbox" id="c1"><span>Buy a TDS/conductivity meter, hardness strips and iron test strips</span></label></li>
+    <li><label><input type="checkbox" id="c2"><span>Real adult interviews with eligibility, move timing, workaround/spend and neutral concept/price order; review older records before counting</span></label></li>
+    <li><label><input type="checkbox" id="c3"><span>8–10 water samples: TDS + hardness + iron for each, with photos and video</span></label></li>
+    <li><label><input type="checkbox" id="c4"><span>Foam test video (same shampoo: bottled vs tap vs salt water), captioned as the measured experiment?s lather differences</span></label></li>
+    <li><label><input type="checkbox" id="c5"><span>5 retail audits (look for any hard-water shampoo) + 10 competitor prices + 50 reviews</span></label></li>
+    <li><label><input type="checkbox" id="c6"><span>Pani Map prototype (select area → dated profile with uncertainty → "test your water" → variant)</span></label></li>
+    <li><label><input type="checkbox" id="c7"><span>Mock PaniCheck cap and sealed strip for the video</span></label></li>
+    <li><label><input type="checkbox" id="c8"><span>Fill every ▢; update model inputs from the audit</span></label></li>
+    <li><label><input type="checkbox" id="c9"><span>Team Jinxed OTW Hacks session: 9 Oct, 8 PM</span></label></li>
+    <li><label><input type="checkbox" id="c10"><span>Deck (15 content slides, ≤ 20 total with cover and appendix) and video (≤ 3:00), same numbers everywhere</span></label></li>
+    <li><label><input type="checkbox" id="c11"><span>Cloud folder → "Anyone with the link → Editor" → test from another account</span></label></li>
+    <li><label><input type="checkbox" id="c12"><span>One member submits the link well before 6:00 PM, 10 Oct (no edits after)</span></label></li>
+  <li><label><input type="checkbox" id="c13"><span>Landed strip+sleeve quote; rerun project NPV and bottle GM separately</span></label></li><li><label><input type="checkbox" id="c14"><span>Written chemist approach review and proposed variant-specific lab/pack gates</span></label></li><li><label><input type="checkbox" id="c15"><span>Three measured clean/dry plastic packs per format; disclose accessories/omissions</span></label></li><li><label><input type="checkbox" id="c16"><span>Real strip demo, original supplier chart and actual sample/date</span></label></li><li><label><input type="checkbox" id="c17"><span>Full monthly cash export matches master, deck and video; no unqualified Phase 2 sales credited</span></label></li></ul>
+</section>
+</main>
+
+<footer><div class="wrap">
+  <p><b>Sources</b> (accessed by 9 Oct 2026)</p>
+  <ul>
+    <li>OTW S5 Round 2 case and template; masterclass slides, 4–8 Oct 2026 (Marico, Official, competition use only)</li>
+    <li><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC6028999/">Luqman et al. 2018, Int J Trichology (PMID 30034190)</a> · <a href="https://pubmed.ncbi.nlm.nih.gov/27654734/">Luqman et al. 2016 (PMID 27654734)</a> · <a href="https://pubmed.ncbi.nlm.nih.gov/24574692/">Srinivasan et al. 2013 (PMID 24574692)</a></li>
+    <li><a href="https://orbit.beautyindependent.com/article/hard-water-rush-haircare-brands-retailers-address-mineral-buildup-consumer-awareness-grows">Beauty Independent: hard water haircare trend, chelators</a> · <a href="https://www.dove.com/arabia/en/p/hair-therapy-hard-water-defense-shampoo.html/06281006548497">Dove Hair Therapy Hard Water Defense (Arabia)</a></li>
+    <li><a href="https://www.bgs.ac.uk/groundwater/quality/groundwater-and-health/arsenic-contamination-of-groundwater/bangladesh-reports/">BGS/DPHE Bangladesh reports</a> · <a href="https://pubmed.ncbi.nlm.nih.gov/29436334/">Naser et al. 2018: iron in 654 tube wells</a> · <a href="https://water.usgs.gov/nwc/NWC/water_quality/tables/quality.abs.html">USGS: conductivity and dissolved solids</a></li>
+    <li><a href="https://asia.fes.de/news/bangladesh-coastal-women.html">FES: salinity and coastal women</a> · <a href="https://www.tbsnews.net/features/panorama/how-monglas-women-are-bearing-brunt-rising-salinity-1184581">TBS: Mongla women</a></li>
+    <li><a href="https://www.mordorintelligence.com/industry-reports/bangladesh-shampoo-market">Mordor Intelligence: Bangladesh shampoo market</a> · <a href="https://www.arogga.com/brand/101827/marico-bangladesh">Arogga: Marico Bangladesh prices</a> · <a href="https://thefinancialexpress.com.bd/trade/marico-launches-parachute-naturale-shampoo-1589973421">FE: Naturale with coconut milk protein</a></li>
+    <li><a href="https://marico.com/bangladesh/about-us">Marico Bangladesh: about us</a> · <a href="https://www.icicidirect.com/mailcontent/idirect_marico_q4fy26.pdf">ICICI Direct: Marico Q4 FY26</a></li>
+    <li><a href="https://bdlaws.minlaw.gov.bd/act-print-1447.html">Drugs and Cosmetics Act 2023</a> · <a href="https://bsti.gov.bd/site/page/741c4948-53e2-455e-bb38-f4281381f426/List-of-Mandatory-Products-">BSTI mandatory products list</a> · <a href="https://moef.gov.bd/">MoEF press release on EPR Guidelines 2026 (20 Aug 2026)</a></li>
+  </ul>
+  <p>Internal team document · Naturale WaterSmart v3 · Team The Last BrainCell</p>
+</div></footer>
+
+<script>
+/* WATER SMART MODEL V3 START — all cash values are Tk million. */
+var WaterSmartModel=(function(){
+  var B={vat:.15,tradeBottle:.22,tradeSachet:.25,
+    sku:{sachet:{mrp:3,cogs:1.2,formulaCost:.81,ml:6},b180:{mrp:180,cogs:55,formulaCost:24.5,ml:180},b340:{mrp:330,cogs:95,otherCogs:92,formulaCost:46,ml:340}},
+    ch:[["Rural Grocer (RG)",[15000,30000,45000],[48,.5,0]], ["Urban Neighbourhood Grocer (UNG)",[12000,25000,35000],[36,1,.5]], ["Urban Cosmetics Store (UCS)",[6000,9000,12000],[0,2,2]], ["Rural Cosmetics Store (RCS)",[3000,6000,9000],[12,1,1]], ["Wholesale (WS)",[1000,2000,3000],[240,3,1]], ["Modern Trade (MT)",[300,340,360],[0,15,15]], ["E-commerce",[30,40,40],[0,30,40]]],
+    growth:[1,1.05,1.10],outerGrowth:.10,apPct:[0,.18,.15,.14,.14],sdPct:.10,sdFix:10,eprPct:.01,naturaleCM:.45,
+    capex:30,pilot:5,preMonths:12,life:5,tax:.25,nwc:.12,hurdle:.15,commercialMonths:60};
+  var K=["sachet","b180","b340"];
+  var DEF={vol:0,price:0,cogs:0,formula:0,delay:0,ap:60,cann:.20,strip:3,pilot:5,pre:12,release:true};
+  function params(p){return Object.assign({},DEF,p||{});}
+  function discounted(cf,r){return cf.reduce(function(s,c,m){return s+c/Math.pow(1+r,m/12);},0);}
+  function run(input){
+    var p=params(input),vm=1+p.vol,pm=1+p.price,cm=1+p.cogs,pre=Math.round(p.pre);
+    var nr={},cg={};K.forEach(function(k){nr[k]=B.sku[k].mrp*pm/(1+B.vat)*(1-(k==="sachet"?B.tradeSachet:B.tradeBottle));cg[k]=((k==="b340"?B.sku[k].otherCogs+p.strip:B.sku[k].cogs)+B.sku[k].formulaCost*p.formula)*cm;});
+    var Y=Array.from({length:5},function(){return {u:{sachet:0,b180:0,b340:0},gross:0,rev:0,cogs:0,gp:0,ap:0,sd:0,epr:0,ebitdaSA:0,can:0,ebitda:0,tax:0,dnwc:0,fcf:0,litres:0,exitNwc:0};});
+    var M=[],cf=[-B.capex],prev=0,cum=-B.capex,peak=cum,peakMonth=0,pb=null;
+    M.push({m:0,label:"Initial CAPEX",year:-1,local:0,rev:0,ebitda:0,tax:0,dnwc:0,nwc:0,pilot:0,fcf:-B.capex,release:0,cash:-B.capex,cumulative:cum});
+    function append(r){var before=cum;cum+=r.cash;r.cumulative=cum;M.push(r);cf.push(r.cash);if(cum<peak){peak=cum;peakMonth=r.m;}if(pb===null&&before<0&&cum>=0)pb=(r.m-1+(-before/r.cash))/12;}
+    for(var t=1;t<=pre;t++){
+      var pilot=t>pre-6?p.pilot/6:0;
+      append({m:t,label:t>pre-6?"Prelaunch pilot":"Prelaunch R&D",year:-1,local:t,rev:0,ebitda:0,tax:0,dnwc:0,nwc:0,pilot:pilot,fcf:-pilot,release:0,cash:-pilot});
+    }
+    var first=4+p.delay,selling=Math.max(0,13-first),front=Math.min(3,selling),tail=Math.max(0,selling-front);
+    for(var n=1;n<=B.commercialMonths;n++){
+      var y=Math.floor((n-1)/12),local=(n-1)%12+1,yy=Math.min(y,2),ext=y>2?Math.pow(1+B.outerGrowth,y-2):1;
+      var ramp=y===0?(local<first?0:selling===1?1:.4+.6*(local-first)/(selling-1)):1;
+      var u={sachet:0,b180:0,b340:0};
+      B.ch.forEach(function(ch){K.forEach(function(k,i){u[k]+=ch[1][yy]*ch[2][i]*B.growth[yy]*vm*ext*ramp;});});
+      var gross=K.reduce(function(s,k){return s+u[k]*B.sku[k].mrp*pm;},0)/1e6;
+      var rev=K.reduce(function(s,k){return s+u[k]*nr[k];},0)/1e6;
+      var cogs=K.reduce(function(s,k){return s+u[k]*cg[k];},0)/1e6;
+      var ap=y===0?(local===first-1?.1*p.ap:local>=first&&local<first+front?(tail?.45:.9)*p.ap/front:local>=first+front&&local<=12&&tail?.45*p.ap/tail:0):B.apPct[y]*rev;
+      var gp=rev-cogs,sd=B.sdPct*rev+B.sdFix/12,epr=B.eprPct*rev,sa=gp-ap-sd-epr,can=p.cann*B.naturaleCM*rev,eb=sa-can;
+      var tax=Math.max(0,eb-B.capex/B.life/12)*B.tax,nwc=B.nwc*12*rev,dnwc=nwc-prev;prev=nwc;
+      var fcf=eb-tax-dnwc,release=p.release&&n===B.commercialMonths?nwc:0;
+      var litres=K.reduce(function(s,k){return s+u[k]*B.sku[k].ml;},0)/1000;
+      var r={m:pre+n,label:"Y"+(y+1)+" M"+local,year:y,local:local,u:u,ramp:ramp,gross:gross,rev:rev,cogs:cogs,gp:gp,ap:ap,sd:sd,epr:epr,ebitdaSA:sa,can:can,ebitda:eb,tax:tax,nwc:nwc,dnwc:dnwc,pilot:0,fcf:fcf,release:release,cash:fcf+release,litres:litres};
+      var a=Y[y];K.forEach(function(k){a.u[k]+=u[k];});["gross","rev","cogs","gp","ap","sd","epr","ebitdaSA","can","ebitda","tax","dnwc","fcf","litres"].forEach(function(k){a[k]+=r[k];});a.exitNwc=nwc;
+      append(r);
+    }
+    var lo=-.99,hi=10,irr=null,nlo=discounted(cf,lo),nhi=discounted(cf,hi);
+    if(nlo*nhi<0){for(var i=0;i<100;i++){var mid=(lo+hi)/2,nmid=discounted(cf,mid);if(nlo*nmid<=0){hi=mid;}else{lo=mid;nlo=nmid;}}irr=(lo+hi)/2;}
+    var endCumulative=-B.capex,annualPeak=endCumulative,annualCash=[-B.capex,-p.pilot];
+    endCumulative-=p.pilot;annualPeak=Math.min(annualPeak,endCumulative);
+    Y.forEach(function(y,i){var cash=y.fcf+(p.release&&i===4?prev:0);annualCash.push(cash);endCumulative+=cash;annualPeak=Math.min(annualPeak,endCumulative);});
+    return {p:p,nr:nr,cg:cg,Y:Y,M:M,cf:cf,npv:discounted(cf,B.hurdle),irr:irr,pb:pb,peak:peak,peakMonth:peakMonth,annualPeak:annualPeak,annualCash:annualCash,release:prev,horizon:pre+B.commercialMonths};
+  }
+  function both(p){return [run(Object.assign({},p,{release:true})),run(Object.assign({},p,{release:false}))];}
+  function costCeiling(input,release){var p=params(input),lo=0,hi=200;if(run(Object.assign({},p,{strip:0,release:release})).npv<0)return null;if(run(Object.assign({},p,{strip:hi,release:release})).npv>=0)return hi;for(var n=0;n<45;n++){var mid=(lo+hi)/2;if(run(Object.assign({},p,{strip:mid,release:release})).npv>=0)lo=mid;else hi=mid;}return (lo+hi)/2;}
+  function scenarios(input){var p=params(input);return [Object.assign({},p,{vol:-.2,price:0,cogs:0,delay:0}),Object.assign({},p,{vol:-.2,price:-.05,cogs:.08,delay:3}),Object.assign({},p,{vol:0,price:0,cogs:0,delay:0}),Object.assign({},p,{vol:.15,price:.02,cogs:-.03,delay:0})];}
+  return {B:B,K:K,DEF:DEF,run:run,both:both,costCeiling:costCeiling,scenarios:scenarios};
+})();
+/* WATER SMART MODEL V3 END */
+
+(function(){
+  var C=WaterSmartModel,B=C.B,K=C.K,current;
+  function $(id){return document.getElementById(id);}
+  function cr(x){return (x/10).toFixed(2);}
+  function pct(x){return x===null?"n/a":(x*100).toFixed(1)+"%";}
+  function signed(x){return (x>0?"+":"")+Math.round(x*100)+"%";}
+  function read(){return {vol:+$("iVol").value/100,price:+$("iPrice").value/100,cogs:+$("iCogs").value/100,formula:+$("iFormula").value/100,delay:+$("iDelay").value,ap:+$("iAP").value,cann:+$("iCann").value/100,strip:+$("iStrip").value,pilot:+$("iPilot").value,pre:+$("iPre").value,release:$("iRel").checked};}
+  function table(rows){return rows.map(function(row){return "<tr><td>"+row[0]+"</td>"+row.slice(1).map(function(v){return "<td class='num'>"+v+"</td>";}).join("")+"</tr>";}).join("");}
+  $("chTable").innerHTML=table(B.ch.map(function(ch){return [ch[0]].concat(ch[1].map(function(v){return v.toLocaleString();})).concat(ch[2]);}));
+  function render(){
+    var p=read(),r=C.run(p),pair=C.both(p),Y=r.Y;current=r;
+    ["Vol","Price","Cogs","Formula"].forEach(function(k){$("o"+k).textContent=signed(p[k.toLowerCase()]);});
+    $("oDelay").textContent=p.delay+" months";$("oAP").textContent="Tk "+cr(p.ap)+" Cr";$("oCann").textContent=Math.round(p.cann*100)+"%";
+    $("oStrip").textContent="Tk "+p.strip.toFixed(2);$("oPilot").textContent="Tk "+cr(p.pilot)+" Cr";$("oPre").textContent=p.pre+" months";
+    $("kNPV").textContent=cr(r.npv);$("kNPV2").textContent=cr(pair[0].npv)+" / "+cr(pair[1].npv);
+    $("kIRR").textContent=pct(r.irr);$("kPB").textContent=r.pb===null?"> "+(r.horizon/12).toFixed(1)+" yrs":r.pb.toFixed(2)+" yrs";
+    $("kPeak").textContent=cr(-r.peak)+" · M"+r.peakMonth;$("kAnnualPeak").textContent=cr(-r.annualPeak);
+    $("kY3").textContent=cr(Y[2].ebitdaSA)+" / "+cr(Y[2].ebitda);
+    $("verdict").textContent=(r.npv>=0?"Above the 15% hurdle":"Below the 15% hurdle")+" under these assumptions, "+(p.release?"with":"without")+" end-of-project NWC recovery. Appraisal: "+p.pre+" prelaunch + 60 national months. Full NWC recovery assumes a wind-down; no continuing terminal value is counted.";
+    var mrp=K.map(function(k){return B.sku[k].mrp*(1+p.price);}),ex=mrp.map(function(v){return v/(1+B.vat);});
+    $("wfTable").innerHTML=table([
+      ["MRP (incl. VAT)"].concat(mrp.map(function(v){return v.toFixed(2);})),
+      ["Less VAT 15%"].concat(mrp.map(function(v,i){return (-v+ex[i]).toFixed(2);})),
+      ["Less trade (25% sachet, 22% bottle)"].concat(K.map(function(k,i){return (-ex[i]*(k==="sachet"?B.tradeSachet:B.tradeBottle)).toFixed(2);})),
+      ["<b>Net realisation</b>"].concat(K.map(function(k){return r.nr[k].toFixed(2);})),
+      ["COGS at selected inputs"].concat(K.map(function(k){return r.cg[k].toFixed(2);})),
+      ["Gross margin"].concat(K.map(function(k){return pct((r.nr[k]-r.cg[k])/r.nr[k]);})),
+      ["MRP per ml"].concat(K.map(function(k,i){return (mrp[i]/B.sku[k].ml).toFixed(2);}))
+    ]);
+    var rows=[
+      ["Sachets (million)",function(y){return (y.u.sachet/1e6).toFixed(2);}],
+      ["180ml + 340ml bottles (lakh)",function(y){return ((y.u.b180+y.u.b340)/1e5).toFixed(2);}],
+      ["Gross sales at MRP",function(y){return cr(y.gross);}], ["<b>Net revenue</b>",function(y){return cr(y.rev);}],
+      ["COGS",function(y){return cr(y.cogs);}], ["Gross profit (margin)",function(y){return cr(y.gp)+" ("+pct(y.gp/y.rev)+")";}],
+      ["A&P",function(y){return cr(y.ap);}], ["S&D and overhead",function(y){return cr(y.sd);}], ["EPR reserve",function(y){return cr(y.epr);}],
+      ["<b>EBITDA, standalone</b>",function(y){return cr(y.ebitdaSA);}], ["Cannibalisation contribution lost",function(y){return cr(y.can);}],
+      ["<b>EBITDA, incremental</b>",function(y){return cr(y.ebitda)+" ("+pct(y.ebitda/y.rev)+")";}],
+      ["Cash tax (monthly; no loss relief)",function(y){return cr(y.tax);}], ["Change in NWC (sum of monthly changes)",function(y){return cr(y.dnwc);}],
+      ["Exit NWC balance",function(y){return cr(y.exitNwc);}], ["<b>Free cash flow before NWC recovery</b>",function(y){return cr(y.fcf);}]
+    ];
+    $("plTable").innerHTML=table(rows.map(function(x){return [x[0]].concat(Y.map(x[1]));}));
+    $("monthlyRows").innerHTML=table(r.M.map(function(m){return ["M"+m.m+" · "+m.label,cr(m.rev),cr(m.ebitda),cr(m.tax),cr(m.dnwc),cr(m.nwc),cr(m.pilot),cr(m.release),cr(m.cash),cr(m.cumulative)];}));
+    $("reconcileRows").innerHTML=table([["Initial CAPEX",cr(r.cf[0]),"M0"],["Prelaunch cash allowance",cr(-p.pilot),"M1–M"+p.pre]].concat(Y.map(function(y,i){return ["National Y"+(i+1),cr(y.fcf+(p.release&&i===4?r.release:0)),"M"+(p.pre+i*12+1)+"–M"+(p.pre+(i+1)*12)];})));
+    var S=C.scenarios(p).map(C.both);
+    $("scTable").innerHTML=table([
+      ["Y3 net revenue (Tk Cr)"].concat(S.map(function(s){return cr(s[0].Y[2].rev);})),
+      ["Y3 incremental EBITDA (Tk Cr)"].concat(S.map(function(s){return cr(s[0].Y[2].ebitda);})),
+      ["Monthly peak funding (Tk Cr; project month)"].concat(S.map(function(s){return cr(-s[0].peak)+" · M"+s[0].peakMonth;})),
+      ["Project NPV @15%, with recovery"].concat(S.map(function(s){return cr(s[0].npv);})),
+      ["Project NPV @15%, without recovery"].concat(S.map(function(s){return cr(s[1].npv);})),
+      ["Annual equivalent IRR (with / without)"].concat(S.map(function(s){return pct(s[0].irr)+" / "+pct(s[1].irr);})),
+      ["Payback from first CAPEX"].concat(S.map(function(s){return s[0].pb===null?"> "+(s[0].horizon/12).toFixed(1)+" yrs":s[0].pb.toFixed(2)+" yrs";}))
+    ]);
+    var bottleCeiling=r.nr.b340*.52/(1+p.cogs)-(92+46*p.formula),noRelease=C.costCeiling(p,false),yesRelease=C.costCeiling(p,true);
+    $("stripLimits").textContent="At selected inputs: 48% bottle-GM strip+sleeve ceiling Tk "+bottleCeiling.toFixed(2)+"; zero-project-NPV ceiling without NWC recovery "+(noRelease===null?"unavailable even at Tk 0":"Tk "+noRelease.toFixed(2))+", with recovery "+(yesRelease===null?"unavailable even at Tk 0":"Tk "+yesRelease.toFixed(2))+". These are different limits; confirm all landed costs and rerun the forecast.";
+    var costs=[3,4,5,24.38956522,58.438];
+    $("stripSensitivity").innerHTML=table(costs.map(function(cost){var q=Object.assign({},p,{strip:cost}),s=C.both(q);return ["Tk "+cost.toFixed(2),pct((s[0].nr.b340-s[0].cg.b340)/s[0].nr.b340),pct(s[0].Y[2].gp/s[0].Y[2].rev),cr(s[0].npv),cr(s[1].npv)];}));
+    $("formulaSensitivity").innerHTML=table([-.25,0,.25].map(function(change){var q=Object.assign({},p,{formula:change}),s=C.both(q);return [signed(change),"Tk "+(135*(1+change)).toFixed(2)+"/kg",s[0].cg.b340.toFixed(2),pct(s[0].Y[2].gp/s[0].Y[2].rev),cr(s[0].npv),cr(s[1].npv)];}));
+    var mass=(Y[2].u.sachet*.6+Y[2].u.b180*22+Y[2].u.b340*32)/1e6;
+    $("impactNumbers").textContent="Selected Y3 pack volumes × assumed weights: "+mass.toFixed(2)+" tonnes, excluding unmeasured strip/foil/labels. Illustrative 15% collection: "+(mass*.15).toFixed(2)+" tonnes; at assumed Tk 60/kg: Tk "+(mass*.15*1000*60/1e5).toFixed(2)+" lakh. EPR reserve: Tk "+(Y[2].epr/10*100).toFixed(2)+" lakh. This does not establish full collection + recycling + PRO/admin cost coverage.";
+    $("xcheck").textContent="Selected Y3 MRP sales Tk "+cr(Y[2].gross)+" Cr ≈ "+(Y[2].gross*1e6/(164.49e6*122)*100).toFixed(1)+"% of the dated 2025 shampoo market (USD 164.49M; assumed Tk 122/USD). Calendar launch year is uncommitted, so this is a context check, not a current-year share claim. Build SAM from eligible consumers and measured water evidence. Y3 volume: "+(Y[2].litres/1e6).toFixed(2)+" million litres; line capacity remains to confirm.";
+    $("opsLitres").textContent=(Y[2].litres/1e6).toFixed(2);
+    $("qaVol").textContent=cr(S[0][0].npv)+" Cr with recovery / "+cr(S[0][1].npv)+" without";
+    $("qaBase").textContent=cr(S[2][0].npv)+" / "+cr(S[2][1].npv)+" Cr";$("qaWorst").textContent=cr(S[1][0].npv)+" / "+cr(S[1][1].npv)+" Cr";
+    $("qaRel").textContent="Tk "+cr(pair[0].npv)+" Cr (IRR "+pct(pair[0].irr)+")";$("qaNoRel").textContent="Tk "+cr(pair[1].npv)+" Cr";$("qaNoRelIRR").textContent=pct(pair[1].irr);
+    $("qaPeak").textContent="Tk "+cr(-r.peak)+" Cr at project month "+r.peakMonth+", versus Tk "+cr(-r.annualPeak)+" Cr from period-end balances";
+    $("videoFinance").textContent="Selected inputs: Y3 NR "+cr(Y[2].rev)+" Cr; incremental EBITDA "+cr(Y[2].ebitda)+" Cr; project NPV "+cr(pair[0].npv)+" / "+cr(pair[1].npv)+" Cr (with / without NWC recovery); peak funding "+cr(-r.peak)+" Cr. Label as assumptions; use the same setting in the deck.";
+  }
+  ["iVol","iPrice","iCogs","iFormula","iDelay","iAP","iCann","iStrip","iPilot","iPre","iRel"].forEach(function(id){$(id).addEventListener("input",render);});
+  $("resetBtn").addEventListener("click",function(){var vals={iVol:0,iPrice:0,iCogs:0,iFormula:0,iDelay:0,iAP:60,iCann:20,iStrip:3,iPilot:5,iPre:12};Object.keys(vals).forEach(function(k){$(k).value=vals[k];});$("iRel").checked=true;render();});
+  $("monthlyCsv").addEventListener("click",function(){var cols=["m","label","rev","ebitda","tax","dnwc","nwc","pilot","release","cash","cumulative"],text="\uFEFF"+cols.join(",")+"\n"+current.M.map(function(r){return cols.map(function(k){var v=typeof r[k]==="number"&&k!=="m"?r[k]/10:r[k];return '"'+String(v).replace(/"/g,'""')+'"';}).join(",");}).join("\n"),blob=new Blob([text],{type:"text/csv;charset=utf-8"}),a=document.createElement("a"),url=URL.createObjectURL(blob);a.href=url;a.download="WaterSmart_v3_monthly_cash_Tk_crore.csv";document.body.appendChild(a);a.click();a.remove();setTimeout(function(){URL.revokeObjectURL(url);},500);});
+  render();
+})();
+
+(function(){var KEY="watersmart-checklist",bx=[].slice.call(document.querySelectorAll(".todo input")),s={};try{s=JSON.parse(localStorage.getItem(KEY)||"{}")||{};}catch(e){s={};}
+  function u(){document.getElementById("todoCount").textContent=bx.filter(function(b){return b.checked;}).length+" of "+bx.length+" complete";}
+  bx.forEach(function(b){b.checked=!!s[b.id];b.addEventListener("change",function(){s[b.id]=b.checked;try{localStorage.setItem(KEY,JSON.stringify(s));}catch(e){}u();});});u();})();
+</script>
+</body>
+</html>

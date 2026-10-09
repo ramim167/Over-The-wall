@@ -1,0 +1,39 @@
+[
+  {
+    "id": "CONSUMER_2022",
+    "authors": "Ummay Salma Khanam; Md. Bazlur Rahman",
+    "year": 2022,
+    "title": "Preference of Global Shampoo Brands: A Study on Women Consumers",
+    "url": "https://doi.org/10.4236/jss.2022.1012016",
+    "population": "390 women global-shampoo users in Dhaka and Chittagong",
+    "method": "Convenience sample, anonymous online questionnaire; 500 invited,390 returned",
+    "license": "CC BY4.0 stated in PDF",
+    "measurement_date": "Not specifically stated in retrieved methods; publication11Nov2022",
+    "limitations": [
+      "Historical nonprobability sample, women only, urban/global-brand restriction",
+      "Methods age18–60 conflicts with six reported respondents61+; under20 band does not state individual age",
+      "No WaterSmart concept, price330, moving-water test, paid repeat or mineral measurements",
+      "Raw respondent microdata not supplied; no national sampling weights"
+    ],
+    "appropriate_use": "Directional factor-ranking context; original authors credited; not national brand market share"
+  },
+  {
+    "id": "CONSUMER_SALINITY_2025",
+    "authors": "See archived Frontiers original article author list",
+    "year": 2025,
+    "title": "Perceptions of coastal dwellers about the effects of extreme temperature and saline water on human health: evidence from Bangladesh",
+    "url": "https://doi.org/10.3389/fpubh.2025.1451933",
+    "population": "391 consenting adults in Ramgati, Lakshmipur;286 men105 women",
+    "method": "Cross-sectional convenience questionnaire;400 invited391completed",
+    "license": "Open access; retain original article authors and publisher attribution",
+    "measurement_date": "Not recovered from retrieved methods; publication2025 is not automatically survey date",
+    "limitations": [
+      "One locality, predominantly men, convenience sample",
+      "Perceived causal attribution, not objective measured salinity or clinical diagnosis",
+      "Question names water as cause; cannot support unprompted Movers attribution",
+      "Raw data available from authors on request, not acquired in this run",
+      "Sample-size paragraph says3%margin while givingd=.05; flag reporting inconsistency"
+    ],
+    "appropriate_use": "Evidence that water-related hair concerns are reported in this sampled coastal community; not a WaterSmart efficacy claim"
+  }
+]

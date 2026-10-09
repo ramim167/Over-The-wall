@@ -1,0 +1,24 @@
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://www.arogga.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Brand",
+      "item": "https://www.arogga.com/brand"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Marico Bangladesh",
+      "item": "https://www.arogga.com/brand/101827/marico-bangladesh"
+    }
+  ]
+}

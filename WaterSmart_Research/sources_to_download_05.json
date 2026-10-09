@@ -1,0 +1,56 @@
+[
+  {
+    "id": "STRIP_BARTOVATION_OEM",
+    "url": "https://bartovation.com/product/water-quality/custom-branded-water-hardness-test-strips/",
+    "filename": "strip_bartovation_oem.html",
+    "description": "supplier private-label custom pouch capability, not quote"
+  },
+  {
+    "id": "STRIP_MN_91224",
+    "url": "https://www.mn-net.com/us/aquadur-4-21-for-water-hardness-individually-sealed-1000-strips-91224?c=7674",
+    "filename": "strip_mn_91224.html",
+    "description": "supplier shelf life and storage; $0 display is not price"
+  },
+  {
+    "id": "STRIP_SIMPLEX_SINGLE",
+    "url": "https://www.simplexhealth.co.uk/product/total-hardness-test-strips-single-strip-in-foil/",
+    "filename": "strip_simplex_single.html",
+    "description": "listed retail price, not Bangladesh landed OEM quote"
+  },
+  {
+    "id": "STRIP_LAMOTTE",
+    "url": "https://lamotte.com/product/insta-test-drinking-water-test-strip-4-2936fp-100/",
+    "filename": "strip_lamotte_foil.html",
+    "description": "manufacturer wrapped multiparameter test"
+  },
+  {
+    "id": "STRIP_PRECISION",
+    "url": "https://www.preclaboratories.com/product/water-hardness-test-strip/",
+    "filename": "strip_precision_hardness.html",
+    "description": "manufacturer bulk strip, packaging qualification required"
+  },
+  {
+    "id": "VAT_ACT",
+    "url": "https://bdlaws.minlaw.gov.bd/act-print-1106.html",
+    "filename": "vat_sd_act_2012_current.html",
+    "description": "official current act and linked schedules"
+  },
+  {
+    "id": "NBR_SRO",
+    "url": "https://nbr.gov.bd/regulations/sros/vat-sros/16/eng",
+    "filename": "nbr_vat_sro_directory.html",
+    "description": "2026 exemptions and amendment directory"
+  },
+  {
+    "id": "EUROMONITOR",
+    "url": "https://www.euromonitor.com/hair-care-in-bangladesh/report",
+    "filename": "market_euromonitor_haircare.html",
+    "description": "publisher public narrative; category sizes behind paywall"
+  },
+  {
+    "id": "MALIBU_OFFICIAL",
+    "url": "https://malibuc.com/products/hard-water-wellness-shampoo",
+    "filename": "malibu_official_shampoo.html",
+    "description": "manufacturer mechanism, ingredient disclosure, pack prices"
+  }
+]

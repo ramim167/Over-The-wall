@@ -1,0 +1,23 @@
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "@id": "https://www.arogga.com/#website",
+  "url": "https://www.arogga.com",
+  "name": "Arogga",
+  "description": "Buy genuine medicine, beauty, personal care and wellness products online in Bangladesh with delivery across all 64 districts.",
+  "publisher": {
+    "@id": "https://www.arogga.com/#organization"
+  },
+  "inLanguage": [
+    "bn-BD",
+    "en-BD"
+  ],
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://www.arogga.com/search?q={search_term_string}"
+    },
+    "query-input": "required name=search_term_string"
+  }
+}

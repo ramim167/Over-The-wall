@@ -1,0 +1,65 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "@id": "https://www.arogga.com/#organization",
+  "name": "Arogga",
+  "alternateName": "আরোগ্য",
+  "legalName": "AROGGA LTD",
+  "url": "https://www.arogga.com",
+  "logo": {
+    "@type": "ImageObject",
+    "@id": "https://www.arogga.com/#logo",
+    "url": "https://www.arogga.com/icons/icon-512x512.png",
+    "contentUrl": "https://www.arogga.com/icons/icon-512x512.png",
+    "width": 512,
+    "height": 512,
+    "caption": "Arogga"
+  },
+  "image": {
+    "@id": "https://www.arogga.com/#logo"
+  },
+  "description": "Arogga is an online pharmacy and healthcare marketplace in Bangladesh, delivering genuine medicine, beauty, personal care and wellness products across all 64 districts.",
+  "slogan": "The Primary Healthcare Platform for Bangladesh",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "D/15-1, Road-36, Block-D, Section-10, Mirpur",
+    "addressLocality": "Dhaka",
+    "addressRegion": "Dhaka Division",
+    "postalCode": "1216",
+    "addressCountry": "BD"
+  },
+  "contactPoint": [
+    {
+      "@type": "ContactPoint",
+      "telephone": "+8809610016778",
+      "contactType": "customer service",
+      "areaServed": "BD",
+      "availableLanguage": [
+        "bn",
+        "en"
+      ]
+    },
+    {
+      "@type": "ContactPoint",
+      "telephone": "+8801810117100",
+      "contactType": "customer support",
+      "areaServed": "BD",
+      "availableLanguage": [
+        "bn",
+        "en"
+      ]
+    }
+  ],
+  "areaServed": {
+    "@type": "Country",
+    "name": "Bangladesh"
+  },
+  "sameAs": [
+    "https://www.facebook.com/arogga",
+    "https://www.instagram.com/aroggaofficial",
+    "https://www.linkedin.com/company/arogga",
+    "https://www.youtube.com/@arogga9786",
+    "https://play.google.com/store/apps/details?id=com.arogga.app",
+    "https://apps.apple.com/us/app/arogga/id1499378347"
+  ]
+}

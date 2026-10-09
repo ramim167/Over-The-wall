@@ -1,0 +1,765 @@
+{
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "@id": "https://www.arogga.com/brand/101827/marico-bangladesh#webpage",
+  "url": "https://www.arogga.com/brand/101827/marico-bangladesh",
+  "name": "Marico Bangladesh Products | Arogga",
+  "description": "Shop 100% genuine Marico Bangladesh products online at Arogga. Discover a wide range of Marico Bangladesh products from trusted brands with fast home delivery across Bangladesh. Affordable, authentic, and reliable.",
+  "isPartOf": {
+    "@id": "https://www.arogga.com/#website"
+  },
+  "about": {
+    "@type": "Brand",
+    "@id": "https://www.arogga.com/brand/101827/marico-bangladesh#brand",
+    "name": "Marico Bangladesh",
+    "logo": "https://cdn2.arogga.com/eyJidWNrZXQiOiJhcm9nZ2EiLCJrZXkiOiJQcm9kdWN0QnJhbmQtcGJfYmFubmVyXC8xMDE4MjdcLzEwMTgyNy1VbnRpdGxlZC1zZ3p1YWwuanBlZyIsImVkaXRzIjpbXX0="
+  },
+  "mainEntity": {
+    "@type": "ItemList",
+    "@id": "https://www.arogga.com/brand/101827/marico-bangladesh#itemlist",
+    "name": "Marico Bangladesh Products",
+    "numberOfItems": 20,
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "item": {
+          "@type": "Product",
+          "name": "Parachute Advansed Secrets Onion Hair Oil 200ml",
+          "image": "https://cdn2.arogga.com/eyJidWNrZXQiOiJhcm9nZ2EiLCJrZXkiOiJQcm9kdWN0LXBfaW1hZ2VzXC80NzEzMlwvNDcxMzItUGFyYWNodXRlLUFkdmFuc2VkLVNlY3JldHMtT25pb24tSGFpbC1PaWwtMjAwLW1sLWtwNTNpeS5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjIxNiwiaGVpZ2h0IjoyMTYsImZpdCI6Im91dHNpZGUifX19",
+          "url": "https://www.arogga.com/product/47132/parachute-advansed-secrets-onion-hair-oil-200ml",
+          "sku": 47132,
+          "brand": {
+            "@type": "Brand",
+            "name": "Marico Bangladesh"
+          },
+          "category": "Beauty",
+          "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "4.88",
+            "bestRating": "5",
+            "worstRating": "1",
+            "reviewCount": 66
+          },
+          "offers": {
+            "@type": "Offer",
+            "url": "https://www.arogga.com/product/47132/parachute-advansed-secrets-onion-hair-oil-200ml",
+            "priceCurrency": "BDT",
+            "price": 180,
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock",
+            "priceValidUntil": "2026-11-25",
+            "seller": {
+              "@type": "Organization",
+              "name": "Arogga Ltd",
+              "url": "https://www.arogga.com"
+            }
+          }
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "item": {
+          "@type": "Product",
+          "name": "Parachute Naturale Nourishing Care Shampoo (5.25ml X 12 pcs)",
+          "image": "https://cdn2.arogga.com/eyJidWNrZXQiOiJhcm9nZ2EiLCJrZXkiOiJQcm9kdWN0LXBfaW1hZ2VzXC82NzcyMFwvNjc3MjAtUGFyYWNodXRlLU5hdHVyYWxlLU5vdXJpc2hpbmctQ2FyZS1TaGFtcG9vLTUtbzZqcmtsLnBuZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MjE2LCJoZWlnaHQiOjIxNiwiZml0Ijoib3V0c2lkZSJ9fX0=",
+          "url": "https://www.arogga.com/product/67720/parachute-naturale-nourishing-care-shampoo-5-25ml-x-12-pcs",
+          "sku": 67846,
+          "brand": {
+            "@type": "Brand",
+            "name": "Marico Bangladesh"
+          },
+          "category": "Beauty",
+          "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "4.94",
+            "bestRating": "5",
+            "worstRating": "1",
+            "reviewCount": 50
+          },
+          "offers": {
+            "@type": "Offer",
+            "url": "https://www.arogga.com/product/67720/parachute-naturale-nourishing-care-shampoo-5-25ml-x-12-pcs",
+            "priceCurrency": "BDT",
+            "price": 24,
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock",
+            "priceValidUntil": "2026-11-25",
+            "seller": {
+              "@type": "Organization",
+              "name": "Arogga Ltd",
+              "url": "https://www.arogga.com"
+            }
+          }
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "item": {
+          "@type": "Product",
+          "name": "Parachute Naturale Anti Hair Fall Shampoo (5.25ml X 12 pcs)",
+          "image": "https://cdn2.arogga.com/eyJidWNrZXQiOiJhcm9nZ2EiLCJrZXkiOiJQcm9kdWN0LXBfaW1hZ2VzXC82NzcyM1wvNjc3MjMtMS0xNC0yZGR3cWouanBlZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MjE2LCJoZWlnaHQiOjIxNiwiZml0Ijoib3V0c2lkZSJ9fX0=",
+          "url": "https://www.arogga.com/product/67723/parachute-naturale-anti-hair-fall-shampoo-5-25ml-x-12-pcs",
+          "sku": 67849,
+          "brand": {
+            "@type": "Brand",
+            "name": "Marico Bangladesh"
+          },
+          "category": "Beauty",
+          "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "4.89",
+            "bestRating": "5",
+            "worstRating": "1",
+            "reviewCount": 63
+          },
+          "offers": {
+            "@type": "Offer",
+            "url": "https://www.arogga.com/product/67723/parachute-naturale-anti-hair-fall-shampoo-5-25ml-x-12-pcs",
+            "priceCurrency": "BDT",
+            "price": 24,
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock",
+            "priceValidUntil": "2026-11-25",
+            "seller": {
+              "@type": "Organization",
+              "name": "Arogga Ltd",
+              "url": "https://www.arogga.com"
+            }
+          }
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "item": {
+          "@type": "Product",
+          "name": "Parachute Hair Oil Advansed Enriched Coconut 275ml",
+          "image": "https://cdn2.arogga.com/eyJidWNrZXQiOiJhcm9nZ2EiLCJrZXkiOiJQcm9kdWN0LXBfaW1hZ2VzXC82ODA5MVwvNjgwOTEtUGFyYWNodXRlLUhhaXItT2lsLUFkdmFuc2VkLUVucmljaGVkLUNvY29udXQtMjc1bWwtdDNxZ3Y0LnBuZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MjE2LCJoZWlnaHQiOjIxNiwiZml0Ijoib3V0c2lkZSJ9fX0=",
+          "url": "https://www.arogga.com/product/68091/parachute-hair-oil-advansed-enriched-coconut-275ml",
+          "sku": 68214,
+          "brand": {
+            "@type": "Brand",
+            "name": "Marico Bangladesh"
+          },
+          "category": "Beauty",
+          "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "4.86",
+            "bestRating": "5",
+            "worstRating": "1",
+            "reviewCount": 36
+          },
+          "offers": {
+            "@type": "Offer",
+            "url": "https://www.arogga.com/product/68091/parachute-hair-oil-advansed-enriched-coconut-275ml",
+            "priceCurrency": "BDT",
+            "price": 207,
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock",
+            "priceValidUntil": "2026-11-25",
+            "seller": {
+              "@type": "Organization",
+              "name": "Arogga Ltd",
+              "url": "https://www.arogga.com"
+            }
+          }
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 5,
+        "item": {
+          "@type": "Product",
+          "name": "Parachute Advansed Secrets Rosemary Hair Oil 200ml",
+          "image": "https://cdn2.arogga.com/eyJidWNrZXQiOiJhcm9nZ2EiLCJrZXkiOiJQcm9kdWN0LXBfaW1hZ2VzXC82ODExNlwvNjgxMTYtUGFyYWNodXRlLUFkdmFuc2VkLVNlY3JldHMtUm9zZW1hcnktSGFpci1PaWwtMjAwbWwtMS1sOWhlcnEucG5nIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjoyMTYsImhlaWdodCI6MjE2LCJmaXQiOiJvdXRzaWRlIn19fQ==",
+          "url": "https://www.arogga.com/product/68116/parachute-advansed-secrets-rosemary-hair-oil-200ml",
+          "sku": 68237,
+          "brand": {
+            "@type": "Brand",
+            "name": "Marico Bangladesh"
+          },
+          "category": "Beauty",
+          "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "4.9",
+            "bestRating": "5",
+            "worstRating": "1",
+            "reviewCount": 42
+          },
+          "offers": {
+            "@type": "Offer",
+            "url": "https://www.arogga.com/product/68116/parachute-advansed-secrets-rosemary-hair-oil-200ml",
+            "priceCurrency": "BDT",
+            "price": 210,
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock",
+            "priceValidUntil": "2026-11-25",
+            "seller": {
+              "@type": "Organization",
+              "name": "Arogga Ltd",
+              "url": "https://www.arogga.com"
+            }
+          }
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 6,
+        "item": {
+          "@type": "Product",
+          "name": "Livon Hair Serum 18ml",
+          "image": "https://cdn2.arogga.com/eyJidWNrZXQiOiJhcm9nZ2EiLCJrZXkiOiJQcm9kdWN0LXBfaW1hZ2VzXC82Nzc0MVwvNjc3NDEtMS0yMDI2LTA5LTA4VDExMzQ1MC1sb2MzaXkucG5nIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjoyMTYsImhlaWdodCI6MjE2LCJmaXQiOiJvdXRzaWRlIn19fQ==",
+          "url": "https://www.arogga.com/product/67741/livon-hair-serum-18ml",
+          "sku": 67867,
+          "brand": {
+            "@type": "Brand",
+            "name": "Marico Bangladesh"
+          },
+          "category": "Beauty",
+          "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "4.8",
+            "bestRating": "5",
+            "worstRating": "1",
+            "reviewCount": 40
+          },
+          "offers": {
+            "@type": "Offer",
+            "url": "https://www.arogga.com/product/67741/livon-hair-serum-18ml",
+            "priceCurrency": "BDT",
+            "price": 99,
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock",
+            "priceValidUntil": "2026-11-25",
+            "seller": {
+              "@type": "Organization",
+              "name": "Arogga Ltd",
+              "url": "https://www.arogga.com"
+            }
+          }
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 7,
+        "item": {
+          "@type": "Product",
+          "name": "Parachute Naturale Shampoo Nourishing Care 320ml",
+          "image": "https://cdn2.arogga.com/eyJidWNrZXQiOiJhcm9nZ2EiLCJrZXkiOiJQcm9kdWN0LXBfaW1hZ2VzXC83OTkyOVwvNzk5MjktTkMtMzIwLTRtbnN0by5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjIxNiwiaGVpZ2h0IjoyMTYsImZpdCI6Im91dHNpZGUifX19",
+          "url": "https://www.arogga.com/product/79929/parachute-naturale-shampoo-nourishing-care-320ml",
+          "sku": 80128,
+          "brand": {
+            "@type": "Brand",
+            "name": "Marico Bangladesh"
+          },
+          "category": "Beauty",
+          "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "4.93",
+            "bestRating": "5",
+            "worstRating": "1",
+            "reviewCount": 29
+          },
+          "offers": {
+            "@type": "Offer",
+            "url": "https://www.arogga.com/product/79929/parachute-naturale-shampoo-nourishing-care-320ml",
+            "priceCurrency": "BDT",
+            "price": 239,
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock",
+            "priceValidUntil": "2026-11-25",
+            "seller": {
+              "@type": "Organization",
+              "name": "Arogga Ltd",
+              "url": "https://www.arogga.com"
+            }
+          }
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 8,
+        "item": {
+          "@type": "Product",
+          "name": "Parachute Naturale Damage Repair Shampoo (5.25ml X 12 pcs)",
+          "image": "https://cdn2.arogga.com/eyJidWNrZXQiOiJhcm9nZ2EiLCJrZXkiOiJQcm9kdWN0LXBfaW1hZ2VzXC82NzcxOFwvNjc3MTgtMS1tMjYzeWUuanBlZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MjE2LCJoZWlnaHQiOjIxNiwiZml0Ijoib3V0c2lkZSJ9fX0=",
+          "url": "https://www.arogga.com/product/67718/parachute-naturale-damage-repair-shampoo-5-25ml-x-12-pcs",
+          "sku": 67844,
+          "brand": {
+            "@type": "Brand",
+            "name": "Marico Bangladesh"
+          },
+          "category": "Beauty",
+          "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "4.87",
+            "bestRating": "5",
+            "worstRating": "1",
+            "reviewCount": 45
+          },
+          "offers": {
+            "@type": "Offer",
+            "url": "https://www.arogga.com/product/67718/parachute-naturale-damage-repair-shampoo-5-25ml-x-12-pcs",
+            "priceCurrency": "BDT",
+            "price": 24,
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock",
+            "priceValidUntil": "2026-11-25",
+            "seller": {
+              "@type": "Organization",
+              "name": "Arogga Ltd",
+              "url": "https://www.arogga.com"
+            }
+          }
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 9,
+        "item": {
+          "@type": "Product",
+          "name": "Parachute Just For Baby - Milky Glow Face Cream 100ml",
+          "image": "https://cdn2.arogga.com/eyJidWNrZXQiOiJhcm9nZ2EiLCJrZXkiOiJQcm9kdWN0LXBfaW1hZ2VzXC80NzEzNlwvNDcxMzYtMS0yMDI2LTA0LTI4VDEzNDUyNi1jcmZ1Ym8uanBlZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MjE2LCJoZWlnaHQiOjIxNiwiZml0Ijoib3V0c2lkZSJ9fX0=",
+          "url": "https://www.arogga.com/product/47136/parachute-just-for-baby-milky-glow-face-cream-100ml",
+          "sku": 47136,
+          "brand": {
+            "@type": "Brand",
+            "name": "Marico Bangladesh"
+          },
+          "category": "Baby & Mom Care",
+          "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "4.91",
+            "bestRating": "5",
+            "worstRating": "1",
+            "reviewCount": 35
+          },
+          "offers": {
+            "@type": "Offer",
+            "url": "https://www.arogga.com/product/47136/parachute-just-for-baby-milky-glow-face-cream-100ml",
+            "priceCurrency": "BDT",
+            "price": 210,
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock",
+            "priceValidUntil": "2026-11-25",
+            "seller": {
+              "@type": "Organization",
+              "name": "Arogga Ltd",
+              "url": "https://www.arogga.com"
+            }
+          }
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 10,
+        "item": {
+          "@type": "Product",
+          "name": "Parachute Just for Baby - Baby Gel Toothpaste 45g (Orange)",
+          "image": "https://cdn2.arogga.com/eyJidWNrZXQiOiJhcm9nZ2EiLCJrZXkiOiJQcm9kdWN0LXBfaW1hZ2VzXC82OTMzNVwvNjkzMzUtUGFyYWNodXRlLUp1c3QtZm9yLUJhYnktQmFieS1HZWwtVG9vdGhwYXN0ZS00NWctT3JhbmdlLXpwNjllbi5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjIxNiwiaGVpZ2h0IjoyMTYsImZpdCI6Im91dHNpZGUifX19",
+          "url": "https://www.arogga.com/product/69335/parachute-just-for-baby-gel-toothpaste-45g-orange",
+          "sku": 69432,
+          "brand": {
+            "@type": "Brand",
+            "name": "Marico Bangladesh"
+          },
+          "category": "Baby & Mom Care",
+          "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "4.91",
+            "bestRating": "5",
+            "worstRating": "1",
+            "reviewCount": 22
+          },
+          "offers": {
+            "@type": "Offer",
+            "url": "https://www.arogga.com/product/69335/parachute-just-for-baby-gel-toothpaste-45g-orange",
+            "priceCurrency": "BDT",
+            "price": 105,
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock",
+            "priceValidUntil": "2026-11-25",
+            "seller": {
+              "@type": "Organization",
+              "name": "Arogga Ltd",
+              "url": "https://www.arogga.com"
+            }
+          }
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 11,
+        "item": {
+          "@type": "Product",
+          "name": "Parachute Naturale Shampoo Damage Repair 320ml",
+          "image": "https://cdn2.arogga.com/eyJidWNrZXQiOiJhcm9nZ2EiLCJrZXkiOiJQcm9kdWN0LXBfaW1hZ2VzXC83OTM1MVwvNzkzNTEtZXlKaWRXTnJaWFFpT2lKaGNtOW5aMkVpTENKclpYa2lPaUpRY205a2RXTjBMWEJmYVcxaFoyVnpYQzgyT0RBNU0xd3ZOamd3T1RNdFVHRnlZV05vZFhSbExVNWhkSFZ5WVd4bExWTm9ZVzF3YjI4dFJHRnRZV2RsTFZKbGNHRnBjaTB6TkRCdGJDMXZlV3R6ZWprdWNHNW5JaXdpWldScGRITWlPbHRkZlEtMHplbnlvLmpwZWciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjIxNiwiaGVpZ2h0IjoyMTYsImZpdCI6Im91dHNpZGUifX19",
+          "url": "https://www.arogga.com/product/79351/parachute-naturale-shampoo-damage-repair-320ml",
+          "sku": 79548,
+          "brand": {
+            "@type": "Brand",
+            "name": "Marico Bangladesh"
+          },
+          "category": "Beauty",
+          "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "4.94",
+            "bestRating": "5",
+            "worstRating": "1",
+            "reviewCount": 17
+          },
+          "offers": {
+            "@type": "Offer",
+            "url": "https://www.arogga.com/product/79351/parachute-naturale-shampoo-damage-repair-320ml",
+            "priceCurrency": "BDT",
+            "price": 239,
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock",
+            "priceValidUntil": "2026-11-25",
+            "seller": {
+              "@type": "Organization",
+              "name": "Arogga Ltd",
+              "url": "https://www.arogga.com"
+            }
+          }
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 12,
+        "item": {
+          "@type": "Product",
+          "name": "Parachute Naturale Shampoo Nourishing Care 160ml",
+          "image": "https://cdn2.arogga.com/eyJidWNrZXQiOiJhcm9nZ2EiLCJrZXkiOiJQcm9kdWN0LXBfaW1hZ2VzXC80Nzc1M1wvNDc3NTMtZXlKaWRXTnJaWFFpT2lKaGNtOW5aMkVpTENKclpYa2lPaUpRY205a2RXTjBMWEJmYVcxaFoyVnpYQzgzTmpVMk5Wd3ZOelkxTmpVdE9USXdZVFU0TXpndE56STROaTAwWTJabUxXRm1aakV0TWpkaE1XRmtPV1V4WkRFd0xXNDJhMnQxWkM1cWNHVm5JaXdpWldScGRITWlPbHRkZlEtZG9hMmVhLndlYnAiLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjIxNiwiaGVpZ2h0IjoyMTYsImZpdCI6Im91dHNpZGUifX19",
+          "url": "https://www.arogga.com/product/47753/parachute-naturale-shampoo-nourishing-care-160ml",
+          "sku": 47753,
+          "brand": {
+            "@type": "Brand",
+            "name": "Marico Bangladesh"
+          },
+          "category": "Beauty",
+          "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "4.92",
+            "bestRating": "5",
+            "worstRating": "1",
+            "reviewCount": 26
+          },
+          "offers": {
+            "@type": "Offer",
+            "url": "https://www.arogga.com/product/47753/parachute-naturale-shampoo-nourishing-care-160ml",
+            "priceCurrency": "BDT",
+            "price": 126,
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock",
+            "priceValidUntil": "2026-11-25",
+            "seller": {
+              "@type": "Organization",
+              "name": "Arogga Ltd",
+              "url": "https://www.arogga.com"
+            }
+          }
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 13,
+        "item": {
+          "@type": "Product",
+          "name": "Parachute Just for Baby - Baby Wash 200ml",
+          "image": "https://cdn2.arogga.com/eyJidWNrZXQiOiJhcm9nZ2EiLCJrZXkiOiJQcm9kdWN0LXBfaW1hZ2VzXC80NzEyOVwvNDcxMjktUGFyYWNodXRlLUp1c3QtZm9yLUJhYnktQmFieS1XYXNoLTIwMG1sLWNvcHktcmt5NGpyLndlYnAiLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjIxNiwiaGVpZ2h0IjoyMTYsImZpdCI6Im91dHNpZGUifX19",
+          "url": "https://www.arogga.com/product/47129/parachute-just-for-baby-wash-200ml",
+          "sku": 47129,
+          "brand": {
+            "@type": "Brand",
+            "name": "Marico Bangladesh"
+          },
+          "category": "Baby & Mom Care",
+          "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "4.91",
+            "bestRating": "5",
+            "worstRating": "1",
+            "reviewCount": 22
+          },
+          "offers": {
+            "@type": "Offer",
+            "url": "https://www.arogga.com/product/47129/parachute-just-for-baby-wash-200ml",
+            "priceCurrency": "BDT",
+            "price": 263,
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock",
+            "priceValidUntil": "2026-11-25",
+            "seller": {
+              "@type": "Organization",
+              "name": "Arogga Ltd",
+              "url": "https://www.arogga.com"
+            }
+          }
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 14,
+        "item": {
+          "@type": "Product",
+          "name": "Parachute Coconut Oil 190ml",
+          "image": "https://cdn2.arogga.com/eyJidWNrZXQiOiJhcm9nZ2EiLCJrZXkiOiJQcm9kdWN0LXBfaW1hZ2VzXC80NzEyM1wvNDcxMjMtUENOTy0xOTAtbWwtZzl6d2lxLmpwZWciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjIxNiwiaGVpZ2h0IjoyMTYsImZpdCI6Im91dHNpZGUifX19",
+          "url": "https://www.arogga.com/product/47123/parachute-coconut-oil-190ml",
+          "sku": 47123,
+          "brand": {
+            "@type": "Brand",
+            "name": "Marico Bangladesh"
+          },
+          "category": "Beauty",
+          "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "4.94",
+            "bestRating": "5",
+            "worstRating": "1",
+            "reviewCount": 16
+          },
+          "offers": {
+            "@type": "Offer",
+            "url": "https://www.arogga.com/product/47123/parachute-coconut-oil-190ml",
+            "priceCurrency": "BDT",
+            "price": 210,
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock",
+            "priceValidUntil": "2026-11-25",
+            "seller": {
+              "@type": "Organization",
+              "name": "Arogga Ltd",
+              "url": "https://www.arogga.com"
+            }
+          }
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 15,
+        "item": {
+          "@type": "Product",
+          "name": "Parachute SkinPure Skin Lotion Natural Moisture 200ml",
+          "image": "https://cdn2.arogga.com/eyJidWNrZXQiOiJhcm9nZ2EiLCJrZXkiOiJtZWRpY2luZVwvNTFcLzUxMTMxLVBhcmFjaHV0ZS1Ta2luUHVyZS1Ta2luLUxvdGlvbi1OYXR1cmFsLU1vaXN0dXJlLTIwMG1sLTIwMG1sLTByZDkuanBlZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MjE2LCJoZWlnaHQiOjIxNiwiZml0Ijoib3V0c2lkZSJ9fX0=",
+          "url": "https://www.arogga.com/product/51131/parachute-skinpure-skin-lotion-natural-moisture-200ml",
+          "sku": 51131,
+          "brand": {
+            "@type": "Brand",
+            "name": "Marico Bangladesh"
+          },
+          "category": "Beauty",
+          "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "4.86",
+            "bestRating": "5",
+            "worstRating": "1",
+            "reviewCount": 14
+          },
+          "offers": {
+            "@type": "Offer",
+            "url": "https://www.arogga.com/product/51131/parachute-skinpure-skin-lotion-natural-moisture-200ml",
+            "priceCurrency": "BDT",
+            "price": 199,
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock",
+            "priceValidUntil": "2026-11-25",
+            "seller": {
+              "@type": "Organization",
+              "name": "Arogga Ltd",
+              "url": "https://www.arogga.com"
+            }
+          }
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 16,
+        "item": {
+          "@type": "Product",
+          "name": "Parachute Just for Baby - Face Cream 50g",
+          "image": "https://cdn2.arogga.com/eyJidWNrZXQiOiJhcm9nZ2EiLCJrZXkiOiJQcm9kdWN0LXBfaW1hZ2VzXC82ODA4NFwvNjgwODQtUGFyYWNodXRlLUp1c3QtZm9yLUJhYnktRmFjZS1DcmVhbS01MGctY29weS11NmhrdjUud2VicCIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MjE2LCJoZWlnaHQiOjIxNiwiZml0Ijoib3V0c2lkZSJ9fX0=",
+          "url": "https://www.arogga.com/product/68084/parachute-just-for-baby-face-cream-50g",
+          "sku": 68207,
+          "brand": {
+            "@type": "Brand",
+            "name": "Marico Bangladesh"
+          },
+          "category": "Baby & Mom Care",
+          "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "4.93",
+            "bestRating": "5",
+            "worstRating": "1",
+            "reviewCount": 28
+          },
+          "offers": {
+            "@type": "Offer",
+            "url": "https://www.arogga.com/product/68084/parachute-just-for-baby-face-cream-50g",
+            "priceCurrency": "BDT",
+            "price": 113,
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock",
+            "priceValidUntil": "2026-11-25",
+            "seller": {
+              "@type": "Organization",
+              "name": "Arogga Ltd",
+              "url": "https://www.arogga.com"
+            }
+          }
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 17,
+        "item": {
+          "@type": "Product",
+          "name": "Parachute Just For Baby - Milky Glow Face Cream 50ml",
+          "image": "https://cdn2.arogga.com/eyJidWNrZXQiOiJhcm9nZ2EiLCJrZXkiOiJtZWRpY2luZVwvNDdcLzQ3MTM1LVBhcmFjaHV0ZS1KdXN0LUZvci1CYWJ5LU1pbGt5LUdsb3ctRmFjZS1DcmVhbS01MG1sLTM1ZjBmcy5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjIxNiwiaGVpZ2h0IjoyMTYsImZpdCI6Im91dHNpZGUifX19",
+          "url": "https://www.arogga.com/product/47135/parachute-just-for-baby-milky-glow-face-cream-50ml",
+          "sku": 47135,
+          "brand": {
+            "@type": "Brand",
+            "name": "Marico Bangladesh"
+          },
+          "category": "Baby & Mom Care",
+          "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "4.73",
+            "bestRating": "5",
+            "worstRating": "1",
+            "reviewCount": 22
+          },
+          "offers": {
+            "@type": "Offer",
+            "url": "https://www.arogga.com/product/47135/parachute-just-for-baby-milky-glow-face-cream-50ml",
+            "priceCurrency": "BDT",
+            "price": 126,
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock",
+            "priceValidUntil": "2026-11-25",
+            "seller": {
+              "@type": "Organization",
+              "name": "Arogga Ltd",
+              "url": "https://www.arogga.com"
+            }
+          }
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 18,
+        "item": {
+          "@type": "Product",
+          "name": "Parachute Hair Oil Anti Hairfall Oil Extra Care 75ml (Root Applier)",
+          "image": "https://cdn2.arogga.com/eyJidWNrZXQiOiJhcm9nZ2EiLCJrZXkiOiJQcm9kdWN0LXBfaW1hZ2VzXC80NzEyMlwvNDcxMjItUGFyYWNodXRlLUhhaXItT2lsLUFudGktSGFpcmZhbGwtT2lsLUV4dHJhLUNhcmUtNzVtbC1Sb290LUFwcGxpZXItY29weS10eDR2cjcud2VicCIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MjE2LCJoZWlnaHQiOjIxNiwiZml0Ijoib3V0c2lkZSJ9fX0=",
+          "url": "https://www.arogga.com/product/47122/parachute-hair-oil-anti-hairfall-oil-extra-care-75ml-root-applier",
+          "sku": 47122,
+          "brand": {
+            "@type": "Brand",
+            "name": "Marico Bangladesh"
+          },
+          "category": "Beauty",
+          "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "4.92",
+            "bestRating": "5",
+            "worstRating": "1",
+            "reviewCount": 26
+          },
+          "offers": {
+            "@type": "Offer",
+            "url": "https://www.arogga.com/product/47122/parachute-hair-oil-anti-hairfall-oil-extra-care-75ml-root-applier",
+            "priceCurrency": "BDT",
+            "price": 77,
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock",
+            "priceValidUntil": "2026-11-25",
+            "seller": {
+              "@type": "Organization",
+              "name": "Arogga Ltd",
+              "url": "https://www.arogga.com"
+            }
+          }
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 19,
+        "item": {
+          "@type": "Product",
+          "name": "Parachute Coconut Oil 95ml",
+          "image": "https://cdn2.arogga.com/eyJidWNrZXQiOiJhcm9nZ2EiLCJrZXkiOiJQcm9kdWN0LXBfaW1hZ2VzXC80Nzc0MlwvNDc3NDItUGFyYWNodXRlLUNvY29udXQtT2lsLTEtYm1qMnRjLnBuZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MjE2LCJoZWlnaHQiOjIxNiwiZml0Ijoib3V0c2lkZSJ9fX0=",
+          "url": "https://www.arogga.com/product/47742/parachute-coconut-oil-95ml",
+          "sku": 47742,
+          "brand": {
+            "@type": "Brand",
+            "name": "Marico Bangladesh"
+          },
+          "category": "Beauty",
+          "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "4.69",
+            "bestRating": "5",
+            "worstRating": "1",
+            "reviewCount": 13
+          },
+          "offers": {
+            "@type": "Offer",
+            "url": "https://www.arogga.com/product/47742/parachute-coconut-oil-95ml",
+            "priceCurrency": "BDT",
+            "price": 112,
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock",
+            "priceValidUntil": "2026-11-25",
+            "seller": {
+              "@type": "Organization",
+              "name": "Arogga Ltd",
+              "url": "https://www.arogga.com"
+            }
+          }
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 20,
+        "item": {
+          "@type": "Product",
+          "name": "Parachute Advansed Secrets Almond Hair Oil 200ml",
+          "image": "https://cdn2.arogga.com/eyJidWNrZXQiOiJhcm9nZ2EiLCJrZXkiOiJQcm9kdWN0LXBfaW1hZ2VzXC82ODEzM1wvNjgxMzMtUGFyYWNodXRlLUFkdmFuc2VkLVNlY3JldHMtQWxtb25kLUhhaXItT2lsLTIwMG1sLTEtYWI4M3cxLnBuZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MjE2LCJoZWlnaHQiOjIxNiwiZml0Ijoib3V0c2lkZSJ9fX0=",
+          "url": "https://www.arogga.com/product/68133/parachute-advansed-secrets-almond-hair-oil-200ml",
+          "sku": 68253,
+          "brand": {
+            "@type": "Brand",
+            "name": "Marico Bangladesh"
+          },
+          "category": "Beauty",
+          "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "4.79",
+            "bestRating": "5",
+            "worstRating": "1",
+            "reviewCount": 24
+          },
+          "offers": {
+            "@type": "Offer",
+            "url": "https://www.arogga.com/product/68133/parachute-advansed-secrets-almond-hair-oil-200ml",
+            "priceCurrency": "BDT",
+            "price": 210,
+            "itemCondition": "https://schema.org/NewCondition",
+            "availability": "https://schema.org/InStock",
+            "priceValidUntil": "2026-11-25",
+            "seller": {
+              "@type": "Organization",
+              "name": "Arogga Ltd",
+              "url": "https://www.arogga.com"
+            }
+          }
+        }
+      }
+    ]
+  }
+}

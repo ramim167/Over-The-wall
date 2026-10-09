@@ -1,0 +1,18 @@
+{
+  "project": "WaterSmart v3 / OTW S5 / The Last BrainCell",
+  "started_local_date": "2026-10-09",
+  "timezone": "Asia/Dhaka",
+  "stage": 5,
+  "status": "active",
+  "completed": ["current master context read", "prior reviews read", "baseline file snapshots and hashes", "official BGS raw CSV and reports downloaded", "3534 well records analysed with censored-value bounds", "61 district and 433 historical district/thana summaries saved", "two published consumer surveys located and sampling limits checked", "FY26 Marico Bangladesh annual report downloaded and core capability/tax extracts checked"],
+  "pending_user": ["collectiondate,consent andprice-order forfiveuser-confirmedrealopinion summaries", "supplier quotation or chemist/Marico review if obtainable"],
+  "next": ["snapshot source files and extract model inputs", "download official water datasets and metadata", "analyse water data", "consumer survey literature", "market and competitors", "corporate capability", "supply and regulations", "financial driver evidence mapping", "synthesis and QA"],
+  "synthetic_respondents_created": 0,
+  "team_primary_respondents_observed": 0,
+  "user_reported_real_opinion_summaries": 5,
+  "consent_and_method_complete_opinion_records": 0,
+  "new_completed": ["24onlinepriceobservations saved withpromotionpricechecks", "35publishedsurveyaggregate rows and7NLMrecords saved", "original2026EPRgazette36pages downloaded andcoreclauses visuallyverified", "currentofficialBanglashampoosupplementaryduty15%visualverifiedPDFpage64", "61unique downloadsourceattempts indexed including failuresandHTMLatPDFURL", "104scalar modeldrivers/gapsregistered", "fiscaloverlays validated847assertions;NPV−3.816/−6.324cratSD15/tax20/fund5illustration", "newerBWDB901monitoringwell2019–2021reportarchived", "Dhaka13taplocation2025paperarchivedandreportinglimitsaudited"],
+  "user_primary_status": "User confirmed no interviews, water/foam tests, retailer observations, pack weights or Marico confirmations have been conducted/provided; research must use attributed online secondary evidence.",
+  "constraints": ["credit original sources", "no simulated respondents as empirical data", "no private competition material in public queries", "public evidence cannot validate unmade product or future sales"],
+  "resume_file": "CHECKPOINT.md"
+}

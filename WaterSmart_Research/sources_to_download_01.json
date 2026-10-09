@@ -1,0 +1,56 @@
+[
+  {
+    "id": "BGS_PAGE",
+    "url": "https://www.bgs.ac.uk/groundwater/quality/groundwater-and-health/arsenic-contamination-of-groundwater/bangladesh-reports/",
+    "filename": "bgs_reports.html",
+    "description": "official survey and reuse metadata"
+  },
+  {
+    "id": "BGS_NHS_PAGE",
+    "url": "https://www.bgs.ac.uk/groundwater/download/dphe-bgs-national-hydrochemical-survey/",
+    "filename": "bgs_nhs_download.html",
+    "description": "official downloadable dataset landing page"
+  },
+  {
+    "id": "BGS_VOL4_PAGE",
+    "url": "https://www.bgs.ac.uk/groundwater/download/arsenic-contamination-groundwater-bangladesh-vol4-data-compilation/",
+    "filename": "bgs_vol4_download.html",
+    "description": "official data compilation landing page"
+  },
+  {
+    "id": "BGS_MAPS",
+    "url": "https://www.bgs.ac.uk/groundwater/quality/groundwater-and-health/arsenic-contamination-of-groundwater/bangladesh-maps/",
+    "filename": "bgs_maps.html",
+    "description": "sampling dates and spatial limits"
+  },
+  {
+    "id": "CONSUMER_2022",
+    "url": "https://www.scirp.org/pdf/jss_2022111015123549.pdf",
+    "filename": "consumer_shampoo_khanam_rahman_2022.pdf",
+    "description": "primary published Bangladesh shampoo survey, n390; no microdata inferred"
+  },
+  {
+    "id": "CONSUMER_SALINITY_2025",
+    "url": "https://www.frontiersin.org/journals/public-health/articles/10.3389/fpubh.2025.1451933/full",
+    "filename": "coastal_perceptions_2025.html",
+    "description": "primary perceived health risk survey, n391; not a causal study"
+  },
+  {
+    "id": "MARICO_ABOUT",
+    "url": "https://marico.com/bangladesh/about-us",
+    "filename": "marico_bd_about_20261009.html",
+    "description": "public capability and scale statement"
+  },
+  {
+    "id": "MARICO_BD_FY25",
+    "url": "https://marico.com/investorspdf/Annual_Report_2025.pdf",
+    "filename": "marico_bd_annual_2025.pdf",
+    "description": "official audited company annual report"
+  },
+  {
+    "id": "MARICO_BD_Q3FY26",
+    "url": "https://marico.com/investorspdf/Audited_Financial_Statements_Q3_FY2025_26.pdf",
+    "filename": "marico_bd_q3_fy26.pdf",
+    "description": "official audited financials for nine months to31Dec2025"
+  }
+]

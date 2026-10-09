@@ -1,0 +1,131 @@
+Bangladesh reports and data - BGS Groundwater
+Skip to Content
+BGS website
+News and events
+FAQs
+Glossary
+Skip to Content
+Search Button
+Data
+Groundwater level data
+Publications: major series
+Publications search
+Services
+Quality
+Baseline chemistry of groundwater in UK aquifers
+Diffuse pollution
+Environmental tracers and groundwater dating
+Groundwater and health
+Groundwater ecology and biodiversity
+Point-source pollution
+Energy
+Shale gas
+Resources
+Groundwater resources in the UK
+Extremes
+Drought
+Flooding
+The Floods and Droughts Research Infrastructure (FDRI) project
+International
+Search
+Search
+Clear Search Button
+...
+Home
+Quality
+Groundwater and health
+Arsenic contamination of groundwater
+Bangladesh reports and data
+Bangladesh reports and data
+Share this article
+Facebook
+Twitter
+Pinterest
+WhatsApp
+Email
+Copy Link
+If you wish to use this material please note the requirement to
+acknowledge it
+.
+These reports are available for purchase from the
+BGS Bookshop
+.
+Reports
+Phase 1
+The final report on the rapid investigation phase is divided into a main report and five supplementary volumes.
+Review of existing data
+Regional arsenic survey
+Modelling studies
+Hydrogeochemistry of the special study areas
+Arsenic contamination of groundwater in Bangladesh (NGO volume)
+Phase 2
+Volume 1: Summary
+(3.69 MB pdf)
+Volume 2: Final report
+(53.7 MB pdf)
+Volume 3: Hydrochemical atlas
+(45 MB pdf)
+Volume 4: Data compilation
+(2.2 MB pdf)
+Data
+You can download the same data in CSV format, which can be imported by most spreadsheet, plotting, GIS and word processing packages.
+CSV files
+DPHE/BGS National Hydrochemical Survey
+(850 KB CSV) — results of the survey of 3534 boreholes from 61 of the 64 districts of Bangladesh
+Additional NHS data for some trace elements in selected samples (by ICP-MS)
+(9 KB CSV) — some of the National Hydrochemical Survey samples were also analysed for a broader range of trace metals using ICP-MS
+BWDB water quality monitoring network
+(45 KB CSV) —
+the results of 113 boreholes from the BWDB water quality monitoring network located throughout Bangladesh
+Special study areas
+(
+134 KB CSV) — t
+he results of the 271 boreholes and dug wells from the three special study areas (Chapai Nawabganj, Faridpur and Lakshmipur)
+Village survey
+(
+59 KB CSV) — t
+he results of the 236 boreholes from Mandari village in Lakshmipur district, south-east Bangladesh.
+Bangladesh coastline and districts
+(
+213 KB CSV) — a
+pproximate coastline and district boundaries in latitude-longitude format suitable for preparing water-quality maps
+Surface geology classification
+(
+176 KB CSV) — c
+lassification of National Hydrochemical Survey sample sites by surface geology according to the GSB map of Alam et al., 1990
+Using this material
+Acknowledgement
+Permission for reproduction of materials contained in these web pages is granted subject to the inclusion of the following acknowledgement:
+This material was produced by the British Geological Survey and the Department of Public Health Engineering (Bangladesh) undertaking a project funded by the UK Department for International Development (DFID). Any views expressed are not necessarily those of DFID.
+In cases where only a map or diagram is reproduced or where data from the report is used, the above acknowledgement may be substituted by a full citation to the report as follows:
+BGS and DPHE. 2001. Arsenic contamination of groundwater in Bangladesh. Kinniburgh, D G, and Smedley, P L (editors).
+British Geological Survey Technical Report
+WC/00/19. (Nottingham, UK: British Geological Survey.)
+Need more information?
+Contact Pauline Smedley
+Cookies policy
+This website uses cookies to improve your experience. We’ll assume you’re okay with this, but you can opt out if you wish.
+More information
+.
+Useful links
+About BGS
+News and events
+Contact us
+Press office
+Accessibility
+Sustainability
+Job vacancies
+Policies and legal
+Privacy policy
+Cookies policy
+Terms of use
+Freedom of information (FOI)
+Intellectual property rights
+Join the BGS Newsletter
+Keep up to date with all the latest research, products and events news.
+Register
+© UKRI 2026
+Twitter
+Facebook
+Youtube
+LinkedIn

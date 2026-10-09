@@ -1,0 +1,478 @@
+Hardness of Water | U.S. Geological Survey
+Skip to main content
+An official website of the United States government
+Here's how you know
+Here's how you know
+Official websites use .gov
+A
+.gov
+website belongs to an official government organization in the United States.
+Secure .gov websites use HTTPS
+A
+lock (
+)
+or
+https://
+means you’ve safely connected to the .gov website. Share sensitive information only on official, secure websites.
+U.S. Geological Survey
+Science
+Science Explorer
+Biology
+Climate
+Coasts
+Energy
+Environmental Health
+Geology
+Information Systems
+Maps and Mapping
+Minerals
+Methods and Analysis
+Natural Hazards
+Ocean
+Planetary Science
+Science Technology
+Water
+Mission Areas
+Core Science Systems
+Ecosystems
+Geology, Energy, and Minerals
+Natural Hazards
+Water Resources
+Programs
+Regions
+Northeast Region
+Southeast Region
+Midcontinent Region
+Rocky Mountain Region
+Southwest Region
+Alaska Region
+Northwest-Pacific Islands Region
+Science Centers
+Observatories
+Laboratories
+Frequently Asked Questions
+Educational Resources
+Special Topics
+Products
+Data
+Data Management
+Data Releases
+Real-time Data
+All Data
+Maps
+Geologic Maps
+Map Releases
+Topographic (Topo) Maps
+Volcanic Maps
+All Maps
+Multimedia Gallery
+Audio
+Images
+Stereograms
+Videos
+Webcams
+All Multimedia
+Publications
+Web Tools
+Alert and Notification Services
+APIs
+Data Access Tools
+Data Analysis Tools
+Data Visualizations
+Interactive Maps
+All Web Tools
+Software
+U.S. Board on Geographic Names
+The National Map
+USGS Library
+USGS Store
+Park Passes
+News
+News Releases
+National News Releases
+State News Releases
+All News Releases
+Featured Stories
+Science Snippets
+Technical Announcements
+Media Contacts
+Connect
+Headquarters
+12201 Sunrise Valley Drive  Reston, VA 20192
+Locations
+Staff Profiles
+Social Media
+Careers
+Contact Us
+Email
+USGS Store 1-888-275-8747
+About
+About Us
+Who We Are
+Our History
+Past Directors
+Survey Manual
+Key Officials
+Organizational Chart
+Organization
+Mission Areas
+Programs
+Regions
+Science Centers
+Observatories
+Laboratories
+Science Support Offices
+Congressional
+Statements
+Contacts
+Budget
+Careers and Employees
+Office of Civil Rights
+Doing Business
+Acquisition and Financial Assistance
+Emergency Management
+Facebook
+Twitter
+Linkedin
+Digg
+Reddit
+Pinterest
+Email
+Frequently Asked Questions
+Label
+Menu
+Label
+Close
+U.S. Geological Survey
+Science
+Science Explorer
+Mission Areas
+Programs
+Regions
+Science Centers
+Observatories
+Laboratories
+Frequently Asked Questions
+Educational Resources
+Special Topics
+Products
+Data
+Maps
+Multimedia Gallery
+Publications
+Web Tools
+Software
+U.S. Board on Geographic Names
+The National Map
+USGS Library
+USGS Store
+Park Passes
+News
+News Releases
+Featured Stories
+Science Snippets
+Technical Announcements
+Media Contacts
+Connect
+Headquarters
+Locations
+Staff Profiles
+Social Media
+Careers
+Contact Us
+About
+About Us
+Survey Manual
+Key Officials
+Organization
+Congressional
+Budget
+Careers and Employees
+Office of Civil Rights
+Doing Business
+Emergency Management
+Latest Earthquakes
+Share Social Media
+Facebook
+Twitter
+Linkedin
+Digg
+Reddit
+Pinterest
+Email
+Breadcrumb
+Water Science School
+Science
+Hardness of Water
+Completed
+By
+Water Science School
+August 24, 2026
+Water Hardness
+Water Properties Information by Topic
+Topics
+Water Quality Information by Topic
+Topics
+Water Science School Home
+Go!
+Overview
+Science
+Multimedia
+Publications
+In scientific terms, water hardness is generally the amount of dissolved calcium and magnesium in water. But in layman's terms, you may notice water hardness when your hands still feel slimy after washing with soap and water, or when your drinking glasses at home become less than crystal clear. Learn a lot more about water hardness on the Water Science School site.
+•
+Water Science School HOME
+•
+Water Properties topics
+•
+Water Quality topics
+•
+Water Hardness
+The simple definition of water hardness is the amount of dissolved calcium and magnesium in the water. Hard water is high in dissolved minerals, largely calcium and magnesium. You may have felt the effects of hard water, literally, the last time you washed your hands. Depending on the hardness of your water, after using
+soap
+to wash you may have felt like there was a film of residue left on your hands. In hard water, soap reacts with the calcium (which is relatively high in hard water) to form "soap scum". When using hard water, more soap or detergent is needed to get things clean, be it your hands, hair, or your laundry.
+Media
+Sources/Usage: Some content may have restrictions.
+View Media Details
+One of the most common causes of cloudy dishes and glassware is hard water.
+Credit: Kinetico Water Systems
+Have you done a load of dishes in the dishwasher, taken out the glasses, and noticed spots or film on them? This is more hard-water residue—not dangerous, but unsightly. Many
+industrial
+and
+domestic
+water users are concerned about the hardness of their water. When hard water is heated, such as in a home water heater, solid deposits of calcium carbonate can form. This scale can reduce the life of equipment, raise the costs of heating the water, lower the efficiency of electric water heaters, and clog pipes. And, yes, mineral buildup will occur in your home coffee maker too, which is why some people occasionally run vinegar (an acid) through the pot. The acidity of vinegar helps to dissolve mineral particles by making them charged. These newly charged particles become attracted to the positive and negative charges in water and can be washed away easily.
+But hard water can have some benefits, too.
+Humans
+need minerals to stay healthy, and the
+World Health Organization (WHO)
+states that drinking-water may be a contributor of calcium and magnesium in the diet and could be important for those who are marginal for calcium and magnesium intake.
+Measures of water hardness
+Hardness is caused by compounds of calcium and magnesium, and by a variety of other metals. General guidelines for classification of waters are: 0 to 60 mg/L (milligrams per liter) as calcium carbonate is classified as soft; 61 to 120 mg/L as moderately hard; 121 to 180 mg/L as hard; and more than 180 mg/L as very hard.
+Media
+Sources/Usage: Some content may have restrictions.
+View Media Details
+Lime scale buildup inside a water pipe.
+Credit: Александр Юрьевич Лебедев
+Water systems using
+groundwater
+as a source are concerned with water hardness, since as water moves through soil and rock it dissolves small amounts of naturally-occurring minerals and carries them into the
+groundwater supply
+. Water is a great
+solvent
+for calcium and magnesium, so if the minerals are present in the soil around a water-supply well, hard water may be delivered to homes. Water hardness varies throughout the United States. In areas of the country where the water is relatively hard (see map below), industries might have to spend money to soften their water, as hard water can damage equipment. Hard water can even shorten the life of fabrics and clothes (does this mean that high-school students who live in areas with hard water keep up with the latest fashions since their clothes wear out faster?).
+As the image of the inside of a water-supply pipe shows, long-term movement of hard water through a pipe can result in what is called scale buildup. Just as in the human body where blood vessels can be reduced in inside diameter due to cholesterol buildup, water pipes can gradually close up resulting in less water movement through the pipe and a lowering of water pressure.
+Water hardness in the United States
+Media
+Sources/Usage: Public Domain.
+View Media Details
+Mean hardness as calcium carbonate at NASQAN water-monitoring sites during the 1975 water year. Colors represent streamflow from the hydrologic-unit area.
+Note to Readers:
+Water hardness is based on major-ion chemistry concentrations. Major-ion chemistry in groundwater is relatively stable and generally does not change over time. Although this map illustrates data from 1975, these data have been found to be accurate and useful in current assessments.
+There are, however, several caveats about the nature, use, and interpretations of these data:
+the data illustrated represent water hardness on a national and regional scale and must be so interpreted;
+the 1975 data are not designed to be used to make local decisions or decisions on the scale of individual homeowner property; and
+information that is directly relevant to water hardness and other chemical properties at a home or immediate locale should be provided by the local health agency or local water utility, or by the vendor of a local water-softening system.
+Hardness of groundwater from domestic wells, a USGS study
+A
+study from the National Water-Quality Assessment (NAWQA) Project
+assessed water-quality conditions for about 2,100 domestic
+wells
+across the United States. Water hardness was one water-quality parameter studied; results are shown in the map below. The pastel colors represent types of rock aquifer and the stippled area shows where aquifers are in glacial sand and gravel.
+Media
+Sources/Usage: Public Domain.
+View Media Details
+Hardness is a property of water that is not a health concern, but it can be a nuisance. Hard water can cause mineral buildup in plumbing, fixtures, and water heaters, and poor performance of soaps and detergents. Hard water was prevalent in the east-central and western United States, reflecting the distribution of carbonate aquifers and aquifers with relatively high concentrations of dissolved solids. >, greater than; <, less than or equal to. ​​​​​​​
+Media
+Sources/Usage: Public Domain.
+View Media Details
+Want to know more about hardness of water?
+Follow me to the
+Chloride, Salinity, and Dissolved Solids
+website!
+Below are other science topics associated with water hardness.
+October 22, 2019
+Water Properties Information by Topic
+Looking at water, you might think that it's the most simple thing around. Pure water is practically colorless, odorless, and tasteless. But it's not at all simple and plain and it is vital for all life on Earth. Where there is water there is life, and where water is scarce, life has to struggle or just "throw in the towel." Continue on to learn about dozens of water properties.
+By
+Water Science School
+Water Properties Information by Topic
+October 22, 2019
+Water Properties Information by Topic
+Looking at water, you might think that it's the most simple thing around. Pure water is practically colorless, odorless, and tasteless. But it's not at all simple and plain and it is vital for all life on Earth. Where there is water there is life, and where water is scarce, life has to struggle or just "throw in the towel." Continue on to learn about dozens of water properties.
+Learn More
+Items per page
+6
+12
+Label
+August 24, 2026
+Water, the Universal Solvent
+We need to take the statement "Water is the universal solvent" with a grain of salt (pun intended). Of course it cannot dissolve everything, but it does dissolve more substances than any other liquid, so the term fits pretty well. Water's solvent properties affect all life on Earth, so water is universally important to all of us.
+By
+Water Science School
+Water, the Universal Solvent
+August 24, 2026
+Water, the Universal Solvent
+We need to take the statement "Water is the universal solvent" with a grain of salt (pun intended). Of course it cannot dissolve everything, but it does dissolve more substances than any other liquid, so the term fits pretty well. Water's solvent properties affect all life on Earth, so water is universally important to all of us.
+Learn More
+Below are multimedia items associated with water hardness.
+Label
+List
+Grid
+No results found.
+Below are publications associated with water hardness and related topics.
+January 1, 1977
+Quality of rivers of the United States, 1975 water year; based on the National Stream Quality Accounting Network (NASQAN)
+Quality of rivers of the United States, 1975 water year; based on the National Stream Quality Accounting Network (NASQAN)
+The National Stream Quality Accounting Network (NASQAN) was established by the U.S. Geological Survey to provide a nationally uniform basis for continuously assessing the quality of U.S. rivers. Stations generally are at the downstream end of hydrologic accounting units in order to measure the quantity and quality of water flowing from the units. The 1975 water year was the first year of...
+Authors
+John C. Briggs, John F. Ficke
+Items per page
+6
+12
+Label
+January 1, 1960
+Tables for reducing bicarbonate to compute sum of determined constituents and for calculating hardness of a natural ground water
+Tables for reducing bicarbonate to compute sum of determined constituents and for calculating hardness of a natural ground water
+No abstract available.
+Authors
+L.C. Dutcher, W. R. Moyle
+Overview
+In scientific terms, water hardness is generally the amount of dissolved calcium and magnesium in water. But in layman's terms, you may notice water hardness when your hands still feel slimy after washing with soap and water, or when your drinking glasses at home become less than crystal clear. Learn a lot more about water hardness on the Water Science School site.
+•
+Water Science School HOME
+•
+Water Properties topics
+•
+Water Quality topics
+•
+Water Hardness
+The simple definition of water hardness is the amount of dissolved calcium and magnesium in the water. Hard water is high in dissolved minerals, largely calcium and magnesium. You may have felt the effects of hard water, literally, the last time you washed your hands. Depending on the hardness of your water, after using
+soap
+to wash you may have felt like there was a film of residue left on your hands. In hard water, soap reacts with the calcium (which is relatively high in hard water) to form "soap scum". When using hard water, more soap or detergent is needed to get things clean, be it your hands, hair, or your laundry.
+Media
+Sources/Usage: Some content may have restrictions.
+View Media Details
+One of the most common causes of cloudy dishes and glassware is hard water.
+Credit: Kinetico Water Systems
+Have you done a load of dishes in the dishwasher, taken out the glasses, and noticed spots or film on them? This is more hard-water residue—not dangerous, but unsightly. Many
+industrial
+and
+domestic
+water users are concerned about the hardness of their water. When hard water is heated, such as in a home water heater, solid deposits of calcium carbonate can form. This scale can reduce the life of equipment, raise the costs of heating the water, lower the efficiency of electric water heaters, and clog pipes. And, yes, mineral buildup will occur in your home coffee maker too, which is why some people occasionally run vinegar (an acid) through the pot. The acidity of vinegar helps to dissolve mineral particles by making them charged. These newly charged particles become attracted to the positive and negative charges in water and can be washed away easily.
+But hard water can have some benefits, too.
+Humans
+need minerals to stay healthy, and the
+World Health Organization (WHO)
+states that drinking-water may be a contributor of calcium and magnesium in the diet and could be important for those who are marginal for calcium and magnesium intake.
+Measures of water hardness
+Hardness is caused by compounds of calcium and magnesium, and by a variety of other metals. General guidelines for classification of waters are: 0 to 60 mg/L (milligrams per liter) as calcium carbonate is classified as soft; 61 to 120 mg/L as moderately hard; 121 to 180 mg/L as hard; and more than 180 mg/L as very hard.
+Media
+Sources/Usage: Some content may have restrictions.
+View Media Details
+Lime scale buildup inside a water pipe.
+Credit: Александр Юрьевич Лебедев
+Water systems using
+groundwater
+as a source are concerned with water hardness, since as water moves through soil and rock it dissolves small amounts of naturally-occurring minerals and carries them into the
+groundwater supply
+. Water is a great
+solvent
+for calcium and magnesium, so if the minerals are present in the soil around a water-supply well, hard water may be delivered to homes. Water hardness varies throughout the United States. In areas of the country where the water is relatively hard (see map below), industries might have to spend money to soften their water, as hard water can damage equipment. Hard water can even shorten the life of fabrics and clothes (does this mean that high-school students who live in areas with hard water keep up with the latest fashions since their clothes wear out faster?).
+As the image of the inside of a water-supply pipe shows, long-term movement of hard water through a pipe can result in what is called scale buildup. Just as in the human body where blood vessels can be reduced in inside diameter due to cholesterol buildup, water pipes can gradually close up resulting in less water movement through the pipe and a lowering of water pressure.
+Water hardness in the United States
+Media
+Sources/Usage: Public Domain.
+View Media Details
+Mean hardness as calcium carbonate at NASQAN water-monitoring sites during the 1975 water year. Colors represent streamflow from the hydrologic-unit area.
+Note to Readers:
+Water hardness is based on major-ion chemistry concentrations. Major-ion chemistry in groundwater is relatively stable and generally does not change over time. Although this map illustrates data from 1975, these data have been found to be accurate and useful in current assessments.
+There are, however, several caveats about the nature, use, and interpretations of these data:
+the data illustrated represent water hardness on a national and regional scale and must be so interpreted;
+the 1975 data are not designed to be used to make local decisions or decisions on the scale of individual homeowner property; and
+information that is directly relevant to water hardness and other chemical properties at a home or immediate locale should be provided by the local health agency or local water utility, or by the vendor of a local water-softening system.
+Hardness of groundwater from domestic wells, a USGS study
+A
+study from the National Water-Quality Assessment (NAWQA) Project
+assessed water-quality conditions for about 2,100 domestic
+wells
+across the United States. Water hardness was one water-quality parameter studied; results are shown in the map below. The pastel colors represent types of rock aquifer and the stippled area shows where aquifers are in glacial sand and gravel.
+Media
+Sources/Usage: Public Domain.
+View Media Details
+Hardness is a property of water that is not a health concern, but it can be a nuisance. Hard water can cause mineral buildup in plumbing, fixtures, and water heaters, and poor performance of soaps and detergents. Hard water was prevalent in the east-central and western United States, reflecting the distribution of carbonate aquifers and aquifers with relatively high concentrations of dissolved solids. >, greater than; <, less than or equal to. ​​​​​​​
+Media
+Sources/Usage: Public Domain.
+View Media Details
+Want to know more about hardness of water?
+Follow me to the
+Chloride, Salinity, and Dissolved Solids
+website!
+Science
+Below are other science topics associated with water hardness.
+October 22, 2019
+Water Properties Information by Topic
+Looking at water, you might think that it's the most simple thing around. Pure water is practically colorless, odorless, and tasteless. But it's not at all simple and plain and it is vital for all life on Earth. Where there is water there is life, and where water is scarce, life has to struggle or just "throw in the towel." Continue on to learn about dozens of water properties.
+By
+Water Science School
+Water Properties Information by Topic
+October 22, 2019
+Water Properties Information by Topic
+Looking at water, you might think that it's the most simple thing around. Pure water is practically colorless, odorless, and tasteless. But it's not at all simple and plain and it is vital for all life on Earth. Where there is water there is life, and where water is scarce, life has to struggle or just "throw in the towel." Continue on to learn about dozens of water properties.
+Learn More
+Items per page
+6
+12
+Label
+August 24, 2026
+Water, the Universal Solvent
+We need to take the statement "Water is the universal solvent" with a grain of salt (pun intended). Of course it cannot dissolve everything, but it does dissolve more substances than any other liquid, so the term fits pretty well. Water's solvent properties affect all life on Earth, so water is universally important to all of us.
+By
+Water Science School
+Water, the Universal Solvent
+August 24, 2026
+Water, the Universal Solvent
+We need to take the statement "Water is the universal solvent" with a grain of salt (pun intended). Of course it cannot dissolve everything, but it does dissolve more substances than any other liquid, so the term fits pretty well. Water's solvent properties affect all life on Earth, so water is universally important to all of us.
+Learn More
+Multimedia
+Below are multimedia items associated with water hardness.
+Label
+List
+Grid
+No results found.
+Publications
+Below are publications associated with water hardness and related topics.
+January 1, 1977
+Quality of rivers of the United States, 1975 water year; based on the National Stream Quality Accounting Network (NASQAN)
+Quality of rivers of the United States, 1975 water year; based on the National Stream Quality Accounting Network (NASQAN)
+The National Stream Quality Accounting Network (NASQAN) was established by the U.S. Geological Survey to provide a nationally uniform basis for continuously assessing the quality of U.S. rivers. Stations generally are at the downstream end of hydrologic accounting units in order to measure the quantity and quality of water flowing from the units. The 1975 water year was the first year of...
+Authors
+John C. Briggs, John F. Ficke
+Items per page
+6
+12
+Label
+January 1, 1960
+Tables for reducing bicarbonate to compute sum of determined constituents and for calculating hardness of a natural ground water
+Tables for reducing bicarbonate to compute sum of determined constituents and for calculating hardness of a natural ground water
+No abstract available.
+Authors
+L.C. Dutcher, W. R. Moyle
+Back to Top
+Accessibility
+FOIA
+Site Policies
+Privacy Policy
+Site Map
+DOI and USGS link policies apply
+No FEAR Act
+USA.gov
+Vulnerability Disclosure
+Careers and Employment
+Doing Business
+Emergency Management
+Office of Civil Rights
+U.S. Geological Survey
+U.S. Department of the Interior
+Contact USGS
+answers.usgs.gov
+Was this page helpful?

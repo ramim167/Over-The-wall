@@ -1,0 +1,962 @@
+--- PDF page 1 ---
+Open Journal of Social Sciences, 2022, 10, 241-254 
+https://www.scirp.org/journal/jss 
+ISSN Online: 2327-5960 
+ISSN Print: 2327-5952 
+ 
+DOI: 10.4236/jss.2022.1012016  Nov. 11, 2022 
+241 
+Open Journal of Social Sciences
+ 
+ 
+ 
+ 
+Preference of Global Shampoo Brands: A Study 
+on Women Consumers 
+Ummay Salma Khanam, Md. Bazlur Rahman 
+Department of Marketing, University of Chittagong, Chittagong, Bangladesh 
+ 
+ 
+ 
+Abstract 
+Bangladeshi consumers are increasingly concerned about their hair care, nu-
+trition, health, and lifestyle. Their increased interest in shampoo reflects their 
+increased hair and health consciousness. As a result, the shampoo market has 
+grown in Bangladesh overall market growth, and the availability of many 
+shampoo brands induces customers to consider various purchasing prefe-
+rences and decisions. Also, the hyper-competition among global and local 
+companies induces marketers to work hard to attract new customers and re-
+tain existing ones. Therefore, the study aims to determine the factors influen-
+cing women consumers’ preferences for a global shampoo brand. This study 
+used a quantitative research design based on primary data. The primary data 
+was collected from a survey among the women consumers of global shampoo 
+brands through a structured questionnaire containing nine factors determin-
+ing consumers’ preferences. The statistical techniques of mean and standard 
+deviation were used to analyze the study’s findings. The results indicate that 
+among the nine factors the study examined, buyers consider functionality, 
+brand image, quality, and price to be the most significant when choosing a 
+global shampoo brand. The study’s findings have substantial policy implica-
+tions for global marketers that want to customize their marketing plans. 
+ 
+Keywords 
+Global Brands, Consumer Preference, Shampoo, Purchasing Decision, Brand 
+Functionality 
+ 
+1. Introduction 
+Consumers worldwide are concerned about their hair care, nutrition, health, and 
+lifestyle. Considering hair care is a crucial part of people’s daily beauty routines, 
+consumers have started experimenting with innovative and higher-end products, 
+How to cite this paper: Khanam, U. S., & 
+Rahman, Md. B. (2022). Preference of Global 
+Shampoo Brands: A Study on Women Con-
+sumers. Open Journal of Social Sciences, 
+10, 241-254. 
+https://doi.org/10.4236/jss.2022.1012016 
+Received: September 7, 2022 
+Accepted: November 8, 2022 
+Published: November 11, 2022 
+Copyright © 2022 by author(s) and  
+Scientific Research Publishing Inc. 
+This work is licensed under the Creative 
+Commons Attribution International  
+License (CC BY 4.0). 
+http://creativecommons.org/licenses/by/4.0/
+ 
+ 
+Open Access
+
+
+--- PDF page 2 ---
+U. S. Khanam, Md. B. Rahman 
+ 
+ 
+DOI: 10.4236/jss.2022.1012016 
+242 
+Open Journal of Social Sciences
+ 
+persuading numerous global brands to grab a solid hold in their shopping 
+baskets (Dutta & Nath, 2019). Bangladeshi consumers are no different from the 
+global trend in increased beauty care as a part of awareness and health con-
+sciousness. Also, global beauty care product consumption and sales in Bangla-
+desh are progressively increasing due to the tax drop (Mordor Intelligence, 
+2022). A shampoo is a common hair care item, generally in the form of a viscous 
+liquid, primarily used to clean hair. Natural shampoo and regular shampoo are 
+two broad segments of the shampoo market in Bangladesh. The distribution 
+channels used in the shampoo market are supermarkets, convenience stores, on-
+line retailers, and other retailers. The critical drivers of the shampoo market are 
+increasing customer concern about their appearance, increasing product innova-
+tions, growing men’s grooming shampoos, and the growing demand for natural 
+and organic shampoos. According to Mordor Intelligence (2022), the Banglade-
+shi shampoo market is projected to record a compound annual growth rate 
+(CAGR) of 6.1% from 2022 to 2027. Bangladeshi people have become more 
+health-conscious and are willing to spend more on herbal and medicated sham-
+poos than chemical ones. Therefore, the emerging trend of herbal and medicated 
+shampoos, along with other natural ingredients, is one of the crucial factors in 
+the market. Furthermore, over the years, the increasing internet service coverage 
+has significantly improved the availability of web-based and online services, re-
+sulting in many new entries into the market. As a result, the local and multina-
+tional key players are experiencing increased competition in the shampoo mar-
+ket despite their very smart shampoo sachets. Moreover, the companies have 
+launched more brand-new variants of natural, hijab-fresh, and male-grooming 
+shampoos. This competitive situation in the industry has created a significant 
+challenge in creating new customers and retaining existing ones (Shrivastava & 
+Bisen, 2014). Because of this, it is essential to figure out what makes customers 
+choose one shampoo product over another. 
+The key challenge for global shampoo marketers is to identify how consumers 
+form their perceptions of the shampoo brands and what influences their prefe-
+rences that companies offer. Moreover, women’s shampoo consumers are very 
+concerned about hygienic beauty practices and hair care (Bhimani & Patra, 
+2015). Bangladeshi society is becoming critical in buying a global brand because 
+of a large variety of product offers. The abundance of shampoo brands on the 
+market makes the producers compete to create more value for the customers 
+(Ida & Hidayati, 2020). Shampoo consumers prefer a brand considering a variety 
+of factors. The previous literature depicts that consumers prefer a shampoo 
+brand for product quality (Ida & Hidayati, 2020; Vijayalakshmi & Gurumoorthy, 
+2019; Firmansyah, 2019), product’s functional characteristics, and advantages 
+(Vijayalakshmi & Gurumoorthy, 2019; Bhimani & Patra, 2015), brand image and 
+company reputation (Das, 2020; Dewi, Edyanto, & Siagian, 2020), affordable 
+price (Thapa, 2012; Gopalsamy, Sannasi, & Ganapathi, 2011), advertisement, 
+sales promotion, special offers, and references (Firmansyah, 2019; Vijayalakshmi 
+
+
+--- PDF page 3 ---
+U. S. Khanam, Md. B. Rahman 
+ 
+ 
+DOI: 10.4236/jss.2022.1012016 
+243 
+Open Journal of Social Sciences
+ 
+& Manimozhy, 2018), availability in the market (Indirapriyadharshini & Thila-
+gavathi, 2018), attractive packaging and variety of sizes (Thapa, 2012; Gopalsa-
+my et al., 2011), alluring aroma (Rahman & Kazi, 2013; Gopalsamy et al., 2011), 
+and fashion and status (Das, 2020; Thilgavathi & Indirapriyadharshini, 2019). 
+However, what factors are considered by Bangladeshi shampoo consumers to 
+choose a global shampoo brand is unknown. 
+Marketing scholars investigated shampoo brand preferences for both male 
+and female consumers in different countries or regions. However, most of the 
+studies on shampoo consumer behavior were carried out on the female consum-
+ers’ global shampoo brand preferences in different countries, such as in India 
+(Das, 2020; Dutta & Nath, 2019; Khare & Ali, 2018; Vijayalakshmi & Guru-
+moorthy, 2019; Thilgavathi & Indirapriyadharshini, 2019; Indirapriyadharshini 
+& Thilagavathi, 2018; Vijayalakshmi & Manimozhy, 2018; Kaboor & Poornima, 
+2017; Thiyagaraj, 2015; Bhimani & Patra, 2015; Shrivastava & Bisen, 2014; Go-
+palsamy et al., 2011; Venkateswaran, 2011; Ragavendran, Devakumar, & Upad-
+hyay, 2009; Vinayagamoorthy, 2007), in Indonesia (Dewi et al., 2020; Ida & Hi-
+dayati, 2020; Firmansyah, 2019), and Lebanon (Zbib, Wooldridge, Ahmed, & 
+Benlian, 2010). However, to the authors’ knowledge, no recent study has been 
+done on Bangladesh’s perspective on the customer preferences of global sham-
+poo brands. Therefore, the paper aims to determine customer preferences in 
+purchasing global shampoo brands in Bangladesh. 
+This exploratory study is based on primary data collected from women 
+shampoo consumers in Bangladesh’s two largest cities (Dhaka and Chittagong). 
+A sample of 390 women shampoo consumers were surveyed with a structured 
+questionnaire containing nine influencing factors, including product quality, 
+product functionality, brand image, affordable price, advertisement and sales 
+promotion, availability in the market, attractive packaging, alluring aroma, and 
+fashion and status in selecting the global shampoo brands in their purchasing 
+decision process. Bangladeshi women shampoo users commonly use seven re-
+puted global brands, and no significant difference was found in the choice of 
+different shampoo brands. However, among the nine factors examined, product 
+functionality, brand image, quality, and price are the most critical factors that 
+Bangladeshi customers consider when purchasing global shampoo brands. The 
+study’s results have important policy implications for global marketers, who can 
+use them to change how they set their strategic priorities to increase customer 
+loyalty and keep customers so that they can make more money and grow the 
+market. 
+The second section reviews the recent literature focusing on the factors in-
+fluencing the preferences of global shampoo brands. The third section describes 
+the methodology of the study, including sample selection, data collection, mea-
+surement, and analytical tools. Section four presents the data analysis and study 
+results. Section five provides a discussion of the results. In the last part, Section 
+six concludes the paper constituting a summary of the study’s results, policy im-
+plications, study limitations, and future directions for research. 
+
+
+--- PDF page 4 ---
+U. S. Khanam, Md. B. Rahman 
+ 
+ 
+DOI: 10.4236/jss.2022.1012016 
+244 
+Open Journal of Social Sciences
+ 
+2. Literature Review 
+Generally, consumers’ decision-making process, buying patterns, purchasing 
+behavior, the brands they buy, or the retailers they visit influence their purchase 
+decisions. Also, consumers are influenced by their cultures, subcultures, social 
+classes, membership groups, family, personality, and psychological factors 
+(Ramya & Ali, 2016). In this paper, the research was looked at with a focus on 
+what makes shampoo buyers do what they do. 
+Dutta and Nath (2019) investigated India to discover the essential characteris-
+tics of customers’ shampoo buying behavior that influence customers’ purchas-
+ing perceptions and behavioral preferences of shampoo brands. Likewise, 
+another research on the determining elements that change consumers’ shampoo 
+purchasing motives in India found that rural clients choose a shampoo brand to 
+consider quality, functionality, dependability, and other essential factors (Vi-
+jayalakshmi & Gurumoorthy, 2019). Furthermore, Ida and Hidayati (2020) ex-
+amined the impact of brand image and product quality on purchasing decisions, 
+revealing that brand image and product quality substantially impact purchasing 
+decisions. Also, Vijayalakshmi & Manimozhy (2018) argued that South-Indian 
+shampoo consumers buy shampoo products for quality, brand image, and spe-
+cial offers. Finally, Ragavendran et al. (2009) also looked at how well-known 
+brands are now and found that consumers have high expectations for quality, 
+benefits, and packaging. 
+A study by Bhimani and Patra (2015) concluded that consumers are biased by 
+television in their shampoo brand preference and buying decision-making 
+process. On the other hand, advertising and product quality are the critical fac-
+tors that induce consumers’ shampoo brand choice and purchasing motivation, 
+either separately or concurrently (Firmansyah, 2019). Similarly, Shrivastava and 
+Bisen (2014) examined many elements that drive consumers to purchase a spe-
+cific brand of shampoo and found that advertising has a substantial impact on 
+customers’ minds. However, in a study, Venkateswaran (2011) examined the 
+impact of advertising on shampoo consumers’ brand preference and loyalty and 
+found that brand image is the most influential factor in brand preference instead 
+of advertising. Conversely, Dewi et al. (2020) proposed that brand ambassador 
+and image significantly affect the consumer’s shampoo purchasing decision. 
+Previous research and investigations found a significant link between education-
+al qualifications and brand preferences (Kaboor & Poornima, 2017). According 
+to Zbib et al. (2010), the country of origin of shampoo is also considered a sig-
+nificant determinant that affects Lebanese customers’ purchasing intent, who are 
+motivated by either benefits or pleasures. Das (2020), on the other hand, con-
+ducted a study utilizing the perceptual mapping approach, which identified the 
+efficiency of brand positioning strategies and the customers’ perceptions and 
+traits that influence their purchase behavior toward different shampoo brands. 
+The results showed that the positioning of these brands significantly impacts 
+consumers’ purchasing decisions. Irabatti and Irabatti (2013) concluded that 
+
+
+--- PDF page 5 ---
+U. S. Khanam, Md. B. Rahman 
+ 
+ 
+DOI: 10.4236/jss.2022.1012016 
+245 
+Open Journal of Social Sciences
+ 
+gender, worthiness, aroma, pricing, features, attributes, quality, and the potential 
+to prevent hair fall are the essential factors for shampoo users’ satisfaction. Indi-
+rapriyadharshini & Thilagavathi (2018) show that women customers are satisfied 
+with a shampoo brand with its brand image and vast availability in the market. 
+In another study, Vinayagamoorthy (2007) found that Indian shampoo con-
+sumers prefer brands that are most available in the market, of high quality, and 
+at a minimum price. Also, the study of Gopalsamy et al. (2011) reveals that In-
+dian women shampoo consumers consider product quality, cost, perfume, and 
+wrapping in their buying decisions. 
+Moreover, an investigation of university students’ shampoo purchasing beha-
+vior examined that price, accessibility, and wrapping significantly impact sham-
+poo purchasing motives and brand switching behavior among undergraduate 
+and graduate students (Thapa, 2012). However, according to their study on 
+consumer expectations from shampoo companies, Rahman and Kazi (2013) 
+pointed out that hair cleansing was the most favored expectation of customers, 
+while scent and moistness were also cited as desired reasons. Also, according to a 
+study by Kumar (2011), celebrity traits are likely to impact shampoo consumers’ 
+buying intentions, and businesses employ celebrity endorsers to affect customer 
+buying decisions to boost sales volume. Furthermore, a study by Jamal and 
+Goode (2001) suggested that self-image product image congruity (also known as 
+self-image congruence) can influence consumers’ shampoo brand choices and 
+purchase intentions, according to a publication where desired attitudes and opi-
+nions toward products can also be encouraged by self-image congruence. Final-
+ly, Thilgavathi and Indirapriyadharshini (2019) found that consumers buy 
+shampoo products that look good and stylish, enhancing their image and mod-
+ern lifestyles. 
+Therefore, many scholars have concentrated on the determinants of consum-
+ers’ selection of shampoo brands. Table 1 summarizes the influential factors and 
+relevant studies on shampoo consumers’ behavior. 
+3. Methodology 
+3.1. Sample Selection 
+A quantitative research design was adopted, and primary research was con-
+ducted in the two largest cities in Bangladesh, Dhaka, and Chittagong, where the 
+global shampoo brands are available. The primary objective of the paper is to 
+investigate the preferences of global shampoo brands in the Bangladeshi market. 
+The study has selected the women customers who decide on their shampoo 
+brands to buy or use. In Bangladesh, the most available international shampoo 
+brands are Dove, Sun silk, Clinic Plus, Pentene Pro V, All Clear, Head & Shoul-
+der, and L’Oréal Paris originated from the US, UK, India, Switzerland, Italy, US, 
+and France consecutively. These seven reputed global shampoo brands were 
+considered into investigation. Also, the study considered the age group of the 
+respondents between 18 and 60 years of age. The convenience sampling that  
+
+
+--- PDF page 6 ---
+U. S. Khanam, Md. B. Rahman 
+ 
+ 
+DOI: 10.4236/jss.2022.1012016 
+246 
+Open Journal of Social Sciences
+ 
+Table 1. Summary of literature review. 
+Factors 
+Literature/Author(s) (Year) 
+1. Quality 
+Ida & Hidayati (2020); Vijayalakshmi & Gurumoorthy (2019);  
+Firmansyah (2019); Vijayalakshmi & Manimozhy (2018); Irabatti & 
+Irabatti (2013); Gopalsamy et al. (2011); Ragavendran et al. (2009); 
+Vinayagamoorthy (2007). 
+2. Functionality/ 
+Advantages 
+Vijayalakshmi & Gurumoorthy (2019); Bhimani & Patra (2015); 
+Irabatti & Irabatti (2013); Rahman & Kazi (2013); Zbib et al. (2010); 
+Ragavendran et al. (2009). 
+3. Brand Image 
+Das (2020); Dewi et al. (2020); Ida & Hidayati (2020); Thilgavathi & 
+Indirapriyadharshini (2019); Indirapriyadharshini & Thilagavathi 
+(2018); Vijayalakshmi & Manimozhy (2018); Ramya & Ali (2016); 
+Shrivastava & Bisen (2014); Venkateswaran (2011); Ragavendran et 
+al. (2009). 
+4. Price 
+Irabatti & Irabatti (2013); Thapa (2012); Gopalsamy et al. (2011); 
+Vinayagamoorthy (2007). 
+5. Advertisement/ 
+References 
+Firmansyah (2019); Vijayalakshmi & Manimozhy (2018); Ramya & 
+Ali (2016); Bhimani & Patra (2015); Shrivastava & Bisen (2014); 
+Kumar (2011); Venkateswaran (2011). 
+6. Availability 
+Indirapriyadharshini & Thilagavathi (2018); Thapa (2012);  
+Vinayagamoorthy (2007). 
+7. Packaging 
+Thapa (2012); Gopalsamy et al. (2011); Ragavendran et al. (2009). 
+8. Aroma 
+Irabatti & Irabatti (2013); Rahman & Kazi (2013); Gopalsamy et al.
+(2011). 
+9. Fashion and 
+Status 
+Das (2020); Thilgavathi & Indirapriyadharshini (2019); Ramya & Ali 
+(2016); Jamal & Goode (2001). 
+ 
+forms a part of the non-probability sampling technique has been applied to carry 
+out the research (Roberts-Lombard, 2002). This study has adopted because the en-
+tire population frame was unavailable for the survey to execute the study by se-
+lecting a sample of 390 respondents (Bhimani & Patra, 2015). The non-probability 
+(convenience) sampling method was used in many similar studies (for example 
+Rahman & Chowdhury, 2022a; Rahman & Chowdhury, 2022b; Rahman & Sul-
+tana, 2022; Mokhlis, Mat, & Salleh, 2008). The minimum sample size at a 95 
+percent confidence level was calculated as 384, assuming that the population size 
+is larger or more than 1,000,000 (Saunders, Lewis, & Thornhill, 2009: pp. 
+218-219; Malhotra & Dash, 2016: p. 279). Therefore, the sample size of 390 is 
+adequate to carry out the study.  
+3.2. Questionnaire Design and Data Collection 
+A structured questionnaire was prepared through Google Forms to collect data 
+on the variables relating to the determinants of female customers in purchasing 
+and using global shampoo brands. The questionnaire was divided into two sec-
+tions. The first section of the questionnaire consists of multiple-choice questions 
+
+
+--- PDF page 7 ---
+U. S. Khanam, Md. B. Rahman 
+ 
+ 
+DOI: 10.4236/jss.2022.1012016 
+247 
+Open Journal of Social Sciences
+ 
+regarding the respondent’s demographic information, including age group, oc-
+cupation, educational background, income level, and shampoo consumption 
+behaviors. The second section of the questionnaire includes questions on deter-
+mining factors of customer preferences in purchasing shampoo brands. All fac-
+tors were adopted from the previous studies and pilot surveys. A set of questions 
+was asked to the respondents about each of the nine determining factors of cus-
+tomer preferences in purchasing shampoo brands, including product quality, 
+product price, brand image, availability in the market, product packaging, pro-
+motion and references, aroma, fashion and status, and product functionality and 
+advantages.  
+The questionnaires were prepared in two versions of languages: English and 
+Bengali. Before administering the questionnaire, it was screened, and a pilot test 
+was conducted by sending the questionnaire to ten female colleagues to assess 
+appropriateness, flexibility, and grammatical errors. Then, considering the feed-
+back from the pilot survey, the questionnaire was scrutinized and rearranged to 
+be devoid of irrelevant issues. Afterward, questionnaires were sent to 500 women 
+shampoo customers who reside in Dhaka and Chittagong cities in Bangladesh. 
+Finally, 390 responses were received within the deadline and considered for 
+analysis. 
+3.3. Measurement and Analysis 
+The demographic information of women shampoos customers is collected to 
+investigate how their demographic characteristics influence their purchasing 
+behavior. The demographic characteristics of shampoo customers are presented 
+by measuring the frequency, percentage, and cumulative numbers. Answers to 
+the questions in the second section were measured on a five-level Likert Scale 
+ranging from 1 = strongly disagree, 2 = disagree, 3 = neutral, 4 = agree, and 5 = 
+strongly agree. The study analyzed the answer ratings using the statistical tools: 
+mean and standard deviation. The mean scores indicate the degree of influence 
+of factors on customer preferences in purchasing decisions of shampoo brands 
+or the significance of the factors. The standard deviation indicates how dispersed 
+the data is concerning the mean. Finally, the determining factors were ranked 
+according to their mean scores, indicating that the higher mean is the higher 
+significance of the determinant. 
+3.4. Validity and Reliability 
+The data were collected using the Google Form survey application, where the 
+questionnaires were filled with due diligence. The following settings were done 
+in the Google Form to ensure the high reliability and validity of the data: 1) the 
+form was set to anonymous, 2) respondents’ answers were strictly private, 3) the 
+response could not be resubmitted once submitted, and 4) all questions were 
+mandatory to obtain a complete data set in every submission. Finally, the online 
+questionnaire was sent to the respondents after cross-checking everything. 
+
+
+--- PDF page 8 ---
+U. S. Khanam, Md. B. Rahman 
+ 
+ 
+DOI: 10.4236/jss.2022.1012016 
+248 
+Open Journal of Social Sciences
+ 
+Nine factors that affect global shampoo brand preference were examined. 
+First, the valid questionnaire data were collected, and then the reliability and va-
+lidity of the measurement scale were analyzed. Finally, the reliability and validity 
+of the information on the measurement scale were tested by calculating Cron-
+bach’s Alpha. 
+Cronbach α
+1
+1
+i
+t
+V
+K
+K
+V
+
+
+=
+−
+
+
+−
+
+'s
+ 
+where 
+K = Number of items  
+Vi = Variance of each item 
+Vt = Total variance 
+In the study total of nine factors were measured. The Cronbach’s α of the sur-
+vey results was >0.667, indicating that the questionnaire had certain credibility 
+in the study. 
+4. Results 
+Most of the time, the choice or use of shampoo brands by women also depends 
+on the type of their individual preferences. Therefore, the study analyzed the 
+demographic characteristics of women to determine the psychological aspects of 
+using different global shampoo brands. Along with demographic information, 
+the study looked at what users look for in a shampoo brand and how they feel 
+about it. 
+4.1. Demographic Characteristics of Shampoo Consumers 
+As an essential part of the investigation, Table 2 depicts the demographic cha-
+racteristics of female consumers. Three hundred ninety female shampoo con-
+sumers participated in this study, where the majority were aged 21 - 30 years and 
+31 - 40 years, with 37.18% and 31.28%, respectively. Only six women over 61 
+years old participated in this study, which is the least in number compared to 
+other age groups. Among the participants, 65.64% were married, and the rest, 
+34.36%, were single. Regarding educational qualifications, more than half of the 
+study respondents (52.56%) had graduate and postgraduate degrees, and 36.67% 
+of respondents had undergraduate degrees. On the other hand, only 9.74% of 
+respondents held HSC, and 1.03% had SSC as their highest educational qualifi-
+cation. When it comes to jobs, 46.67% of the people who took part in the study 
+were students, which is the highest number compared to private employees 
+(22.05%), housewives (14.62%), government employees (11.79%), professionals 
+(2.82%), and businesswomen (2.05%). 
+Also, the study found that almost half of the consumers (49.74%) have a 
+monthly income of less than BDTk.20,000. Moreover, 18.97% of respondents 
+have a monthly income of BDTk.40,000 to 50,000, 17.44% of participants have a 
+monthly income of BDTk.30,000 to 40,000, and 9.23% of respondents earn more 
+than BDTk.50,000. The demographic data on female shampoo users also re-
+
+
+--- PDF page 9 ---
+U. S. Khanam, Md. B. Rahman 
+ 
+ 
+DOI: 10.4236/jss.2022.1012016 
+249 
+Open Journal of Social Sciences
+ 
+vealed the preferences and choices of different brands for daily use. Table 1 
+shows that a maximum number of participants (23.60%) use Clinic Plus sham-
+poo, and the second most (18.97%) use Sunsilk shampoo. Almost the same num-
+ber of consumers use Head & Shoulder (14.10%) and Pentene Prov (14.87%) 
+shampoo brands. The rest of the shampoo brand preferences are Dove 
+(11.79%), All Clear (6.92%), L’Oréal Paris (5.90%), and other brands (3.85%) 
+respectively. 
+ 
+Table 2. Customers’ demographic information. 
+Demographics 
+Frequency 
+Percentage 
+Valid % 
+Cumulative % 
+Gender 
+Female 
+390 
+100 
+100 
+100 
+Total 
+390 
+100 
+100 
+ 
+Age 
+Below 20 years 
+13 
+3.33 
+3.33 
+3.33 
+21 - 30 years 
+145 
+37.18 
+37.18 
+40.51 
+31 - 40 years 
+122 
+31.28 
+31.28 
+71.79 
+41 - 50 years 
+73 
+18.72 
+18.72 
+90.51 
+51 - 60 years 
+31 
+7.95 
+7.95 
+98.46 
+61 years and above 
+6 
+1.54 
+1.54 
+100 
+Total 
+390 
+100 
+100 
+ 
+Marital Status 
+Single 
+134 
+34.36 
+34.36 
+34.36 
+Married 
+256 
+65.64 
+65.64 
+100 
+Total 
+390 
+100 
+100 
+ 
+Education 
+SSC 
+4 
+1.03 
+1.03 
+1.03 
+HSC 
+38 
+9.74 
+9.74 
+10.77 
+Undergraduate 
+143 
+36.67 
+36.67 
+47.44 
+Graduate/postgraduate 
+205 
+52.56 
+52.56 
+100 
+Total 
+390 
+100 
+100 
+ 
+Occupation 
+Professional 
+11 
+2.82 
+2.82 
+2.82 
+Businessman 
+8 
+2.05 
+2.05 
+4.87 
+Govt. employee 
+46 
+11.79 
+11.79 
+16.66 
+Private employee 
+86 
+22.05 
+22.05 
+38.71 
+Housewife 
+57 
+14.62 
+14.62 
+53.33 
+Student 
+182 
+46.67 
+46.67 
+100 
+Total 
+390 
+100 
+100 
+ 
+
+
+--- PDF page 10 ---
+U. S. Khanam, Md. B. Rahman 
+ 
+ 
+DOI: 10.4236/jss.2022.1012016 
+250 
+Open Journal of Social Sciences
+ 
+Continued 
+Monthly Income 
+Below Tk.20,000 
+194 
+49.74 
+49.74 
+49.74 
+Tk.20,000 - Tk.30,000 
+18 
+4.62 
+4.62 
+54.36 
+Tk.30,000 - Tk.40,000 
+68 
+17.44 
+17.44 
+71.80 
+Tk.40,000- Tk.50,000 
+74 
+18.97 
+18.97 
+90.77 
+Above Tk.50,000 
+36 
+9.23 
+9.23 
+100 
+Total 
+390 
+100 
+100 
+ 
+Use/Prefer Shampoo Brand 
+Sun Silk 
+74 
+18.97 
+18.97 
+18.97 
+Dove 
+46 
+11.79 
+11.79 
+30.76 
+Head & Shoulder 
+55 
+14.10 
+14.10 
+44.86 
+Clinic Plus 
+92 
+23.60 
+23.60 
+68.46 
+Pentene Prov 
+58 
+14.87 
+14.87 
+83.33 
+All clear 
+27 
+6.92 
+6.92 
+90.25 
+L’Oréal Paris 
+23 
+5.90 
+5.90 
+96.15 
+Other 
+15 
+3.85 
+3.85 
+100 
+Total 
+390 
+100 
+100 
+ 
+4.2. Factors Influencing Shampoo Brand Preferences 
+The study has worked on nine critical factors such as functionality and advan-
+tages, brand image, quality, price, advertisement and references, aroma, availa-
+bility, packaging, and fashion and status that influence the choice of shampoo 
+users. Table 3 illustrates these factors with their mean scores and standard devi-
+ations. The mean scores show how important each factor is, and the standard 
+deviation shows how far away the data is from the mean. 
+Based on the data provided by the participants and their mean scores, it is 
+found that Bangladeshi women customers give the most priority and importance 
+to functionality and advantages (4.2103), brand image (4.1513), quality (4.1359), 
+and price (4.1282) when purchasing a global shampoo brand. On the other hand, 
+results show that advertising and references (3.8949), aroma (3.7077), availabili-
+ty (3.6359), packaging (3.4026), and fashion and status (3.2333) are considered 
+relatively less significant in shampoo brand selection. 
+5. Discussion 
+The results of the study revealed that among the nine factors of functionality and 
+advantages, brand image, quality, and price are found to be relatively more in-
+fluential in shampoo brand choice. Furthermore, in terms of the mean scores, 
+the functionality and advantages of a shampoo brand are seen as the most sig-
+nificant to consumers when they decide to buy and use a shampoo brand. The 
+functionality and advantages of a shampoo brand include avoiding hair loss,  
+
+
+--- PDF page 11 ---
+U. S. Khanam, Md. B. Rahman 
+ 
+ 
+DOI: 10.4236/jss.2022.1012016 
+251 
+Open Journal of Social Sciences
+ 
+Table 3. Factors affecting customer preference of global shampoo brands. 
+Factors 
+Number 
+Mean 
+Standard Deviation 
+1. Functionality/Advantages 
+390 
+4.2103 
+0.8645 
+2. Brand Image 
+390 
+4.1513 
+0.9042 
+3. Quality 
+390 
+4.1359 
+0.8601 
+4. Price 
+390 
+4.1282 
+0.9668 
+5. Advertisement/References 
+390 
+3.8949 
+1.1162 
+6. Aroma 
+390 
+3.7077 
+1.0324 
+7. Availability 
+390 
+3.6359 
+1.0807 
+8. Packaging 
+390 
+3.4026 
+0.9617 
+9. Fashion and Status 
+390 
+3.2333 
+0.9828 
+ 
+preventing dandruff, being suitable for hair, softening hair, hair growth, no 
+rough hair, vitamins, easy to rinse, and removing oil and dirt. Similarly, Raga-
+vendran et al. (2009) and Bhimani and Patra (2015) claimed that consumers 
+prefer and select shampoo brands according to their benefits and performances. 
+Brand image has also been shown to be the second most influential factor in this 
+study. The brand reflects the producer’s promise to consumers regarding the 
+products’ quality (Ida & Hidayati, 2020), and the brand image is an impression 
+in the consumers’ minds generated by the brand. Many researchers such as Dewi 
+et al. (2020), Ida and Hidayati (2020), and Vijayalakshmi and Manimozhy (2018) 
+have also shown the same results that brand name and brand image strongly in-
+fluence and encourage consumers’ shampoo purchase decisions. The third im-
+portant factor that emerged in this study is the quality that consumers con-
+sciously consider when choosing and using shampoo brands. Other investigators 
+include Ida and Hidayati (2020), Vijayalakshmi and Manimozhy (2018), Raga-
+vendran et al. (2009), and Firmansyah (2019) have also proved that the quality of 
+shampoo brands is a significant criterion for shampoo users before purchasing 
+their shampoo products. Moreover, Bangladeshi shampoo users also significant-
+ly consider price when choosing a global brand. Vijayalakshmi and Gurumoor-
+thy (2019) also emphasized the price factor in their research on consumers’ 
+purchasing behavior toward shampoo brands. However, shampoo users in this 
+study rated advertisements and references, aroma, availability, packaging, and 
+fashion and status as slightly less significant in their shampoo choices. Con-
+versely, Firmansyah (2019), Shrivastava and Bisen (2014), and Bhimani and Pa-
+tra (2015) claim that advertising helps consumers make shampoo choices and 
+encourages first and repeat use of the product. Furthermore, some studies have 
+shown that consumers prefer packet size, mostly mini bottles or packets when 
+purchasing shampoo products.  
+6. Conclusion, Implication, Limitation, and Future Work 
+The cosmetic market is one of the leading markets in Bangladesh, which has 
+
+
+--- PDF page 12 ---
+U. S. Khanam, Md. B. Rahman 
+ 
+ 
+DOI: 10.4236/jss.2022.1012016 
+252 
+Open Journal of Social Sciences
+ 
+witnessed a changing consumer preference over the last two decades due to the 
+increase in awareness, lifestyle, and income level. Bangladesh’s shampoo and 
+cosmetic markets are very developed and highly fragmented regarding the 
+number of suppliers, brands, and trade channels. Many shampoo brands are 
+available on retail shelves, where international brands grab the lion’s share of the 
+market. The study aimed to investigate the determinants of Bangladeshi wom-
+en’s preferences in purchasing global shampoo brands. The consumers’ demo-
+graphic information revealed the preferences and choices of global shampoo 
+brands such as Dove, Sun silk, Head & Shoulder, Clinic Plus, Pentene Prov, All 
+Clear, and L’Oréal Paris. The study results show no significant difference in the 
+choice of different shampoo brands. Overall, the study’s findings indicate that 
+Bangladeshi women customers significantly consider brand image, functionality, 
+quality, and price when buying a global shampoo brand.  
+The result of the study will provide some critical insights into the concerning 
+bodies. Firstly, the study’s empirical results were conducted on the factor of cus-
+tomer retention of global shampoo brands that will assist international marke-
+ters in planning and executing their market strategy from time to time in Ban-
+gladesh. Secondly, the study’s findings will provide insight to regulators, practi-
+tioners, marketers, and stakeholders to build a sustainable growth model for the 
+shampoo industry in developing countries like Bangladesh. Finally, this study’s 
+results will also be helpful to future investigators and academicians particularly 
+interested in this area of research. 
+The study has two limitations. Firstly, the data was collected from two largest 
+cities in Bangladesh (Dhaka and Chittagong) for the authors’ convenience be-
+cause the global shampoo brand users are mostly available in these two cities. 
+Secondly, the study was conducted only on women, and the collected data de-
+picts that approximately 70% of the respondents belong to the age group of 21 to 
+40 years. 
+This research was done on the preferences of global shampoo brands, particu-
+larly among women consumers. However, male consumers in different age 
+groups of shampoo users in Bangladesh would be an important area of research. 
+Also, research can be carried out on the purchasing behavior of a particular 
+consumer group in the buying process of local and international shampoo 
+brands. 
+Conflicts of Interest 
+The authors declare no conflicts of interest regarding the publication of this pa-
+per. 
+References 
+Bhimani, R., & Patra, S. (2015). A Study on the Perception of Women in Kolkata towards 
+Shampoo. Journal of Exclusive Management Science, 4, 1-8. 
+Das, M. (2020). An Empirical Study on Brand Positioning and Consumer Perception to-
+
+
+--- PDF page 13 ---
+U. S. Khanam, Md. B. Rahman 
+ 
+ 
+DOI: 10.4236/jss.2022.1012016 
+253 
+Open Journal of Social Sciences
+ 
+wards Various Shampoo Brands. International Journal of Marketing & Business Com-
+munication, 9, 13-21. 
+Dewi, L. G. P. S., Edyanto, N., & Siagian, H. (2020). The Effect of Brand Ambassador, 
+Brand Image, and Brand Awareness on Purchase Decision of Pantene Shampoo in Su-
+rabaya, Indonesia. Doctoral Dissertation, EDP Sciences. 
+Dutta, S., & Nath, S. (2019). An Empirical Analysis of Shampoo Selection Behavior and 
+Current Market Standing of Different Competing Shampoo Brands in Siliguri City un-
+der Darjeeling District of North Bengal. SIT Journal of Management, 9, 16-26. 
+Firmansyah, M. A. (2019). The Effect of Advertising and Product Quality on Purchasing 
+Motivation of Consumer on Shampoo Product in Surabaya. Media Mahardhika, 18, 
+39-45. 
+Gopalsamy, S., Sannasi, S., & Ganapathi, R. (2011). Consumers Preference towards Vari-
+ous Brands of Shampoo in Tirupur Town. Management Prudence, 2, 129-140. 
+Ida, Z., & Hidayati, I. N. (2020, April). Brand Image and Product Quality against Pur-
+chase Decision: Sariayu Hijab Shampoo Competitive Environment. IOP Conference 
+Series: Earth and Environmental Science, 469, Article ID: 012109.  
+https://doi.org/10.1088/1755-1315/469/1/012109 
+Indirapriyadharshini, B., & Thilagavathi, M. (2018). Women Consumer Satisfaction of 
+Sunsilk Shampoo. Journal of Commerce and Management Thought, 9, 311-318.  
+https://doi.org/10.5958/0976-478X.2018.00022.8 
+Irabatti, P. A., & Irabatti, A. S. (2013). Study on Satisfaction Level Derived by the Users of 
+Pantene Shampoo in Western Maharashtra. Zenith International Journal of Business 
+Economics & Management Research, 3, 108-116. 
+Jamal, A., & Goode, M. M. (2001). Consumers and Brands: A Study of the Impact of 
+Self-Image Congruence on Brand Preference and Satisfaction. Marketing Intelligence & 
+Planning, 19, 482-492. https://doi.org/10.1108/02634500110408286 
+Kaboor, A., & Poornima, S. (2017). Brand Preferences of Selected Cosmetics—A Study on 
+Selected Shampoo Products in Coimbatore District. International Journal of Engineer-
+ing and Management Research (IJEMR), 7, 380-383. 
+Khare, P., & Ali, S. H. (2018). Factor Influencing Customer Preference for FMCG in Ref-
+erence to KAVAL Towns. International Journal of Latest Engineering and Manage-
+ment Research (IJLEMR), 3, 37-41.  
+http://www.ijlemr.com/papers/volume3-issue3/19-IJLEMR-33134.pdf   
+Kumar, A. (2011). Celebrity Endorsements and Its Impact on Consumer Buying Beha-
+viour. https://doi.org/10.2139/ssrn.1802531 
+Malhotra, N. K., & Dash, S. (2016). Marketing Research: An Applied Orientation. Pear-
+son. 
+Mokhlis, S., Mat, N. H. N., & Salleh, H. S. (2008). Commercial Bank Selection: The Case 
+of Undergraduate Students in Malaysia. International Review of Business Research Pa-
+pers, 4, 258-270. 
+Mordor Intelligence (2022). Bangladesh Shampoo Market—Growth, Trends, Covid-19 
+Impact, and Forecasts (2022-2027).  
+https://www.mordorintelligence.com/industry-reports/bangladesh-shampoo-market  
+Ragavendran, P. G., Devakumar, G., & Upadhyay, S. (2009). A Study on Brand Awareness 
+of Shampoo Products for Cavin Kare Pvt. Ltd. SASTech Technical Journal, 8, 33-40. 
+Rahman, K. M., & Kazi, R. (2013). Reasons and Expectations of Customers towards 
+Shampoo Brands. CLEAR International Journal of Research in Commerce & Manage-
+ment, 4, 24-27. 
+
+
+--- PDF page 14 ---
+U. S. Khanam, Md. B. Rahman 
+ 
+ 
+DOI: 10.4236/jss.2022.1012016 
+254 
+Open Journal of Social Sciences
+ 
+Rahman, M. B., & Chowdhury, N. (2022a). Determinants of Customer Retention in Cel-
+lular Industry of Bangladesh: A Study on Young Customers. Indonesian Journal of So-
+cial Research (IJSR), 4, 10-21. https://doi.org/10.30997/ijsr.v4i1.139 
+Rahman, M. B., & Chowdhury, N. (2022b). Determinants of Professional’s Bank Choice: 
+Empirical Evidence from Bangladesh. International Business Education Journal, 15, 
+57-72.  
+Rahman, Md. B., & Sultana, S. (2022). Factors Influencing Purchasing Behavior of Mobile 
+Phone Consumers: Evidence from Bangladesh. Open Journal of Social Sciences, 10, 
+1-16. https://doi.org/10.4236/jss.2022.107001 
+Ramya, N., & Ali, M. (2016). Factors Affecting Consumer Buying Behavior. International 
+Journal of Applied Research, 2, 76-80. 
+Roberts-Lombard, M. (2002). Marketing Research: A Southern African Perspective. Fu-
+ture Managers. 
+Saunders, M., Lewis, P., & Thornhill, A. (2009). Research Methods for Business Students. 
+Prentice Hall. 
+Shrivastava, A., & Bisen, V. (2014). Consumers’ Buying and Swithcing Behavior Due to 
+Advertisement: A Study on Shampoo Brands. Abhinav, 3, 9-15. 
+Thapa, A. (2012). Consumer Switching Behaviour: A Study of Shampoo Brands. National 
+Monthly Journal of research in Commerce and Management, 1, 98-106. 
+Thilgavathi, M., & Indirapriyadharshini, B. (2019). Consumer Buying Behaviour of 
+Shampoo: With Reference to Women of Pollachi Taluk, Tamilnadu. Journal of Com-
+merce and Management Thought, 10, 11-28.  
+https://doi.org/10.5958/0976-478X.2019.00001.6 
+Thiyagaraj, V. (2015). Recent Facets of Consumer Switching Behaviour of Shampoo 
+Brands—An Exploratory Research on Consumers in Tiruppur District. International 
+Journal of Physical and Social Sciences, 5, 550-562. 
+Venkateswaran, P. A. (2011). A Study on the Influence of Advertising on Consumer 
+Brand Preference and Loyalty for Hair Shampoo in Madurai. Management Prudence, 
+2, 13-24. 
+Vijayalakshmi, G. T., & Manimozhy, N. (2018). Brand Awareness and Preference towards 
+Shampoo Products in Thiruvarur District, Tamil Nadu. SMART Journal of Business 
+Management Studies, 14, 24-32. https://doi.org/10.5958/2321-2012.2018.00014.3 
+Vijayalakshmi, R., & Gurumoorthy, T. R. (2019). Factors Influencing the Purchasing Be-
+havior of Shampoo. Journal of Creative Research Thoughts (IJCRT), 6, 270-278. 
+Vinayagamoorthy, A. (2007). An Empirical Study on Shampoo Consumption. Indian 
+Journal of Marketing, 37, 36-38. 
+Zbib, I. J., Wooldridge, B. R., Ahmed, Z. U., & Benlian, Y. (2010). Purchase of Global 
+Shampoo Brands and the Impact of Country of Origin on Lebanese Consumers. Jour-
+nal of Product & Brand Management, 19, 261-275.  
+https://doi.org/10.1108/10610421011059586 
+ 

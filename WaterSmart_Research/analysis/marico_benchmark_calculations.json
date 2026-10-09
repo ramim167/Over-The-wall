@@ -1,0 +1,8 @@
+{
+  "company_gross_margin": 0.4941623070767812,
+  "company_MSD_pct_NR": 0.052125281955302305,
+  "reported_effective_tax": 0.1459254563694408,
+  "simple_core_NWC_BDT": 2371695128,
+  "simple_core_NWC_pct_annual_NR": 0.11450999949046688,
+  "limitations": "Core NWC is a single company year-end balance including mixed categories; excludes other operating items; not a validated SKUworkingcapitalpolicy. ETR includes exemptions; not a marginal20%cash tax substitute."
+}

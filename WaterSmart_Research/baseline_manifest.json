@@ -1,0 +1,26 @@
+﻿[
+    {
+        "filename":  "OTW_S5_Master_Research.md",
+        "sha256":  "375D7CB12A6005E4EB61C8E533C4EAA7CC9B7799098467C0EAEA9FCE8D254198",
+        "bytes":  100053,
+        "role":  "pre-research baseline"
+    },
+    {
+        "filename":  "Naturale_WaterSmart_Idea.html",
+        "sha256":  "28178A14E3D838F21FB05A92650432B3B9533C97072D94237882A488FDF0979A",
+        "bytes":  85919,
+        "role":  "pre-research baseline"
+    },
+    {
+        "filename":  "WaterSmart_Field_Data_Plan.html",
+        "sha256":  "F60C3DF0EDAA3856C90A04BC8D4D71917B3A1C42AEE75062267E8BC8CD2D4B4C",
+        "bytes":  68949,
+        "role":  "pre-research baseline"
+    },
+    {
+        "filename":  "WaterSmart_v3_Model_Output.json",
+        "sha256":  "AE336ED2241BB02A462531B88190D13D27017B8C733143F93F2A95A3263B2F95",
+        "bytes":  69959,
+        "role":  "pre-research baseline"
+    }
+]

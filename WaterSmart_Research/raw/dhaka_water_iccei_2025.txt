@@ -1,0 +1,475 @@
+--- PDF page 1 ---
+Proceedings of International Conference on Civil Engineering Research & Innovations, 12 - 14 December 2025,      
+Rajshahi University of Engineering & Technology, Rajshahi, Bangladesh 
+1629 
+ 
+Paper ID: 436 
+Spatial Variation of Supply Water Quality Parameters Across Dhaka City 
+ 
+M. E. H. Emon1*, K. Fatema2, A.S Akib2, M.H Nayeem2, J. Akter2 & M.S.S. Chowdhury1 
+ 
+1 Lecturer, Department of Civil Engineering, Prime University, Bangladesh (emrankuet38@gmail.com and 
+shadmansakibchowdhury@gmail.com ) 
+2 Under-graduate Student, Department of Civil Engineering, Prime University, Bangladesh 
+(im.kanizfatema2004@gmail.com, akib34613@gmail.com, nayeemh050@gmail.com, and 
+jhumiakter25@gmail.com) 
+ 
+Abstract 
+In urban areas like Dhaka, point-of-use water quality monitoring is often overlooked due to the high cost and 
+difficulty of widespread sampling. This study evaluates the spatial variation of key water quality parameters 
+hardness, sulfate, chloride, and nitrate ions in Dhaka Water Supply and Sewerage Authority (DWASA) supplied 
+tap water across 13 locations in Dhaka city. Water samples were collected directly from household taps to 
+represent actual consumer exposure. The analysis revealed notable variations among locations. Amin Bazar 
+recorded the highest water hardness (300 mg/l), while Kuril showed the lowest (33 mg/l). Chloride levels were 
+highest in Amin Bazar (233.93 mg/l) and lowest in Rampura (39.99 mg/l). Sulfate ion concentrations were 
+mostly below 20 mg/l, except in Amin Bazar (90 mg/l) and Kamlapur (42 mg/l), indicating local anomalies. 
+Nitrate was detected only in Tongi (15 mg/l) and Amin Bazar (20 mg/l), with all other locations showing 0 mg/l. 
+These variations suggest the influence of pipe age, source water quality, and potential infrastructure issues. The 
+study emphasizes the need for regular and localized monitoring to help identify areas with deteriorating pipelines 
+and support Water Supply Authorities (WSA) in prioritizing maintenance efforts effectively. 
+ 
+Keywords: Dhaka Water Supply and Sewerage Authority (DWASA), Water Supply Authorities (WSA) 
+ 
+1 Introduction 
+ 
+ Access to clean and safe drinking water is essential for human health, well-being, and sustainable urban 
+development (E. Cicia et al., 2010; Crase et al., 2005). In densely populated cities like Dhaka, the capital of 
+Bangladesh, the provision of safe and reliable tap water has become increasingly challenging due to rapid 
+urbanization, industrial expansion, population growth, and aging infrastructure (Cidu et al., 2010). With over 
+10.28 million residents Dhaka faces mounting pressure on its municipal water supply system, resulting in 
+widespread concerns over water safety and quality. (Bangladesh Bureau of Statistics [BBS], 2022). Water 
+contamination in urban settings can stem from several factors, including microbial pathogens, heavy metals, and 
+chemical pollutants, often aggravated by poor water treatment practices, outdated pipelines, and illegal industrial 
+discharges (Allaire et al., 2018; Trueman et al., 2019). Numerous studies have shown that insufficient oversight 
+and lack of maintenance in water distribution systems can lead to significant deterioration in tap water quality, 
+heightening the risk of gastrointestinal illnesses, heavy metal toxicity, and other waterborne diseases (Cidu et al., 
+2010; Kachel et al., 2007; Zivin et al., 2011). Furthermore, public perception plays a critical role in water use 
+behavior. Consumers often assess water quality based not only on objective safety parameters but also on 
+sensory attributes like taste, odor, and color (Um et al., 2002; McDonald and Rundle, 2006). In Dhaka, this dis-
+connect between perceived and actual water quality has led to a growing dependence on bottled water and home 
+filtration systems, reflecting broader issues of trust in public water utilities and regulatory enforcement (Crase, 
+2007; Zivin et al., 2011). Globally, the United Nations Sustainable Development Goals (SDGs) emphasize the 
+importance of achieving universal and equitable access to safe and affordable drinking water by 2030 (UN, 
+2015). However, in many low- and middle-income urban centers like Dhaka, progress remains constrained by 
+infrastructural, financial, and governance limitations. This study aims to evaluate both the objective and 
+perceived quality of tap water in selected areas of Dhaka city. It compares municipal and bottled water sources in 
+light of national and international drinking water standards, while also examining public perception through 
+household-level surveys. The findings are intended to inform policy strategies for improving water quality 
+governance, enhancing infrastructure, and protecting public health in rapidly urbanizing environment. 
+ 
+2.Methodology 
+ 
+2.1 Location Selection and collection of water Sample 
+According to the Bangladesh Bureau of Statistics’ 2022 Census and official metropolitan records, Dhaka North 
+City Corporation covers approximately 196.22 km², and Dhaka South City Corporation covers approximately 
+
+
+--- PDF page 2 ---
+M. E. H. Emon, K. Fatema, A.S Akib, M.H Nayeem, J. Akter & M.S.S. Chowdhury 
+ICCEI 2025 
+ 
+1630 
+109.24 km², resulting in a combined administrative area of about 305.46 km² (Bangladesh Bureau of Statistics 
+[BBS], 2022). This makes Dhaka the largest city in Bangladesh by area. The Dhaka Water Supply and Sewerage 
+Authority (DWASA) is responsible for supplying water throughout the entire city. To assess selected water 
+quality parameters, this study identified 13 locations across Dhaka City, encompassing both the North and South 
+city corporations. These locations are illustrated in Figure 1. For the purpose of this study, household tap water 
+samples were collected from each of the selected locations, as shown in Figure 2. 
+ 
+ 
+2.2 Determination of Water Quality Parameters 
+ 
+2.2.1 Chloride Ion (Cl-) 
+ 
+2.2.1.1 Principle of the Test (Mohr’s Method) 
+After collecting the water samples, they were transported to the laboratory and analyzed within 24 hours to 
+ensure accuracy in water quality assessment. For the determination of chloride ions, a titration method using a 
+standard silver nitrate (AgNO₃) solution was employed. The 0.0141 N AgNO₃ solution was prepared by 
+accurately dissolving 2.395 g of silver nitrate in distilled water, transferring it to a 1-liter volumetric flask, and 
+diluting it to the mark, as depicted in Fig. 3a. Since AgNO₃ is photosensitive, it was stored in a dark bottle. A 5% 
+potassium chromate (K₂CrO₄) solution was used as an indicator, prepared by dissolving 5g of K₂CrO₄ in 100 mL 
+of distilled water, then filtered and stored in a sealed container as depicted in Fig. 3b. A standard sodium chloride 
+(NaCl) solution of 0.0141 N was also prepared by dissolving 0.824 g of pre-dried NaCl (at 105°C) in distilled 
+water and diluting it to 1 liter as depicted in Fig. 3c. For the titration, 25 mL of the water sample was pipetted 
+into a clean conical flask, followed by the addition of 1 mL of potassium chromate indicator. The sample was 
+titrated with the silver nitrate solution until the appearance of a permanent red-brown color indicated the 
+endpoint, as depicted in Fig. 3d, resulting from the formation of silver chromate (Ag₂CrO₄) after all chloride ions 
+had reacted with silver to form silver chloride (AgCl). The volume of AgNO₃ consumed was recorded for 
+chloride concentration calculation. The concentration of chloride ions (in mg/L) was calculated using the 
+following formula: 
+ 
+Chloride (mg/L) = (V×N×35.45×1000)/Sample Volume                                                                                       (1) 
+ 
+ 
+ 
+Where, V = volume of AgNO₃ used (mL), N = normality of AgNO₃, and 35.45 = molar mass of Cl⁻  
+  
+2.2.2 Hardness Determination 
+For total hardness determination, a clean 5 mL plastic beaker was rinsed and filled with the water sample. Five 
+drops of hardness buffer and one drop of Calmagite indicator were added through the cap port, and the solution 
+was gently swirled. A red-violet color indicated the presence of hardness ions. Using a titration syringe, EDTA 
+titrant (HI 3812-0) was added dropwise with swirling after each drop. The color shifted from red-violet to purple, 
+and finally to blue as shown in Fig. 4, marking the endpoint. The volume of EDTA used was recorded and 
+multiplied by 300 to express total hardness in mg/L as CaCO₃. 
+ 
+2.2.3 Sulfate Ion Determination 
+Sulfate concentration in the water sample was determined using a visual turbidity-based method. A plastic vessel 
+was filled with 50 mL of the sample, followed by the addition of one packet of HI 38000A-0 Sulfate Reagent, 
+and the solution was gently swirled to ensure complete dissolution. Two drops of Complexing Agent and two 
+spoons of HI 38000B-0 Reagent were then added with thorough mixing. The mixture was allowed to stand 
+undisturbed for 5 minutes to allow for full reaction development. The test tube was placed on a white surface, 
+and the sample was added dropwise using a plastic pipette until the black spot at the bottom was no longer 
+visible as depicted in Fig. 5A and Fig. 5B. The sulfate concentration was determined by reading the liquid level 
+in the tube, expressed in mg/L (ppm). 
+ 
+2.2.4 Nitrate Ion Determination 
+Nitrate concentration in the water sample was determined using a colorimetric method. A plastic vessel was 
+rinsed and filled with 10 mL of the sample, after which one packet of HI 3834-0 reagent was added. The vessel 
+was capped and shaken until the reagent fully dissolved. The resulting solution was transferred into a color 
+comparator cube and left undisturbed for 4 minutes to allow complete color development. The final color was 
+then visually compared with a standard reference scale as shown in Fig. 6, and the corresponding concentration 
+was recorded in mg/L (ppm). A noticeable color change in the sample collected from Amin Bazar confirmed the 
+presence of nitrate in the water. This colorimetric response confirms that nitrate contamination is present at 
+measurable 
+levels 
+in 
+the 
+Amin 
+Bazar 
+water 
+sample. 
+ 
+
+
+--- PDF page 3 ---
+M. E. H. Emon, K. Fatema, A.S Akib, M.H Nayeem, J. Akter & M.S.S. Chowdhury 
+ICCEI 2025 
+ 
+1631 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Figure 1: Location of water Sample collecting Point in 
+This Study 
+ 
+Figure 2: Water sample 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+Figure 3. Determination Chloride Ion in sample water: A. Weighing of AgNO3(2.395 g), B. Weighing of K2CrO4, 
+C. weighing of NaCl, D. Titration of the sample until the appearance of a permanent red-brown color 
+ 
+ 
+ 
+Figure 4. The color shifted from red-violet to purple, 
+and finally to blue 
+Figure 5: A. Start to disappear black spot at the bottom; 
+B. Fully disappear at 90 mL 
+ 
+3. Result and Discussion 
+ 
+3.1 Sulfate 
+The measured sulfate concentrations in all the selected areas of Dhaka city ranged from <20 mg/L to a maximum 
+of 90 mg/L in Amin Bazar as shown in Table 2, which is well below both the Bangladesh and WHO guideline 
+value of 400 mg/L as shown in Table 3. According to standard classification, sulfate levels below 250 mg/L are 
+considered safe for drinking and general domestic use. Most locations such as Jasim Uddin, Dhanmondi, 
+Mohammadpur, Rampura, and others showed sulfate concentrations below 20 mg/L, indicating very low sulfate 
+presence and suggesting minimal anthropogenic influence or effective protection of groundwater sources. 
+Moderately higher values were observed in Mirpur (23 mg/L), Motijheel (27 mg/L), Kamlapur (42 mg/L), and 
+Gabtoli (27 mg/L), likely due to moderate urban runoff and sewage contamination. Amin Bazar exhibited the 
+highest sulfate level (90 mg/L), probably linked to landfill leachate, poor sanitation, and open dumping. Though 
+all observed values fall within safe limits, elevated sulfate concentrations even below the threshold can 
+contribute to scale buildup in pipelines, reduce the efficiency of water heaters, and slightly alter taste, affecting 
+A 
+B 
+A 
+B 
+C 
+D 
+
+
+--- PDF page 4 ---
+M. E. H. Emon, K. Fatema, A.S Akib, M.H Nayeem, J. Akter & M.S.S. Chowdhury 
+ICCEI 2025 
+ 
+1632 
+DWASA water supply infrastructure and user experience. Prolonged exposure to higher sulfate levels in drinking 
+water may also cause mild laxative effects, especially in children and the elderly. Continuous monitoring and 
+improved waste management are essential to ensure long-term groundwater quality and protect public health. 
+ 
+ 
+Table 1: Classification Water Hardness according to WHO and 
+Rand water 
+ 
+Total Hardness (mg/L)   Classification of Hardness 
+WHO 
+Rand Water 
+WHO 
+Rand Water 
+<17 
+0-50 
+Soft 
+Soft 
+17-60 
+50-100 
+Slightly Hard 
+Moderately Soft 
+60-120 
+100-150 
+Moderately Hard 
+Slightly Hard 
+120-180 
+150-200 
+Hard 
+Moderately Hard 
+>180 
+200-300 
+Very Hard 
+Hard 
+- 
+>300 
+- 
+Very Hard 
+ 
+ 
+Figure: 6. The final color was visually 
+compared with a standard reference scale. 
+ 
+Table 2: Sulfate Ion, Chloride ion (Cl⁻) and Nitrate Ion (NO3-) Concentrations in Groundwater Samples 
+Collected from Various Locations in Dhaka City 
+ 
+Location 
+Sulfate ion (SO4-2) 
+(mg/L) 
+Chloride ion (Cl⁻) 
+(mg/L) 
+Nitrate Ion (NO3-) 
+mg/L 
+Tongi 
+<20 
+74 
+15 
+Jasim Uddin 
+<20 
+46 
+0 
+Abdullahpur 
+<20 
+64 
+0 
+Kuril 
+<20 
+42 
+0 
+Kochu Khet 
+<20 
+110 
+0 
+Rampura 
+<20 
+40 
+0 
+Mirpur 
+23 
+100 
+0 
+Motijheel 
+27 
+44 
+0 
+Kamlapur 
+42 
+52 
+0 
+Amin Bazar 
+90 
+234 
+20 
+Gabtoli 
+27 
+216 
+0 
+Dhanmondi 
+<20 
+54 
+0 
+Mohammadpur 
+<20 
+120 
+0 
+ 
+Table 3: Standard parameters for drinking water as per WHO and Bangladesh standards. 
+ 
+Parameter 
+Bangladesh Standards 
+Value 
+WHO Guideline Value 
+Reference 
+Hardness (as 
+CaCO₃) 
+150-500 mg/L 
+200 mg/L(aesthetic) 
+DPHE, 2015; WHO, 2017 
+Sulphate (SO₄²⁻) 
+400 mg/L 
+400 mg/L 
+DPHE, 2015; WHO, 2017 
+Chloride (Cl⁻) 
+150-600 mg/L 
+≤ 250mg/L 
+DPHE, 2015; WHO, 2017 
+Nitrate (as NO₃⁻) 
+≤10 mg/L (as N) 
+≤ 50mg/L(as NO₃⁻) 
+DPHE, 2015; WHO, 2017 
+ 
+3.2 Hardness 
+The measured hardness of water samples from Dhaka city ranged from 33 mg/L at Kuril, classified as slightly 
+hard according to WHO guidelines, to 300 mg/L at Amin Bazar, which falls into the very hard category as 
+depicted in Table 1. Specifically, Kuril (33 mg/L) was slightly hard, Jasim Uddin (45 mg/L) and Motijheel (51 
+mg/L) were also in the slightly hard range, while Abdullahpur (60 mg/L) and Kochu Khet (90 mg/L) were 
+classified as moderately hard as shown in Fig. 7. Locations like Tongi (126 mg/L), Mirpur (144 mg/L), Rampura 
+(150 mg/L), Dhanmondi (105 mg/L), and Mohammadpur (150 mg/L) were in the hard category, while Gabtoli 
+(195 mg/L) and Amin Bazar (300 mg/L) were in the very hard category. According to Bangladesh standards 
+(150–500 mg/L) and WHO’s aesthetic limit (200 mg/L), most samples were within acceptable limits, but Amin 
+Bazar (300 mg/L) exceeded the WHO guideline, indicating potential problems such as scaling in plumbing 
+
+
+--- PDF page 5 ---
+M. E. H. Emon, K. Fatema, A.S Akib, M.H Nayeem, J. Akter & M.S.S. Chowdhury 
+ICCEI 2025 
+ 
+1633 
+systems and reduced soap efficiency. These findings suggest significant spatial variability in water hardness 
+across the city, reflecting differences in aquifer mineral content, and highlight the need for localized monitoring 
+and appropriate treatment where necessary. 
+ 
+          Figure 7: Concentrations of Hardness, Sulfate, Chloride, and Nitrate in DWASA supplied water 
+ 
+3.3 Chloride Ion (Cl-) 
+The chloride ion (Cl⁻) concentrations measured across various locations ranged from 39.99 mg/L to 233.93 mg/L 
+as shown in Table 2. According to the World Health Organization (WHO), the guideline value for chloride in 
+drinking water is 250 mg/L, primarily for aesthetic reasons such as taste and corrosivity. Bangladesh standards 
+(BSTI) also recommend a range of 150–600 mg/L as depicted in Table 3. While all tested sites were within the 
+permissible limits, Amin Bazar (233.93 mg/L) and Gabtoli (215.93 mg/L) were close to the upper boundary, 
+indicating potential future risks. High chloride levels can corrode metal components in pumps, pipelines, and 
+plumbing systems, leading to reduced equipment lifespan, leaks, and increased maintenance costs. Corrosion 
+may also cause toxic metals like lead or iron to leach into the water supply, posing health risks. Although 
+chloride itself is not harmful at these levels, the associated effects on infrastructure and secondary contamination 
+are concerning. Areas like Mohammadpur and Kochukhet showed moderately high values and require regular 
+monitoring. In contrast, locations such as Rampura, Kuril, and Motijheel exhibited low chloride levels and pose 
+minimal risk. Preventive measures like using corrosion-resistant materials, regular testing, and public awareness 
+are recommended to ensure long-term water safety and infrastructure integrity. 
+ 
+3.4 Nitrate (NO₃⁻) concentrations 
+Nitrate (NO₃⁻) concentrations in the sampled locations spanned 0 mg/L to 20 mg/L, with eleven sites including 
+Jasim Uddin, Abdullahpur, Kuril, Gabtoli, Mohammadpur, Mirpur, Kamalapur, Motijheel, Dhanmondi, Rampura 
+and Kochukhet showing no detectable nitrate, while Tongi registered about 15 mg/L and Amin Bazar about 20 
+mg/L as depicted in Table 2. These values are comfortably below the World Health Organization (WHO) 
+guideline of 10 mg/L and the Bangladesh drinking-water standard of 50 mg/L as shown in Table 3, yet the two 
+elevated sites warrant attention because nitrate can convert to nitrite in the body and impair oxygen transport, 
+triggering methemoglobinemia in infants and posing long-term risks such as thyroid dysfunction. Rising nitrate 
+often signals agricultural runoff, leaking sewage or aging plumbing that allows contaminated surface water to 
+infiltrate supply lines; if unchecked, it can overload treatment units, foul pumps and hasten biofilm growth in 
+distribution pipes. Consequently, Tongi and Amin Bazar should undergo more frequent monitoring, source-
+tracking and possibly improvements to wastewater control and pipe integrity, while the other locations remain 
+low-risk provided routine surveillance and good agricultural and plumbing practices are maintained. 
+ 
+ 
+4. Conclusion 
+ 
+The groundwater quality assessment conducted across various locations of Dhaka city indicates that while the 
+measured parameters including sulfate, hardness, chloride, and nitrate are within both the Bangladesh National 
+Standards and WHO guideline values, spatial variations suggest localized sources of contamination and differing 
+hydrogeological conditions. Amin Bazar consistently exhibited the highest concentrations for multiple 
+parameters, particularly sulfate (90 mg/L), hardness (300 mg/L), chloride (233.93 mg/L), and nitrate (20 mg/L), 
+pointing toward the influence of landfill leachate, poor sanitation infrastructure, and possible surface water 
+intrusion. In contrast, residential areas such as Dhanmondi, Mohammadpur, and Jasim Uddin recorded lower 
+contaminant levels, indicating relatively protected aquifers and effective groundwater abstraction practices. 
+While none of the locations exceeded the permissible limits, elevated hardness in several areas (e.g., Gabtoli and 
+
+
+--- PDF page 6 ---
+M. E. H. Emon, K. Fatema, A.S Akib, M.H Nayeem, J. Akter & M.S.S. Chowdhury 
+ICCEI 2025 
+ 
+1634 
+Amin Bazar) suggests potential issues with scale buildup in pipelines, reduced soap efficiency, and long-term 
+infrastructure wear. Similarly, higher chloride values in Gabtoli and Amin Bazar may lead to corrosion of 
+plumbing systems, indirectly posing risks through metal leaching. Though nitrate concentrations remained within 
+safe limits, the slightly higher values in Amin Bazar and Tongi warrant attention, as they may indicate sewage 
+leakage or agricultural runoff. These findings emphasize the need for area-specific groundwater management, 
+regular quality monitoring, and improved urban waste disposal systems to safeguard the city's drinking water 
+supply. Continuous surveillance and appropriate mitigation strategies are essential to maintain water quality, 
+minimize public health risks, and ensure the longevity of DWASA’s distribution infrastructure. 
+ 
+ 
+References 
+ 
+Allaire, M., Wu, H., & Lall, U. (2018). National trends in drinking water quality violations. Proceedings of the 
+National Academy of Sciences of the United States of America, 115(9), 2078–2083. 
+ 
+Bangladesh Bureau of Statistics. (2022). Population and housing census 2022: Preliminary report. Statistics and 
+Informatics Division (SID), Ministry of Planning, Government of the People’s Republic of Bangladesh. 
+ 
+BBS/UNICEF. (2019). Multiple Indicator Cluster Survey 2019, Survey Findings Report. Bangladesh Bureau of 
+Statistics and UNICEF Bangladesh. 
+ 
+Cidu, R., Frau, F., & Tore, P. (2010). Drinking water quality: Comparing inorganic components in bottled water 
+and Italian tap water. Journal of Food Composition and Analysis, 24(2), 184–193.  
+ 
+Crase, L. (2007). Water policy in Australia: The impact of change and uncertainty. RFF Press. 
+ 
+Crase, L., O’Keefe, S., & Dollery, B. (2005). Public sector reform and water: What can we learn from the 
+Australian experience? International Journal of Public Sector Management, 18(3), 220–233. 
+ 
+Cicia, E., D’Ercole, M., & Marino, D. (2010). Consumer preferences for tap water attributes: Empirical evidence 
+from a conjoint analysis. Water Policy, 12(3), 413–423. 
+ 
+DPHE. (2015). Bangladesh National Drinking Water Quality Standards. Department of Public Health 
+Engineering, Government of Bangladesh. 
+ 
+JICA. (2009). Groundwater Management and Development Study in Urban Areas in Bangladesh. Japan 
+International Cooperation Agency. 
+ 
+Kachel, D. G., Gentry, J. S., & White, D. J. (2007). Impacts of degraded water mains on water quality. Journal - 
+American Water Works Association, 99(5), 100–110.  
+ 
+McDonald, A. T., & Rundle, D. (2006). Perception of tap water quality in a hard water area. Water and 
+Environment Journal, 20(2), 143–150. 
+ 
+Trueman, B. F., Gagnon, G. A., & Rahman, M. F. (2019). Lead release from corroded pipe scales triggered by 
+disturbance in water flow. Environmental Science & Technology, 53(4), 1804–1811. 
+ 
+Um, M. J., Kwak, S. J., & Kim, T. Y. (2002). Estimating willingness to pay for improved drinking water quality 
+using a contingent valuation method. Water Resources Research, 38(11), 23-1–23-8.  
+ 
+United Nations (UN). (2015). Transforming our world: The 2030 agenda for sustainable development. United 
+Nations.  
+ 
+WHO. (2017). Guidelines for Drinking-water Quality (4th ed.). World Health Organization. 
+ 
+Zivin, J. G., Neidell, M., & Schlenker, W. (2011). Water quality violations and avoidance behavior: Evidence 
+from bottled water consumption. American Economic Review, 101(3), 448–453. 

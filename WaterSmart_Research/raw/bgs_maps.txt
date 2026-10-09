@@ -1,0 +1,267 @@
+Bangladesh maps - BGS Groundwater
+Skip to Content
+BGS website
+News and events
+FAQs
+Glossary
+Skip to Content
+Search Button
+Data
+Groundwater level data
+Publications: major series
+Publications search
+Services
+Quality
+Baseline chemistry of groundwater in UK aquifers
+Diffuse pollution
+Environmental tracers and groundwater dating
+Groundwater and health
+Groundwater ecology and biodiversity
+Point-source pollution
+Energy
+Shale gas
+Resources
+Groundwater resources in the UK
+Extremes
+Drought
+Flooding
+The Floods and Droughts Research Infrastructure (FDRI) project
+International
+Search
+Search
+Clear Search Button
+...
+Home
+Quality
+Groundwater and health
+Arsenic contamination of groundwater
+Bangladesh maps
+Bangladesh maps
+Share this article
+Facebook
+Twitter
+Pinterest
+WhatsApp
+Email
+Copy Link
+A series of downloadable maps is available. These maps are included in the
+Phase 2 report
+, but are presented here as PDFs to allow download of high-quality images of individual maps.
+If you wish to use this material please note the requirement to
+acknowledge it
+.
+Available maps
+DPHE/BGS National Hydrochemical Survey
+The aims of the survey were to make maps showing the regional distribution of arsenic and other elements in Bangladesh groundwaters and provide estimates of the percentage of wells exceeding various limits for arsenic (As) and other elements.
+The survey was carried out in two phases: the first phase (1998) covered what were then believed to be the worst-affected southern and eastern districts of Bangladesh, while the second phase (1999) completed the remainder of Bangladesh (apart from the three districts of the Chittagong Hill Tracts).
+Most of the samples were analysed for As by hydride generation-atomic fluorescence spectrometry (HG-AFS) in the UK, but some of the early samples collected in the Phase I survey were analysed by hydride generation-ICP-AES. Additional elements in the survey samples were measured by ICP-AES and in a few cases by ICP-MS.
+All analyses were carried out in the
+BGS laboratories
+.
+Point-source and smoothed maps
+The data is presented as point-source maps, a threshold map and, in a few cases, as smoothed maps. You can also download the
+point-source data
+used to prepare these maps.
+Where appropriate, the class intervals have been chosen to be at the rounded quartiles, so approximately the same number of samples in each of the four classes. The percentage of all samples in each class is often shown by a small histogram inset. The size of the bars going from left to right corresponds with the percentage of values in the lowest class interval, the next lowest class interval, and so on. In the case of the maps with ‘(health)’ in their title, the chosen class limits include recognised health limits. Health thresholds refer to World Health Organization guideline values at the time of mapping (2001).
+The smoothed maps were derived by disjunctive kriging and are based on a 5 km grid. In the As threshold maps, tubewells with less than or equal to the indicated As  concentration are displayed in blue and those with a greater concentration are displayed in red.
+The maps are in Adobe Acrobat PDF. Each file is less than 500 KB unless otherwise stated.
+Background information
+Year sampled
+Sample locations
+Simplified geology of Bangladesh
+Surface geological unit
+Depth of wells
+Year of well construction
+The
+large point-source arsenic map with overlays
+(2.67 MB PDF) displays point-source As data and includes detailed administrative boundaries (to upazila level), basic geology, rivers, etc. It is best printed at A2 size or larger.
+Single determinand maps
+Arsenic
+Arsenic (6 thresholds)
+(1.4 MB)
+Arsenic (health)
+Arsenic (smoothed)
+Barium
+Boron
+Calcium
+District mean As concentrations
+Hardness
+Hardness (smoothed)
+Iron
+Iron (smoothed)
+Log arsenic-iron
+Magnesium
+Manganese
+Manganese (health)
+Manganese (smoothed)
+Phosphorus
+Potassium
+Silicon
+Sodium
+Strontium
+Sulfate
+Element combinations and ratios
+Arsenic vs manganese
+Manganese/iron ratio
+Magnesium/calcium ratio
+Potassium/sodium ratio
+BWDB monitoring water quality network
+The Groundwater Circle II of the
+Bangladesh Water Development Board
+(BWDB) has a national network of some 120 water-quality monitoring boreholes that have been sampled twice per year, normally once each in the dry and wet seasons, for more than a decade.
+A total of 113 of these sites were sampled specifically for this survey mostly in July 1998. A few sites were sampled from the west of the country in summer 1999.
+The aims of the survey were to provide reliable arsenic data for the Groundwater Circle of the BWDB since they had no arsenic results for their monitoring sites. The opportunity was also used to measure a number of additional inorganic parameters, including a number of anions.
+All analyses were carried out in the
+BGS laboratories
+.
+Point-source maps
+Where possible, the class limits used in the maps are the same as those used for the
+DPHE/BGS National Hydrochemical Survey
+except where there is no corresponding map and for those maps which include ‘(health)’ in their title. The class limits for these latter maps are more closely aligned to health criteria, for example the World Health Organization guideline values (as at 2001). Where no corresponding map exists, the class limits are based on rounded quartile values from the dataset.
+Maps showing
+sample locations
+and
+well depth
+are also available.
+The maps are in Adobe Acrobat PDF. Each file is less than 1 MB unless otherwise stated.
+Alkalinity
+Arsenic
+Arsenic (health)
+Barium
+Barium (health)
+Boron
+Boron (health)
+Calcium
+Chloride
+Copper
+Fluoride
+Fluoride (health)
+Iodide
+Iodide (health)
+Iron
+Lanthanum
+Lithium
+Magnesium
+Manganese
+Manganese (health)
+Nickel
+Phosphorus
+Potassium
+Sodium
+Strontium
+Sulfate
+Uranium
+Special study areas
+Three special study areas were chosen in Bangladesh for detailed hydrogeological, hydrochemical and sedimentological studies. The areas chosen were the headquarter upazilas (local administrative divisions) of the districts of Lakshmipur, Faridpur and Nawabganj.
+Samples were also collected from Shibganj upazila, the neighbouring upazila to Chapai Nawabganj headquarter upazila (Nawabganj District) and Chatkil upazila (neighbouring upazila to Lakshmipur headquarter upazila).
+The three study areas were selected on the basis of recognised arsenic (As) problems, their wide geographical distribution across the alluvial and deltaic plains of Bangladesh and their range of differing geological and hydrogeological characteristics.
+Analysis of major and minor ions in the samples was by ICP-AES and ICP-MS; As was measured by ICP-AES with hydride generation or AFS with hydride generation. Anions were analysed by automated colorimetry or ion chromatography.
+All analyses were carried out in
+BGS laboratories
+.
+Point-source maps
+The hydrogeochemical data for the special study areas is presented as point-source maps. An inset is included for Chapai Nawabganj to highlight the spatial chemical variation and greater density of sampling within the municipal area.
+The maps also give the surface geology of each study area (taken from the Bangladesh geological map, Alam et al., 1990), the legend of which is given in the
+geology base map
+. In each map, shallow wells (less than 150 m deep) are given as filled circles and deep wells (over 150 m deep) as triangles. Maps showing
+sample numbers
+and
+depth of wells
+are also available.
+The maps are in Adobe Acrobat PDF. Each file is less than 500 KB unless otherwise stated.
+Alkalinity
+Ammonium
+Arsenic (III)
+Arsenic (total)
+Barium
+Boron
+Bromide
+Calcium
+Carbon
+Chloride
+Dissolved organic carbon
+(DOC)
+Dissolved oxygen
+Eh (redox)
+Fluoride
+Hydrogen
+Iodide
+Iron
+Lead
+Lithium
+Magnesium
+Manganese
+Molybdenum
+Nickel
+Nitrate
+Oxygen
+pH
+Phosphorus
+Potassium
+Rubidium
+Silicon
+Sodium
+Specific electrical conductance
+Strontium
+Sulfate
+Uranium
+Zinc
+Mandari village, Lakshmipur
+A rapid hydrochemical survey of the mouza (village) of Mandari in Lakshmipur District was carried out during November 1999. The purpose of the survey was:
+to see the extent to which groundwater chemistry, including (As), varied at the village scale
+to establish the feasibility of carrying out rapid village-level surveys for As using the Arsenator
+We also wanted to produce reasonably accurate village-scale maps of the results. Details of the sampling and analytical approaches are given in
+chapter 8 of the final report
+.
+In the following maps, triangles are used for deep wells (deeper than 150 m). The colours for these triangles follow those for the circles given in the legend. Maps showing
+sample numbers
+and
+well depth
+are also available.
+The maps are in Adobe Acrobat PDF format. Each file is less than 200 KB unless otherwise stated.
+Aluminium
+Arsenic
+Arsenic closeup
+Barium
+Boron
+Calcium
+Iron
+Magnesium
+Manganese
+Phosphorus
+Potassium
+Silicon
+Sodium
+Strontium
+Sulfate
+For comparison, you can view the
+WHO Guidelines for drinking water quality
+, which includes guideline values for various substances including inorganic constituents.
+Need more information?
+Contact Pauline Smedley
+Cookies policy
+This website uses cookies to improve your experience. We’ll assume you’re okay with this, but you can opt out if you wish.
+More information
+.
+Useful links
+About BGS
+News and events
+Contact us
+Press office
+Accessibility
+Sustainability
+Job vacancies
+Policies and legal
+Privacy policy
+Cookies policy
+Terms of use
+Freedom of information (FOI)
+Intellectual property rights
+Join the BGS Newsletter
+Keep up to date with all the latest research, products and events news.
+Register
+© UKRI 2026
+Twitter
+Facebook
+Youtube
+LinkedIn
