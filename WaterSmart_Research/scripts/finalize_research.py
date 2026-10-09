@@ -58,6 +58,14 @@ QA passed: **{finance['validation_assertions']} finance**, **{qa['assertions']} 
 From workspace root run analysis scripts in this order: `analyse_water.py`, `harvest_retail.py`, `build_study_data.py`, `build_registers.py`, `finance_overlays.cjs`, `build_dictionary.py`, `build_viewer.py`. Integration scripts are marker-guarded; `polish_research.py` reconciles integrated prose; `annotate_prior_reviews.py` preserves history. Review new user edits before any integration rerun. Then run `qa_research.py` and `qa_dom.cjs`; DOM uses the existing temporary jsdom location or `WATERSMART_JSDOM`. Future input changes require updating explicit old-count expectations, not changing data to satisfy stale tests. Run `finalize_research.py` last to refresh state/artifact hashes.
 '''
 old.write_text(checkpoint,encoding='utf-8')
+email_draft=ROOT/'Marico_Clarification_Email_Draft.md'
+if email_draft.exists():
+    with old.open('a',encoding='utf-8') as f:
+        f.write('\n## Marico clarification draft\n\nThe user plans to email Marico. `Marico_Clarification_Email_Draft.md` is prepared for the user to send; no message has been sent by the assistant. User-directed revision: each of eight topics first asks whether the detail is required for Round2, then asks “If yes” for the minimum scope/guidance. This generic requirements email identifies team/category only; the idea name, mechanism, target segment, cap/strip innovation and prices are omitted. Earlier detailed draft preserved in baseline. No Marico response or private evidence has arrived. Preserve any later reply with date/role/source and distinguish requirements/guidance/benchmarks from quotes or validated results.\n')
+contact_lookup=ROOT/'Marico_Contact_Lookup.md'
+if contact_lookup.exists():
+    with old.open('a',encoding='utf-8') as f:
+        f.write('\n## Recipient lookup / user-directed Gmail sign-in\n\nUser asked for the correct OTW email recipient and authorized login to their specified Gmail account. Read `Marico_Contact_Lookup.md` and the public-source capture. No dedicated OTW email verified from inspected public pages. Gmail connector disconnected; in-app browser connection failed. A secure TinyFish Google sign-in handoff was provided. Latest default profile has no recorded Google sign-in. Await user authentication/Save profile, then verify the active account and inspect recent official OTW mail From/Reply-To/help instructions only. No private mail read and no message sent. Do not store passwords, OTPs or handoff tokens.\n')
 state={
  'project':'WaterSmart v3 / OTW S5 / The Last BrainCell','research_cutoff_local_date':'2026-10-09','timezone':'Asia/Dhaka','last_updated_utc':utc,'stage':6,
  'status':'secondary_research_complete_empirical_verification_pending','objective_limit':'Public evidence cannot certify an unmade formula, private cost/capacity or future sales; unknowns explicitly retained.',
@@ -68,6 +76,8 @@ state={
  'resume_file':'CHECKPOINT.md','report':'WaterSmart_Research_Report.md','viewer':'WaterSmart_Research_Viewer.html','source_of_truth_for_current_conditional_finance':'analysis/finance_evidence_overlays.json',
  'historical_model_status':'Oldv3SDomitted; investmentconclusionwithdrawn; originalmathpreserved','fiscal_case':fiscal,'qa':{'finance':finance['validation_assertions'],'integrity_data':qa['assertions'],'DOM':dom['assertions'],'real_browser_visual_QA':False,'lab_field_validation':False},
  'constraints':['Credit original data collectors','No synthetic records as empirical data','Preserve competition confidentiality','No outside communications or publication','Preserve logger storage/merge logic','Keep all unresolved evidence pending']}
+if email_draft.exists():state['Marico_clarification']={'draft':email_draft.name,'status':'Prepared for user to send; assistant has not sent any message','format':'Each topic asks whether required; If yes asks minimum detail/references','disclosure':'Team and category only; specific idea/pack/prices omitted','response_received':False}
+if contact_lookup.exists():state['Marico_recipient_lookup']={'status':'Exact OTW email unverified; awaiting user Google sign-in/Save profile','notes':contact_lookup.name,'public_capture':'raw/otw_contact_lookup_20261009.json','private_mail_read':False,'email_sent':False}
 (ROOT/'state.json').write_text(json.dumps(state,ensure_ascii=False,indent=2),encoding='utf-8')
 files=list(ROOT.rglob('*'))+[ROOT.parent/name for name in ['OTW_S5_Master_Research.md','Naturale_WaterSmart_Idea.html','WaterSmart_Field_Data_Plan.html','WaterSmart_v3_Model_Output.json','OTW_S5_Fact_Check.md','audit_on_fact_check.md','audit_on_fact_check_review.md','WaterSmart_v3_Review.md','WaterSmart_v3_Financial_Check.json']]
 manifest=[]

@@ -1,8 +1,8 @@
 # WaterSmart research checkpoint
 
-**Status:** public secondary research, synthesis, project integration and appropriate data/DOM QA complete. **Product, cost and demand validation remains pending.**
-**Stage:** 6/6 of the public-research package. **Research cut-off:** 9 October 2026, Asia/Dhaka.
-**Completed UTC timestamp:** 2026-10-09T12:44:03.546817+00:00.
+**Status:** public secondary research, synthesis, project integration and appropriate data/DOM QA complete. **Product, cost and demand validation remains pending.**  
+**Stage:** 6/6 of the public-research package. **Research cut-off:** 9 October 2026, Asia/Dhaka.  
+**Completed UTC timestamp:** 2026-10-09T13:34:27.192072+00:00.
 
 ## Resume from the current state
 
@@ -44,3 +44,11 @@ QA passed: **847 finance**, **11808 integrity/data**, **263 DOM/interaction asse
 ## Reproduction
 
 From workspace root run analysis scripts in this order: `analyse_water.py`, `harvest_retail.py`, `build_study_data.py`, `build_registers.py`, `finance_overlays.cjs`, `build_dictionary.py`, `build_viewer.py`. Integration scripts are marker-guarded; `polish_research.py` reconciles integrated prose; `annotate_prior_reviews.py` preserves history. Review new user edits before any integration rerun. Then run `qa_research.py` and `qa_dom.cjs`; DOM uses the existing temporary jsdom location or `WATERSMART_JSDOM`. Future input changes require updating explicit old-count expectations, not changing data to satisfy stale tests. Run `finalize_research.py` last to refresh state/artifact hashes.
+
+## Marico clarification draft
+
+The user plans to email Marico. `Marico_Clarification_Email_Draft.md` is prepared for the user to send; no message has been sent by the assistant. User-directed revision: each of eight topics first asks whether the detail is required for Round2, then asks “If yes” for the minimum scope/guidance. This generic requirements email identifies team/category only; the idea name, mechanism, target segment, cap/strip innovation and prices are omitted. Earlier detailed draft preserved in baseline. No Marico response or private evidence has arrived. Preserve any later reply with date/role/source and distinguish requirements/guidance/benchmarks from quotes or validated results.
+
+## Recipient lookup / user-directed Gmail sign-in
+
+User asked for the correct OTW email recipient and authorized login to their specified Gmail account. Read `Marico_Contact_Lookup.md` and the public-source capture. No dedicated OTW email verified from inspected public pages. Gmail connector disconnected; in-app browser connection failed. A secure TinyFish Google sign-in handoff was provided. Latest default profile has no recorded Google sign-in. Await user authentication/Save profile, then verify the active account and inspect recent official OTW mail From/Reply-To/help instructions only. No private mail read and no message sent. Do not store passwords, OTPs or handoff tokens.

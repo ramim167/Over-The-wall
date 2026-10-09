@@ -2,7 +2,7 @@
   "project": "WaterSmart v3 / OTW S5 / The Last BrainCell",
   "research_cutoff_local_date": "2026-10-09",
   "timezone": "Asia/Dhaka",
-  "last_updated_utc": "2026-10-09T12:44:03.546817+00:00",
+  "last_updated_utc": "2026-10-09T13:34:27.192072+00:00",
   "stage": 6,
   "status": "secondary_research_complete_empirical_verification_pending",
   "objective_limit": "Public evidence cannot certify an unmade formula, private cost/capacity or future sales; unknowns explicitly retained.",
@@ -89,5 +89,19 @@
     "No outside communications or publication",
     "Preserve logger storage/merge logic",
     "Keep all unresolved evidence pending"
-  ]
+  ],
+  "Marico_clarification": {
+    "draft": "Marico_Clarification_Email_Draft.md",
+    "status": "Prepared for user to send; assistant has not sent any message",
+    "format": "Each topic asks whether required; If yes asks minimum detail/references",
+    "disclosure": "Team and category only; specific idea/pack/prices omitted",
+    "response_received": false
+  },
+  "Marico_recipient_lookup": {
+    "status": "Exact OTW email unverified; awaiting user Google sign-in/Save profile",
+    "notes": "Marico_Contact_Lookup.md",
+    "public_capture": "raw/otw_contact_lookup_20261009.json",
+    "private_mail_read": false,
+    "email_sent": false
+  }
 }

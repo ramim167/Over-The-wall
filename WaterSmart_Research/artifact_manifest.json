@@ -1,5 +1,5 @@
 {
-  "created_utc": "2026-10-09T12:44:03.546817+00:00",
+  "created_utc": "2026-10-09T13:34:27.192072+00:00",
   "status": "secondary_research_complete_empirical_verification_pending",
   "files": [
     {
@@ -248,6 +248,11 @@
       "sha256": "6de4568e8c0463c81413fff2b0576a869353e35d54f82911c342a58c64383409"
     },
     {
+      "path": "WaterSmart_Research/baseline/Marico_Clarification_Email_Draft_v1.md",
+      "bytes": 4598,
+      "sha256": "0824563143c3dd5b4b1ed7f368bd627bff8f40c1ad216ae8ae46460f40b189d0"
+    },
+    {
       "path": "WaterSmart_Research/baseline/Naturale_WaterSmart_Idea.html",
       "bytes": 85919,
       "sha256": "28178a14e3d838f21fb05a92650432b3b9533c97072d94237882a488fdf0979a"
@@ -289,8 +294,8 @@
     },
     {
       "path": "WaterSmart_Research/CHECKPOINT.md",
-      "bytes": 7324,
-      "sha256": "b0ec4345cce168010b690cac11ed4f915c44787b32204757c75a3ff2a3dac8ff"
+      "bytes": 8731,
+      "sha256": "9429c1745a93fbad87138b2a2b13a1ad10ab7e72b1ea96bd33b3277eeb11817c"
     },
     {
       "path": "WaterSmart_Research/CHECKPOINT_history_stage5.md",
@@ -311,6 +316,16 @@
       "path": "WaterSmart_Research/EXPERT_AND_HUMAN_VERIFICATION.md",
       "bytes": 14805,
       "sha256": "e137964859aee9318068dcaca35f075ee6cb9f2df5346942c5a478a45fd22fb8"
+    },
+    {
+      "path": "WaterSmart_Research/Marico_Clarification_Email_Draft.md",
+      "bytes": 4477,
+      "sha256": "fe9108cf42f26011de1982cc47fe294ca62a3e6e92341c7d8cdef95442558ba2"
+    },
+    {
+      "path": "WaterSmart_Research/Marico_Contact_Lookup.md",
+      "bytes": 1357,
+      "sha256": "d2c6fade19cbaa65219036c0c11d8b09ea6d73977197f4a79c8a9369a5236ca0"
     },
     {
       "path": "WaterSmart_Research/METHODS_AND_EXCLUSIONS.md",
@@ -658,6 +673,11 @@
       "sha256": "4153e180d32c4dcc7de5a44b5c290d6efb6ea24e276620eb978328dffdca49c5"
     },
     {
+      "path": "WaterSmart_Research/raw/otw_contact_lookup_20261009.json",
+      "bytes": 135021,
+      "sha256": "2e58fc6e32b64a241c60287247d7c169ae712f1908fae785826c268c2327a5cf"
+    },
+    {
       "path": "WaterSmart_Research/raw/retail_arogga_marico.html",
       "bytes": 565381,
       "sha256": "5d2e83ce65506eb11d0c3c1b64f3e19db1a4be3f4faa2c2b95b3d5d79b01d77b"
@@ -989,8 +1009,8 @@
     },
     {
       "path": "WaterSmart_Research/scripts/finalize_research.py",
-      "bytes": 12395,
-      "sha256": "8bcfdc3a0d01199362c50a107df38f5226f966de635d6cf885825e7403fcfe9a"
+      "bytes": 14697,
+      "sha256": "9ae6dd5717a971e69e1b567da7e66453ec9980a6a5c37d97918e5138c7161455"
     },
     {
       "path": "WaterSmart_Research/scripts/finance_overlays.cjs",
@@ -1089,8 +1109,8 @@
     },
     {
       "path": "WaterSmart_Research/state.json",
-      "bytes": 3816,
-      "sha256": "0573e9f3ca92805ac5fdbad025f1b62f082a199f6cdcc7cc65856d6addf7ab95"
+      "bytes": 4475,
+      "sha256": "b77517122193459a86ad6a418dad4854133115a51ffb95091a703d693fd34201"
     },
     {
       "path": "WaterSmart_Research/WaterSmart_Research_Report.md",
