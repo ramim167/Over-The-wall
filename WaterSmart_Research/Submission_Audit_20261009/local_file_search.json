@@ -1,0 +1,110 @@
+{
+  "searched_at_utc": "2026-10-09T17:52:08.294540+00:00",
+  "scope": "Local file discovery in the listed common locations; workspace reviewed separately. Not a whole-disk or connected-cloud search.",
+  "roots": [
+    "C:\\Users\\User\\Downloads",
+    "C:\\Users\\User\\Documents",
+    "C:\\Users\\User\\Desktop",
+    "C:\\Users\\User\\OneDrive\\Documents",
+    "C:\\Users\\User\\OneDrive\\Desktop",
+    "C:\\Users\\User\\.codex\\attachments"
+  ],
+  "indexed_relevant_extension_files_outside_workspace": 3783,
+  "small_text_or_recent_document_content_checks": 548,
+  "spreadsheet_export_file_count_outside_workspace": 23,
+  "mail_export_file_count_outside_workspace": 0,
+  "recent_spreadsheet_export_filenames": [
+    "C:\\Users\\User\\OneDrive\\Desktop\\2-1\\CSE 207\\TF\\question_bank_build\\entries.tsv",
+    "C:\\Users\\User\\OneDrive\\Desktop\\2-1\\DBMS project\\Railway_us_2\\FERROVIA\\server\\Bangladesh_Railway_Active_Trains_Route_Expanded_2026-08-12_FINAL.xlsx",
+    "C:\\Users\\User\\OneDrive\\Desktop\\Nasa Zonal\\pitch-video\\final-production\\voice_recording.tsv"
+  ],
+  "project_or_possible_evidence_candidates": [
+    {
+      "path": "C:\\Users\\User\\.codex\\attachments\\9f73e264-d296-4d1c-8815-bf1a97375bde\\Pasted text.txt",
+      "bytes": 39319,
+      "modified_local": "2026-10-09T11:02:52",
+      "reasons": [
+        "project terms in content"
+      ],
+      "sha256": "890daaf83dd2c590b7d77405b44217149b0f13f147c622a15ac1a2340da6ce87"
+    },
+    {
+      "path": "C:\\Users\\User\\Downloads\\Final Case - Over The Wall Season 5 (1).pdf",
+      "bytes": 2262474,
+      "modified_local": "2026-10-09T02:31:37",
+      "reasons": [
+        "project filename/path",
+        "project terms in content"
+      ],
+      "sha256": "9e7f69532f2dfd38c666502c9cef6c60cecd231d1145ba803021a56d3f7c0521"
+    },
+    {
+      "path": "C:\\Users\\User\\Downloads\\Final Case - Over The Wall Season 5.pdf",
+      "bytes": 2262474,
+      "modified_local": "2026-10-02T09:08:41",
+      "reasons": [
+        "project filename/path",
+        "project terms in content"
+      ],
+      "sha256": "9e7f69532f2dfd38c666502c9cef6c60cecd231d1145ba803021a56d3f7c0521"
+    },
+    {
+      "path": "C:\\Users\\User\\Downloads\\MASTER_PROMPT_Claude_RootShield_Rebuild.md",
+      "bytes": 11771,
+      "modified_local": "2026-10-02T09:13:48",
+      "reasons": [
+        "project terms in content"
+      ],
+      "sha256": "75ad4fc83f6bea12a136fa93c2fb90d42759f9af2c91d9b8a8e72e24511eddeb"
+    },
+    {
+      "path": "C:\\Users\\User\\Downloads\\Naturale_WaterSmart_Idea.html",
+      "bytes": 59794,
+      "modified_local": "2026-10-09T10:38:54",
+      "reasons": [
+        "project filename/path"
+      ],
+      "sha256": "d55336e1958ee8956250decd5bd7a1ecc3540c02ef7c2f3913ce602a0764682b"
+    },
+    {
+      "path": "C:\\Users\\User\\Downloads\\OTW_S5_Master_Research.md",
+      "bytes": 74831,
+      "modified_local": "2026-10-09T10:38:55",
+      "reasons": [
+        "project filename/path",
+        "project terms in content"
+      ],
+      "sha256": "e56a59b4ab4d2e5f3c250a6644b4e9f21e6ea925cc8532f39b1f3e09bf8387de"
+    },
+    {
+      "path": "C:\\Users\\User\\Downloads\\WaterSmart_Field_Data_Plan.html",
+      "bytes": 45019,
+      "modified_local": "2026-10-09T10:38:55",
+      "reasons": [
+        "project filename/path"
+      ],
+      "sha256": "0b87a93738f37a43dab6ee4b1915853042a86eac223247042590f30f15d510cf"
+    },
+    {
+      "path": "C:\\Users\\User\\OneDrive\\Desktop\\CHem MH sir\\CHEM113_QB_Topic_Map_Solution_to_Electrochemistry_2020_onwards.pdf",
+      "bytes": 63777,
+      "modified_local": "2026-05-07T20:27:04",
+      "reasons": [
+        "possible evidence filename"
+      ],
+      "sha256": "18decb6e4bc443041012804597ab27b249f67613b0829c0bed0febcff6506b64"
+    },
+    {
+      "path": "C:\\Users\\User\\OneDrive\\Desktop\\CHem MH sir - Copy\\CHEM113_QB_Topic_Map_Solution_to_Electrochemistry_2020_onwards.pdf",
+      "bytes": 63777,
+      "modified_local": "2026-05-07T20:27:04",
+      "reasons": [
+        "possible evidence filename"
+      ],
+      "sha256": "18decb6e4bc443041012804597ab27b249f67613b0829c0bed0febcff6506b64"
+    }
+  ],
+  "errors": [],
+  "cloud_access": "Google Drive and Gmail both returned USER_NOT_LOGGED_IN; no cloud or private mail contents read.",
+  "interpretation": "No located file may be counted as collected primary evidence until content and provenance are checked."
+}

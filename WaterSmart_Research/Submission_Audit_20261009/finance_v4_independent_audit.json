@@ -1,0 +1,90 @@
+{
+  "status": "Arithmetic reconciliation only; inputs remain conditional proposal assumptions.",
+  "stored_output_numeric_comparisons": 454,
+  "stored_output_mismatches": [],
+  "intercepted_model_writes": 2,
+  "withRecovery": {
+    "release": true,
+    "npv_cr": 3.094902556304743,
+    "irr_annual": 0.2505532098925203,
+    "peak_funding_cr": 9.794013929227477,
+    "peak_month": 25,
+    "peak_label": "Y2 M1",
+    "payback_years_from_M0": 4.840957842066822,
+    "month_count": 73,
+    "errors": []
+  },
+  "withoutRecovery": {
+    "release": false,
+    "npv_cr": 0.49828891767146255,
+    "irr_annual": 0.16963844367199749,
+    "peak_funding_cr": 9.794013929227477,
+    "peak_month": 25,
+    "peak_label": "Y2 M1",
+    "payback_years_from_M0": 4.840957842066822,
+    "month_count": 73,
+    "errors": []
+  },
+  "sequential_input_bridge_order_dependent": [
+    {
+      "step": 0,
+      "change": "Fiscal-corrected v3",
+      "npv_with_recovery_cr": -3.816315012233909,
+      "npv_without_recovery_cr": -6.324227540416931
+    },
+    {
+      "step": 1,
+      "change": "Then 340ml MRP 330 to 360",
+      "npv_with_recovery_cr": -2.11005056198152,
+      "npv_without_recovery_cr": -4.70666420061482
+    },
+    {
+      "step": 2,
+      "change": "Then Y2-Y5 A&P reductions",
+      "npv_with_recovery_cr": 0.35685749098498787,
+      "npv_without_recovery_cr": -2.239756147648311
+    },
+    {
+      "step": 3,
+      "change": "Then S&D 10% to 8%",
+      "npv_with_recovery_cr": 1.8895889998373108,
+      "npv_without_recovery_cr": -0.7070246387959882
+    },
+    {
+      "step": 4,
+      "change": "Then Y1 A&P 6 Cr to 4.5 Cr",
+      "npv_with_recovery_cr": 3.0949025563047963,
+      "npv_without_recovery_cr": 0.49828891767149736
+    }
+  ],
+  "derived": {
+    "y3_washes_at_assumed_7ml": 122865599.99999997,
+    "y3_user_equivalents_at_assumed_104_washes_per_year": 1181399.9999999998,
+    "y3_ap_plus_sd_pct_of_net_revenue": 22.41753204991245,
+    "strip_cost_break_even_without_recovery_tk": 6.31297807929343,
+    "uniform_cogs_increase_break_even_without_recovery_pct": 1.2252011973449162,
+    "first_three_years_340ml_units": 1542630
+  },
+  "worst_case_with_recovery_cr": -4.378533329599998,
+  "worst_case_without_recovery_cr": -6.351959694961306,
+  "source_files_unchanged": [
+    {
+      "path": "Round2_Submission\\finance\\finance_v4.cjs",
+      "before_sha256": "b38cf21bcd8ab6970a4b0a7a6a29ceca37a75501a2464f62b5c32a9d527906e0",
+      "after_sha256": "b38cf21bcd8ab6970a4b0a7a6a29ceca37a75501a2464f62b5c32a9d527906e0",
+      "unchanged": true
+    },
+    {
+      "path": "Round2_Submission\\finance\\finance_v4_output.json",
+      "before_sha256": "3d9388e1a6b0cc7705f5aa98a9b37ecd37b5104eb636c1865d2a12ed7cc4cb2c",
+      "after_sha256": "3d9388e1a6b0cc7705f5aa98a9b37ecd37b5104eb636c1865d2a12ed7cc4cb2c",
+      "unchanged": true
+    },
+    {
+      "path": "WaterSmart_Research\\baseline\\Naturale_WaterSmart_Idea.html",
+      "before_sha256": "28178a14e3d838f21fb05a92650432b3b9533c97072d94237882a488fdf0979a",
+      "after_sha256": "28178a14e3d838f21fb05a92650432b3b9533c97072d94237882a488fdf0979a",
+      "unchanged": true
+    }
+  ]
+}
