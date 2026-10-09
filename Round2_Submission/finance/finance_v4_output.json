@@ -1,0 +1,625 @@
+{
+  "generated": "2026-10-09T15:55:00.700Z",
+  "basis": "Team v3 monthly model (unchanged code) + fiscal correction SD15/tax20/WPPF5 + v4 proposal decisions",
+  "v4_changes": [
+    {
+      "driver": "MRP 340ml + PaniCheck",
+      "v3": 330,
+      "v4": 360,
+      "evidence": "Chaldal 9 Oct 2026: Naturale Hijab Fresh 340ml Tk 390; Sunsilk 340ml Tk 350; Naturale core 320ml Tk 265. Five early conversations: stated max Tk 330-450 (median 380), directional only"
+    },
+    {
+      "driver": "A&P % NR, Y2-Y5",
+      "v3": "18/15/14/14%",
+      "v4": "15/12/10/10%",
+      "evidence": "Marico BD FY26 marketing+selling+distribution = 5.2% of revenue (annual report p218/237); v4 still ~2x company ratio. Y1 launch A&P Tk 6 Cr unchanged"
+    },
+    {
+      "driver": "Y1 launch A&P",
+      "v3": "Tk 6 Cr",
+      "v4": "Tk 4.5 Cr",
+      "evidence": "Digital-first launch to adult movers (students/young workers) with campus activation; mirrors Marico case example Parachute Advansed Secrets (influencer-led, socially curated)"
+    },
+    {
+      "driver": "Selling & distribution",
+      "v3": "10% NR + Tk 1 Cr/yr",
+      "v4": "8% NR + Tk 1 Cr/yr",
+      "evidence": "Incremental SKU on existing Naturale distributor routes; company MSD 5.2% of revenue"
+    }
+  ],
+  "unchanged": "Volumes/outlets/drop sizes, 180ml Tk 180, sachet Tk 3, COGS, trade margins 22/25%, VAT 15%, SD 15%, tax 20%, WPPF 5%, cannibalisation 20% x 45%, EPR 1% NR, NWC 12% NR, CAPEX Tk 3 Cr, pilot Tk 0.5 Cr, 12 prelaunch months, hurdle 15%",
+  "base": {
+    "unit_nr": {
+      "sachet": 1.7013232514177696,
+      "b180": 106.16257088846882,
+      "b340": 212.32514177693764
+    },
+    "unit_cogs": {
+      "sachet": 1.2,
+      "b180": 55,
+      "b340": 95
+    },
+    "npv_with_release_cr": 3.0949025563047963,
+    "npv_without_release_cr": 0.49828891767149736,
+    "irr_with_release": 0.2505532098925197,
+    "irr_without_release": 0.16963844367199876,
+    "peak_funding_cr": 9.794013929227477,
+    "peak_month": 25,
+    "payback_years_from_M0": 4.840957842066822,
+    "payback_years_without_release": 4.840957842066822,
+    "years": [
+      {
+        "year": 1,
+        "units_sachet": 8996400,
+        "units_180": 270270,
+        "units_340": 174510,
+        "gross_sales_cr": 13.84614,
+        "net_revenue_cr": 8.105120302457468,
+        "cogs_cr": 4.223898,
+        "gross_profit_cr": 3.8812223024574672,
+        "gm": 0.47886054217858837,
+        "ap_cr": 4.5,
+        "sd_cr": 1.6484096241965975,
+        "epr_cr": 0.08105120302457466,
+        "ebitda_standalone_cr": -2.3482385247637048,
+        "cannibalisation_cr": 0.7294608272211722,
+        "ebitda_incremental_cr": -3.0776993519848763,
+        "ebitda_margin": -0.3797228464396413,
+        "tax_cr": 0,
+        "dnwc_cr": 1.8525989262759928,
+        "fcf_cr": -4.930298278260869,
+        "litres_m": 0.1619604
+      },
+      {
+        "year": 2,
+        "units_sachet": 36439200,
+        "units_180": 961380,
+        "units_340": 569520,
+        "gross_sales_cr": 48.73932000000001,
+        "net_revenue_cr": 28.498084536862013,
+        "cogs_cr": 15.070733999999996,
+        "gross_profit_cr": 13.427350536862011,
+        "gm": 0.4711667733139698,
+        "ap_cr": 4.2747126805293,
+        "sd_cr": 3.27984676294896,
+        "epr_cr": 0.2849808453686201,
+        "ebitda_standalone_cr": 5.587810248015129,
+        "cannibalisation_cr": 2.564827608317582,
+        "ebitda_incremental_cr": 3.022982639697545,
+        "ebitda_margin": 0.10607669563852071,
+        "tax_cr": 0.46036670154253373,
+        "dnwc_cr": 1.5671712181474482,
+        "fcf_cr": 0.8742955880226859,
+        "litres_m": 0.5853204000000001
+      },
+      {
+        "year": 3,
+        "units_sachet": 56073600,
+        "units_180": 1400520,
+        "units_340": 798600,
+        "gross_sales_cr": 70.78103999999999,
+        "net_revenue_cr": 41.36449814744803,
+        "cogs_cr": 22.018392,
+        "gross_profit_cr": 19.346106147448015,
+        "gm": 0.46769831652463956,
+        "ap_cr": 4.963739777693761,
+        "sd_cr": 4.309159851795843,
+        "epr_cr": 0.4136449814744803,
+        "ebitda_standalone_cr": 9.659561536483938,
+        "cannibalisation_cr": 3.7228048332703216,
+        "ebitda_incremental_cr": 5.936756703213615,
+        "ebitda_margin": 0.14352299602551521,
+        "tax_cr": 1.0139837736105868,
+        "dnwc_cr": 1.5439696332703208,
+        "fcf_cr": 3.1119654611720264,
+        "litres_m": 0.8600591999999998
+      },
+      {
+        "year": 4,
+        "units_sachet": 61680960,
+        "units_180": 1540572,
+        "units_340": 878460.0000000001,
+        "gross_sales_cr": 77.85914399999999,
+        "net_revenue_cr": 45.500947962192825,
+        "cogs_cr": 24.2202312,
+        "gross_profit_cr": 21.280716762192814,
+        "gm": 0.4676983165246395,
+        "ap_cr": 4.550094796219282,
+        "sd_cr": 4.640075836975425,
+        "epr_cr": 0.4550094796219282,
+        "ebitda_standalone_cr": 11.635536649376183,
+        "cannibalisation_cr": 4.095085316597354,
+        "ebitda_incremental_cr": 7.540451332778831,
+        "ebitda_margin": 0.1657207524345265,
+        "tax_cr": 1.3186857532279772,
+        "dnwc_cr": 0.49637397776937603,
+        "fcf_cr": 5.378369035142533,
+        "litres_m": 0.94606512
+      },
+      {
+        "year": 5,
+        "units_sachet": 67849056.00000001,
+        "units_180": 1694629.200000001,
+        "units_340": 966306.0000000001,
+        "gross_sales_cr": 85.64505840000005,
+        "net_revenue_cr": 50.051042758412116,
+        "cogs_cr": 26.642254320000013,
+        "gross_profit_cr": 23.408788438412117,
+        "gm": 0.46769831652463995,
+        "ap_cr": 5.005104275841211,
+        "sd_cr": 5.00408342067297,
+        "epr_cr": 0.5005104275841212,
+        "ebitda_standalone_cr": 12.89909031431381,
+        "cannibalisation_cr": 4.504593848257093,
+        "ebitda_incremental_cr": 8.394496466056719,
+        "ebitda_margin": 0.16771871280635506,
+        "tax_cr": 1.480954328550777,
+        "dnwc_cr": 0.5460113755463162,
+        "fcf_cr": 5.977805938656791,
+        "litres_m": 1.0406716320000005
+      }
+    ]
+  },
+  "reference_v3_with_fiscal_correction": {
+    "unit_nr": {
+      "sachet": 1.7013232514177696,
+      "b180": 106.16257088846882,
+      "b340": 194.63137996219285
+    },
+    "unit_cogs": {
+      "sachet": 1.2,
+      "b180": 55,
+      "b340": 95
+    },
+    "npv_with_release_cr": -3.816315012233909,
+    "npv_without_release_cr": -6.324227540416931,
+    "irr_with_release": 0.023556840812261615,
+    "irr_without_release": -0.12958939680505172,
+    "peak_funding_cr": 12.198446562369252,
+    "peak_month": 37,
+    "payback_years_from_M0": 5.983737756509772,
+    "payback_years_without_release": null,
+    "years": [
+      {
+        "year": 1,
+        "units_sachet": 8996400,
+        "units_180": 270270,
+        "units_340": 174510,
+        "gross_sales_cr": 13.322610000000001,
+        "net_revenue_cr": 7.796346465028357,
+        "cogs_cr": 4.223898,
+        "gross_profit_cr": 3.5724484650283563,
+        "gm": 0.4582208449884946,
+        "ap_cr": 6,
+        "sd_cr": 1.779634646502836,
+        "epr_cr": 0.07796346465028356,
+        "ebitda_standalone_cr": -4.285149646124763,
+        "cannibalisation_cr": 0.7016711818525522,
+        "ebitda_incremental_cr": -4.986820827977314,
+        "ebitda_margin": -0.6396356101343652,
+        "tax_cr": 0,
+        "dnwc_cr": 1.7820220491493388,
+        "fcf_cr": -6.768842877126653,
+        "litres_m": 0.1619604
+      },
+      {
+        "year": 2,
+        "units_sachet": 36439200,
+        "units_180": 961380,
+        "units_340": 569520,
+        "gross_sales_cr": 47.030759999999994,
+        "net_revenue_cr": 27.490389413988662,
+        "cogs_cr": 15.070733999999996,
+        "gross_profit_cr": 12.41965541398866,
+        "gm": 0.4517817200388161,
+        "ap_cr": 4.948270094517958,
+        "sd_cr": 3.7490389413988674,
+        "epr_cr": 0.2749038941398866,
+        "ebitda_standalone_cr": 3.44744248393195,
+        "cannibalisation_cr": 2.474135047258979,
+        "ebitda_incremental_cr": 0.9733074366729701,
+        "ebitda_margin": 0.03540537101950605,
+        "tax_cr": 0.07092841296786426,
+        "dnwc_cr": 1.5168246805293002,
+        "fcf_cr": -0.6331110286578436,
+        "litres_m": 0.5853204000000001
+      },
+      {
+        "year": 3,
+        "units_sachet": 56073600,
+        "units_180": 1400520,
+        "units_340": 798600,
+        "gross_sales_cr": 68.38524000000001,
+        "net_revenue_cr": 39.9514743289225,
+        "cogs_cr": 22.018392,
+        "gross_profit_cr": 17.933082328922502,
+        "gm": 0.4488716031172851,
+        "ap_cr": 5.992721149338374,
+        "sd_cr": 4.995147432892249,
+        "epr_cr": 0.3995147432892251,
+        "ebitda_standalone_cr": 6.545699003402656,
+        "cannibalisation_cr": 3.5956326896030264,
+        "ebitda_incremental_cr": 2.9500663137996295,
+        "ebitda_margin": 0.07384123773534826,
+        "tax_cr": 0.4465125996219294,
+        "dnwc_cr": 1.495330189792061,
+        "fcf_cr": 0.8907202086956566,
+        "litres_m": 0.8600591999999998
+      },
+      {
+        "year": 4,
+        "units_sachet": 61680960,
+        "units_180": 1540572,
+        "units_340": 878460.0000000001,
+        "gross_sales_cr": 75.22376399999999,
+        "net_revenue_cr": 43.94662176181474,
+        "cogs_cr": 24.2202312,
+        "gross_profit_cr": 19.726390561814753,
+        "gm": 0.4488716031172852,
+        "ap_cr": 6.152527046654066,
+        "sd_cr": 5.394662176181473,
+        "epr_cr": 0.4394662176181475,
+        "ebitda_standalone_cr": 7.7397351213610595,
+        "cannibalisation_cr": 3.9551959585633285,
+        "ebitda_incremental_cr": 3.7845391627977314,
+        "ebitda_margin": 0.08611672549734235,
+        "tax_cr": 0.6050624409315692,
+        "dnwc_cr": 0.47941769194706935,
+        "fcf_cr": 2.5408320717792074,
+        "litres_m": 0.94606512
+      },
+      {
+        "year": 5,
+        "units_sachet": 67849056.00000001,
+        "units_180": 1694629.200000001,
+        "units_340": 966306.0000000001,
+        "gross_sales_cr": 82.74614040000002,
+        "net_revenue_cr": 48.34128393799624,
+        "cogs_cr": 26.642254320000013,
+        "gross_profit_cr": 21.69902961799624,
+        "gm": 0.44887160311728513,
+        "ap_cr": 6.767779751319473,
+        "sd_cr": 5.834128393799622,
+        "epr_cr": 0.48341283937996266,
+        "ebitda_standalone_cr": 8.613708633497174,
+        "cannibalisation_cr": 4.350715554419662,
+        "ebitda_incremental_cr": 4.262993079077513,
+        "ebitda_margin": 0.08818535073551909,
+        "tax_cr": 0.6959686850247278,
+        "dnwc_cr": 0.5273594611417799,
+        "fcf_cr": 2.856515278957131,
+        "litres_m": 1.0406716320000005
+      }
+    ]
+  },
+  "scenarios": {
+    "worst": {
+      "input": {
+        "ap": 45,
+        "vol": -0.2,
+        "price": -0.05,
+        "cogs": 0.08,
+        "delay": 3
+      },
+      "npv_with_release_cr": -4.378533329599998,
+      "npv_without_release_cr": -6.351959694961306,
+      "irr_without_release": -0.175332266090016,
+      "peak_funding_cr": 11.21036161320811,
+      "peak_month": 37,
+      "y3_nr_cr": 31.437018592060507,
+      "y3_ebitda_cr": 1.9820223264423493
+    },
+    "base": {
+      "input": {
+        "ap": 45
+      },
+      "npv_with_release_cr": 3.0949025563047963,
+      "npv_without_release_cr": 0.49828891767149736,
+      "irr_without_release": 0.16963844367199876,
+      "peak_funding_cr": 9.794013929227477,
+      "peak_month": 25,
+      "y3_nr_cr": 41.36449814744803,
+      "y3_ebitda_cr": 5.936756703213615
+    },
+    "best": {
+      "input": {
+        "ap": 45,
+        "vol": 0.15,
+        "price": 0.02,
+        "cogs": -0.03
+      },
+      "npv_with_release_cr": 7.572510927308608,
+      "npv_without_release_cr": 4.526683129191747,
+      "irr_without_release": 0.3112027775671974,
+      "peak_funding_cr": 9.629235530338466,
+      "peak_month": 25,
+      "y3_nr_cr": 48.52055632695654,
+      "y3_ebitda_cr": 8.402873152869574
+    }
+  },
+  "sensitivity_npv_without_release_cr": {
+    "volume -20%": -1.4592482876230322,
+    "volume +15%": 1.966441821642401,
+    "price -5%": -2.024593713360402,
+    "COGS +8%": -2.755308409861742,
+    "launch delay 3m": -0.021451720273753593,
+    "cannibalisation 30%": -2.950356977246213,
+    "strip Tk 6 (vs 3)": 0.0470735104950025
+  },
+  "deck": {
+    "pl": [
+      {
+        "year": 1,
+        "gross": 13.84614,
+        "nr": 8.105120302457468,
+        "cogs": 4.223898,
+        "gp": 3.8812223024574672,
+        "gm": 0.47886054217858837,
+        "ap": 4.5,
+        "sd": 1.6484096241965975,
+        "epr": 0.08105120302457466,
+        "ebitda_sa": -2.3482385247637048,
+        "cann": 0.7294608272211722,
+        "ebitda": -3.0776993519848763,
+        "ebitda_margin": -0.3797228464396413,
+        "da": 0.6,
+        "ebit": -3.677699351984876,
+        "wppf": 0,
+        "tax": 0,
+        "net_profit": -3.677699351984876,
+        "dnwc": 1.8525989262759928,
+        "fcf": -4.930298278260869,
+        "cum_cash_end": -8.430298278260873,
+        "units": {
+          "sachet": 8996400,
+          "b180": 270270,
+          "b340": 174510
+        },
+        "nr_by_sku": {
+          "sachet": 1.5305784499054824,
+          "b180": 2.869255803402647,
+          "b340": 3.705286049149339
+        }
+      },
+      {
+        "year": 2,
+        "gross": 48.73932000000001,
+        "nr": 28.498084536862013,
+        "cogs": 15.070733999999996,
+        "gp": 13.427350536862011,
+        "gm": 0.4711667733139698,
+        "ap": 4.2747126805293,
+        "sd": 3.27984676294896,
+        "epr": 0.2849808453686201,
+        "ebitda_sa": 5.587810248015129,
+        "cann": 2.564827608317582,
+        "ebitda": 3.022982639697545,
+        "ebitda_margin": 0.10607669563852071,
+        "da": 0.6,
+        "ebit": 2.422982639697545,
+        "wppf": 0.12114913198487728,
+        "tax": 0.46036670154253373,
+        "net_profit": 1.8414668061701343,
+        "dnwc": 1.5671712181474482,
+        "fcf": 0.8742955880226859,
+        "cum_cash_end": -7.556002690238183,
+        "units": {
+          "sachet": 36439200,
+          "b180": 961380,
+          "b340": 569520
+        },
+        "nr_by_sku": {
+          "sachet": 6.199485822306238,
+          "b180": 10.206257240075615,
+          "b340": 12.092341474480152
+        }
+      },
+      {
+        "year": 3,
+        "gross": 70.78103999999999,
+        "nr": 41.36449814744803,
+        "cogs": 22.018392,
+        "gp": 19.346106147448015,
+        "gm": 0.46769831652463956,
+        "ap": 4.963739777693761,
+        "sd": 4.309159851795843,
+        "epr": 0.4136449814744803,
+        "ebitda_sa": 9.659561536483938,
+        "cann": 3.7228048332703216,
+        "ebitda": 5.936756703213615,
+        "ebitda_margin": 0.14352299602551521,
+        "da": 0.6,
+        "ebit": 5.336756703213615,
+        "wppf": 0.2668378351606807,
+        "tax": 1.0139837736105868,
+        "net_profit": 4.055935094442348,
+        "dnwc": 1.5439696332703208,
+        "fcf": 3.1119654611720264,
+        "cum_cash_end": -4.444037229066161,
+        "units": {
+          "sachet": 56073600,
+          "b180": 1400520,
+          "b340": 798600
+        },
+        "nr_by_sku": {
+          "sachet": 9.539931947069944,
+          "b180": 14.868280378071836,
+          "b340": 16.95628582230624
+        }
+      },
+      {
+        "year": 4,
+        "gross": 77.85914399999999,
+        "nr": 45.500947962192825,
+        "cogs": 24.2202312,
+        "gp": 21.280716762192814,
+        "gm": 0.4676983165246395,
+        "ap": 4.550094796219282,
+        "sd": 4.640075836975425,
+        "epr": 0.4550094796219282,
+        "ebitda_sa": 11.635536649376183,
+        "cann": 4.095085316597354,
+        "ebitda": 7.540451332778831,
+        "ebitda_margin": 0.1657207524345265,
+        "da": 0.6,
+        "ebit": 6.940451332778831,
+        "wppf": 0.34702256663894143,
+        "tax": 1.3186857532279772,
+        "net_profit": 5.274743012911912,
+        "dnwc": 0.49637397776937603,
+        "fcf": 5.378369035142533,
+        "cum_cash_end": 0.9343318060763721,
+        "units": {
+          "sachet": 61680960,
+          "b180": 1540572,
+          "b340": 878460.0000000001
+        },
+        "nr_by_sku": {
+          "sachet": 10.493925141776938,
+          "b180": 16.35510841587902,
+          "b340": 18.651914404536868
+        }
+      },
+      {
+        "year": 5,
+        "gross": 85.64505840000005,
+        "nr": 50.051042758412116,
+        "cogs": 26.642254320000013,
+        "gp": 23.408788438412117,
+        "gm": 0.46769831652463995,
+        "ap": 5.005104275841211,
+        "sd": 5.00408342067297,
+        "epr": 0.5005104275841212,
+        "ebitda_sa": 12.89909031431381,
+        "cann": 4.504593848257093,
+        "ebitda": 8.394496466056719,
+        "ebitda_margin": 0.16771871280635506,
+        "da": 0.6,
+        "ebit": 7.794496466056718,
+        "wppf": 0.389724823302836,
+        "tax": 1.480954328550777,
+        "net_profit": 5.923817314203104,
+        "dnwc": 0.5460113755463162,
+        "fcf": 5.977805938656791,
+        "cum_cash_end": 12.918262875742618,
+        "units": {
+          "sachet": 67849056.00000001,
+          "b180": 1694629.200000001,
+          "b340": 966306.0000000001
+        },
+        "nr_by_sku": {
+          "sachet": 11.543317655954635,
+          "b180": 17.99061925746693,
+          "b340": 20.51710584499055
+        }
+      }
+    ],
+    "waterfall340": {
+      "mrp": 360,
+      "vat": 46.95652173913044,
+      "trade": 68.86956521739128,
+      "sd": 31.848771266540638,
+      "nr": 212.32514177693764,
+      "cogs": 95,
+      "gp": 117.32514177693764
+    },
+    "prelaunch": {
+      "capex_cr": 3,
+      "pilot_cr": 0.5,
+      "cash_before_scale_decision_cr": 3.500000000000001
+    },
+    "channels": [
+      {
+        "channel": "Rural Grocer (RG)",
+        "outlets": [
+          15000,
+          30000,
+          45000
+        ],
+        "units_per_outlet_month": [
+          48,
+          0.5,
+          0
+        ]
+      },
+      {
+        "channel": "Urban Neighbourhood Grocer (UNG)",
+        "outlets": [
+          12000,
+          25000,
+          35000
+        ],
+        "units_per_outlet_month": [
+          36,
+          1,
+          0.5
+        ]
+      },
+      {
+        "channel": "Urban Cosmetics Store (UCS)",
+        "outlets": [
+          6000,
+          9000,
+          12000
+        ],
+        "units_per_outlet_month": [
+          0,
+          2,
+          2
+        ]
+      },
+      {
+        "channel": "Rural Cosmetics Store (RCS)",
+        "outlets": [
+          3000,
+          6000,
+          9000
+        ],
+        "units_per_outlet_month": [
+          12,
+          1,
+          1
+        ]
+      },
+      {
+        "channel": "Wholesale (WS)",
+        "outlets": [
+          1000,
+          2000,
+          3000
+        ],
+        "units_per_outlet_month": [
+          240,
+          3,
+          1
+        ]
+      },
+      {
+        "channel": "Modern Trade (MT)",
+        "outlets": [
+          300,
+          340,
+          360
+        ],
+        "units_per_outlet_month": [
+          0,
+          15,
+          15
+        ]
+      },
+      {
+        "channel": "E-commerce",
+        "outlets": [
+          30,
+          40,
+          40
+        ],
+        "units_per_outlet_month": [
+          0,
+          30,
+          40
+        ]
+      }
+    ]
+  }
+}
