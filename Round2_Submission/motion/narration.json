@@ -1,13 +1,122 @@
 [
-  { "id": "s01", "dur": 6,  "say": "Is it your hair... or your water?", "sub": ["Is it your hair, or your water?"] },
-  { "id": "s02", "dur": 17, "say": "Millions of young Bangladeshis move for study and work. New city, new hall, new water. And slowly, their hair stops feeling like their own: less lather, a rough, dull feel, more shampoo every wash.", "sub": ["Millions of young Bangladeshis move for study and work.", "New city, new hall, new water.", "And slowly, their hair stops feeling like their own:", "less lather, a rough, dull feel, more shampoo every wash."] },
-  { "id": "s03", "dur": 19, "say": "It's not in their heads. In the national well survey, 58 of 61 districts had mostly iron-rich or hard wells. And in 2025, half the Dhaka tap locations tested were hard. Water changes from building to building, so you need to check your own.", "sub": ["It's not in their heads.", "In the national well survey, 58 of 61 districts had mostly iron-rich or hard wells.", "And in 2025, half the Dhaka tap locations tested were hard.", "Water changes from building to building, so you need to check your own."] },
-  { "id": "s04", "dur": 13, "say": "In our survey, 18 of 22 people who changed their water said their hair problems got worse. They blame their hair. They blame their shampoo. Nobody gives them a way to check.", "sub": ["In our survey, 18 of 22 people who changed their water", "said their hair problems got worse.", "They blame their hair. They blame their shampoo.", "Nobody gives them a way to check."] },
-  { "id": "s05", "dur": 28, "say": "So we created Parachute Naturale WaterSmart: the shampoo that checks your water first. A chelating formula with G. L. D. A. locks iron, calcium and magnesium so they rinse away, with Naturale's Coconut Milk Protein. In every three-forty M L cap, a sealed Paani Check strip: dip for one second, match the colour, know your water's hardness. And on every pack, even the three taka sachet, a Q R code to Paani Map.", "sub": ["So we created Parachute Naturale WaterSmart:", "the shampoo that checks your water first.", "A chelating formula with GLDA locks iron, calcium and magnesium so they rinse away,", "with Naturale's Coconut Milk Protein.", "In every 340 ml cap, a sealed PaniCheck strip:", "dip for one second, match the colour, know your water's hardness.", "And on every pack, even the Tk 3 sachet, a QR code to Pani Map."] },
-  { "id": "s06", "dur": 16, "say": "No shampoo we found puts a water test in the pack, so every bottle becomes a live demo. With the Paani Check Challenge, creators and students test their water on camera, share their colour, and challenge friends to check theirs.", "sub": ["No shampoo we found puts a water test in the pack,", "so every bottle becomes a live demo.", "With the PaniCheck Challenge, creators and students test their water on camera,", "share their colour, and challenge friends to check theirs."] },
-  { "id": "s07", "dur": 21, "say": "Why will people buy? They feel the problem, and now they can see it. It's Naturale, a name they trust. And it's fair: a three taka sachet to try, and less per hundred M L than premium brands. Nearly half the water-movers we surveyed said they'd pay our full price.", "sub": ["Why will people buy?", "They feel the problem, and now they can see it.", "It's Naturale, a name they trust.", "And it's fair: a Tk 3 sachet to try, and less per 100 ml than premium brands.", "Nearly half the water-movers we surveyed said they'd pay our full price."] },
-  { "id": "s08", "dur": 18, "say": "For Marico, it fits. Naturale is Bangladesh's second most penetrated shampoo brand. WaterSmart is designed to run on Mow-chuck lines and Naturale's distribution; we buy only the strip and the chelator. Innovation, diversification and scale in one variant, with Lona Jol for coastal saline water next.", "sub": ["For Marico, it fits.", "Naturale is Bangladesh's second most penetrated shampoo brand.", "WaterSmart is designed to run on Mouchak lines and Naturale's distribution;", "we buy only the strip and the chelator.", "Innovation, diversification and scale in one variant,", "with LonaJol for coastal saline water next."] },
-  { "id": "s09", "dur": 16, "say": "From thirty-seven thousand outlets to one hundred and four thousand by Year 3: forty-one crore taka of net revenue, positive E-bit-dah in Year 2, and five point nine crore of extra E-bit-dah for Marico in Year 3, after cannibalisation. N. P. V. plus three point one crore. I. R. R. twenty-five percent.", "sub": ["From 37,000 outlets to 104,000 by Year 3:", "Tk 41 crore of net revenue, EBITDA-positive in Year 2,", "and Tk 5.9 crore of extra EBITDA for Marico in Year 3, after cannibalisation.", "NPV +Tk 3.1 crore. IRR 25%."] },
-  { "id": "s10", "dur": 9,  "say": "And it's de-risked: R and D, then a six-month pilot in fifteen hundred outlets, with clear go, no-go gates. Only three point five crore is committed first.", "sub": ["And it's de-risked: R&D, then a six-month pilot in 1,500 outlets,", "with clear go/no-go gates. Only Tk 3.5 crore is committed first."] },
-  { "id": "s11", "dur": 12, "say": "Is it your hair, or your water? Check your water first. From Team The Last BrainCell: Naafees Mohtaashim Raameem, and Khondaker Shaadmaan Saakib Siddeekee.", "sub": ["Is it your hair, or your water? Check your water first.", "From Team The Last BrainCell:", "Nafis Mohtasim Ramim and Khandaker Shadman Sakib Siddiquee."] }
+  {
+    "id": "s01",
+    "dur": 6,
+    "say": "Is it your hair... or your water?",
+    "sub": [
+      "Is it your hair, or your water?"
+    ]
+  },
+  {
+    "id": "s02",
+    "dur": 17,
+    "say": "Millions of young Bangladeshis move for study and work. New city, new hall, new water. And slowly, their hair stops feeling like their own: less lather, a rough, dull feel, more shampoo every wash.",
+    "sub": [
+      "Millions of young Bangladeshis move for study and work.",
+      "New city, new hall, new water.",
+      "And slowly, their hair stops feeling like their own:",
+      "less lather, a rough, dull feel, more shampoo every wash."
+    ]
+  },
+  {
+    "id": "s03",
+    "dur": 19,
+    "say": "It's not in their heads. In the national well survey, 58 of 61 districts had mostly iron-rich or hard wells. And in 2025, half the Dhaka tap locations tested were hard. Water changes from building to building, so you need to check your own.",
+    "sub": [
+      "It's not in their heads.",
+      "In the national well survey, 58 of 61 districts had mostly iron-rich or hard wells.",
+      "And in 2025, half the Dhaka tap locations tested were hard.",
+      "Water changes from building to building, so you need to check your own."
+    ]
+  },
+  {
+    "id": "s04",
+    "dur": 13,
+    "say": "In our survey, 18 of 22 people who changed their water said their hair problems got worse. They blame their hair. They blame their shampoo. Nobody gives them a way to check.",
+    "sub": [
+      "In our survey, 18 of 22 people who changed their water",
+      "said their hair problems got worse.",
+      "They blame their hair. They blame their shampoo.",
+      "Nobody gives them a way to check."
+    ]
+  },
+  {
+    "id": "s05",
+    "dur": 28,
+    "say": "So we created Parachute Naturale WaterSmart: the shampoo that checks your water first. A chelating formula with G. L. D. A. locks iron, calcium and magnesium so they rinse away, with Naturale's Coconut Milk Protein. In every three-forty M L cap, a sealed Paani Check strip: dip for one second, match the colour, know your water's hardness. And on every pack, even the three taka sachet, a Q R code to Paani Map.",
+    "sub": [
+      "So we created Parachute Naturale WaterSmart:",
+      "the shampoo that checks your water first.",
+      "A chelating formula with GLDA locks iron, calcium and magnesium so they rinse away,",
+      "with Naturale's Coconut Milk Protein.",
+      "In every 340 ml cap, a sealed PaniCheck strip:",
+      "dip for one second, match the colour, know your water's hardness.",
+      "And on every pack, even the Tk 3 sachet, a QR code to Pani Map."
+    ]
+  },
+  {
+    "id": "s06",
+    "dur": 16,
+    "say": "No shampoo we found puts a water test in the pack, so every bottle becomes a live demo. With the Paani Check Challenge, creators and students test their water on camera, share their colour, and challenge friends to check theirs.",
+    "sub": [
+      "No shampoo we found puts a water test in the pack,",
+      "so every bottle becomes a live demo.",
+      "With the PaniCheck Challenge, creators and students test their water on camera,",
+      "share their colour, and challenge friends to check theirs."
+    ]
+  },
+  {
+    "id": "s07",
+    "dur": 21,
+    "say": "Why will people buy? They feel the problem, and now they can see it. It's Naturale, a name they trust. And it's fair: a three taka sachet to try, and less per hundred M L than premium brands. Nearly half the water-movers we surveyed said they'd pay our full price.",
+    "sub": [
+      "Why will people buy?",
+      "They feel the problem, and now they can see it.",
+      "It's Naturale, a name they trust.",
+      "And it's fair: a Tk 3 sachet to try, and less per 100 ml than premium brands.",
+      "Nearly half the water-movers we surveyed said they'd pay our full price."
+    ]
+  },
+  {
+    "id": "s08",
+    "dur": 18,
+    "say": "For Marico, it fits. Naturale is Bangladesh's second most penetrated shampoo brand. WaterSmart is designed to run on Mow-chuck lines and Naturale's distribution; we buy only the strip and the chelator. Innovation, diversification and scale in one variant, with Lona Jol for coastal saline water next.",
+    "sub": [
+      "For Marico, it fits.",
+      "Naturale is Bangladesh's second most penetrated shampoo brand.",
+      "WaterSmart is designed to run on Mouchak lines and Naturale's distribution;",
+      "we buy only the strip and the chelator.",
+      "Innovation, diversification and scale in one variant,",
+      "with LonaJol for coastal saline water next."
+    ]
+  },
+  {
+    "id": "s09",
+    "dur": 16,
+    "say": "From thirty-seven thousand outlets to one hundred and four thousand by Year 3: forty-one crore taka of net revenue, positive E-bit-dah in Year 2, and five point nine crore of extra E-bit-dah for Marico in Year 3, after cannibalisation. N. P. V. plus three point one crore. I. R. R. twenty-five percent.",
+    "sub": [
+      "From 37,000 outlets to 104,000 by Year 3:",
+      "Tk 41 crore of net revenue, EBITDA-positive in Year 2,",
+      "and Tk 5.9 crore of extra EBITDA for Marico in Year 3, after cannibalisation.",
+      "NPV +Tk 3.1 crore. IRR 25%."
+    ]
+  },
+  {
+    "id": "s10",
+    "dur": 9,
+    "say": "And it's de-risked: R and D, then a six-month pilot in fifteen hundred outlets, with clear go, no-go gates. Only three point five crore is committed first.",
+    "sub": [
+      "And it's de-risked: R&D, then a six-month pilot in 1,500 outlets,",
+      "with clear go/no-go gates. Only Tk 3.5 crore is committed first."
+    ]
+  },
+  {
+    "id": "s11",
+    "dur": 12,
+    "say": "Is it your hair, or your water? Check your water first. From Team The Last BrainCell.",
+    "sub": [
+      "Is it your hair, or your water? Check your water first.",
+      "From Team The Last BrainCell."
+    ]
+  }
 ]
