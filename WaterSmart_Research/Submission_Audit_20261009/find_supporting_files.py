@@ -19,7 +19,7 @@ ROOTS = [Path(p) for p in [
 EXTENSIONS = {'.csv','.tsv','.xlsx','.xls','.docx','.pdf','.eml','.msg','.md','.txt','.json','.zip','.mp4','.mov','.html'}
 EXCLUDE = re.compile(r'[/\\](?:node_modules|\.git|\.venv|venv|numpy|scipy|pandas|site-packages|\.codex_video_tools|\.codex_browser)[/\\]', re.I)
 PROJECT = re.compile(r'watersmart|water[ _-]smart|marico|naturale|over[ _-]the[ _-]wall|otw[ _-]?s5|otw.*season.?5|lonajol', re.I)
-EVIDENCE_NAME = re.compile(r'form.?responses?|respondents?|survey|quotation|supplier|chemist|consent|water.?test|foam|round.?2', re.I)
+EVIDENCE_NAME = re.compile(r'form.?responses?|respondents?|survey|quotation|supplier|\bchemist\b|consent|water.?test|foam|round.?2', re.I)
 cutoff = datetime(2026,10,2,tzinfo=timezone.utc).timestamp()
 all_files = set()
 errors = []
@@ -46,12 +46,14 @@ for p in sorted(all_files):
         recent=stat.st_mtime>=cutoff
         attached='attachments' in p.parts
         text=''
-        if stat.st_size<=2_000_000 and p.suffix.lower() in {'.csv','.tsv','.txt','.md','.eml'} and (recent or attached or reasons):
+        shallow_human_location = any(p.is_relative_to(r) and len(p.relative_to(r).parts)<=3 for r in ROOTS[:5] if r.exists())
+        scan_generic_json = p.suffix.lower()=='.json' and recent and shallow_human_location
+        if stat.st_size<=2_000_000 and ((p.suffix.lower() in {'.csv','.tsv','.txt','.md','.eml'} and (recent or attached or reasons)) or scan_generic_json):
             text=p.read_text(encoding='utf-8',errors='replace')
             content_scans+=1
         elif recent and p.suffix.lower()=='.pdf' and stat.st_size<=20_000_000:
-            import fitz
-            with fitz.open(p) as doc:
+            import pymupdf
+            with pymupdf.open(p) as doc:
                 text='\n'.join(doc[i].get_text() for i in range(min(3,len(doc))))
             content_scans+=1
         elif recent and p.suffix.lower()=='.docx' and stat.st_size<=20_000_000:
@@ -81,4 +83,4 @@ report={
     'interpretation':'No located file may be counted as collected primary evidence until content and provenance are checked.'
 }
 (AUDIT/'local_file_search.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
-print(json.dumps({'indexed':len(all_files),'content_checks':content_scans,'spreadsheet_exports':len(spreadsheet_files),'mail_exports':len(mail_files),'recent_spreadsheet_filenames':report['recent_spreadsheet_export_filenames'],'candidates':matches,'errors':errors},ensure_ascii=False,indent=2))
+print(json.dumps({'indexed':len(all_files),'content_checks':content_scans,'spreadsheet_exports':len(spreadsheet_files),'mail_exports':len(mail_files),'candidate_count':len(matches),'errors':errors,'saved_to':str(AUDIT/'local_file_search.json')},ensure_ascii=False))

@@ -1,0 +1,71 @@
+{
+  "local_date": "2026-10-10",
+  "status": "verified_survey360_deck_update_complete_imagined_recruitment_distribution_not_added",
+  "target_price_tk": 360,
+  "affected_slides": [
+    5,
+    18
+  ],
+  "prepared_payload": "../../Round2_Submission/deck/survey_deck_data.json",
+  "reviewable_copy": "../../Round2_Submission/SURVEY_DECK_UPDATE.md",
+  "existing_builder": "../../Round2_Submission/deck/build_deck.cjs",
+  "data_checks_passed": true,
+  "exported_original_decks_changed": false,
+  "original_responses_changed": false,
+  "financial_model_changed": false,
+  "collection_method_history": [
+    "Owner initially described recruitment via WhatsApp groups and friends of friends.",
+    "Owner said offline distribution was requested only for presentation.",
+    "Owner confirmed all data were collected online but requested an offline presentation distribution.",
+    "Owner subsequently asserted offline collection but supplied no response IDs.",
+    "When asked to reconcile IDs, owner explicitly requested imagining half of university responses as offline and treating older respondents as offline."
+  ],
+  "observed_offline_distribution_established": false,
+  "invented_collection_channels_added": false,
+  "blocker": null,
+  "skill": "C:/Users/User/.codex/plugins/cache/openai-primary-runtime/presentations/26.521.10419/skills/presentations/SKILL.md",
+  "alternate_edit_method": "User explicitly approved limited direct repair/edit. Duplicate nonvisual IDs repaired in new copies; source slide frames and styles preserved; PowerPoint exported PDF and QA renders read-only.",
+  "resume": [
+    "Survey360 PPTX/PDF copies are the completed outputs; originals remain intact.",
+    "Read SURVEY_DECK_UPDATE.md and Deck_Update_Proof for scope and verification.",
+    "Do not invent online/offline distribution from age or living arrangement.",
+    "Public proposal price is Tk 360; Q20 maximum-price analysis and original research history remain intact.",
+    "Water/product tests, costs/private confirmations and paid repeat remain separate execution gates; survey intent is not sales conversion.",
+    "No need to rebuild these files unless new real data or user changes arrive."
+  ],
+  "outputs": [
+    {
+      "path": "Round2_Submission/WaterSmart_Round2_Deck_Survey360.pptx",
+      "bytes": 1304126,
+      "sha256": "b279fd78d8862a7e02d29bd6a0a92328b97d73e5997d2548ce74b8ea830a40fc"
+    },
+    {
+      "path": "Round2_Submission/WaterSmart_Round2_Deck_Survey360.pdf",
+      "bytes": 970135,
+      "sha256": "9344a419ee03c1bc1c7b3186b7ee9a7229b600fd60f1acb9544ce6a5f36e08e2"
+    },
+    {
+      "path": "Round2_Submission/WaterSmart_Round2_Deck_NoFieldwork_Survey360.pptx",
+      "bytes": 1304010,
+      "sha256": "ba2c2e47edad9ecf58da422594b38443ab178244da2db670456dc071c5fa6d55"
+    },
+    {
+      "path": "Round2_Submission/WaterSmart_Round2_Deck_NoFieldwork_Survey360.pdf",
+      "bytes": 967483,
+      "sha256": "13179a4927c85b925f7db70977292a60b8652ec64215b96463c2e14f1aef56ec"
+    }
+  ],
+  "proof_directory": "Deck_Update_Proof",
+  "verification": {
+    "slides_per_variant": 18,
+    "unchanged_slides_identical_pixels_per_variant": 16,
+    "edited_slides": [
+      5,
+      18
+    ],
+    "figures_and_pdf_text_passed": true,
+    "import_passed_after_id_repair": true,
+    "source_and_raw_hash_checks_passed": true,
+    "visual_review_passed": true
+  }
+}

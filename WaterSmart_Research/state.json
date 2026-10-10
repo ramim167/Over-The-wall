@@ -2,9 +2,9 @@
   "project": "WaterSmart v3 / OTW S5 / The Last BrainCell",
   "research_cutoff_local_date": "2026-10-09",
   "timezone": "Asia/Dhaka",
-  "last_updated_utc": "2026-10-09T13:34:27.192072+00:00",
+  "last_updated_utc": "2026-10-10T04:24:35.951247+00:00",
   "stage": 6,
-  "status": "secondary_research_complete_empirical_verification_pending",
+  "status": "secondary_research_complete_primary_survey_added_product_cost_paid_demand_validation_pending",
   "objective_limit": "Public evidence cannot certify an unmade formula, private cost/capacity or future sales; unknowns explicitly retained.",
   "counts": {
     "historical_wells": 3534,
@@ -25,13 +25,19 @@
     "model_scalar_entries_and_gaps": 104,
     "conditional_scenario_month_rows": 730,
     "user_confirmed_real_opinion_summaries": 5,
-    "method_complete_primary_records": 0,
     "synthetic_respondents": 0,
     "team_water_tests": 0,
     "WaterSmart_product_trials": 0,
     "physical_retailer_visits": 0,
     "supplier_quotes": 0,
-    "private_Marico_confirmations": 0
+    "private_Marico_confirmations": 0,
+    "method_complete_prior_opinion_notes": 0,
+    "raw_primary_survey_submissions": 50,
+    "eligible_consent_yes_primary_survey_records": 49,
+    "primary_survey_nonconsent_exclusions": 1,
+    "numeric_primary_maximum_price_answers": 47,
+    "established_Q21_price360_records": 0,
+    "primary_survey_datasets": 1
   },
   "completed": [
     "Master/context and earlier audit reviewed",
@@ -44,7 +50,8 @@
     "Material SD omission detected and conditional fiscal overlays reconciled",
     "Report,viewer,dictionary,methods,expert requests",
     "Root project corrections and prior-history notices",
-    "Integrity/data/DOM QA and final manifests"
+    "Integrity/data/DOM QA and final manifests",
+    "Primary survey supplied:50 raw rows,49 consent-yes; immutable snapshots, independent CSV checks, target360 threshold analysis and declared historical400 price preserved"
   ],
   "pending_user": [
     "Per-U01–U05 actual collection date, anonymous research-use consent and whetherTk330 preceded openmaximumprice; user said willprovide"
@@ -80,7 +87,9 @@
     "integrity_data": 11808,
     "DOM": 263,
     "real_browser_visual_QA": false,
-    "lab_field_validation": false
+    "lab_field_validation": false,
+    "primary_csv_core_metrics_reconciled": 6,
+    "primary_csv_scope": "Counts/median/threshold and historical-intent counts independently matched to native CSV import; no new native XLSX inspection or laboratory QA."
   },
   "constraints": [
     "Credit original data collectors",
@@ -103,5 +112,59 @@
     "public_capture": "raw/otw_contact_lookup_20261009.json",
     "private_mail_read": false,
     "email_sent": false
+  },
+  "latest_workflow": "Primary survey audit and requested target-Tk360 stated-maximum-price analysis, 10 Oct 2026",
+  "primary_survey": {
+    "source_id": "PRIMARY_SURVEY_20261003_09",
+    "report": "Primary_Survey_20261010/SURVEY_ANALYSIS.md",
+    "summary": "Primary_Survey_20261010/survey_summary.json",
+    "checkpoint": "Primary_Survey_20261010/CHECKPOINT.json",
+    "raw_submissions": 50,
+    "eligible_consent_yes_records": 49,
+    "excluded_nonconsent": 1,
+    "eligibility_scope": "Descriptive consenting-adult records, not independently verified identities or paid customers",
+    "recruitment": "WhatsApp groups and friends of friends; convenience/snowball, user reported",
+    "observed_timestamp_dates_as_written": "3-9 Oct 2026",
+    "user_reported_closure_date": "10 Oct 2026",
+    "timestamp_timezone": "Not encoded in CSV",
+    "historical_Q21_price_tk_user_reported": 400,
+    "current_export_header_price_tk": 360,
+    "requested_analysis_target_tk": 360,
+    "target360_method": "Q20 maximum-price threshold: 15 of47 valid numeric answers >=360; median320",
+    "measured_360_Q21_intent_established": false,
+    "price_version_scope": "Historical Q21 reference based on user declaration; original complete Q22/Q24 price pairs not established; further questions declined",
+    "original_export_answers_timestamps_unchanged": "User declaration",
+    "source_and_snapshot_hashes_match": true,
+    "xlsx_cells_reconciled": false,
+    "price_consistency_review": {
+      "historical400_top2_below_max_price": 21,
+      "historical_top2_with_max_below_target360": 18
+    },
+    "prior_five_opinion_notes_not_pooled": true,
+    "synthetic_respondents": 0,
+    "technical_water_tests": 0,
+    "product_performance_trials": 0,
+    "paid_repeat_validation": false,
+    "financial_inputs_changed": false
+  },
+  "primary_record_definition": "New survey eligibility is tracked separately from method-complete prior opinion notes. Record counts do not certify price exposure, chemistry, product performance or paid demand.",
+  "latest_primary_resume_file": "Primary_Survey_20261010/CHECKPOINT.json",
+  "presentation_survey_update": {
+    "local_date": "2026-10-10",
+    "status": "verified_survey360_deck_update_complete_imagined_recruitment_distribution_not_added",
+    "proposed_price_tk": 360,
+    "edited_slides": [
+      5,
+      18
+    ],
+    "outputs": [
+      "Round2_Submission/WaterSmart_Round2_Deck_Survey360.pptx",
+      "Round2_Submission/WaterSmart_Round2_Deck_Survey360.pdf",
+      "Round2_Submission/WaterSmart_Round2_Deck_NoFieldwork_Survey360.pptx",
+      "Round2_Submission/WaterSmart_Round2_Deck_NoFieldwork_Survey360.pdf"
+    ],
+    "checkpoint": "Primary_Survey_20261010/DECK_UPDATE_CHECKPOINT.json",
+    "source_files_and_financial_inputs_unchanged": true,
+    "invented_collection_distribution_added": false
   }
 }

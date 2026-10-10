@@ -1,5 +1,7 @@
 # WaterSmart evidence research
 
+**Latest primary-data addition — 10 Oct 2026:** the user supplied a survey CSV with50 submissions;49 consent-yes records were analysed. Read [the primary survey report](Primary_Survey_20261010/SURVEY_ANALYSIS.md) and its [checkpoint](Primary_Survey_20261010/CHECKPOINT.json) first for consumer evidence. Target360 maximum-price coverage is15/47; median320. Historical Q21 was400 according to the user; the current360 export label was not substituted for the past exposure. Formula,cost,paid repeat and revenue validation remain pending. Earlier “no supplied primary export” statements describe the previous disclosure state.
+
 Started: 9 October 2026, Asia/Dhaka. Team: The Last BrainCell. Scope: Naturale WaterSmart v3, OTW S5 Round 2, Marico Bangladesh.
 
 ## Read first

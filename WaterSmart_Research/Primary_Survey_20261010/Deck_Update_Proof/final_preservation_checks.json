@@ -1,0 +1,47 @@
+{
+  "original_pptx_unchanged": true,
+  "original_survey_csv_xlsx_unchanged": true,
+  "updated_pptx_not_resaved_during_pdf_export": true,
+  "financial_source_hash_checks": {
+    "Round2_Submission/finance/finance_v4.cjs": {
+      "current_sha256": "b38cf21bcd8ab6970a4b0a7a6a29ceca37a75501a2464f62b5c32a9d527906e0",
+      "historical_manifest_baseline_available": false,
+      "matched_baseline": null,
+      "no_financial_write_performed": true
+    },
+    "Round2_Submission/finance/finance_v4_output.json": {
+      "current_sha256": "3d9388e1a6b0cc7705f5aa98a9b37ecd37b5104eb636c1865d2a12ed7cc4cb2c",
+      "historical_manifest_baseline_available": false,
+      "matched_baseline": null,
+      "no_financial_write_performed": true
+    }
+  },
+  "user_authorized_limited_direct_repair_edit": true,
+  "all_16_unchanged_slides_per_variant_identical_pixels": true,
+  "edited_slides_visually_reviewed": [
+    5,
+    18
+  ],
+  "outputs": [
+    {
+      "path": "Round2_Submission/WaterSmart_Round2_Deck_Survey360.pptx",
+      "bytes": 1304126,
+      "sha256": "b279fd78d8862a7e02d29bd6a0a92328b97d73e5997d2548ce74b8ea830a40fc"
+    },
+    {
+      "path": "Round2_Submission/WaterSmart_Round2_Deck_Survey360.pdf",
+      "bytes": 970135,
+      "sha256": "9344a419ee03c1bc1c7b3186b7ee9a7229b600fd60f1acb9544ce6a5f36e08e2"
+    },
+    {
+      "path": "Round2_Submission/WaterSmart_Round2_Deck_NoFieldwork_Survey360.pptx",
+      "bytes": 1304010,
+      "sha256": "ba2c2e47edad9ecf58da422594b38443ab178244da2db670456dc071c5fa6d55"
+    },
+    {
+      "path": "Round2_Submission/WaterSmart_Round2_Deck_NoFieldwork_Survey360.pdf",
+      "bytes": 967483,
+      "sha256": "13179a4927c85b925f7db70977292a60b8652ec64215b96463c2e14f1aef56ec"
+    }
+  ]
+}

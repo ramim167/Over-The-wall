@@ -1,0 +1,18 @@
+{
+  "checks": {
+    "raw": true,
+    "consent": true,
+    "exclusion": true,
+    "worse": true,
+    "appeal": true,
+    "median": true,
+    "numericBase": true,
+    "target": true,
+    "threshold": true,
+    "noInventedChannels": true,
+    "noLegacyPriceInPublicPayload": true,
+    "noFinancialChange": true
+  },
+  "all_pass": true,
+  "source": "survey_summary.json plus existing independent raw CSV cross-checks"
+}

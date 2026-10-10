@@ -1,5 +1,9 @@
 # WaterSmart research checkpoint
 
+## Latest continuation — user-disclosed primary survey,10 Oct2026
+
+Read `Primary_Survey_20261010/SURVEY_ANALYSIS.md`, `survey_summary.json`, `raw_manifest.json` and `CHECKPOINT.json` first.50 raw submissions,49 consent-yes records,one nonconsent excluded. Numeric maximum-price base47,median320,15 maxima>=requested360. The user reports oldQ21price400 and later360revision; keep the historical reference and target360 analysis separate. Exact prior Q22/Q24 price pairs remain undocumented; the user asked for no further version questions. WhatsApp/friend-of-friend convenience sample; no population demand,chemistry or performance inferred. Six core CSV metrics independently reconcile; originals/snapshots match hashes. Native XLSX cells were not reconciled because the inspection runtime failed setup; full CSV is the analysis source. New cleaned records/flags/exclusions and field dictionary are saved. No financial input automatically changed. Prior five notes stay separate and metadata-pending. Do not rerun the old finalizer over this new state or map historicalQ21 into the oldpi330field. Future product,cost,current-water and paid-pilot validation remain pending. Earlier checkpoints below are historical public-research status.
+
 **Status:** public secondary research, synthesis, project integration and appropriate data/DOM QA complete. **Product, cost and demand validation remains pending.**  
 **Stage:** 6/6 of the public-research package. **Research cut-off:** 9 October 2026, Asia/Dhaka.  
 **Completed UTC timestamp:** 2026-10-09T13:34:27.192072+00:00.

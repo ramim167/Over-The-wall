@@ -8,6 +8,7 @@ const { renderToStaticMarkup } = require('react-dom/server');
 const fa = require('react-icons/fa6');
 const sharp = require('sharp');
 const fin = require('../finance/finance_v4_output.json');
+const survey = require('./survey_deck_data.json');
 
 const SKILL = 'C:/Users/Administrator/.claude/skills/synced/157622e8-87f8-4d11-ae7f-5080983dd929_59fd7551-cb71-4a30-b220-b40c1256c42f/pptx';
 const { applyTheme } = require(SKILL + '/scripts/apply_theme.js');
@@ -267,26 +268,17 @@ async function icon(name, color) {
     if (NOFIELD) {
       box(s, 9.05, 1.7, 3.68, 4.1, C.aquaLt);
       T(s, [
-        { text: 'BIG BRANDS SEE THE NEED', options: { bold: true, color: C.aquaTx, fontSize: 11, charSpacing: 1, breakLine: true } },
-        { text: 'Unilever launched Dove Hard Water Defense in the Gulf, built on “Mineral Shield” technology against calcium deposits.', options: { fontSize: 12, color: C.ink, breakLine: true, paraSpaceBefore: 6 } },
-        { text: 'NEXT: OUR CONSUMER TEST', options: { bold: true, color: C.aquaTx, fontSize: 11, charSpacing: 1, breakLine: true, paraSpaceBefore: 14 } },
-        { text: 'Before the pilot: an adult survey of Movers (hair change after a water change, unprompted cause, open price before Tk 360) and a same-shampoo foam test in hall water. Results are reported with their real sample sizes.', options: { fontSize: 12, color: C.ink, paraSpaceBefore: 6 } },
+        { text: survey.heading, options: { bold: true, color: C.aquaTx, fontSize: 11, charSpacing: 1, breakLine: true } },
+        ...survey.panel_lines.map((text, i) => ({ text, options: { fontSize: 12, color: C.ink, breakLine: i < survey.panel_lines.length - 1, paraSpaceBefore: 6 } })),
       ], { x: 9.25, y: 1.85, w: 3.3, h: 3.85 });
-    } else field(s, 9.05, 1.7, 3.68, 4.1, 'OUR FIELD RESEARCH · 9–10 OCT 2026', [
-      'Google Form survey: n = [ ] consenting adults',
-      'Changed water source in the last 12 months: [ ]; of them, [ ]% felt their hair got worse',
-      '[ ]% of those with a hair problem named water as a cause, unprompted',
-      '[ ]% would definitely or probably buy at Tk 360',
-      'Median maximum price for 340 ml: Tk [ ]',
-      'Foam test: same shampoo, [ ]% less foam in hall water than in bottled water',
-    ], 12);
+    } else field(s, 9.05, 1.7, 3.68, 4.1, survey.heading, survey.panel_lines, 12);
     box(s, 0.6, 5.95, 12.13, 0.55, C.aquaLt);
     T(s, [
       { text: 'INSIGHT   ', options: { bold: true, color: C.aquaTx, charSpacing: 1 } },
       { text: 'People blame their hair, or their shampoo. The real culprit may be the water, and nobody gives them a way to check.', options: { color: C.navy } },
     ], { x: 0.85, y: 5.95, w: 11.7, h: 0.55, fontSize: 14, valign: 'middle' });
-    source(s, 'Sources: Khanam & Rahman (2022), Journal of Social Sciences 10(12); Zakaria et al. (2025), Frontiers in Public Health; UGC Annual Report 2023 via Prothom Alo (4 Oct 2025); BBS Population & Housing Census 2022.');
-    s.addNotes(NOFIELD ? 'Published surveys are credited to their authors. Our own consumer test is part of the pre-pilot plan.' : 'Published surveys are credited to their authors. The dashed panel holds our own survey and foam-test results, reported with their real sample sizes.');
+    source(s, 'Sources: Khanam & Rahman (2022); Zakaria et al. (2025); UGC Annual Report 2023 via Prothom Alo (4 Oct 2025); BBS Census 2022. ' + survey.source_footer_addition);
+    s.addNotes(survey.speaker_note);
   }
 
   // =============== 6. BIG IDEA ===============
@@ -793,7 +785,7 @@ async function icon(name, color) {
     const ev = [
       ['Water', 'BGS & DPHE (2001) National Hydrochemical Survey: 3,534 wells, 61 districts, sampled Mar 1998–Dec 1999. Team analysis: hardness = 2.497 Ca + 4.118 Mg (USGS); flags Fe >0.3 and hardness >120 mg/L. Historical wells, not today’s taps, which is why the pack carries a test.'],
       ['Recent water', 'ICCEI 2025 Dhaka tap study (12 locations with values); BWDB 2022 groundwater-quality report (901 monitoring wells, 2019–21).'],
-      ['Consumers', NOFIELD ? 'Khanam & Rahman 2022 (n=390); Zakaria et al. 2025 (n=391). Our own survey and foam test run before the pilot.' : 'Khanam & Rahman 2022 (n=390); Zakaria et al. 2025 (n=391); our Google Form survey (n=[ ]) and foam test.'],
+      ['Consumers', survey.appendix_consumer_text],
       ['Hair science', 'Luqman 2018 (n=70: tensile strength 255 vs 234 with hard water); Srinivasan 2013 (n=15: no significant difference). Evidence is mixed, so claims wait for our own R&D tests.'],
       ['Market and prices', 'Mordor Intelligence (2026e); 24 online price observations, Chaldal and Arogga, 9 Oct 2026; Marico Bangladesh Annual Report FY2025-26.'],
     ];

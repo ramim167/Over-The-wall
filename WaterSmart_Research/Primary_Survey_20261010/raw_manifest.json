@@ -1,0 +1,20 @@
+﻿[
+    {
+        "Original":  "C:\\Users\\User\\OneDrive\\Desktop\\Over the wall\\WaterSmart_responses.csv",
+        "Snapshot":  "C:\\Users\\User\\OneDrive\\Desktop\\Over the wall\\WaterSmart_Research\\Primary_Survey_20261010\\raw\\WaterSmart_responses.csv",
+        "Bytes":  83145,
+        "SourceModified":  "2026-10-10 00:42:10",
+        "SHA256":  "074D7D24C6C8CB18571E27B8831445906D87DED2B819866D06446F75B0B47B93",
+        "SnapshotSHA256":  "074D7D24C6C8CB18571E27B8831445906D87DED2B819866D06446F75B0B47B93",
+        "Identical":  true
+    },
+    {
+        "Original":  "C:\\Users\\User\\OneDrive\\Desktop\\Over the wall\\WaterSmart_responses.xlsx",
+        "Snapshot":  "C:\\Users\\User\\OneDrive\\Desktop\\Over the wall\\WaterSmart_Research\\Primary_Survey_20261010\\raw\\WaterSmart_responses.xlsx",
+        "Bytes":  39608,
+        "SourceModified":  "2026-10-10 00:52:36",
+        "SHA256":  "62A5DC50D238685EF2E396657D86405BA6D2DBE9BF796F96484E4ACA43D4DFDB",
+        "SnapshotSHA256":  "62A5DC50D238685EF2E396657D86405BA6D2DBE9BF796F96484E4ACA43D4DFDB",
+        "Identical":  true
+    }
+]

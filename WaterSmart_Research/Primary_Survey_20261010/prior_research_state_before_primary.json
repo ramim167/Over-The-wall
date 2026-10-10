@@ -1,0 +1,107 @@
+{
+  "project": "WaterSmart v3 / OTW S5 / The Last BrainCell",
+  "research_cutoff_local_date": "2026-10-09",
+  "timezone": "Asia/Dhaka",
+  "last_updated_utc": "2026-10-09T13:34:27.192072+00:00",
+  "stage": 6,
+  "status": "secondary_research_complete_empirical_verification_pending",
+  "objective_limit": "Public evidence cannot certify an unmade formula, private cost/capacity or future sales; unknowns explicitly retained.",
+  "counts": {
+    "historical_wells": 3534,
+    "valid_chemistry": 3530,
+    "districts": 61,
+    "historical_district_thana_pairs": 433,
+    "published_studies": 2,
+    "published_samples_separate": [
+      390,
+      391
+    ],
+    "aggregate_rows": 35,
+    "online_prices": 24,
+    "NLM_records": 7,
+    "download_source_ids": 61,
+    "web_captures": 25,
+    "claim_ledger_rows": 56,
+    "model_scalar_entries_and_gaps": 104,
+    "conditional_scenario_month_rows": 730,
+    "user_confirmed_real_opinion_summaries": 5,
+    "method_complete_primary_records": 0,
+    "synthetic_respondents": 0,
+    "team_water_tests": 0,
+    "WaterSmart_product_trials": 0,
+    "physical_retailer_visits": 0,
+    "supplier_quotes": 0,
+    "private_Marico_confirmations": 0
+  },
+  "completed": [
+    "Master/context and earlier audit reviewed",
+    "Raw official/publisher sources and failures saved with hashes",
+    "Historical water analysis, newer-water quality audit",
+    "Published consumer aggregates/science supporting and contrary evidence",
+    "Dated retail observations/competitive/market uncertainty audit",
+    "Marico platform/financial benchmarking",
+    "Supplier specification and regulatory audit",
+    "Material SD omission detected and conditional fiscal overlays reconciled",
+    "Report,viewer,dictionary,methods,expert requests",
+    "Root project corrections and prior-history notices",
+    "Integrity/data/DOM QA and final manifests"
+  ],
+  "pending_user": [
+    "Per-U01–U05 actual collection date, anonymous research-use consent and whetherTk330 preceded openmaximumprice; user said willprovide"
+  ],
+  "pending_external": [
+    "Actual project invoice/tax/fund/cash policy",
+    "Complete landed BOM/supplier/line costs and CAPEX/pilot scope",
+    "Finished formula/pack/strip performance,safety,stability and supported expiry",
+    "Operative regulatory/standard/entity EPR requirements",
+    "Current relevant household exposure and SAM linkage",
+    "Qualified pilot paid sell-out,mature repeat,cannibalization",
+    "Approved investment hurdle/terminal policy"
+  ],
+  "resume_file": "CHECKPOINT.md",
+  "report": "WaterSmart_Research_Report.md",
+  "viewer": "WaterSmart_Research_Viewer.html",
+  "source_of_truth_for_current_conditional_finance": "analysis/finance_evidence_overlays.json",
+  "historical_model_status": "Oldv3SDomitted; investmentconclusionwithdrawn; originalmathpreserved",
+  "fiscal_case": {
+    "npv_with_recovery_cr": -3.816315012233909,
+    "npv_without_recovery_cr": -6.324227540416931,
+    "irr_with_recovery": 0.023556840812261615,
+    "irr_without_recovery": -0.12958939680505172,
+    "peak_funding_cr": 12.198446562369252,
+    "peak_month": 37,
+    "payback_years": 5.983737756509772,
+    "Y3_nr_cr": 39.9514743289225,
+    "Y3_incremental_ebitda_cr": 2.9500663137996295,
+    "Y3_gross_margin": 0.4488716031172851
+  },
+  "qa": {
+    "finance": 847,
+    "integrity_data": 11808,
+    "DOM": 263,
+    "real_browser_visual_QA": false,
+    "lab_field_validation": false
+  },
+  "constraints": [
+    "Credit original data collectors",
+    "No synthetic records as empirical data",
+    "Preserve competition confidentiality",
+    "No outside communications or publication",
+    "Preserve logger storage/merge logic",
+    "Keep all unresolved evidence pending"
+  ],
+  "Marico_clarification": {
+    "draft": "Marico_Clarification_Email_Draft.md",
+    "status": "Prepared for user to send; assistant has not sent any message",
+    "format": "Each topic asks whether required; If yes asks minimum detail/references",
+    "disclosure": "Team and category only; specific idea/pack/prices omitted",
+    "response_received": false
+  },
+  "Marico_recipient_lookup": {
+    "status": "Exact OTW email unverified; awaiting user Google sign-in/Save profile",
+    "notes": "Marico_Contact_Lookup.md",
+    "public_capture": "raw/otw_contact_lookup_20261009.json",
+    "private_mail_read": false,
+    "email_sent": false
+  }
+}

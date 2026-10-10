@@ -1,0 +1,282 @@
+[
+  {
+    "source": "C:\\Users\\User\\OneDrive\\Desktop\\Over the wall\\Round2_Submission\\WaterSmart_Round2_Deck.pptx",
+    "output": "C:\\Users\\User\\OneDrive\\Desktop\\Over the wall\\Round2_Submission\\WaterSmart_Round2_Deck_Survey360.pptx",
+    "source_sha256": "74b50ad2f371b223ad65661c9023ccf8b08c089c592cbc23f166d61d8a5d32c3",
+    "changed_parts": [
+      "ppt/slides/slide2.xml",
+      "ppt/slides/slide3.xml",
+      "ppt/slides/slide4.xml",
+      "ppt/slides/slide5.xml",
+      "ppt/notesSlides/notesSlide5.xml",
+      "ppt/slides/slide6.xml",
+      "ppt/slides/slide7.xml",
+      "ppt/slides/slide9.xml",
+      "ppt/slides/slide10.xml",
+      "ppt/slides/slide11.xml",
+      "ppt/slides/slide12.xml",
+      "ppt/slides/slide13.xml",
+      "ppt/slides/slide14.xml",
+      "ppt/slides/slide15.xml",
+      "ppt/slides/slide16.xml",
+      "ppt/slides/slide18.xml"
+    ],
+    "id_repairs": {
+      "ppt/slides/slide2.xml": [
+        {
+          "old": 25,
+          "new": 35
+        }
+      ],
+      "ppt/slides/slide3.xml": [
+        {
+          "old": 25,
+          "new": 40
+        }
+      ],
+      "ppt/slides/slide4.xml": [
+        {
+          "old": 25,
+          "new": 39
+        }
+      ],
+      "ppt/slides/slide5.xml": [
+        {
+          "old": 25,
+          "new": 26
+        }
+      ],
+      "ppt/slides/slide6.xml": [
+        {
+          "old": 25,
+          "new": 27
+        }
+      ],
+      "ppt/slides/slide7.xml": [
+        {
+          "old": 25,
+          "new": 43
+        }
+      ],
+      "ppt/slides/slide9.xml": [
+        {
+          "old": 25,
+          "new": 29
+        }
+      ],
+      "ppt/slides/slide10.xml": [
+        {
+          "old": 11,
+          "new": 37
+        },
+        {
+          "old": 25,
+          "new": 38
+        }
+      ],
+      "ppt/slides/slide11.xml": [
+        {
+          "old": 25,
+          "new": 62
+        }
+      ],
+      "ppt/slides/slide12.xml": [
+        {
+          "old": 13,
+          "new": 26
+        }
+      ],
+      "ppt/slides/slide13.xml": [
+        {
+          "old": 25,
+          "new": 60
+        }
+      ],
+      "ppt/slides/slide14.xml": [
+        {
+          "old": 25,
+          "new": 32
+        }
+      ],
+      "ppt/slides/slide15.xml": [
+        {
+          "old": 16,
+          "new": 32
+        }
+      ],
+      "ppt/slides/slide16.xml": [
+        {
+          "old": 17,
+          "new": 28
+        },
+        {
+          "old": 25,
+          "new": 29
+        }
+      ]
+    },
+    "untouched_slide_content_and_style": [
+      "ppt/slides/slide1.xml",
+      "ppt/slides/slide2.xml",
+      "ppt/slides/slide3.xml",
+      "ppt/slides/slide4.xml",
+      "ppt/slides/slide6.xml",
+      "ppt/slides/slide7.xml",
+      "ppt/slides/slide8.xml",
+      "ppt/slides/slide9.xml",
+      "ppt/slides/slide10.xml",
+      "ppt/slides/slide11.xml",
+      "ppt/slides/slide12.xml",
+      "ppt/slides/slide13.xml",
+      "ppt/slides/slide14.xml",
+      "ppt/slides/slide15.xml",
+      "ppt/slides/slide16.xml",
+      "ppt/slides/slide17.xml"
+    ],
+    "authorisation": "User explicitly approved limited repair/direct edit after the skill restriction was explained.",
+    "slide_count": 18,
+    "all_non_slide_asset_parts_unchanged": true,
+    "output_sha256": "b279fd78d8862a7e02d29bd6a0a92328b97d73e5997d2548ce74b8ea830a40fc",
+    "qa_baseline": "C:\\Users\\User\\OneDrive\\Desktop\\Over the wall\\outputs\\01a11ec3-205e-7c12-a781-88b6b4b7d42c\\presentations\\watersmart-survey-update\\main-id-repaired.pptx"
+  },
+  {
+    "source": "C:\\Users\\User\\OneDrive\\Desktop\\Over the wall\\Round2_Submission\\WaterSmart_Round2_Deck_NoFieldwork.pptx",
+    "output": "C:\\Users\\User\\OneDrive\\Desktop\\Over the wall\\Round2_Submission\\WaterSmart_Round2_Deck_NoFieldwork_Survey360.pptx",
+    "source_sha256": "ee5f0cc5d8b5deb68762f1e56f6581d030ca36dde4a383d91103c16aca9a1a71",
+    "changed_parts": [
+      "ppt/slides/slide2.xml",
+      "ppt/slides/slide3.xml",
+      "ppt/slides/slide4.xml",
+      "ppt/slides/slide5.xml",
+      "ppt/notesSlides/notesSlide5.xml",
+      "ppt/slides/slide6.xml",
+      "ppt/slides/slide7.xml",
+      "ppt/slides/slide9.xml",
+      "ppt/slides/slide10.xml",
+      "ppt/slides/slide11.xml",
+      "ppt/slides/slide12.xml",
+      "ppt/slides/slide13.xml",
+      "ppt/slides/slide14.xml",
+      "ppt/slides/slide15.xml",
+      "ppt/slides/slide16.xml",
+      "ppt/slides/slide18.xml"
+    ],
+    "id_repairs": {
+      "ppt/slides/slide2.xml": [
+        {
+          "old": 25,
+          "new": 35
+        }
+      ],
+      "ppt/slides/slide3.xml": [
+        {
+          "old": 25,
+          "new": 40
+        }
+      ],
+      "ppt/slides/slide4.xml": [
+        {
+          "old": 25,
+          "new": 38
+        }
+      ],
+      "ppt/slides/slide5.xml": [
+        {
+          "old": 25,
+          "new": 26
+        }
+      ],
+      "ppt/slides/slide6.xml": [
+        {
+          "old": 25,
+          "new": 27
+        }
+      ],
+      "ppt/slides/slide7.xml": [
+        {
+          "old": 25,
+          "new": 43
+        }
+      ],
+      "ppt/slides/slide9.xml": [
+        {
+          "old": 25,
+          "new": 29
+        }
+      ],
+      "ppt/slides/slide10.xml": [
+        {
+          "old": 11,
+          "new": 37
+        },
+        {
+          "old": 25,
+          "new": 38
+        }
+      ],
+      "ppt/slides/slide11.xml": [
+        {
+          "old": 25,
+          "new": 62
+        }
+      ],
+      "ppt/slides/slide12.xml": [
+        {
+          "old": 13,
+          "new": 26
+        }
+      ],
+      "ppt/slides/slide13.xml": [
+        {
+          "old": 25,
+          "new": 60
+        }
+      ],
+      "ppt/slides/slide14.xml": [
+        {
+          "old": 25,
+          "new": 32
+        }
+      ],
+      "ppt/slides/slide15.xml": [
+        {
+          "old": 16,
+          "new": 32
+        }
+      ],
+      "ppt/slides/slide16.xml": [
+        {
+          "old": 17,
+          "new": 28
+        },
+        {
+          "old": 25,
+          "new": 29
+        }
+      ]
+    },
+    "untouched_slide_content_and_style": [
+      "ppt/slides/slide1.xml",
+      "ppt/slides/slide2.xml",
+      "ppt/slides/slide3.xml",
+      "ppt/slides/slide4.xml",
+      "ppt/slides/slide6.xml",
+      "ppt/slides/slide7.xml",
+      "ppt/slides/slide8.xml",
+      "ppt/slides/slide9.xml",
+      "ppt/slides/slide10.xml",
+      "ppt/slides/slide11.xml",
+      "ppt/slides/slide12.xml",
+      "ppt/slides/slide13.xml",
+      "ppt/slides/slide14.xml",
+      "ppt/slides/slide15.xml",
+      "ppt/slides/slide16.xml",
+      "ppt/slides/slide17.xml"
+    ],
+    "authorisation": "User explicitly approved limited repair/direct edit after the skill restriction was explained.",
+    "slide_count": 18,
+    "all_non_slide_asset_parts_unchanged": true,
+    "output_sha256": "ba2c2e47edad9ecf58da422594b38443ab178244da2db670456dc071c5fa6d55",
+    "qa_baseline": "C:\\Users\\User\\OneDrive\\Desktop\\Over the wall\\outputs\\01a11ec3-205e-7c12-a781-88b6b4b7d42c\\presentations\\watersmart-survey-update\\no-fieldwork-id-repaired.pptx"
+  }
+]

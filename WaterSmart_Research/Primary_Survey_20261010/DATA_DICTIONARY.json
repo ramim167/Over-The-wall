@@ -1,0 +1,155 @@
+{
+  "raw_column_count": 27,
+  "raw_rows": 50,
+  "cleaned_records": 49,
+  "current_headers": [
+    {
+      "index": 0,
+      "field": "Timestamp",
+      "current_export_title": "Timestamp"
+    },
+    {
+      "index": 1,
+      "field": "Q1",
+      "current_export_title": "Q1. আপনার বয়স কি ১৮ বছর বা বেশি এবং আপনি স্বেচ্ছায় অংশগ্রহণ ও পরিচয় প্রকাশ না করে গবেষণা/প্রেজেন্টেশনে উত্তর ব্যবহারে সম্মতি দিচ্ছেন?"
+    },
+    {
+      "index": 2,
+      "field": "Q2",
+      "current_export_title": "Q2. আপনার বয়সের সীমা কোনটি?"
+    },
+    {
+      "index": 3,
+      "field": "Q3",
+      "current_export_title": "Q3. আপনার লিঙ্গ পরিচয় কী?"
+    },
+    {
+      "index": 4,
+      "field": "Q4",
+      "current_export_title": "Q4. বর্তমানে আপনার থাকার ব্যবস্থা কোনটি?"
+    },
+    {
+      "index": 5,
+      "field": "Q5",
+      "current_export_title": "Q5. বর্তমানে কোন জেলা ও উপজেলা/শহরে থাকেন?"
+    },
+    {
+      "index": 6,
+      "field": "Q6",
+      "current_export_title": "Q6. বর্তমানে সবচেয়ে বেশি কোন ব্র্যান্ড ও ভ্যারিয়েন্টের শ্যাম্পু ব্যবহার করেন?"
+    },
+    {
+      "index": 7,
+      "field": "Q7",
+      "current_export_title": "Q7. সর্বশেষ কেনা শ্যাম্পুর প্যাকেটে কত মিলিলিটার ছিল?"
+    },
+    {
+      "index": 8,
+      "field": "Q8",
+      "current_export_title": "Q8. ওই একই প্যাকেটটির জন্য বাস্তবে কত টাকা দিয়েছিলেন?"
+    },
+    {
+      "index": 9,
+      "field": "Q9",
+      "current_export_title": "Q9. সাধারণত সপ্তাহে কতবার শ্যাম্পু দিয়ে চুল ধোন?"
+    },
+    {
+      "index": 10,
+      "field": "Q10",
+      "current_export_title": "Q10. গত তিন মাসে চুল বা চুল ধোয়া নিয়ে নিচের কোন অভিজ্ঞতাগুলো হয়েছে?"
+    },
+    {
+      "index": 11,
+      "field": "Q11",
+      "current_export_title": "Q11. এসব সমস্যার কারণ কী হতে পারে বলে আপনার মনে হয়?"
+    },
+    {
+      "index": 12,
+      "field": "Q12",
+      "current_export_title": "Q12. চুল ধোয়ার জন্য প্রধানত কোন উৎসের পানি ব্যবহার করেন?"
+    },
+    {
+      "index": 13,
+      "field": "Q13",
+      "current_export_title": "Q13. গত ১২ মাসে বাসা বদল বা অন্য কারণে চুল ধোয়ার পানির উৎস কি বদলেছে?"
+    },
+    {
+      "index": 14,
+      "field": "Q14",
+      "current_export_title": "Q14. পানি বদলে থাকলে, এরপর চুল বা চুল ধোয়ার অভিজ্ঞতা কেমন হয়েছে?"
+    },
+    {
+      "index": 15,
+      "field": "Q15",
+      "current_export_title": "Q15. আপনার ব্যবহৃত পানি বা বাথরুমে নিচের কোনটি আগে থেকে খেয়াল করেছেন?"
+    },
+    {
+      "index": 16,
+      "field": "Q16",
+      "current_export_title": "Q16. চুল বা চুল ধোয়ার সমস্যা সামলাতে ইতিমধ্যে কী কী করেছেন?"
+    },
+    {
+      "index": 17,
+      "field": "Q17",
+      "current_export_title": "Q17. ধারণাটি আপনার কাছে কতটা আকর্ষণীয়?"
+    },
+    {
+      "index": 18,
+      "field": "Q18",
+      "current_export_title": "Q18. বর্তমানে আপনার জানা শ্যাম্পুগুলোর তুলনায় ধারণাটি কতটা আলাদা মনে হচ্ছে?"
+    },
+    {
+      "index": 19,
+      "field": "Q19",
+      "current_export_title": "Q19. এই ধারণার ভিত্তিতে পণ্যটি কিনে দেখার বিষয়ে আপনার আগ্রহ কোনটির কাছাকাছি?"
+    },
+    {
+      "index": 20,
+      "field": "Q20",
+      "current_export_title": "Q20. বর্ণিত সুবিধাসহ 340 ml বোতলের জন্য সর্বোচ্চ কত টাকা দিতে স্বচ্ছন্দ হতেন?"
+    },
+    {
+      "index": 21,
+      "field": "Q21",
+      "current_export_title": "Q21. বর্ণিত সুবিধাসহ 340 ml বোতলের দাম 360 টাকা হলে আপনি কিনে দেখতে কতটা আগ্রহী হতেন?"
+    },
+    {
+      "index": 22,
+      "field": "Q22",
+      "current_export_title": "Q22. প্রথমবার চেষ্টা করার জন্য কোন প্যাকেটটি বেছে নিতেন?"
+    },
+    {
+      "index": 23,
+      "field": "Q23",
+      "current_export_title": "Q23. ধারণাটির কোন একটি দিক আপনার কাছে সবচেয়ে মূল্যবান?"
+    },
+    {
+      "index": 24,
+      "field": "Q24",
+      "current_export_title": "Q24. একই ফর্মুলার 340 ml বোতলের এই কাল্পনিক দুটি বিকল্পের মধ্যে কোনটি বেছে নিতেন?"
+    },
+    {
+      "index": 25,
+      "field": "Q25",
+      "current_export_title": "Q25. কেনার আগে আপনার সবচেয়ে বড় প্রশ্ন বা সংশয় কোনটি হবে?"
+    },
+    {
+      "index": 26,
+      "field": "Q26",
+      "current_export_title": "Q26. ধারণাটির ভালো লাগা, সন্দেহ বা একটি পরিবর্তনের পরামর্শ নিজের ভাষায় লিখুন।"
+    }
+  ],
+  "processed_fields": {
+    "record_id": "Analyst-assigned stable anonymous ID; not a new or simulated respondent",
+    "source_csv_row": "One-based CSV row including header",
+    "timestamp_as_exported": "Exact source timestamp string",
+    "timestamp_iso_naive": "dd/MM/yyyy parsed to ISO without timezone conversion",
+    "maximum_price_tk": "Q20 numeric value; zero retained,missing remainsmissing",
+    "historical_Q21_reference_price_tk": "400, explicitly user-reported old reference; not independently observed former form",
+    "requested_target_price_tk": "360, user requested scenario threshold",
+    "review_flags": "Retained response-level review notes; only nonconsent was excluded"
+  },
+  "Q21_current_header_note": "The current label360 does not certify exposure360; old400 declaration retained separately.",
+  "Q22_Q24_note": "Current option strings preserved; original historical prices not fully recovered.",
+  "analysis_scope": "Descriptive self-reports, not population survey,water chemistry,product effectiveness,paid demand or manufacturing costs"
+}

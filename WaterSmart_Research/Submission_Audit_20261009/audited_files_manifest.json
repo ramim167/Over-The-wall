@@ -1,0 +1,182 @@
+{
+  "review_dates_local": "2026-10-09 to 2026-10-10",
+  "generated_at_utc": "2026-10-09T18:01:10.930724+00:00",
+  "excluded": "Office temporary owner/lock files (~$)",
+  "files": [
+    {
+      "path": "Final Case - Over The Wall Season 5 (1).pdf",
+      "bytes": 2262474,
+      "sha256": "9e7f69532f2dfd38c666502c9cef6c60cecd231d1145ba803021a56d3f7c0521"
+    },
+    {
+      "path": "Naturale_WaterSmart_Idea.html",
+      "bytes": 89376,
+      "sha256": "1e978fe5d9fdeb31133fefcda99c6dd3a115bc126b75d4da6aa70263778f0355"
+    },
+    {
+      "path": "OTW_S5_Master_Research.md",
+      "bytes": 98213,
+      "sha256": "734fbe511ea6ffa13acfd10676c0461e25719c96c47f324822f8c87b00d4d33c"
+    },
+    {
+      "path": "Round2_Submission/.gitignore",
+      "bytes": 36,
+      "sha256": "2b10603bfeaa510c84b5c4fb23cb32a4f6a96b2539ac1758844177d2dcdb12f4"
+    },
+    {
+      "path": "Round2_Submission/deck/assets/bgd_adm2.geojson",
+      "bytes": 1686182,
+      "sha256": "90fd07adc6413c1a57e3521788983b16f402788b5da2d4246f8985c277368cc3"
+    },
+    {
+      "path": "Round2_Submission/deck/assets/bottle180.png",
+      "bytes": 136796,
+      "sha256": "301d8e43fb846c3acc8c6fda6df13ddae8528c0883977266e9aa355fe0bd189c"
+    },
+    {
+      "path": "Round2_Submission/deck/assets/bottle340.png",
+      "bytes": 156328,
+      "sha256": "65c707b56f895c5f6e34941e57463c83be9b25b9dda4348a7b684c6d32e6fbbc"
+    },
+    {
+      "path": "Round2_Submission/deck/assets/chart.png",
+      "bytes": 35145,
+      "sha256": "138d59ca861d685ee96110d1ce0121cddbf2a844cf4943ff8fae4fc60522540e"
+    },
+    {
+      "path": "Round2_Submission/deck/assets/map.png",
+      "bytes": 412408,
+      "sha256": "3421e9f353effca53dfb87b58791004dcbc7b87e4da4a45a64284b011d03a6a3"
+    },
+    {
+      "path": "Round2_Submission/deck/assets/map.svg",
+      "bytes": 486590,
+      "sha256": "cc2a74a103e091a47f82088a794f34cac7cf4666e1a3472449794d7bb8effa43"
+    },
+    {
+      "path": "Round2_Submission/deck/assets/otw_logo.png",
+      "bytes": 28310,
+      "sha256": "1b1e685bf2d06ee483ec4f04e3f1bc0d1e3cfec2486e0e910c85c7327958b154"
+    },
+    {
+      "path": "Round2_Submission/deck/assets/phone.png",
+      "bytes": 166177,
+      "sha256": "31839d9a20eb9a32a8ac85f0cb2d0a8f32746e7b3857884e69f1375e3c549e16"
+    },
+    {
+      "path": "Round2_Submission/deck/assets/sachet.png",
+      "bytes": 56349,
+      "sha256": "6de2fe42274599b0e9399bf2c402d78151122bd313d0730a86e57cebd61c6404"
+    },
+    {
+      "path": "Round2_Submission/deck/build_assets.cjs",
+      "bytes": 9848,
+      "sha256": "7542641869bc77a96e700d8e73c71076c32f166875f47dfa7643b4e2986e6069"
+    },
+    {
+      "path": "Round2_Submission/deck/build_deck.cjs",
+      "bytes": 71486,
+      "sha256": "f63c917e4fed8d9946ad4d7c0514a53ae70752e66113a6ba0b297dcc6144d454"
+    },
+    {
+      "path": "Round2_Submission/deck/build_map.cjs",
+      "bytes": 2724,
+      "sha256": "6bbe1172cea445e6f4e79c00579c4d41f2f43e71bffa529cf2f0ed96c85bfd2a"
+    },
+    {
+      "path": "Round2_Submission/deck/package-lock.json",
+      "bytes": 28991,
+      "sha256": "464c054d8d866169a99946a51df9af95cb34978c5ab4942491e4021845bb1d44"
+    },
+    {
+      "path": "Round2_Submission/deck/package.json",
+      "bytes": 416,
+      "sha256": "84c604667a83072ada040ae285c86f5013a4424989ccacd30f1a4ecf3f93fe14"
+    },
+    {
+      "path": "Round2_Submission/Field_Guide_and_Hypotheses.md",
+      "bytes": 4950,
+      "sha256": "cf4431142a4518f9db65745053c3b5cb38f1549fb3abbcd92f57be48e563749d"
+    },
+    {
+      "path": "Round2_Submission/finance/finance_v4.cjs",
+      "bytes": 8098,
+      "sha256": "b38cf21bcd8ab6970a4b0a7a6a29ceca37a75501a2464f62b5c32a9d527906e0"
+    },
+    {
+      "path": "Round2_Submission/finance/finance_v4_output.json",
+      "bytes": 19897,
+      "sha256": "3d9388e1a6b0cc7705f5aa98a9b37ecd37b5104eb636c1865d2a12ed7cc4cb2c"
+    },
+    {
+      "path": "Round2_Submission/QA_Prep.md",
+      "bytes": 4246,
+      "sha256": "9cc5f28ecfdfc4fa179501dd02d6978c225d84f6514c1ec870c8518e307c5540"
+    },
+    {
+      "path": "Round2_Submission/README.md",
+      "bytes": 2620,
+      "sha256": "87f59beec504928a7cd85ac20be55c27f4095829ed234adcf1fe16a250fa343c"
+    },
+    {
+      "path": "Round2_Submission/Video_Script.md",
+      "bytes": 3981,
+      "sha256": "ba645de469529082f1f8789e8cf897cdf41693d95d2965b68f688d0648773977"
+    },
+    {
+      "path": "Round2_Submission/WaterSmart_Round2_Deck.pdf",
+      "bytes": 1768402,
+      "sha256": "24b47e7b3b476ea2135d0072bed786e17bfa5cb2e282954392ac3ebe90ce1814"
+    },
+    {
+      "path": "Round2_Submission/WaterSmart_Round2_Deck.pptx",
+      "bytes": 1303892,
+      "sha256": "74b50ad2f371b223ad65661c9023ccf8b08c089c592cbc23f166d61d8a5d32c3"
+    },
+    {
+      "path": "Round2_Submission/WaterSmart_Round2_Deck_NoFieldwork.pdf",
+      "bytes": 1765222,
+      "sha256": "6da466a2d62c0bb0679b9cb108d60a9917f2b6bbff1da9b3091236d98071ef90"
+    },
+    {
+      "path": "Round2_Submission/WaterSmart_Round2_Deck_NoFieldwork.pptx",
+      "bytes": 1303736,
+      "sha256": "ee5f0cc5d8b5deb68762f1e56f6581d030ca36dde4a383d91103c16aca9a1a71"
+    },
+    {
+      "path": "WaterSmart_Field_Data_Plan.html",
+      "bytes": 69902,
+      "sha256": "554340dfba907d3f500ac8838249e6df1b1648876358feb693338ede3c4a7c3c"
+    },
+    {
+      "path": "WaterSmart_Google_Form_Guide.md",
+      "bytes": 24121,
+      "sha256": "6c98e968866f5cacbc7e65d33be8c913951a0a8387f41f28521f43216cbac96a"
+    },
+    {
+      "path": "WaterSmart_Research/analysis/published_survey_aggregates.csv",
+      "bytes": 3703,
+      "sha256": "87a7e164f94dcd3c303f6d054c26c3b03b5f62c63e8c09fc2e36e64403997363"
+    },
+    {
+      "path": "WaterSmart_Research/analysis/user_opinions_metadata.json",
+      "bytes": 584,
+      "sha256": "6b5622d9fb4afea6307495db5f716b91d8655672af1fa08cf6223d31a72cd167"
+    },
+    {
+      "path": "WaterSmart_Research/analysis/water_summary.json",
+      "bytes": 4102,
+      "sha256": "5e7f5d9aeb388fcd35c06545d06cf09556faa1b3a44c74924a4c4474f9dfe644"
+    },
+    {
+      "path": "WaterSmart_Research/CHECKPOINT.md",
+      "bytes": 8731,
+      "sha256": "9429c1745a93fbad87138b2a2b13a1ad10ab7e72b1ea96bd33b3277eeb11817c"
+    },
+    {
+      "path": "WaterSmart_Research/state.json",
+      "bytes": 4475,
+      "sha256": "b77517122193459a86ad6a418dad4854133115a51ffb95091a703d693fd34201"
+    }
+  ]
+}

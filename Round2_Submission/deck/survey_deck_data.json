@@ -1,0 +1,29 @@
+{
+  "source": "../../WaterSmart_Research/Primary_Survey_20261010/survey_summary.json",
+  "raw_submissions": 50,
+  "eligible_consenting_adults": 49,
+  "excluded_nonconsent": 1,
+  "observed_response_dates": "3–9 Oct 2026",
+  "proposed_340ml_price_tk": 360,
+  "changed_water_source": { "count": 22, "base": 49 },
+  "worse_after_water_change": { "count": 18, "base": 22, "pct": 81.81818181818181 },
+  "concept_appeal_4_or_5": { "count": 38, "base": 49, "pct": 77.55102040816327 },
+  "maximum_acceptable_price": { "numeric_answers": 47, "median_tk": 320 },
+  "stated_maximum_at_least_proposed_price": { "count": 15, "base": 47, "pct": 31.914893617021278 },
+  "heading": "OUR CONSUMER SURVEY · 3–9 OCT 2026",
+  "panel_lines": [
+    "49 consenting adults from 50 Google Form submissions",
+    "18 of 22 water-source changers reported worse hair problems (81.8%)",
+    "38 of 49 rated the concept 4 or 5 out of 5 (77.6%)",
+    "Median maximum price for 340 ml: Tk 320 (n=47)",
+    "15 of 47 stated a maximum price of at least Tk 360 (31.9%)",
+    "Convenience sample; self-reports. Water/foam tests remain planned."
+  ],
+  "appendix_consumer_text": "Khanam & Rahman 2022 (n=390); Zakaria et al. 2025 (n=391); team Google Form, 3–9 Oct 2026: 49 consenting adults from 50 submissions, convenience sample. Q20: median maximum Tk 320 (n=47); 15/47 maxima at least Tk 360.",
+  "source_footer_addition": "Team Google Form survey, 3–9 Oct 2026 (n=49; maximum-price answers n=47).",
+  "speaker_note": "Own survey results are self-reported from a convenience sample. Percentages show their actual bases. The Tk 360 figure is the proposed price and a threshold applied to Q20 recorded maximum acceptable prices; it is not observed purchase conversion. Collection channel was not recorded per respondent, so no invented online/offline distribution is shown. Product, water and foam testing remain pending. Published studies remain attributed to their authors.",
+  "collection_distribution": null,
+  "collection_distribution_status": "Not recorded per respondent; imagined allocations are not survey evidence.",
+  "synthetic_records": 0,
+  "revenue_or_cost_inputs_changed": false
+}

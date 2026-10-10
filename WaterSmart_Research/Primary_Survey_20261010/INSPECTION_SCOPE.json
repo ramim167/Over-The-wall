@@ -1,0 +1,18 @@
+{
+  "analysed_source": "raw/WaterSmart_responses.csv",
+  "csv_complete": true,
+  "xlsx_snapshot_preserved": true,
+  "xlsx_cells_independently_reconciled": false,
+  "reason": "Spreadsheet inspection runtime returned codex/sandbox-state-meta: missing field sandboxPolicy. CSV carries all 27 source columns and 50 rows and was analyzed independently. No workbook authored or edited.",
+  "skill": "C:/Users/User/.codex/plugins/cache/openai-primary-runtime/spreadsheets/26.521.10419/skills/spreadsheets/SKILL.md",
+  "instruction": "Use @oai/artifact-tool JS library ... for authoring, editing, inspecting, rendering, and exporting spreadsheet .xlsx workbooks.",
+  "native_inspection_error": {
+    "content": [
+      {
+        "type": "text",
+        "text": "tool call error: tool call failed for `node_repl/js`\n\nCaused by:\n    Mcp error: -32602: js: codex/sandbox-state-meta: missing field `sandboxPolicy`"
+      }
+    ],
+    "isError": true
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "task": "Audit newly added WaterSmart files against prior missing-work checklist and find supporting evidence in common PC locations.",
+  "status": "requested_file_audit_complete_validation_gaps_remain",
+  "report": "UPDATED_FILES_AUDIT.md",
+  "original_submission_files_changed": false,
+  "reviewed_submission_version": "Round2 v4 / MRP340 Tk360 / GM gate45%, both 18-slide variants",
+  "completed": [
+    "Master/research context review",
+    "New submission and survey guide review",
+    "Both PDF/PPTX text extraction",
+    "Selected PDF slide rendering and visual inspection",
+    "Finance output and independent cash/NPV/IRR reconciliation",
+    "Scoped PC file search",
+    "Attempted scoped Google Drive/Gmail searches",
+    "Source/content/consistency findings and resume manifest"
+  ],
+  "finance_numeric_values_reconciled": 454,
+  "finance_mismatches": [],
+  "local_file_search_scope": [
+    "C:\\Users\\User\\Downloads",
+    "C:\\Users\\User\\Documents",
+    "C:\\Users\\User\\Desktop",
+    "C:\\Users\\User\\OneDrive\\Documents",
+    "C:\\Users\\User\\OneDrive\\Desktop",
+    "C:\\Users\\User\\.codex\\attachments"
+  ],
+  "cloud_access": "Drive/Gmail disconnected; no private mail/cloud data read.",
+  "still_missing": [
+    "Five opinion collection dates/anonymous-use consents/price-order",
+    "Collected consenting-response export",
+    "Landed supplier/BOM/insertion/tooling quotations",
+    "Dated private Marico/chemist/tax/line confirmations",
+    "Actual water/foam/pack-weight/product qualification records",
+    "Finished WaterSmart video",
+    "Verified organizer permission for 18 slides and template flexibility"
+  ],
+  "future_execution_gates": [
+    "Formula safety/performance/pack/strip stability",
+    "Qualified paid pilot sell-out/mature repeat/cannibalisation",
+    "Separate LonaJol salinity qualification"
+  ],
+  "resume": [
+    "Read UPDATED_FILES_AUDIT.md and audited_files_manifest.json",
+    "Compare changed files to hashes",
+    "Check provenance of any newly supplied evidence",
+    "Update affected findings only",
+    "Reconcile finance if inputs change",
+    "Do not blindly rerun older v3 integration over v4 user files"
+  ],
+  "external_messages_sent": false,
+  "synthetic_respondents_created": 0
+}

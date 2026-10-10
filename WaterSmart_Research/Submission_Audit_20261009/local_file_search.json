@@ -1,5 +1,5 @@
 {
-  "searched_at_utc": "2026-10-09T17:52:08.294540+00:00",
+  "searched_at_utc": "2026-10-09T17:59:31.436686+00:00",
   "scope": "Local file discovery in the listed common locations; workspace reviewed separately. Not a whole-disk or connected-cloud search.",
   "roots": [
     "C:\\Users\\User\\Downloads",
@@ -10,7 +10,7 @@
     "C:\\Users\\User\\.codex\\attachments"
   ],
   "indexed_relevant_extension_files_outside_workspace": 3783,
-  "small_text_or_recent_document_content_checks": 548,
+  "small_text_or_recent_document_content_checks": 587,
   "spreadsheet_export_file_count_outside_workspace": 23,
   "mail_export_file_count_outside_workspace": 0,
   "recent_spreadsheet_export_filenames": [
@@ -84,24 +84,6 @@
         "project filename/path"
       ],
       "sha256": "0b87a93738f37a43dab6ee4b1915853042a86eac223247042590f30f15d510cf"
-    },
-    {
-      "path": "C:\\Users\\User\\OneDrive\\Desktop\\CHem MH sir\\CHEM113_QB_Topic_Map_Solution_to_Electrochemistry_2020_onwards.pdf",
-      "bytes": 63777,
-      "modified_local": "2026-05-07T20:27:04",
-      "reasons": [
-        "possible evidence filename"
-      ],
-      "sha256": "18decb6e4bc443041012804597ab27b249f67613b0829c0bed0febcff6506b64"
-    },
-    {
-      "path": "C:\\Users\\User\\OneDrive\\Desktop\\CHem MH sir - Copy\\CHEM113_QB_Topic_Map_Solution_to_Electrochemistry_2020_onwards.pdf",
-      "bytes": 63777,
-      "modified_local": "2026-05-07T20:27:04",
-      "reasons": [
-        "possible evidence filename"
-      ],
-      "sha256": "18decb6e4bc443041012804597ab27b249f67613b0829c0bed0febcff6506b64"
     }
   ],
   "errors": [],

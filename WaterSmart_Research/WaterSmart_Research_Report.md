@@ -1,5 +1,7 @@
 # WaterSmart: evidence audit and research report
 
+> **Primary-data update,10 Oct 2026:** a user-disclosed WhatsApp/friend-of-friend survey is now analysed separately:50 submitted records,49 consent-yes,47 numeric maximum prices,medianTk320 and15 stated maxima>=Tk360. Read [the new primary report](Primary_Survey_20261010/SURVEY_ANALYSIS.md). Historical Q21 exposure wasTk400 per user declaration; current export labels say360 after revision. This adds consumer self-reports; it does not validate production costs,water chemistry,formula efficacy or paid demand. The public-research findings below retain their9Oct cut-off.
+
 **Project:** OTW Season 5, Round 2 · Team The Last BrainCell · proposed Parachute Naturale WaterSmart v3.  
 **Research cut-off:** 9 October 2026, Asia/Dhaka. **Use:** internal competition research; preserve the supplied case/masterclass confidentiality.  
 **Analysis credit:** Team The Last BrainCell analysis of attributed public sources. External researchers retain credit for their studies and data collection.

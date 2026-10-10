@@ -1,0 +1,60 @@
+{
+  "status": "csv_primary_survey_analysis_complete_target360_threshold_analysis_complete",
+  "local_review_date": "2026-10-10",
+  "report": "SURVEY_ANALYSIS.md",
+  "raw_source": "raw/WaterSmart_responses.csv",
+  "companion_xlsx": "raw/WaterSmart_responses.xlsx",
+  "eligible_records": 49,
+  "excluded_nonconsent": 1,
+  "numeric_maximum_price_answers": 47,
+  "median_maximum_price_tk": 320,
+  "requested_target_price_tk": 360,
+  "stated_maximum_ge_target": {
+    "count": 15,
+    "base": 47,
+    "pct": 31.914893617021278
+  },
+  "historical_Q21_reference_price_tk_user_reported": 400,
+  "historical_Q21_top2": {
+    "count": 33,
+    "base": 49
+  },
+  "declared_recruitment": "WhatsApp/friend-of-friend convenience/snowball",
+  "original_record_answers_changed": false,
+  "synthetic_records": 0,
+  "prior_five_notes_not_pooled": true,
+  "further_version_questions": "User declined; preserve uncertainty and continue bounded analysis at target360",
+  "no_360_Q21_measured_cohort_established": true,
+  "fully_documented_historical_Q22_Q24_prices": false,
+  "completed": [
+    "CSV all50x27 cells read",
+    "Consent-only49 record eligibility",
+    "Raw CSV/XLSX snapshot and original SHA256 matching",
+    "Completeness/duplicate/numeric/skip-logic review",
+    "Requested target360 maximum-price threshold analysis",
+    "Historical400 Q21 context preserved",
+    "Subgroup/feature/concern summaries",
+    "Core raw metrics independently cross-checked",
+    "Summary,cleaned records,flags,exclusions,methods and research pointers saved"
+  ],
+  "native_xlsx_inspection": "Runtime setup error, missing sandboxPolicy; not cell-reconciled; complete CSV is analyzed source",
+  "still_pending": [
+    "Actual water/foam/pack-weight readings",
+    "Finished formulation,strip/pack qualification",
+    "Supplier/BOM/insertion/tooling quotations",
+    "Private invoice/channel/capacity confirmations",
+    "Qualified paid sales,mature repeat,cannibalisation"
+  ],
+  "financial_model_inputs_changed": false,
+  "resume": [
+    "Read SURVEY_ANALYSIS.md and survey_summary.json",
+    "Use raw_manifest for original snapshots",
+    "Keep Q21 historical400 and target360 threshold separate",
+    "Keep original answers and review flags; do not drop price-inconsistent rows silently",
+    "Do not import Q21 into pi330 logger",
+    "Do not pool prior five opinion summaries",
+    "If new export arrives,version source and derive anew",
+    "Do not run old finalize_research.py blindly; it would reset new primary-state counts",
+    "Do not infer future revenue from survey intent percentages"
+  ]
+}

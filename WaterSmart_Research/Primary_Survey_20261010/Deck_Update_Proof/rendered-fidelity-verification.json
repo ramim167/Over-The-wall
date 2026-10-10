@@ -1,0 +1,222 @@
+[
+  {
+    "variant": "main",
+    "pdf": "C:\\Users\\User\\OneDrive\\Desktop\\Over the wall\\Round2_Submission\\WaterSmart_Round2_Deck_Survey360.pdf",
+    "pages": 18,
+    "unchanged_slides_identical_pixels": 16,
+    "slide_results": [
+      {
+        "slide": 1,
+        "identical_pixels": true,
+        "changed_bounding_box": null
+      },
+      {
+        "slide": 2,
+        "identical_pixels": true,
+        "changed_bounding_box": null
+      },
+      {
+        "slide": 3,
+        "identical_pixels": true,
+        "changed_bounding_box": null
+      },
+      {
+        "slide": 4,
+        "identical_pixels": true,
+        "changed_bounding_box": null
+      },
+      {
+        "slide": 5,
+        "identical_pixels": false,
+        "changed_bounding_box": [
+          309,
+          227,
+          1506,
+          833
+        ]
+      },
+      {
+        "slide": 6,
+        "identical_pixels": true,
+        "changed_bounding_box": null
+      },
+      {
+        "slide": 7,
+        "identical_pixels": true,
+        "changed_bounding_box": null
+      },
+      {
+        "slide": 8,
+        "identical_pixels": true,
+        "changed_bounding_box": null
+      },
+      {
+        "slide": 9,
+        "identical_pixels": true,
+        "changed_bounding_box": null
+      },
+      {
+        "slide": 10,
+        "identical_pixels": true,
+        "changed_bounding_box": null
+      },
+      {
+        "slide": 11,
+        "identical_pixels": true,
+        "changed_bounding_box": null
+      },
+      {
+        "slide": 12,
+        "identical_pixels": true,
+        "changed_bounding_box": null
+      },
+      {
+        "slide": 13,
+        "identical_pixels": true,
+        "changed_bounding_box": null
+      },
+      {
+        "slide": 14,
+        "identical_pixels": true,
+        "changed_bounding_box": null
+      },
+      {
+        "slide": 15,
+        "identical_pixels": true,
+        "changed_bounding_box": null
+      },
+      {
+        "slide": 16,
+        "identical_pixels": true,
+        "changed_bounding_box": null
+      },
+      {
+        "slide": 17,
+        "identical_pixels": true,
+        "changed_bounding_box": null
+      },
+      {
+        "slide": 18,
+        "identical_pixels": false,
+        "changed_bounding_box": [
+          72,
+          313,
+          823,
+          460
+        ]
+      }
+    ],
+    "survey_pdf_text_checks_passed": true,
+    "pdf_sha256": "9344a419ee03c1bc1c7b3186b7ee9a7229b600fd60f1acb9544ce6a5f36e08e2"
+  },
+  {
+    "variant": "no-fieldwork",
+    "pdf": "C:\\Users\\User\\OneDrive\\Desktop\\Over the wall\\Round2_Submission\\WaterSmart_Round2_Deck_NoFieldwork_Survey360.pdf",
+    "pages": 18,
+    "unchanged_slides_identical_pixels": 16,
+    "slide_results": [
+      {
+        "slide": 1,
+        "identical_pixels": true,
+        "changed_bounding_box": null
+      },
+      {
+        "slide": 2,
+        "identical_pixels": true,
+        "changed_bounding_box": null
+      },
+      {
+        "slide": 3,
+        "identical_pixels": true,
+        "changed_bounding_box": null
+      },
+      {
+        "slide": 4,
+        "identical_pixels": true,
+        "changed_bounding_box": null
+      },
+      {
+        "slide": 5,
+        "identical_pixels": false,
+        "changed_bounding_box": [
+          309,
+          228,
+          1505,
+          833
+        ]
+      },
+      {
+        "slide": 6,
+        "identical_pixels": true,
+        "changed_bounding_box": null
+      },
+      {
+        "slide": 7,
+        "identical_pixels": true,
+        "changed_bounding_box": null
+      },
+      {
+        "slide": 8,
+        "identical_pixels": true,
+        "changed_bounding_box": null
+      },
+      {
+        "slide": 9,
+        "identical_pixels": true,
+        "changed_bounding_box": null
+      },
+      {
+        "slide": 10,
+        "identical_pixels": true,
+        "changed_bounding_box": null
+      },
+      {
+        "slide": 11,
+        "identical_pixels": true,
+        "changed_bounding_box": null
+      },
+      {
+        "slide": 12,
+        "identical_pixels": true,
+        "changed_bounding_box": null
+      },
+      {
+        "slide": 13,
+        "identical_pixels": true,
+        "changed_bounding_box": null
+      },
+      {
+        "slide": 14,
+        "identical_pixels": true,
+        "changed_bounding_box": null
+      },
+      {
+        "slide": 15,
+        "identical_pixels": true,
+        "changed_bounding_box": null
+      },
+      {
+        "slide": 16,
+        "identical_pixels": true,
+        "changed_bounding_box": null
+      },
+      {
+        "slide": 17,
+        "identical_pixels": true,
+        "changed_bounding_box": null
+      },
+      {
+        "slide": 18,
+        "identical_pixels": false,
+        "changed_bounding_box": [
+          72,
+          313,
+          823,
+          460
+        ]
+      }
+    ],
+    "survey_pdf_text_checks_passed": true,
+    "pdf_sha256": "13179a4927c85b925f7db70977292a60b8652ec64215b96463c2e14f1aef56ec"
+  }
+]

@@ -1,0 +1,489 @@
+{
+  "metadata": {
+    "collected_since": "2026-10-03",
+    "closed_local_date": "2026-10-10",
+    "historical_q21_price_tk": 400,
+    "current_header_q21_price_tk": 360,
+    "source": "WhatsApp groups and friend-of-friend recruitment",
+    "user_reports_no_export_answer_timestamp_changes": true,
+    "other_historical_pack_comparison_prices": "Not fully documented; user asked to stop further version questions and analyze target 360.",
+    "raw_google_export_type": "not separately identified for CSV vs XLSX",
+    "declared_at_local_date": "2026-10-10",
+    "requested_target_price_tk": 360,
+    "user_requested_analysis_at_360": true,
+    "user_declined_additional_version_questions": true,
+    "current_export_Q22_Q24_labels_after_edit": true,
+    "historical_Q22_Q24_prices_fully_established": false
+  },
+  "sample": {
+    "raw_submissions": 50,
+    "consent_yes_records": 49,
+    "non_consent_excluded": 1,
+    "method": "WhatsApp/friend-of-friend convenience/snowball sample, user reported",
+    "respondent_authenticity": "User-attested collection; not independently verified individual identities",
+    "synthetic_records": 0,
+    "observed_timestamp_min": "2026-10-03T19:38:25",
+    "observed_timestamp_max": "2026-10-09T23:12:43",
+    "timestamp_timezone": "Not encoded in export; times shown as written",
+    "timestamp_format": "dd/MM/yyyy HH:mm:ss consistent with declared October collection",
+    "daily_counts": {
+      "2026-10-03": 8,
+      "2026-10-04": 10,
+      "2026-10-05": 6,
+      "2026-10-06": 9,
+      "2026-10-07": 6,
+      "2026-10-08": 5,
+      "2026-10-09": 5
+    }
+  },
+  "profile": {
+    "age": {
+      "১৮–২৪": 30,
+      "২৫–৩৪": 11,
+      "৩৫–৪৪": 5,
+      "৪৫–৫৪": 2,
+      "৫৫ বা বেশি": 1
+    },
+    "gender": {
+      "নারী": 25,
+      "পুরুষ": 21,
+      "বলতে চাই না": 1,
+      "(missing)": 2
+    },
+    "living_arrangement": {
+      "শিক্ষার্থী হিসেবে হোস্টেল বা মেসে থাকি": 22,
+      "পরিবারের সঙ্গে বাসায় থাকি": 16,
+      "শিক্ষার্থী নই; মেস বা ভাগাভাগি বাসায় থাকি": 5,
+      "একা বা নিজের সংসার নিয়ে আলাদা বাসায় থাকি": 5,
+      "কোম্পানির দেওয়া ডরমিটরিতে থাকি": 1
+    },
+    "raw_location_labels": {
+      "ঢাকা, শাহবাগ": 1,
+      "Rajshahi, Motihar": 1,
+      "চট্টগ্রাম, পাঁচলাইশ": 1,
+      "Khulna, Batiaghata": 1,
+      "Dhaka, Mirpur 10": 1,
+      "গাজীপুর, টঙ্গী": 1,
+      "Sylhet, Akhalia": 1,
+      "নারায়ণগঞ্জ সদর": 1,
+      "ঢাকা, মোহাম্মদপুর": 1,
+      "Cumilla Sadar": 1,
+      "Dhaka, Badda": 1,
+      "রংপুর সদর": 1,
+      "Noakhali, Sonapur": 1,
+      "Bogura sadar": 1,
+      "ঢাকা, উত্তরা": 1,
+      "Mymensingh, Trishal": 1,
+      "Chattogram, Halishahar": 1,
+      "Gazipur, Boardbazar": 1,
+      "Dhaka, Khilgaon": 1,
+      "Satkhira, Shyamnagar": 1,
+      "Dhaka, Azimpur": 1,
+      "Chattogram, Bayezid": 1,
+      "Rajshahi, Kazla": 1,
+      "Sylhet, Tilagor": 1,
+      "বরিশাল সদর": 2,
+      "Dinajpur sadar": 1,
+      "ঢাকা, পলাশী": 1,
+      "কুমিল্লা, লাকসাম": 1,
+      "খুলনা, সোনাডাঙ্গা": 1,
+      "Chattogram, Hathazari": 1,
+      "Dhaka, Rampura": 1,
+      "Rajshahi, Boalia": 1,
+      "Narayanganj, Fatullah": 1,
+      "Dhaka, Mirpur 1": 1,
+      "ময়মনসিংহ সদর": 1,
+      "Dhaka, Tejgaon": 1,
+      "সিলেট সদর": 1,
+      "কুষ্টিয়া সদর": 1,
+      "Dhaka, Jatrabari": 1,
+      "Gazipur, Sreepur": 1,
+      "ঢাকা, বকশীবাজার": 1,
+      "চট্টগ্রাম, বন্দর": 1,
+      "Jashore sadar": 1,
+      "সাভার": 1,
+      "Dhaka, Mohammadpur": 1,
+      "Rangpur, Lalbagh": 1,
+      "Brahmanbaria": 1,
+      "ঢাকা, মালিবাগ": 1
+    },
+    "water_source": {
+      "ওয়াসা বা পৌরসভার সরবরাহ করা পানি": 23,
+      "গভীর নলকূপ": 14,
+      "জানি না": 3,
+      "অগভীর নলকূপ": 5,
+      "পুকুর বা নদী": 1,
+      "মেসের ট্যাংকির পানি, কোথা থেকে আসে জানি না": 1,
+      "কিনে আনা পানি বা ট্যাংকারের পানি": 1,
+      "বাড়িওয়ালার মোটরের পানি": 1
+    },
+    "current_shampoo_users": 48
+  },
+  "metrics": {
+    "water_changed": {
+      "count": 22,
+      "base": 49,
+      "pct": 44.89795918367347
+    },
+    "worse_after_water_change": {
+      "count": 18,
+      "base": 22,
+      "pct": 81.81818181818181
+    },
+    "worse_after_water_change_determinate_base": {
+      "count": 18,
+      "base": 19,
+      "pct": 94.73684210526316
+    },
+    "symptoms": {
+      "চুল রুক্ষ বা শুষ্ক লাগা": {
+        "count": 27,
+        "base": 49,
+        "pct": 55.10204081632653
+      },
+      "চুলে জট পড়া": {
+        "count": 14,
+        "base": 49,
+        "pct": 28.571428571428573
+      },
+      "শ্যাম্পুতে কম ফেনা হওয়া": {
+        "count": 6,
+        "base": 49,
+        "pct": 12.244897959183673
+      },
+      "চুল ধোয়ার পরও জমাট বা অবশিষ্ট কিছু থাকার অনুভূতি": {
+        "count": 14,
+        "base": 49,
+        "pct": 28.571428571428573
+      },
+      "চুল ভেঙে যাওয়া": {
+        "count": 6,
+        "base": 49,
+        "pct": 12.244897959183673
+      },
+      "স্বাভাবিকের চেয়ে বেশি চুল পড়ছে বলে মনে হওয়া": {
+        "count": 26,
+        "base": 49,
+        "pct": 53.06122448979592
+      },
+      "খুশকি বা মাথার ত্বকে চুলকানি": {
+        "count": 17,
+        "base": 49,
+        "pct": 34.69387755102041
+      },
+      "কোনোটিই নয়": {
+        "count": 3,
+        "base": 49,
+        "pct": 6.122448979591836
+      }
+    },
+    "cause_answered": {
+      "count": 41,
+      "base": 46,
+      "pct": 89.1304347826087
+    },
+    "open_cause_water_mentions": {
+      "count": 21,
+      "base": 41,
+      "pct": 51.21951219512195
+    },
+    "water_mention_ids": [
+      "WS-S001",
+      "WS-S002",
+      "WS-S004",
+      "WS-S006",
+      "WS-S007",
+      "WS-S010",
+      "WS-S012",
+      "WS-S014",
+      "WS-S017",
+      "WS-S018",
+      "WS-S021",
+      "WS-S024",
+      "WS-S026",
+      "WS-S028",
+      "WS-S029",
+      "WS-S030",
+      "WS-S036",
+      "WS-S039",
+      "WS-S041",
+      "WS-S045",
+      "WS-S049"
+    ],
+    "water_mention_caveat": "Water-related mention, including uncertainty; not a proven cause. 'Unprompted' status depends on original form order/title/presentation.",
+    "concept_appeal_top2_scale": {
+      "count": 38,
+      "base": 49,
+      "pct": 77.55102040816327
+    },
+    "concept_distinctiveness_top2_scale": {
+      "count": 38,
+      "base": 49,
+      "pct": 77.55102040816327
+    },
+    "unpriced_purchase_intent_top2": {
+      "count": 38,
+      "base": 49,
+      "pct": 77.55102040816327
+    },
+    "historical_q21_purchase_intent_top2": {
+      "count": 33,
+      "base": 49,
+      "pct": 67.34693877551021
+    },
+    "historical_q21_reference_price_tk": 400,
+    "maximum_price": {
+      "n": 47,
+      "median": 320,
+      "mean": 321.9148936170213,
+      "min": 0,
+      "max": 500
+    },
+    "maximum_price_missing": 2,
+    "wtp_thresholds": {
+      "300": {
+        "count": 36,
+        "base": 47,
+        "pct": 76.59574468085107
+      },
+      "320": {
+        "count": 24,
+        "base": 47,
+        "pct": 51.06382978723404
+      },
+      "330": {
+        "count": 21,
+        "base": 47,
+        "pct": 44.680851063829785
+      },
+      "350": {
+        "count": 21,
+        "base": 47,
+        "pct": 44.680851063829785
+      },
+      "360": {
+        "count": 15,
+        "base": 47,
+        "pct": 31.914893617021278
+      },
+      "380": {
+        "count": 15,
+        "base": 47,
+        "pct": 31.914893617021278
+      },
+      "400": {
+        "count": 12,
+        "base": 47,
+        "pct": 25.53191489361702
+      },
+      "450": {
+        "count": 4,
+        "base": 47,
+        "pct": 8.51063829787234
+      }
+    },
+    "q22_format_choice_as_exported": {
+      "340 ml বোতল, ঢাকনায় hardness strip-সহ — 360 টাকা": 15,
+      "6 ml স্যাশে — 3 টাকা": 18,
+      "180 ml বোতল — 180 টাকা": 11,
+      "কোনোটিই কিনতাম না": 5
+    },
+    "q23_feature_preference": {
+      "চুলে পানির খনিজ জমা পরিষ্কার করার উদ্দেশ্যে তৈরি ফর্মুলা": 20,
+      "ঢাকনায় hardness test strip": 9,
+      "কম টাকা খরচ করে স্যাশে দিয়ে চেষ্টা করার সুযোগ": 12,
+      "কোনোটিই বিশেষ মূল্যবান মনে হচ্ছে না": 4,
+      "QR code-এ আঞ্চলিক পানির তথ্য": 3,
+      "দেশি কোম্পানির পণ্য হওয়া": 1
+    },
+    "q24_option_choice_as_exported": {
+      "B: ঢাকনায় hardness test strip আছে — 360 টাকা": 23,
+      "দুটির মধ্যে বিশেষ পছন্দ নেই": 7,
+      "A: সাধারণ ঢাকনা, test strip নেই — 330 টাকা": 15,
+      "কোনোটিই কিনতাম না": 4
+    },
+    "q24_price_interpretation": "Current option texts show A330/B360; old no-strip price not established. Choice counts can be described, historical price-specific interpretation withheld.",
+    "q25_purchase_concerns": {
+      "ফর্মুলাটি বাস্তবে কাজ করবে কি না": 16,
+      "Strip-এর ফল কতটা নির্ভরযোগ্য": 5,
+      "আমার চুল বা মাথার ত্বকের সঙ্গে মানাবে কি না": 6,
+      "দাম উপযুক্ত কি না": 10,
+      "Strip ব্যবহার করা সহজ হবে কি না": 3,
+      "বর্তমান শ্যাম্পু বদলানোর যথেষ্ট কারণ আছে কি না": 6,
+      "বিশেষ কোনো সংশয় নেই": 1,
+      "বাচ্চাদের জন্য নিরাপদ কিনা": 1,
+      "দোকানে পাওয়া যাবে কি না": 1
+    },
+    "target_price_vs_historical_intent_crosstab": {
+      "max_lt_target__historical_top2": 18,
+      "max_ge_target__historical_top2": 14,
+      "max_lt_target__historical_other": 14,
+      "max_ge_target__historical_other": 1
+    }
+  },
+  "quality": {
+    "exact_answer_duplicates_excluding_timestamp": [],
+    "answer_profile_duplicates_Q2_Q25": [],
+    "question_completeness": {
+      "Q1": {
+        "answered": 49,
+        "missing": 0
+      },
+      "Q2": {
+        "answered": 49,
+        "missing": 0
+      },
+      "Q3": {
+        "answered": 47,
+        "missing": 2
+      },
+      "Q4": {
+        "answered": 49,
+        "missing": 0
+      },
+      "Q5": {
+        "answered": 49,
+        "missing": 0
+      },
+      "Q6": {
+        "answered": 49,
+        "missing": 0
+      },
+      "Q7": {
+        "answered": 44,
+        "missing": 5
+      },
+      "Q8": {
+        "answered": 42,
+        "missing": 7
+      },
+      "Q9": {
+        "answered": 49,
+        "missing": 0
+      },
+      "Q10": {
+        "answered": 49,
+        "missing": 0
+      },
+      "Q11": {
+        "answered": 41,
+        "missing": 8
+      },
+      "Q12": {
+        "answered": 49,
+        "missing": 0
+      },
+      "Q13": {
+        "answered": 49,
+        "missing": 0
+      },
+      "Q14": {
+        "answered": 49,
+        "missing": 0
+      },
+      "Q15": {
+        "answered": 49,
+        "missing": 0
+      },
+      "Q16": {
+        "answered": 49,
+        "missing": 0
+      },
+      "Q17": {
+        "answered": 49,
+        "missing": 0
+      },
+      "Q18": {
+        "answered": 49,
+        "missing": 0
+      },
+      "Q19": {
+        "answered": 49,
+        "missing": 0
+      },
+      "Q20": {
+        "answered": 47,
+        "missing": 2
+      },
+      "Q21": {
+        "answered": 49,
+        "missing": 0
+      },
+      "Q22": {
+        "answered": 49,
+        "missing": 0
+      },
+      "Q23": {
+        "answered": 49,
+        "missing": 0
+      },
+      "Q24": {
+        "answered": 49,
+        "missing": 0
+      },
+      "Q25": {
+        "answered": 49,
+        "missing": 0
+      },
+      "Q26": {
+        "answered": 33,
+        "missing": 16
+      }
+    },
+    "flag_counts": {
+      "top2_at_historical_price_above_stated_maximum": 21,
+      "top2_at_historical_price_but_maximum_below_target": 18,
+      "Q13_no_Q14_not_notapplicable": 1
+    },
+    "flags_are_review_items_not_automatic_exclusions": true,
+    "non_consent_rows": [
+      {
+        "record_id": "WS-S009",
+        "reason": "Q1 not consent-yes",
+        "timestamp_raw": "03/10/2026 23:28:32",
+        "other_answered": 0
+      }
+    ],
+    "price_specific_360_intent_records": 0,
+    "reason": "User says earlier price was 400 and updated to 360 today; all raw timestamps are 3-9 Oct. Current export headers/labels do not establish historical exposure to 360."
+  },
+  "cohorts": {
+    "All consenting": {
+      "n": 49,
+      "wtp_n": 47,
+      "median": 320,
+      "stated_max_ge360": 15,
+      "historical400_top2": 33
+    },
+    "Changed water in last 12 months": {
+      "n": 22,
+      "wtp_n": 22,
+      "median": 350,
+      "stated_max_ge360": 10,
+      "historical400_top2": 19
+    },
+    "Student hostel/mess": {
+      "n": 22,
+      "wtp_n": 22,
+      "median": 320,
+      "stated_max_ge360": 7,
+      "historical400_top2": 18
+    },
+    "All hostel/mess/shared living": {
+      "n": 27,
+      "wtp_n": 27,
+      "median": 320,
+      "stated_max_ge360": 9,
+      "historical400_top2": 22
+    }
+  },
+  "requested_target360_analysis": {
+    "target_price_tk": 360,
+    "method": "Compare valid recorded Q20 maximum acceptable prices against the requested target; preserve Q21's declared historical400 reference.",
+    "numeric_maximum_price_answers": 47,
+    "stated_max_ge360": 15,
+    "pct": 31.914893617021278,
+    "measured_q21_at360": false,
+    "no_inferred_sales_conversion": true
+  }
+}
