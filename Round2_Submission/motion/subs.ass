@@ -1,0 +1,55 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1920
+PlayResY: 1080
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sub,Segoe UI,38,&H00FFFFFF,&H00FFFFFF,&H00381C14,&H8C1C120C,0,0,0,0,100,100,0,0,3,10,0,2,120,120,30,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.15,0:00:02.87,Sub,,0,0,0,,Is it your hair, or your water?
+Dialogue: 0,0:00:05.65,0:00:09.93,Sub,,0,0,0,,Millions of young Bangladeshis move for study and work.
+Dialogue: 0,0:00:09.93,0:00:12.27,Sub,,0,0,0,,New city, new hall, new water.
+Dialogue: 0,0:00:12.27,0:00:16.32,Sub,,0,0,0,,And slowly, their hair stops feeling like their own:
+Dialogue: 0,0:00:16.32,0:00:20.76,Sub,,0,0,0,,less lather, a rough, dull feel, more shampoo every wash.
+Dialogue: 0,0:00:21.65,0:00:23.42,Sub,,0,0,0,,It's not in their heads.
+Dialogue: 0,0:00:23.42,0:00:29.55,Sub,,0,0,0,,In the national well survey, 58 of 61 districts had mostly iron-rich or hard wells.
+Dialogue: 0,0:00:29.55,0:00:33.90,Sub,,0,0,0,,And in 2025, half the Dhaka tap locations tested were hard.
+Dialogue: 0,0:00:33.90,0:00:39.14,Sub,,0,0,0,,Water changes from building to building, so you need to check your own.
+Dialogue: 0,0:00:39.95,0:00:43.74,Sub,,0,0,0,,In our survey, 18 of 22 people who changed their water
+Dialogue: 0,0:00:43.74,0:00:46.19,Sub,,0,0,0,,said their hair problems got worse.
+Dialogue: 0,0:00:46.19,0:00:49.56,Sub,,0,0,0,,They blame their hair. They blame their shampoo.
+Dialogue: 0,0:00:49.56,0:00:51.87,Sub,,0,0,0,,Nobody gives them a way to check.
+Dialogue: 0,0:00:52.55,0:00:55.74,Sub,,0,0,0,,So we created Parachute Naturale WaterSmart:
+Dialogue: 0,0:00:55.74,0:00:58.72,Sub,,0,0,0,,the shampoo that checks your water first.
+Dialogue: 0,0:00:58.72,0:01:04.74,Sub,,0,0,0,,A chelating formula with GLDA locks iron, calcium and magnesium so they rinse away,
+Dialogue: 0,0:01:04.74,0:01:07.42,Sub,,0,0,0,,with Naturale's Coconut Milk Protein.
+Dialogue: 0,0:01:07.42,0:01:10.76,Sub,,0,0,0,,In every 340 ml cap, a sealed PaniCheck strip:
+Dialogue: 0,0:01:10.76,0:01:15.47,Sub,,0,0,0,,dip for one second, match the colour, know your water's hardness.
+Dialogue: 0,0:01:15.47,0:01:20.05,Sub,,0,0,0,,And on every pack, even the Tk 3 sachet, a QR code to Pani Map.
+Dialogue: 0,0:01:20.55,0:01:23.57,Sub,,0,0,0,,No shampoo we found puts a water test in the pack,
+Dialogue: 0,0:01:23.57,0:01:25.75,Sub,,0,0,0,,so every bottle becomes a live demo.
+Dialogue: 0,0:01:25.75,0:01:30.53,Sub,,0,0,0,,With the PaniCheck Challenge, creators and students test their water on camera,
+Dialogue: 0,0:01:30.53,0:01:34.04,Sub,,0,0,0,,share their colour, and challenge friends to check theirs.
+Dialogue: 0,0:01:34.95,0:01:36.41,Sub,,0,0,0,,Why will people buy?
+Dialogue: 0,0:01:36.41,0:01:39.84,Sub,,0,0,0,,They feel the problem, and now they can see it.
+Dialogue: 0,0:01:39.84,0:01:42.25,Sub,,0,0,0,,It's Naturale, a name they trust.
+Dialogue: 0,0:01:42.25,0:01:47.87,Sub,,0,0,0,,And it's fair: a Tk 3 sachet to try, and less per 100 ml than premium brands.
+Dialogue: 0,0:01:47.87,0:01:53.12,Sub,,0,0,0,,Nearly half the water-movers we surveyed said they'd pay our full price.
+Dialogue: 0,0:01:53.95,0:01:55.30,Sub,,0,0,0,,For Marico, it fits.
+Dialogue: 0,0:01:55.30,0:01:59.50,Sub,,0,0,0,,Naturale is Bangladesh's second most penetrated shampoo brand.
+Dialogue: 0,0:01:59.50,0:02:04.58,Sub,,0,0,0,,WaterSmart is designed to run on Mouchak lines and Naturale's distribution;
+Dialogue: 0,0:02:04.58,0:02:07.22,Sub,,0,0,0,,we buy only the strip and the chelator.
+Dialogue: 0,0:02:07.22,0:02:10.81,Sub,,0,0,0,,Innovation, diversification and scale in one variant,
+Dialogue: 0,0:02:10.81,0:02:13.72,Sub,,0,0,0,,with LonaJol for coastal saline water next.
+Dialogue: 0,0:02:14.25,0:02:18.27,Sub,,0,0,0,,From 37,000 outlets to 104,000 by Year 3:
+Dialogue: 0,0:02:18.27,0:02:23.56,Sub,,0,0,0,,Tk 41 crore of net revenue, EBITDA-positive in Year 2,
+Dialogue: 0,0:02:23.56,0:02:31.10,Sub,,0,0,0,,and Tk 5.9 crore of extra EBITDA for Marico in Year 3, after cannibalisation.
+Dialogue: 0,0:02:31.10,0:02:33.74,Sub,,0,0,0,,NPV +Tk 3.1 crore. IRR 25%.
+Dialogue: 0,0:02:34.25,0:02:39.45,Sub,,0,0,0,,And it's de-risked: R&D, then a six-month pilot in 1,500 outlets,
+Dialogue: 0,0:02:39.45,0:02:44.56,Sub,,0,0,0,,with clear go/no-go gates. Only Tk 3.5 crore is committed first.
+Dialogue: 0,0:02:45.05,0:02:49.06,Sub,,0,0,0,,Is it your hair, or your water? Check your water first.
+Dialogue: 0,0:02:49.06,0:02:51.17,Sub,,0,0,0,,From Team The Last BrainCell:
+Dialogue: 0,0:02:51.17,0:02:55.47,Sub,,0,0,0,,Nafis Mohtasim Ramim and Khandaker Shadman Sakib Siddiquee.

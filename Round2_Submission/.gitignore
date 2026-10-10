@@ -1,3 +1,5 @@
 template/
 deck/node_modules/
 qa/
+video/segments/
+video/check/

@@ -1,0 +1,15 @@
+segments/
+segments_ext/
+seg_test/
+seg_hold/
+qa/
+frames_check/
+audio/
+audio_trim/
+*.mp4
+*.wav
+*.log
+filter.txt
+mix.wav
+prompt_branch.md
+assemble_v1.cjs
